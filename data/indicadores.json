@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-10-26T13:46:10.372Z",
+ "geradoEm": "2026-10-26T15:06:26.267Z",
  "temas": [
   {
    "id": "precos",
@@ -50,27 +50,15 @@
     "nomeOficial": "IPCA - Variação acumulada em 12 meses",
     "unidadeOficial": null,
     "url": "https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/2265/p/last%2012",
-    "consultadoEm": "2026-10-26T13:46:10.372Z"
+    "consultadoEm": "2026-10-26T15:06:26.267Z"
    },
    "conferencia": {
     "tipo": "sgs",
     "orgao": "Banco Central do Brasil",
-    "sistema": "SGS",
-    "referencia": "Série 13522 do SGS",
-    "descricao": "O Banco Central republica o mesmo indicador na série 13522 do SGS. Comparamos os últimos 12 períodos em comum.",
-    "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13522/dados/ultimos/12?formato=json",
-    "tolerancia": 0.0050000010000000004,
-    "status": "confere",
-    "periodo": "2026-09",
-    "valorPrimaria": 4.58,
-    "valorConferencia": 4.58,
-    "diferenca": 0,
-    "comparados": 12,
-    "conferidos": 12,
-    "maiorDiferenca": 0,
-    "defasagem": null
+    "status": "sem-conferencia",
+    "erro": "resposta não é JSON: <?xml version=\"1.0\" encoding=\"pt-br\"?> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"> <html "
    },
-   "status": "confere",
+   "status": "sem-conferencia",
    "ultimo": {
     "periodo": "2026-09",
     "valor": 4.58
@@ -87,15 +75,6 @@
      "orgao": "IBGE",
      "rotulo": "SIDRA 1737",
      "url": "https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/2265/p/202609",
-     "periodo": "2026-09",
-     "valorEsperado": 4.58,
-     "inverterSinal": false
-    },
-    {
-     "tipo": "sgs",
-     "orgao": "Banco Central do Brasil",
-     "rotulo": "SGS 13522",
-     "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13522/dados?formato=json&dataInicial=01/09/2026&dataFinal=01/09/2026",
      "periodo": "2026-09",
      "valorEsperado": 4.58,
      "inverterSinal": false
@@ -265,13 +244,13 @@
     "nomeOficial": "IPCA - Variação mensal",
     "unidadeOficial": null,
     "url": "https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/63/p/last%2012",
-    "consultadoEm": "2026-10-26T13:46:10.372Z"
+    "consultadoEm": "2026-10-26T15:06:26.267Z"
    },
    "conferencia": {
     "tipo": "sgs",
     "orgao": "Banco Central do Brasil",
     "status": "sem-conferencia",
-    "erro": "Spread syntax requires ...iterable[Symbol.iterator] to be a function"
+    "erro": "resposta não é JSON: <?xml version=\"1.0\" encoding=\"pt-br\"?> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"> <html "
    },
    "status": "sem-conferencia",
    "ultimo": {
@@ -457,7 +436,7 @@
     "codigo": 432,
     "referencia": "Série 432 do SGS",
     "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/12?formato=json",
-    "consultadoEm": "2026-10-26T13:46:10.372Z"
+    "consultadoEm": "2026-10-26T15:06:26.267Z"
    },
    "conferencia": null,
    "status": "fonte-unica",
@@ -739,7 +718,7 @@
     "codigo": 1,
     "referencia": "Série 1 do SGS",
     "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados/ultimos/12?formato=json",
-    "consultadoEm": "2026-10-26T13:46:10.372Z"
+    "consultadoEm": "2026-10-26T15:06:26.267Z"
    },
    "conferencia": {
     "tipo": "ptax",
@@ -1039,7 +1018,7 @@
     "nomeOficial": "Taxa trimestre contra trimestre imediatamente anterior",
     "unidadeOficial": null,
     "url": "https://apisidra.ibge.gov.br/values/t/5932/n1/all/v/6564/p/last%2012/c11255/90707",
-    "consultadoEm": "2026-10-26T13:46:10.372Z"
+    "consultadoEm": "2026-10-26T15:06:26.267Z"
    },
    "conferencia": null,
    "status": "fonte-unica",
@@ -1133,7 +1112,7 @@
     "nomeOficial": "Taxa acumulada ao longo do ano (em relação ao mesmo período do ano anterior)",
     "unidadeOficial": "%",
     "url": "https://apisidra.ibge.gov.br/values/t/5932/n1/all/v/6563/p/last%2012/c11255/90707",
-    "consultadoEm": "2026-10-26T13:46:10.372Z"
+    "consultadoEm": "2026-10-26T15:06:26.267Z"
    },
    "conferencia": null,
    "status": "fonte-unica",
@@ -1227,7 +1206,7 @@
     "nomeOficial": "Taxa de desocupação, na semana de referência, das pessoas de 14 anos ou mais de idade",
     "unidadeOficial": "%",
     "url": "https://apisidra.ibge.gov.br/values/t/6381/n1/all/v/4099/p/last%2012",
-    "consultadoEm": "2026-10-26T13:46:10.372Z"
+    "consultadoEm": "2026-10-26T15:06:26.267Z"
    },
    "conferencia": {
     "tipo": "sgs",
@@ -1441,7 +1420,7 @@
     "nomeOficial": "Rendimento médio mensal real das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, habitualmente recebido em todos os trabalhos",
     "unidadeOficial": "Reais",
     "url": "https://apisidra.ibge.gov.br/values/t/6390/n1/all/v/5933/p/last%2012",
-    "consultadoEm": "2026-10-26T13:46:10.372Z"
+    "consultadoEm": "2026-10-26T15:06:26.267Z"
    },
    "conferencia": null,
    "status": "fonte-unica",
@@ -1626,28 +1605,15 @@
     "codigo": 13762,
     "referencia": "Série 13762 do SGS",
     "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados/ultimos/12?formato=json",
-    "consultadoEm": "2026-10-26T13:46:10.372Z"
+    "consultadoEm": "2026-10-26T15:06:26.267Z"
    },
    "conferencia": {
     "tipo": "razao",
     "orgao": "Banco Central do Brasil",
-    "sistema": "SGS",
-    "referencia": "SGS 13761 ÷ SGS 4382",
-    "descricao": "Recalculamos o percentual dividindo o saldo em reais (SGS 13761) pelo PIB acumulado em 12 meses (SGS 4382). Diferenças de até 0,06 ponto vêm de arredondamento.",
-    "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13761/dados/ultimos/12?formato=json",
-    "urlDenominador": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4382/dados/ultimos/12?formato=json",
-    "tolerancia": 0.06,
-    "status": "confere",
-    "periodo": "2026-08",
-    "valorPrimaria": 82.87,
-    "valorConferencia": 82.8665,
-    "diferenca": 0.0035,
-    "comparados": 12,
-    "conferidos": 12,
-    "maiorDiferenca": 0.0048,
-    "defasagem": null
+    "status": "sem-conferencia",
+    "erro": "resposta não é JSON: <?xml version=\"1.0\" encoding=\"pt-br\"?> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"> <html "
    },
-   "status": "confere",
+   "status": "sem-conferencia",
    "ultimo": {
     "periodo": "2026-08",
     "valor": 82.87
@@ -1829,7 +1795,7 @@
     "codigo": 13761,
     "referencia": "Série 13761 do SGS",
     "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13761/dados/ultimos/12?formato=json",
-    "consultadoEm": "2026-10-26T13:46:10.372Z"
+    "consultadoEm": "2026-10-26T15:06:26.267Z"
    },
    "conferencia": null,
    "status": "fonte-unica",
@@ -2014,28 +1980,15 @@
     "codigo": 4513,
     "referencia": "Série 4513 do SGS",
     "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4513/dados/ultimos/12?formato=json",
-    "consultadoEm": "2026-10-26T13:46:10.372Z"
+    "consultadoEm": "2026-10-26T15:06:26.267Z"
    },
    "conferencia": {
     "tipo": "razao",
     "orgao": "Banco Central do Brasil",
-    "sistema": "SGS",
-    "referencia": "SGS 4478 ÷ SGS 4382",
-    "descricao": "Recalculamos o percentual dividindo o saldo em reais (SGS 4478) pelo PIB acumulado em 12 meses (SGS 4382). Diferenças de até 0,06 ponto vêm de arredondamento.",
-    "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4478/dados/ultimos/12?formato=json",
-    "urlDenominador": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4382/dados/ultimos/12?formato=json",
-    "tolerancia": 0.06,
-    "status": "confere",
-    "periodo": "2026-08",
-    "valorPrimaria": 69.27,
-    "valorConferencia": 69.269,
-    "diferenca": 0.001,
-    "comparados": 12,
-    "conferidos": 12,
-    "maiorDiferenca": 0.0049,
-    "defasagem": null
+    "status": "sem-conferencia",
+    "erro": "resposta não é JSON: <?xml version=\"1.0\" encoding=\"pt-br\"?> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"> <html "
    },
-   "status": "confere",
+   "status": "sem-conferencia",
    "ultimo": {
     "periodo": "2026-08",
     "valor": 69.27
@@ -2219,7 +2172,7 @@
     "codigo": 5793,
     "referencia": "Série 5793 do SGS",
     "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados/ultimos/12?formato=json",
-    "consultadoEm": "2026-10-26T13:46:10.372Z"
+    "consultadoEm": "2026-10-26T15:06:26.267Z"
    },
    "conferencia": null,
    "status": "fonte-unica",

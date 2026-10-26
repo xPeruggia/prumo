@@ -1,7 +1,7 @@
 {
- "inicio": "2026-10-26T13:46:10.372Z",
- "fim": "2026-10-26T14:01:33.165Z",
- "segundos": 923,
+ "inicio": "2026-10-26T15:06:26.267Z",
+ "fim": "2026-10-26T15:27:24.923Z",
+ "segundos": 1259,
  "partes": [
   "series",
   "orcamento",
@@ -11,18 +11,34 @@
   "tributos",
   "seguranca"
  ],
- "chamadas": 255,
- "falhas": 3,
- "repeticoes": 11,
+ "chamadas": 258,
+ "falhas": 8,
+ "repeticoes": 6,
  "status": {
-  "confere": 5,
-  "sem-conferencia": 1,
-  "fonte-unica": 6
+  "sem-conferencia": 4,
+  "fonte-unica": 6,
+  "confere": 2
  },
  "avisos": [
   {
    "parte": "series",
-   "mensagem": "ipcaMes: segunda fonte indisponível (Spread syntax requires ...iterable[Symbol.iterator] to be a function)"
+   "mensagem": "ipca12m: segunda fonte indisponível (resposta não é JSON: <?xml version=\"1.0\" encoding=\"pt-br\"?> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"> <html )"
+  },
+  {
+   "parte": "series",
+   "mensagem": "ipcaMes: segunda fonte indisponível (resposta não é JSON: <?xml version=\"1.0\" encoding=\"pt-br\"?> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"> <html )"
+  },
+  {
+   "parte": "series",
+   "mensagem": "dbgg: segunda fonte indisponível (resposta não é JSON: <?xml version=\"1.0\" encoding=\"pt-br\"?> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"> <html )"
+  },
+  {
+   "parte": "series",
+   "mensagem": "dlsp: segunda fonte indisponível (resposta não é JSON: <?xml version=\"1.0\" encoding=\"pt-br\"?> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"> <html )"
+  },
+  {
+   "parte": "series",
+   "mensagem": "pib12m (auxiliar): coleta falhou (resposta não é JSON: <?xml version=\"1.0\" encoding=\"pt-br\"?> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"> <html )."
   },
   {
    "parte": "noticias",
@@ -35,59 +51,71 @@
    "chamadas": 8,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 5673
+   "ms": 5817
   },
   {
    "host": "api.bcb.gov.br",
-   "chamadas": 52,
-   "falhas": 6,
-   "repeticoes": 11,
-   "ms": 609308
+   "chamadas": 55,
+   "falhas": 21,
+   "repeticoes": 6,
+   "ms": 888061
   },
   {
    "host": "olinda.bcb.gov.br",
    "chamadas": 11,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 6189
+   "ms": 4200
   },
   {
    "host": "apidatalake.tesouro.gov.br",
    "chamadas": 32,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 40352
+   "ms": 6212
   },
   {
    "host": "dadosabertos.camara.leg.br",
    "chamadas": 146,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 97559
+   "ms": 112667
   },
   {
    "host": "servicodados.ibge.gov.br",
    "chamadas": 2,
    "falhas": 2,
    "repeticoes": 0,
-   "ms": 20981
+   "ms": 20980
   },
   {
    "host": "www.bcb.gov.br",
    "chamadas": 1,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 1126
+   "ms": 1069
   },
   {
    "host": "www.gov.br",
    "chamadas": 3,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 57529
+   "ms": 62842
   }
  ],
  "historico": [
+  {
+   "inicio": "2026-10-26T15:06:26.267Z",
+   "segundos": 1259,
+   "chamadas": 258,
+   "falhas": 8,
+   "status": {
+    "sem-conferencia": 4,
+    "fonte-unica": 6,
+    "confere": 2
+   },
+   "avisos": 6
+  },
   {
    "inicio": "2026-10-26T13:46:10.372Z",
    "segundos": 923,
