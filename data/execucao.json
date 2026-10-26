@@ -1,7 +1,7 @@
 {
- "inicio": "2026-10-26T03:09:33.166Z",
- "fim": "2026-10-26T03:12:40.612Z",
- "segundos": 187,
+ "inicio": "2026-10-26T03:30:06.335Z",
+ "fim": "2026-10-26T03:34:14.514Z",
+ "segundos": 248,
  "partes": [
   "series",
   "orcamento",
@@ -9,73 +9,89 @@
   "noticias",
   "seguranca"
  ],
- "chamadas": 156,
- "falhas": 0,
- "repeticoes": 3,
+ "chamadas": 155,
+ "falhas": 1,
+ "repeticoes": 0,
  "status": {
   "confere": 6,
   "fonte-unica": 6
  },
- "avisos": [],
+ "avisos": [
+  {
+   "parte": "noticias",
+   "mensagem": "IBGE: fetch failed. Mantidas as notícias anteriores dessa fonte."
+  }
+ ],
  "fontes": [
   {
    "host": "apisidra.ibge.gov.br",
    "chamadas": 8,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 2939
+   "ms": 3975
   },
   {
    "host": "api.bcb.gov.br",
-   "chamadas": 34,
+   "chamadas": 33,
    "falhas": 0,
-   "repeticoes": 1,
-   "ms": 58463
+   "repeticoes": 0,
+   "ms": 45290
   },
   {
    "host": "olinda.bcb.gov.br",
    "chamadas": 5,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 477
+   "ms": 2367
   },
   {
    "host": "apidatalake.tesouro.gov.br",
    "chamadas": 32,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 2067
+   "ms": 28097
   },
   {
    "host": "dadosabertos.camara.leg.br",
-   "chamadas": 73,
+   "chamadas": 71,
    "falhas": 0,
-   "repeticoes": 2,
-   "ms": 63773
+   "repeticoes": 0,
+   "ms": 32507
   },
   {
    "host": "servicodados.ibge.gov.br",
-   "chamadas": 1,
-   "falhas": 0,
+   "chamadas": 3,
+   "falhas": 3,
    "repeticoes": 0,
-   "ms": 106
+   "ms": 31463
   },
   {
    "host": "www.bcb.gov.br",
    "chamadas": 1,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 1037
+   "ms": 929
   },
   {
    "host": "www.gov.br",
    "chamadas": 2,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 9057
+   "ms": 48565
   }
  ],
  "historico": [
+  {
+   "inicio": "2026-10-26T03:30:06.335Z",
+   "segundos": 248,
+   "chamadas": 155,
+   "falhas": 1,
+   "status": {
+    "confere": 6,
+    "fonte-unica": 6
+   },
+   "avisos": 1
+  },
   {
    "inicio": "2026-10-26T03:09:33.166Z",
    "segundos": 187,
