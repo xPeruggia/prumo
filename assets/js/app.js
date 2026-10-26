@@ -1034,11 +1034,11 @@ const estadoNoticias = { filtro: 'dados' };
 function avisoNoticiasIbge(Nt) {
   const aviso = $('aviso-noticias');
   const fonte = Nt.fontes?.find((f) => f.fonte === 'IBGE');
-  const desde = fonte?.ultimoSucesso ? `${dataCurta(fonte.ultimoSucesso)} às ${horaBrasilia(fonte.ultimoSucesso)}` : 'a coleta anterior';
+  const desde = fonte?.ultimoSucesso ? `em ${dataCurta(fonte.ultimoSucesso)} às ${horaBrasilia(fonte.ultimoSucesso)}` : 'numa coleta anterior';
   const textos = {
     buscando: 'Buscando as notícias mais recentes do IBGE pelo seu navegador…',
     ok: 'As notícias do IBGE abaixo foram buscadas agora pelo seu navegador, direto da API oficial: o servidor do IBGE não aceita a coleta automática, que roda fora do Brasil. O mesmo filtro político e a mesma conferência de números foram aplicados.',
-    falhou: `Não foi possível obter notícias novas do IBGE: nem a coleta automática nem o seu navegador conseguiram acessar a API. As notícias do IBGE abaixo são as obtidas em ${desde}.`,
+    falhou: `Não foi possível obter notícias novas do IBGE: nem a coleta automática nem o seu navegador conseguiram acessar a API. As notícias do IBGE abaixo são as obtidas ${desde}.`,
   };
   const estado = Nt.ibgeNoNavegador?.estado;
   aviso.hidden = !estado;
