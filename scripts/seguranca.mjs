@@ -527,7 +527,7 @@ export async function montarSeguranca(ctx) {
   const [sinespLeve, sinespUf] = montar('sinesp', () => montarSinesp(sinesp, config.sinesp), ['eventos']);
   const [disqueLeve, disqueUf] = montar('disque100', () => montarDisque100(disque, config.disque100), []);
   for (const a of avisos) console.warn(`! ${a}`);
-  const saida = { geradoEm: ctx.agora, sinesp: sinespLeve, disque100: disqueLeve, avisos };
+  const saida = { geradoEm: ctx.agora, sentido: config.sentido, sinesp: sinespLeve, disque100: disqueLeve, avisos };
   await gravarJSON('data/seguranca.json', saida);
   await gravarJSON('data/seguranca-uf.json', { geradoEm: ctx.agora, sinesp: sinespUf, disque100: disqueUf });
   return saida;

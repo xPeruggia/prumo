@@ -1,11 +1,26 @@
 {
   "inicioHistorico": "2015-01",
   "temas": [
-    { "id": "precos", "nome": "Preços" },
-    { "id": "juros-cambio", "nome": "Juros e câmbio" },
-    { "id": "atividade", "nome": "Atividade econômica" },
-    { "id": "trabalho", "nome": "Trabalho e renda" },
-    { "id": "contas", "nome": "Contas públicas" }
+    {
+      "id": "precos",
+      "nome": "Preços"
+    },
+    {
+      "id": "juros-cambio",
+      "nome": "Juros e câmbio"
+    },
+    {
+      "id": "atividade",
+      "nome": "Atividade econômica"
+    },
+    {
+      "id": "trabalho",
+      "nome": "Trabalho e renda"
+    },
+    {
+      "id": "contas",
+      "nome": "Contas públicas"
+    }
   ],
   "series": [
     {
@@ -17,10 +32,22 @@
       "unidade": "%",
       "casas": 2,
       "periodicidade": "mensal",
-      "primaria": { "tipo": "sidra", "orgao": "IBGE", "caminho": "t/1737/n1/all/v/2265/p/all" },
-      "conferencia": { "tipo": "sgs", "orgao": "Banco Central do Brasil", "codigo": 13522 },
-      "limites": [-5, 60],
-      "comparar": true
+      "primaria": {
+        "tipo": "sidra",
+        "orgao": "IBGE",
+        "caminho": "t/1737/n1/all/v/2265/p/all"
+      },
+      "conferencia": {
+        "tipo": "sgs",
+        "orgao": "Banco Central do Brasil",
+        "codigo": 13522
+      },
+      "limites": [
+        -5,
+        60
+      ],
+      "comparar": true,
+      "sentido": "menor-melhor"
     },
     {
       "id": "ipcaMes",
@@ -31,10 +58,22 @@
       "unidade": "%",
       "casas": 2,
       "periodicidade": "mensal",
-      "primaria": { "tipo": "sidra", "orgao": "IBGE", "caminho": "t/1737/n1/all/v/63/p/all" },
-      "conferencia": { "tipo": "sgs", "orgao": "Banco Central do Brasil", "codigo": 433 },
-      "limites": [-5, 20],
-      "comparar": false
+      "primaria": {
+        "tipo": "sidra",
+        "orgao": "IBGE",
+        "caminho": "t/1737/n1/all/v/63/p/all"
+      },
+      "conferencia": {
+        "tipo": "sgs",
+        "orgao": "Banco Central do Brasil",
+        "codigo": 433
+      },
+      "limites": [
+        -5,
+        20
+      ],
+      "comparar": false,
+      "sentido": "menor-melhor"
     },
     {
       "id": "selic",
@@ -46,10 +85,18 @@
       "casas": 2,
       "periodicidade": "diaria",
       "agregacao": "fim-do-mes",
-      "primaria": { "tipo": "sgs", "orgao": "Banco Central do Brasil", "codigo": 432 },
+      "primaria": {
+        "tipo": "sgs",
+        "orgao": "Banco Central do Brasil",
+        "codigo": 432
+      },
       "conferencia": null,
-      "limites": [0, 60],
-      "comparar": true
+      "limites": [
+        0,
+        60
+      ],
+      "comparar": true,
+      "sentido": "neutro"
     },
     {
       "id": "dolar",
@@ -61,10 +108,21 @@
       "casas": 4,
       "periodicidade": "diaria",
       "agregacao": "media-mensal",
-      "primaria": { "tipo": "sgs", "orgao": "Banco Central do Brasil", "codigo": 1 },
-      "conferencia": { "tipo": "ptax", "orgao": "Banco Central do Brasil" },
-      "limites": [1, 20],
-      "comparar": true
+      "primaria": {
+        "tipo": "sgs",
+        "orgao": "Banco Central do Brasil",
+        "codigo": 1
+      },
+      "conferencia": {
+        "tipo": "ptax",
+        "orgao": "Banco Central do Brasil"
+      },
+      "limites": [
+        1,
+        20
+      ],
+      "comparar": true,
+      "sentido": "neutro"
     },
     {
       "id": "pibTri",
@@ -75,10 +133,18 @@
       "unidade": "%",
       "casas": 1,
       "periodicidade": "trimestral",
-      "primaria": { "tipo": "sidra", "orgao": "IBGE", "caminho": "t/5932/n1/all/v/6564/p/all/c11255/90707" },
+      "primaria": {
+        "tipo": "sidra",
+        "orgao": "IBGE",
+        "caminho": "t/5932/n1/all/v/6564/p/all/c11255/90707"
+      },
       "conferencia": null,
-      "limites": [-15, 15],
-      "comparar": false
+      "limites": [
+        -15,
+        15
+      ],
+      "comparar": false,
+      "sentido": "maior-melhor"
     },
     {
       "id": "pib4tri",
@@ -89,10 +155,18 @@
       "unidade": "%",
       "casas": 1,
       "periodicidade": "trimestral",
-      "primaria": { "tipo": "sidra", "orgao": "IBGE", "caminho": "t/5932/n1/all/v/6563/p/all/c11255/90707" },
+      "primaria": {
+        "tipo": "sidra",
+        "orgao": "IBGE",
+        "caminho": "t/5932/n1/all/v/6563/p/all/c11255/90707"
+      },
       "conferencia": null,
-      "limites": [-15, 15],
-      "comparar": true
+      "limites": [
+        -15,
+        15
+      ],
+      "comparar": true,
+      "sentido": "maior-melhor"
     },
     {
       "id": "desemprego",
@@ -103,10 +177,22 @@
       "unidade": "%",
       "casas": 1,
       "periodicidade": "trimestre-movel",
-      "primaria": { "tipo": "sidra", "orgao": "IBGE", "caminho": "t/6381/n1/all/v/4099/p/all" },
-      "conferencia": { "tipo": "sgs", "orgao": "Banco Central do Brasil", "codigo": 24369 },
-      "limites": [0, 40],
-      "comparar": true
+      "primaria": {
+        "tipo": "sidra",
+        "orgao": "IBGE",
+        "caminho": "t/6381/n1/all/v/4099/p/all"
+      },
+      "conferencia": {
+        "tipo": "sgs",
+        "orgao": "Banco Central do Brasil",
+        "codigo": 24369
+      },
+      "limites": [
+        0,
+        40
+      ],
+      "comparar": true,
+      "sentido": "menor-melhor"
     },
     {
       "id": "rendimento",
@@ -117,10 +203,18 @@
       "unidade": "R$",
       "casas": 0,
       "periodicidade": "trimestre-movel",
-      "primaria": { "tipo": "sidra", "orgao": "IBGE", "caminho": "t/6390/n1/all/v/5933/p/all" },
+      "primaria": {
+        "tipo": "sidra",
+        "orgao": "IBGE",
+        "caminho": "t/6390/n1/all/v/5933/p/all"
+      },
       "conferencia": null,
-      "limites": [500, 20000],
-      "comparar": true
+      "limites": [
+        500,
+        20000
+      ],
+      "comparar": true,
+      "sentido": "maior-melhor"
     },
     {
       "id": "dbgg",
@@ -131,10 +225,24 @@
       "unidade": "% do PIB",
       "casas": 1,
       "periodicidade": "mensal",
-      "primaria": { "tipo": "sgs", "orgao": "Banco Central do Brasil", "codigo": 13762 },
-      "conferencia": { "tipo": "razao", "orgao": "Banco Central do Brasil", "numerador": 13761, "denominador": 4382, "tolerancia": 0.06 },
-      "limites": [20, 150],
-      "comparar": true
+      "primaria": {
+        "tipo": "sgs",
+        "orgao": "Banco Central do Brasil",
+        "codigo": 13762
+      },
+      "conferencia": {
+        "tipo": "razao",
+        "orgao": "Banco Central do Brasil",
+        "numerador": 13761,
+        "denominador": 4382,
+        "tolerancia": 0.06
+      },
+      "limites": [
+        20,
+        150
+      ],
+      "comparar": true,
+      "sentido": "menor-melhor"
     },
     {
       "id": "dbggReais",
@@ -145,10 +253,18 @@
       "unidade": "R$ mi",
       "casas": 0,
       "periodicidade": "mensal",
-      "primaria": { "tipo": "sgs", "orgao": "Banco Central do Brasil", "codigo": 13761 },
+      "primaria": {
+        "tipo": "sgs",
+        "orgao": "Banco Central do Brasil",
+        "codigo": 13761
+      },
       "conferencia": null,
-      "limites": [1000000, 100000000],
-      "comparar": false
+      "limites": [
+        1000000,
+        100000000
+      ],
+      "comparar": false,
+      "sentido": "neutro"
     },
     {
       "id": "dlsp",
@@ -159,10 +275,24 @@
       "unidade": "% do PIB",
       "casas": 1,
       "periodicidade": "mensal",
-      "primaria": { "tipo": "sgs", "orgao": "Banco Central do Brasil", "codigo": 4513 },
-      "conferencia": { "tipo": "razao", "orgao": "Banco Central do Brasil", "numerador": 4478, "denominador": 4382, "tolerancia": 0.06 },
-      "limites": [10, 150],
-      "comparar": true
+      "primaria": {
+        "tipo": "sgs",
+        "orgao": "Banco Central do Brasil",
+        "codigo": 4513
+      },
+      "conferencia": {
+        "tipo": "razao",
+        "orgao": "Banco Central do Brasil",
+        "numerador": 4478,
+        "denominador": 4382,
+        "tolerancia": 0.06
+      },
+      "limites": [
+        10,
+        150
+      ],
+      "comparar": true,
+      "sentido": "menor-melhor"
     },
     {
       "id": "primario",
@@ -173,17 +303,53 @@
       "unidade": "% do PIB",
       "casas": 2,
       "periodicidade": "mensal",
-      "primaria": { "tipo": "sgs", "orgao": "Banco Central do Brasil", "codigo": 5793 },
+      "primaria": {
+        "tipo": "sgs",
+        "orgao": "Banco Central do Brasil",
+        "codigo": 5793
+      },
       "transformacao": "inverter-sinal",
       "notaTransformacao": "A série 5793 do Banco Central mede as necessidades de financiamento (NFSP), em que déficit é positivo. Invertemos o sinal para que déficit apareça como valor negativo.",
       "conferencia": null,
-      "limites": [-20, 20],
-      "comparar": true
+      "limites": [
+        -20,
+        20
+      ],
+      "comparar": true,
+      "sentido": "maior-melhor"
     }
   ],
   "auxiliares": [
-    { "id": "ipcaIndice", "primaria": { "tipo": "sidra", "orgao": "IBGE", "caminho": "t/1737/n1/all/v/2266/p/all" }, "periodicidade": "mensal", "uso": "Deflator para converter valores do orçamento em reais de hoje." },
-    { "id": "pib12m", "primaria": { "tipo": "sgs", "orgao": "Banco Central do Brasil", "codigo": 4382 }, "periodicidade": "mensal", "uso": "PIB acumulado em 12 meses (R$ milhões), denominador da conferência das dívidas." },
-    { "id": "populacao", "primaria": { "tipo": "sidra", "orgao": "IBGE", "caminho": "t/6579/n1/all/v/9324/p/all" }, "periodicidade": "anual", "uso": "População estimada, para valores por habitante." }
-  ]
+    {
+      "id": "ipcaIndice",
+      "primaria": {
+        "tipo": "sidra",
+        "orgao": "IBGE",
+        "caminho": "t/1737/n1/all/v/2266/p/all"
+      },
+      "periodicidade": "mensal",
+      "uso": "Deflator para converter valores do orçamento em reais de hoje."
+    },
+    {
+      "id": "pib12m",
+      "primaria": {
+        "tipo": "sgs",
+        "orgao": "Banco Central do Brasil",
+        "codigo": 4382
+      },
+      "periodicidade": "mensal",
+      "uso": "PIB acumulado em 12 meses (R$ milhões), denominador da conferência das dívidas."
+    },
+    {
+      "id": "populacao",
+      "primaria": {
+        "tipo": "sidra",
+        "orgao": "IBGE",
+        "caminho": "t/6579/n1/all/v/9324/p/all"
+      },
+      "periodicidade": "anual",
+      "uso": "População estimada, para valores por habitante."
+    }
+  ],
+  "notaSentido": "Cor das variações: verde quando o número muda no sentido geralmente considerado favorável e vermelho no sentido contrário. Selic e dólar não têm um sentido favorável consensual e ficam sem cor; a dívida em reais também, porque cresce com a inflação mesmo quando cai em proporção do PIB. A seta sempre indica só a direção da mudança."
 }

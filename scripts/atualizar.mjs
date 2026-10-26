@@ -238,7 +238,7 @@ async function coletarSeries(ctx) {
     }
   }
   const focus = await coletarFocus(ctx, anterior.focus);
-  return { geradoEm: ctx.agora, temas: config.temas, series, auxiliares, focus, anterior };
+  return { geradoEm: ctx.agora, temas: config.temas, notaSentido: config.notaSentido, series, auxiliares, focus, anterior };
 }
 
 async function coletarFocus(ctx, anterior) {

@@ -100,6 +100,19 @@ export function diferenca(de, para, unidade, casas = 1) {
   return { valor: bruto, texto, direcao: arred > 0 ? 'sobe' : arred < 0 ? 'desce' : 'igual' };
 }
 
+// Direção da mudança e se ela é favorável, segundo o sentido configurado para o indicador
+// ('maior-melhor', 'menor-melhor' ou 'neutro'). A direção usa o valor arredondado como é exibido,
+// para que a seta nunca contradiga o número na tela.
+export function tendencia(de, para, unidade, casas, sentido) {
+  const d = diferenca(de, para, unidade, casas);
+  if (!d) return null;
+  let tom = 'neutro';
+  if (d.direcao !== 'igual' && (sentido === 'maior-melhor' || sentido === 'menor-melhor')) {
+    tom = (sentido === 'maior-melhor') === (d.direcao === 'sobe') ? 'favoravel' : 'desfavoravel';
+  }
+  return { direcao: d.direcao, tom, texto: d.texto };
+}
+
 // ---------- Mandatos ----------
 
 export function mandatoEm(dataISO, mandatos) {

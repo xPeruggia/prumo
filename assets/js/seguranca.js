@@ -2,7 +2,7 @@
 // Comparações sempre no mesmo período: mesmo mês de anos diferentes, ou os mesmos meses de cada mandato.
 
 import * as N from './nucleo.js';
-import { $, h, alternador, seletor } from './dom.js';
+import { $, h, alternador, seletor, chipTendencia } from './dom.js';
 import { graficoLinhas, graficoBarras, tabela, botaoTabela } from './graficos.js';
 
 const NOMES_UF = {
@@ -20,6 +20,11 @@ const TIPOS_DISQUE = {
 };
 
 const DESTAQUES = ['cvli', 'feminicidio', 'estupro', 'rouboVeiculo', 'furtoVeiculo'];
+
+// Em segurança, queda é favorável (config/seguranca.json, campo "sentido").
+let SENTIDO = 'menor-melhor';
+const tendenciaContagem = (de, para) => (de ? N.tendencia(de, para, 'n', 1, SENTIDO) : null);
+const tendenciaPontos = (pontos) => (pontos.length >= 2 ? tendenciaContagem(pontos[pontos.length - 2][1], pontos[pontos.length - 1][1]) : null);
 
 const inteiro = (v) => (v == null ? '—' : N.formatarNumero(v, 0));
 const pct = (v) => (v == null || !Number.isFinite(v) ? '—' : `${v > 0 ? '+' : ''}${N.formatarNumero(v, 1)}%`);
@@ -96,7 +101,7 @@ function graficoAnoAAno(alvo, meses, valores, titulo, unidade) {
         if (m.startsWith(`${ano}-`) && valores[i] != null) pontos.push([Number(m.slice(5, 7)) - 1, valores[i]]);
       });
       const destaque = ano === ultimo ? 'var(--serie-1)' : ano === ultimo - 1 ? 'var(--serie-2)' : null;
-      return { nome: String(ano), cor: destaque ?? 'var(--tinta-3)', fraco: !destaque, rotulo: Boolean(destaque), pontos };
+      return { nome: String(ano), cor: destaque ?? 'var(--tinta-3)', fraco: !destaque, rotulo: Boolean(destaque), pontos, tendencia: ano === ultimo ? tendenciaPontos(pontos) : null };
     })
     .filter((s) => s.pontos.length);
   // Anos antigos primeiro, para que os dois anos em destaque fiquem desenhados por cima.
@@ -122,7 +127,7 @@ function graficoMandatos(alvo, meses, valores, mandatos, comparacao, modo, titul
     .map((m) => {
       const cor = m.id === idA ? 'var(--serie-1)' : m.id === idB ? 'var(--serie-2)' : 'var(--tinta-3)';
       const pontos = modo === 'acumulado' ? N.acumuladoNoMandato(pares, m) : N.alinhar(pares, m).serie.map((p) => [p.k, p.valor]);
-      return { nome: m.rotulo, cor, fraco: cor === 'var(--tinta-3)', pontos };
+      return { nome: m.rotulo, cor, fraco: cor === 'var(--tinta-3)', pontos, tendencia: modo === 'mensal' ? tendenciaPontos(pontos) : null };
     })
     .filter((s) => s.pontos.length);
   graficoLinhas(alvo, {
@@ -143,7 +148,10 @@ function graficoMandatos(alvo, meses, valores, mandatos, comparacao, modo, titul
 function graficoSerie(alvo, meses, valores, faixas, titulo, unidade) {
   graficoLinhas(alvo, {
     titulo,
-    series: [{ nome: titulo, cor: 'var(--serie-1)', pontos: N.paresMensais(meses, valores).map(([m, v]) => [N.indiceMes(m), v]) }],
+    series: [(() => {
+      const pontos = N.paresMensais(meses, valores).map(([m, v]) => [N.indiceMes(m), v]);
+      return { nome: titulo, cor: 'var(--serie-1)', pontos, tendencia: tendenciaPontos(pontos) };
+    })()],
     faixas,
     area: true,
     incluirZero: true,
@@ -215,12 +223,16 @@ function placar(S) {
     const ev = S.eventos[id];
     const v = ev.brasil[i];
     const antes = iAnoAntes >= 0 ? ev.brasil[iAnoAntes] : null;
+    const mesAntes = i > 0 ? ev.brasil[i - 1] : null;
+    const tMes = tendenciaContagem(mesAntes, v);
     const acum = totalAno(S.meses, ev.brasil, ano, ateMes);
     const acumAntes = totalAno(S.meses, ev.brasil, ano - 1, ateMes);
     return h('div', {},
       h('div', { class: 'placar__mandato', texto: ev.nome.replace(/ \(.+\)$/, '') }),
       h('div', { class: 'placar__numero', texto: inteiro(v) }),
-      h('div', { class: 'placar__detalhe', texto: `${ev.unidade} em ${N.rotuloPeriodo(ultimo, 'mensal')}; ${pct(variacao(antes, v))} sobre ${N.rotuloPeriodo(N.periodoDeIndice(N.indiceMes(ultimo) - 12), 'mensal')}` }),
+      h('div', { class: 'placar__detalhe' }, `${ev.unidade} em ${N.rotuloPeriodo(ultimo, 'mensal')}`),
+      tMes ? h('div', { class: 'placar__detalhe' }, chipTendencia(tMes, `${tMes.texto} sobre ${N.rotuloPeriodo(S.meses[i - 1], 'mensal')}`)) : null,
+      h('div', { class: 'placar__detalhe', texto: `${pct(variacao(antes, v))} sobre ${N.rotuloPeriodo(N.periodoDeIndice(N.indiceMes(ultimo) - 12), 'mensal')}` }),
       h('div', { class: 'placar__detalhe', texto: `Jan–${mesCurto(ultimo)}: ${inteiro(acum)} (${pct(variacao(acumAntes, acum))} sobre ${ano - 1})` }),
     );
   });
@@ -235,9 +247,11 @@ function placarDisque(Q) {
   return Object.entries(TIPOS_DISQUE).map(([tipo, t]) => {
     const v = Q.series[tipo][j];
     const antes = jAntes >= 0 ? Q.series[tipo][jAntes] : null;
+    const tMes = j > 0 ? tendenciaContagem(Q.series[tipo][j - 1], v) : null;
     return h('div', {},
       h('div', { class: 'placar__mandato', texto: t.nome }),
       h('div', { class: 'placar__numero', texto: inteiro(v) }),
+      tMes ? h('div', { class: 'placar__detalhe' }, chipTendencia(tMes, `${tMes.texto} sobre ${N.rotuloPeriodo(Q.meses[j - 1], 'mensal')}`)) : null,
       h('div', { class: 'placar__detalhe', texto: `denúncias em ${N.rotuloPeriodo(ultimo, 'mensal')}; ${antes != null ? `${pct(variacao(antes, v))} sobre ${N.rotuloPeriodo(anoAntes, 'mensal')}` : 'sem o mesmo mês do ano anterior'}` }),
     );
   });
@@ -506,6 +520,7 @@ export function painelSegurancaMandatos(D) {
 // ---------- Entrada ----------
 
 export function renderSeguranca(D) {
+  SENTIDO = D.seguranca?.sentido || 'menor-melhor';
   const S = D.seguranca?.sinesp;
   if (!S) {
     $('placar-seguranca').replaceChildren(h('p', { class: 'legenda-painel', texto: 'Os dados de segurança ainda não foram coletados.' }));

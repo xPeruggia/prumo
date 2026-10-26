@@ -40,6 +40,19 @@ export function selo(status, texto) {
   return h('span', { class: `selo selo--${status}` }, icone(status), texto ?? STATUS[status]?.curto ?? status);
 }
 
+const SETAS = { sobe: '▲', desce: '▼', igual: '▬' };
+const PALAVRAS = { sobe: 'alta', desce: 'queda', igual: 'estável' };
+
+// Seta e texto da variação, verde quando favorável e vermelho quando desfavorável (ver tendencia() em nucleo.js).
+// A seta e o sinal no texto carregam a direção; a cor nunca é o único sinal.
+export function chipTendencia(t, texto) {
+  if (!t) return h('span', { texto });
+  return h('span', { class: `tendencia tendencia--${t.tom}`, 'aria-label': `${PALAVRAS[t.direcao]}: ${texto}` },
+    h('span', { class: 'tendencia__seta', 'aria-hidden': 'true', texto: SETAS[t.direcao] }),
+    h('span', { 'aria-hidden': 'true', texto }),
+  );
+}
+
 export function alternador(rotuloGrupo, opcoes, atual, aoMudar) {
   const grupo = h('div', { class: 'alternador', role: 'group', 'aria-label': rotuloGrupo });
   for (const [valor, texto, desativado] of opcoes) {

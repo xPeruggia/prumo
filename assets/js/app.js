@@ -4,7 +4,7 @@
 import * as N from './nucleo.js';
 import { graficoLinhas, graficoBarras, graficoColunas, faisca, tabela, botaoTabela } from './graficos.js';
 import { conferirNoNavegador, carimbo } from './conferir.js';
-import { $, h, icone, selo, alternador } from './dom.js';
+import { $, h, icone, selo, alternador, chipTendencia } from './dom.js';
 import { renderSeguranca, painelSegurancaMandatos } from './seguranca.js';
 import { coletaDoIbgeFalhou, buscarIbgeNoNavegador } from './noticias-ao-vivo.js';
 
@@ -33,19 +33,26 @@ function valorPartido(s, v) {
 
 const TAXAS_DE_VARIACAO = new Set(['ipcaMes', 'pibTri', 'pib4tri']);
 
+// Variação sobre o período anterior (mês, trimestre ou, nas séries diárias, 30 dias), como texto e como tendência colorida.
 function variacaoLinha(s) {
   if (s.periodicidade === 'diaria' && s.ultimosDiarios?.length) {
     const d = s.ultimosDiarios;
     const [dataFim, vFim] = d[d.length - 1];
     const alvo = Date.parse(dataFim) - 30 * 864e5;
     const ref = [...d].reverse().find(([data]) => Date.parse(data) <= alvo) ?? d[0];
-    const dif = N.diferenca(ref[1], vFim, s.unidade, s.casas);
-    return dif.direcao === 'igual' ? `sem mudança desde ${dataCurta(ref[0])}` : `${dif.texto} desde ${dataCurta(ref[0])}`;
+    const t = N.tendencia(ref[1], vFim, s.unidade, s.casas, s.sentido);
+    return { tendencia: t, texto: t.direcao === 'igual' ? `sem mudança desde ${dataCurta(ref[0])}` : `${t.texto} desde ${dataCurta(ref[0])}` };
   }
-  if (!s.anterior) return '';
-  if (TAXAS_DE_VARIACAO.has(s.id)) return `antes: ${fmt(s, s.anterior.valor)} em ${rotulo(s, s.anterior.periodo)}`;
-  const dif = N.diferenca(s.anterior.valor, s.ultimo.valor, s.unidade, s.casas);
-  return dif.direcao === 'igual' ? `igual a ${rotulo(s, s.anterior.periodo)}` : `${dif.texto} sobre ${rotulo(s, s.anterior.periodo)}`;
+  if (!s.anterior) return { tendencia: null, texto: '' };
+  const t = N.tendencia(s.anterior.valor, s.ultimo.valor, s.unidade, s.casas, s.sentido);
+  if (TAXAS_DE_VARIACAO.has(s.id)) return { tendencia: t, texto: `antes: ${fmt(s, s.anterior.valor)} em ${rotulo(s, s.anterior.periodo)}` };
+  return { tendencia: t, texto: t.direcao === 'igual' ? `igual a ${rotulo(s, s.anterior.periodo)}` : `${t.texto} sobre ${rotulo(s, s.anterior.periodo)}` };
+}
+
+// Tendência do último ponto de uma série de gráfico ([[x, y]]) sobre o anterior.
+function tendenciaDosPontos(pontos, unidade, casas, sentido) {
+  if (pontos.length < 2) return null;
+  return N.tendencia(pontos[pontos.length - 2][1], pontos[pontos.length - 1][1], unidade, casas, sentido);
 }
 
 function valorAtual(s) {
@@ -213,7 +220,10 @@ function renderIndicadores() {
               h('span', { class: 'linha__valor' }, num, unidade ? h('small', { texto: unidade }) : null),
               svg,
               h('span', { class: 'linha__periodo', texto: `${s.fonte.orgao === 'Banco Central do Brasil' ? 'Banco Central' : s.fonte.orgao}, ${atual.rotulo}` }),
-              h('span', { class: 'linha__variacao', texto: variacaoLinha(s) }),
+              h('span', { class: 'linha__variacao' }, (() => {
+                const v = variacaoLinha(s);
+                return chipTendencia(v.tendencia, v.texto);
+              })()),
               h('span', { class: 'linha__status' }, selo(s.status)),
             ),
           );
@@ -264,7 +274,7 @@ function abrirDetalhe(id) {
     const corte = recorte === '5a' ? ultimo - 60 : recorte === '2a' ? ultimo - 24 : -Infinity;
     graficoLinhas(graf, {
       titulo: `${s.nome}, série histórica`,
-      series: [{ nome: s.curto, cor: 'var(--serie-1)', pontos: todos.filter(([x]) => x >= corte) }],
+      series: [{ nome: s.curto, cor: 'var(--serie-1)', pontos: todos.filter(([x]) => x >= corte), tendencia: tendenciaDosPontos(todos, s.unidade, s.casas, s.sentido) }],
       faixas,
       area: true,
       incluirZero: s.unidade === 'R$ mi',
@@ -369,7 +379,15 @@ function abrirDetalhe(id) {
         h('h2', { class: 'detalhe__titulo', id: 'detalhe-titulo', texto: s.nome }),
         h('button', { class: 'detalhe__fechar', type: 'button', 'aria-label': 'Fechar', texto: '×', onclick: () => dlg.close() }),
       ),
-      h('div', { class: 'detalhe__valor' }, h('b', { texto: fmt(s, atual.valor) }), h('span', { texto: atual.rotulo }), selo(s.status)),
+      h('div', { class: 'detalhe__valor' },
+        h('b', { texto: fmt(s, atual.valor) }),
+        h('span', { texto: atual.rotulo }),
+        (() => {
+          const v = variacaoLinha(s);
+          return v.texto ? chipTendencia(v.tendencia, v.texto) : null;
+        })(),
+        selo(s.status),
+      ),
       h('p', { class: 'detalhe__descricao', texto: s.descricao }),
       s.notaTransformacao ? h('p', { class: 'detalhe__descricao', style: 'margin-top:8px', texto: s.notaTransformacao }) : null,
       s.status === 'falha' ? h('p', { class: 'erro-carga', style: 'margin-top:12px', texto: `A coleta de ${dataCurta(s.falha.em)} falhou (${s.falha.erro}). Mostramos o último dado válido.` }) : null,
@@ -483,8 +501,8 @@ function renderDividas() {
   const painel = $('painel-divida');
   const graf = h('div');
   const series = [
-    S.dbgg && { nome: 'Dívida bruta', cor: 'var(--serie-1)', pontos: paraIndices(S.dbgg.pontos) },
-    S.dlsp && { nome: 'Dívida líquida', cor: 'var(--serie-2)', pontos: paraIndices(S.dlsp.pontos) },
+    S.dbgg && { nome: 'Dívida bruta', cor: 'var(--serie-1)', pontos: paraIndices(S.dbgg.pontos), tendencia: tendenciaDosPontos(S.dbgg.pontos, S.dbgg.unidade, S.dbgg.casas, S.dbgg.sentido) },
+    S.dlsp && { nome: 'Dívida líquida', cor: 'var(--serie-2)', pontos: paraIndices(S.dlsp.pontos), tendencia: tendenciaDosPontos(S.dlsp.pontos, S.dlsp.unidade, S.dlsp.casas, S.dlsp.sentido) },
   ].filter(Boolean);
   painel.replaceChildren(
     h('div', { class: 'painel__topo' },
@@ -527,7 +545,7 @@ function renderDividas() {
   if (p) {
     graficoLinhas(graf2, {
       titulo: 'Resultado primário do setor público consolidado, acumulado em 12 meses, em % do PIB',
-      series: [{ nome: 'Resultado primário', cor: 'var(--serie-1)', pontos: paraIndices(p.pontos) }],
+      series: [{ nome: 'Resultado primário', cor: 'var(--serie-1)', pontos: paraIndices(p.pontos), tendencia: tendenciaDosPontos(p.pontos, p.unidade, p.casas, p.sentido) }],
       faixas,
       incluirZero: true,
       marcasX: marcasAnos,
@@ -931,8 +949,8 @@ function renderMandatos() {
     const g = h('div');
     const pts = (al) => [...(al.base ? [[0, al.base.valor]] : []), ...al.serie.map((p) => [p.k, p.valor])];
     return { s, g, series: [
-      { nome: mA.rotulo, cor: 'var(--serie-1)', pontos: pts(r.A) },
-      { nome: mB.rotulo, cor: 'var(--serie-2)', pontos: comecou ? pts(r.B) : [] },
+      { nome: mA.rotulo, cor: 'var(--serie-1)', pontos: pts(r.A), tendencia: tendenciaDosPontos(pts(r.A), s.unidade, s.casas, s.sentido) },
+      { nome: mB.rotulo, cor: 'var(--serie-2)', pontos: comecou ? pts(r.B) : [], tendencia: comecou ? tendenciaDosPontos(pts(r.B), s.unidade, s.casas, s.sentido) : null },
     ] };
   });
   $('painel-multiplos').replaceChildren(
@@ -1128,7 +1146,7 @@ function renderMetodo() {
         h('li', { texto: 'Duas fontes quando existem. Inflação, desemprego e dólar são cruzados entre IBGE e Banco Central ou entre dois sistemas do Banco Central; as dívidas são recalculadas a partir do saldo em reais e do PIB.' }),
         h('li', { texto: 'Mesmo período, mesma régua. Mandatos são comparados no mesmo mês de governo, e anos do orçamento no mesmo intervalo de meses.' }),
         h('li', { texto: 'Inflação descontada. Valores em reais de anos diferentes são corrigidos pelo IPCA antes de qualquer comparação.' }),
-        h('li', { texto: 'Sem adjetivos. Os textos descrevem o número e a fonte; não dizem se um resultado é bom ou ruim, e as variações não usam cores de aprovação.' }),
+        h('li', { texto: 'Sem adjetivos. Os textos descrevem o número e a fonte, sem qualificar o resultado. A única indicação de leitura é a cor da variação sobre o período anterior, com regra pública e fixa por indicador (tabela ao lado).' }),
         h('li', { texto: 'Nada é inventado. Se uma fonte falha, o site mostra o último dado válido com a data e o aviso da falha.' }),
         h('li', { texto: 'Histórico aberto. Cada coleta é registrada no repositório; qualquer mudança em um número fica visível no histórico de versões.' }),
       ),
@@ -1158,6 +1176,16 @@ function renderMetodo() {
         ...['confere', 'fonte-unica', 'estimativa', 'sem-conferencia', 'diverge', 'falha'].map((st) =>
           h('li', {}, icone(st), h('div', {}, h('b', { texto: N.STATUS[st].rotulo }), h('span', { texto: N.STATUS[st].explicacao }))),
         ),
+      ),
+      h('h3', { class: 'subtitulo', style: 'margin:32px 0 8px', texto: 'Cores das variações' }),
+      h('p', { class: 'legenda-painel', style: 'margin-bottom:8px', texto: `${D.indicadores.notaSentido || ''} Em segurança e violência, queda é verde e alta é vermelha. A comparação é sempre com o período anterior: mês, trimestre ou, para Selic e dólar, 30 dias.` }),
+      tabela(
+        ['Indicador', 'Verde quando'],
+        [
+          ...Object.values(S).map((s) => [s.nome, { 'maior-melhor': 'sobe', 'menor-melhor': 'cai', neutro: 'sem cor' }[s.sentido] ?? 'sem cor']),
+          ['Crimes, mortes violentas e denúncias de violência', 'cai'],
+        ],
+        'Regra de cor das variações',
       ),
       h('h3', { class: 'subtitulo', style: 'margin:32px 0 8px', texto: 'Fontes' }),
       h('ul', { class: 'fontes-lista' }, fontes.map(([orgao, o, sistema]) => h('li', {}, h('span', {}, h('b', { texto: orgao }), h('br'), o), h('small', { texto: sistema })))),

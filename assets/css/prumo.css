@@ -20,6 +20,7 @@
   --serie-2: #b7791f;
   --critico: #b3261e;
   --critico-fundo: rgba(179, 38, 30, 0.08);
+  --positivo: #006300;
   --sombra: 0 1px 2px rgba(23, 33, 43, 0.06), 0 8px 24px rgba(23, 33, 43, 0.06);
 
   --fonte: 'Archivo', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
@@ -55,6 +56,7 @@
     --serie-2: #ba8128;
     --critico: #ec7a72;
     --critico-fundo: rgba(236, 122, 114, 0.1);
+    --positivo: #2fbf4a;
     --sombra: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.25);
   }
 }
@@ -77,6 +79,7 @@
   --serie-2: #ba8128;
   --critico: #ec7a72;
   --critico-fundo: rgba(236, 122, 114, 0.1);
+  --positivo: #2fbf4a;
   --sombra: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.25);
 }
 
@@ -755,6 +758,41 @@ button {
 .icone-status {
   width: 18px;
   height: 18px;
+}
+
+/* Variação sobre o período anterior: seta + texto; a cor diz se a mudança é favorável (ver notaSentido). */
+.tendencia {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--tinta-2);
+}
+
+.tendencia__seta {
+  font-size: 0.78em;
+}
+
+.tendencia--favoravel {
+  color: var(--positivo);
+}
+
+.tendencia--desfavoravel {
+  color: var(--critico);
+}
+
+.grafico .seta-tendencia {
+  font-size: 11px;
+  fill: var(--tinta-2);
+}
+
+.grafico .seta-tendencia--favoravel {
+  fill: var(--positivo);
+}
+
+.grafico .seta-tendencia--desfavoravel {
+  fill: var(--critico);
 }
 
 .icone-status--confere {

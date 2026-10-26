@@ -128,7 +128,8 @@ export function graficoLinhas(container, op) {
       return;
     }
     const estreito = largura < 520;
-    const m = { topo: op.faixas?.length ? 24 : 10, dir: op.rotuloFinal === false ? 12 : estreito ? 54 : 70, base: 26, esq: op.margemEsq ?? 44 };
+    const espacoSeta = series.some((s) => s.tendencia) ? 16 : 0;
+    const m = { topo: op.faixas?.length ? 24 : 10, dir: op.rotuloFinal === false ? 12 : (estreito ? 54 : 70) + espacoSeta, base: 26, esq: op.margemEsq ?? 44 };
     const svg = el('svg', { viewBox: `0 0 ${largura} ${altura}`, height: altura, tabindex: 0, 'aria-hidden': 'false' }, container);
     const titulo = el('title', {}, svg);
     titulo.textContent = op.titulo || '';
@@ -198,11 +199,16 @@ export function graficoLinhas(container, op) {
       for (const f of finais) {
         if (Math.abs(f.alvo - f.y) > 2) el('line', { x1: f.x + 5, y1: f.y, x2: f.x + 9, y2: f.alvo, stroke: 'var(--linha-forte)' }, svg);
         el('circle', { class: 'ponto-final', cx: f.x, cy: f.y, r: 4.5, fill: f.s.fraco ? 'var(--tinta-3)' : f.s.cor }, svg);
-        texto(svg, op.formatoRotulo ? op.formatoRotulo(f.valor, f.s) : String(f.valor), {
+        const rotulo = texto(svg, op.formatoRotulo ? op.formatoRotulo(f.valor, f.s) : String(f.valor), {
           class: `rotulo-final${f.s.fraco ? ' rotulo-final--fraco' : ''}`,
           x: f.x + 10,
           y: f.alvo + 4,
         });
+        // Seta da variação sobre o ponto anterior, colorida pelo sentido do indicador.
+        if (f.s.tendencia) {
+          const seta = el('tspan', { class: `seta-tendencia seta-tendencia--${f.s.tendencia.tom}`, dx: 4 }, rotulo);
+          seta.textContent = { sobe: '▲', desce: '▼', igual: '▬' }[f.s.tendencia.direcao];
+        }
       }
     }
 

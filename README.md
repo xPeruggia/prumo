@@ -31,6 +31,7 @@ Além disso:
 - **Conferência pelo leitor**: o botão “Conferir” refaz a consulta nas APIs do Banco Central e do IBGE diretamente do navegador de quem lê, sem passar pelo site.
 - **Filtro político**: notícias com os termos de `config/filtro-politico.json` são retiradas e listadas publicamente, com o termo encontrado.
 - **Números em notícias**: quando um título cita IPCA, desemprego, PIB ou Selic, o número é comparado com a série oficial. O site nunca rotula uma notícia como “falsa”; diz apenas se o número bate.
+- **Cores das variações**: cada número mostra a variação sobre o período anterior com seta (▲▼) e cor. Verde quando a mudança vai no sentido geralmente considerado favorável e vermelho no contrário, definido por indicador no campo `sentido` de `config/series.json` (inflação, desemprego e dívida: verde ao cair; PIB, renda e resultado primário: verde ao subir; Selic, dólar e dívida em reais: sem cor). Em segurança e violência, queda é verde e alta é vermelha (`config/seguranca.json`).
 - **Histórico**: cada coleta vira um commit em `data/`. Qualquer alteração de valor fica registrada no git e no diário de atualizações do site.
 
 ## Fontes
