@@ -265,7 +265,7 @@ button {
 .boletim__grade {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 360px;
-  gap: clamp(32px, 5vw, 72px);
+  gap: clamp(32px, 4vw, 48px) clamp(32px, 5vw, 72px);
   align-items: start;
 }
 
@@ -304,8 +304,9 @@ button {
 
 /* ---------- Em poucas palavras ---------- */
 
+/* Ocupa a largura toda, abaixo da data e da conferência: 10 quadros em duas fileiras de 5. */
 .resumo {
-  margin-top: clamp(24px, 3vw, 36px);
+  grid-column: 1 / -1;
 }
 
 .resumo__titulo {
@@ -324,35 +325,56 @@ button {
   list-style: none;
   margin: 18px 0 0;
   padding: 0;
-  border-top: 2px solid var(--tinta);
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-auto-rows: 1fr;
+  gap: 12px;
 }
 
+/* Todos os quadros com a mesma altura (a do texto mais longo); a fonte fica sempre no pé do quadro. */
 .resumo__item {
-  display: grid;
-  grid-template-columns: 132px minmax(0, 1fr);
-  gap: 4px 20px;
-  padding: 14px 0;
-  border-bottom: 1px solid var(--linha);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px 16px 14px;
+  background: var(--superficie);
+  border: 1px solid var(--linha);
+  border-top: 3px solid var(--tinta);
+  border-radius: 10px;
 }
 
 .resumo__tema {
+  font-size: var(--texto-m);
   font-weight: 700;
   font-variation-settings: 'wdth' 106;
-  padding-top: 2px;
+}
+
+.resumo__corpo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .resumo__texto {
-  font-size: 1.125rem;
+  font-size: var(--texto-s);
   line-height: 1.5;
-  max-width: 38em;
 }
 
 .resumo__texto strong {
   font-weight: 680;
 }
 
+.resumo__fonte .tendencia {
+  white-space: normal;
+}
+
 .resumo__fonte {
-  margin-top: 6px;
+  margin-top: auto;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
   font-size: var(--texto-xs);
   color: var(--tinta-3);
 }
@@ -1896,8 +1918,14 @@ dialog.detalhe::backdrop {
     grid-template-columns: 1fr;
   }
 
+  /* Em uma coluna, o resumo vem logo depois da data e a conferência depois dele. */
   .conferencia {
     max-width: 520px;
+    order: 1;
+  }
+
+  .resumo__lista {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .registro,
@@ -1940,7 +1968,11 @@ dialog.detalhe::backdrop {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .resumo__item,
+  .resumo__lista {
+    grid-auto-rows: auto;
+  }
+
+  .resumo__lista,
   .cambio__destaque,
   .lista-tributos,
   .linha-tempo {

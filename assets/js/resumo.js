@@ -41,7 +41,7 @@ function juros(S) {
   let i = pts.length - 1;
   while (i > 0 && pts[i - 1][1] === atual) i--;
   const mudou = i > 0 ? { mes: pts[i][0], antes: pts[i - 1][1] } : null;
-  const frases = [`A taxa básica de juros, a Selic, está em **${num(atual, 2)}% ao ano**.`];
+  const frases = [`A Selic, taxa básica de juros, está em **${num(atual, 2)}% ao ano**.`];
   if (mudou) {
     frases.push(
       N.indiceMes(pts[pts.length - 1][0]) - N.indiceMes(mudou.mes) <= 1
@@ -49,7 +49,7 @@ function juros(S) {
         : `Está nesse nível desde ${mesLongo(mudou.mes)}, quando passou de ${num(mudou.antes, 2)}% para ${num(atual, 2)}%.`,
     );
   }
-  frases.push('Ela serve de referência para empréstimos, financiamentos e aplicações: quando sobe, o crédito tende a ficar mais caro; quando cai, mais barato.');
+  frases.push('Quando ela sobe, empréstimos e financiamentos tendem a ficar mais caros; quando cai, mais baratos.');
   return { id: 'juros', tema: 'Juros', frases, serie: s, fonte: 'Banco Central' };
 }
 
@@ -114,10 +114,10 @@ function dolar(S, cambio) {
     const antes = [...usd.pontos].reverse().find(([d]) => Date.parse(d) <= alvo);
     if (antes) {
       const real = (antes[1] / valor - 1) * 100;
-      frases.push(`Há um ano custava R$ ${num(antes[1], 2)}: o real ${real >= 0 ? 'ganhou' : 'perdeu'} **${num(Math.abs(real))}%** de valor frente ao dólar.`);
+      frases.push(`Há um ano custava R$ ${num(antes[1], 2)}: o real ${real >= 0 ? 'ganhou' : 'perdeu'} **${num(Math.abs(real))}%** frente ao dólar.`);
     }
   }
-  frases.push('Com o real mais valorizado, produtos importados e viagens ao exterior tendem a ficar mais baratos; com o real mais fraco, mais caros.');
+  frases.push('Real mais forte tende a baratear importados e viagens ao exterior; mais fraco, a encarecê-los.');
   return { id: 'dolar', tema: 'Dólar', frases, serie: s, fonte: 'Banco Central' };
 }
 

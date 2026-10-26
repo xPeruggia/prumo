@@ -132,7 +132,7 @@ function renderResumo() {
       const textoTendencia = item.tendencia?.texto ?? v?.texto;
       return h('li', { class: 'resumo__item' },
         h('span', { class: 'resumo__tema', texto: item.tema }),
-        h('div', {},
+        h('div', { class: 'resumo__corpo' },
           h('p', { class: 'resumo__texto' }, item.frases.map((f, i) => [i ? ' ' : '', comDestaques(f)])),
           h('p', { class: 'resumo__fonte' },
             t && textoTendencia ? [chipTendencia(t, textoTendencia), '  '] : null,
