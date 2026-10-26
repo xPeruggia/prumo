@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-10-26T11:01:04.432Z",
+ "geradoEm": "2026-10-26T11:48:13.919Z",
  "temas": [
   {
    "id": "precos",
@@ -22,6 +22,7 @@
    "nome": "Contas públicas"
   }
  ],
+ "notaSentido": "Cor das variações: verde quando o número muda no sentido geralmente considerado favorável e vermelho no sentido contrário. Selic e dólar não têm um sentido favorável consensual e ficam sem cor; a dívida em reais também, porque cresce com a inflação mesmo quando cai em proporção do PIB. A seta sempre indica só a direção da mudança.",
  "series": {
   "ipca12m": {
    "id": "ipca12m",
@@ -33,6 +34,7 @@
    "casas": 2,
    "periodicidade": "mensal",
    "comparar": true,
+   "sentido": "menor-melhor",
    "fonte": {
     "orgao": "IBGE",
     "sistema": "SIDRA",
@@ -42,7 +44,7 @@
     "nomeOficial": "IPCA - Variação acumulada em 12 meses",
     "unidadeOficial": null,
     "url": "https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/2265/p/last%2012",
-    "consultadoEm": "2026-10-26T11:01:04.432Z"
+    "consultadoEm": "2026-10-26T11:48:13.919Z"
    },
    "conferencia": {
     "tipo": "sgs",
@@ -247,6 +249,7 @@
    "casas": 2,
    "periodicidade": "mensal",
    "comparar": false,
+   "sentido": "menor-melhor",
    "fonte": {
     "orgao": "IBGE",
     "sistema": "SIDRA",
@@ -256,7 +259,7 @@
     "nomeOficial": "IPCA - Variação mensal",
     "unidadeOficial": null,
     "url": "https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/63/p/last%2012",
-    "consultadoEm": "2026-10-26T11:01:04.432Z"
+    "consultadoEm": "2026-10-26T11:48:13.919Z"
    },
    "conferencia": {
     "tipo": "sgs",
@@ -462,16 +465,17 @@
    "periodicidade": "diaria",
    "agregacao": "fim-do-mes",
    "comparar": true,
+   "sentido": "neutro",
    "fonte": {
     "orgao": "Banco Central do Brasil",
     "sistema": "SGS",
     "codigo": 432,
     "referencia": "Série 432 do SGS",
     "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/12?formato=json",
-    "consultadoEm": "2026-10-26T10:56:42.699Z"
+    "consultadoEm": "2026-10-26T11:48:13.919Z"
    },
    "conferencia": null,
-   "status": "falha",
+   "status": "fonte-unica",
    "ultimo": {
     "periodo": "2026-10",
     "valor": 13.75
@@ -730,12 +734,7 @@
     ["2026-08",14],
     ["2026-09",13.75],
     ["2026-10",13.75]
-   ],
-   "falha": {
-    "em": "2026-10-26T11:01:04.432Z",
-    "erro": "Unexpected token '<', \"<?xml vers\"... is not valid JSON",
-    "statusAnterior": "fonte-unica"
-   }
+   ]
   },
   "dolar": {
    "id": "dolar",
@@ -748,13 +747,14 @@
    "periodicidade": "diaria",
    "agregacao": "media-mensal",
    "comparar": true,
+   "sentido": "neutro",
    "fonte": {
     "orgao": "Banco Central do Brasil",
     "sistema": "SGS",
     "codigo": 1,
     "referencia": "Série 1 do SGS",
     "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados/ultimos/12?formato=json",
-    "consultadoEm": "2026-10-26T11:01:04.432Z"
+    "consultadoEm": "2026-10-26T11:48:13.919Z"
    },
    "conferencia": {
     "tipo": "ptax",
@@ -1044,6 +1044,7 @@
    "casas": 1,
    "periodicidade": "trimestral",
    "comparar": false,
+   "sentido": "maior-melhor",
    "fonte": {
     "orgao": "IBGE",
     "sistema": "SIDRA",
@@ -1053,7 +1054,7 @@
     "nomeOficial": "Taxa trimestre contra trimestre imediatamente anterior",
     "unidadeOficial": null,
     "url": "https://apisidra.ibge.gov.br/values/t/5932/n1/all/v/6564/p/last%2012/c11255/90707",
-    "consultadoEm": "2026-10-26T11:01:04.432Z"
+    "consultadoEm": "2026-10-26T11:48:13.919Z"
    },
    "conferencia": null,
    "status": "fonte-unica",
@@ -1137,6 +1138,7 @@
    "casas": 1,
    "periodicidade": "trimestral",
    "comparar": true,
+   "sentido": "maior-melhor",
    "fonte": {
     "orgao": "IBGE",
     "sistema": "SIDRA",
@@ -1146,7 +1148,7 @@
     "nomeOficial": "Taxa acumulada ao longo do ano (em relação ao mesmo período do ano anterior)",
     "unidadeOficial": "%",
     "url": "https://apisidra.ibge.gov.br/values/t/5932/n1/all/v/6563/p/last%2012/c11255/90707",
-    "consultadoEm": "2026-10-26T11:01:04.432Z"
+    "consultadoEm": "2026-10-26T11:48:13.919Z"
    },
    "conferencia": null,
    "status": "fonte-unica",
@@ -1230,6 +1232,7 @@
    "casas": 1,
    "periodicidade": "trimestre-movel",
    "comparar": true,
+   "sentido": "menor-melhor",
    "fonte": {
     "orgao": "IBGE",
     "sistema": "SIDRA",
@@ -1239,7 +1242,7 @@
     "nomeOficial": "Taxa de desocupação, na semana de referência, das pessoas de 14 anos ou mais de idade",
     "unidadeOficial": "%",
     "url": "https://apisidra.ibge.gov.br/values/t/6381/n1/all/v/4099/p/last%2012",
-    "consultadoEm": "2026-10-26T11:01:04.432Z"
+    "consultadoEm": "2026-10-26T11:48:13.919Z"
    },
    "conferencia": {
     "tipo": "sgs",
@@ -1443,6 +1446,7 @@
    "casas": 0,
    "periodicidade": "trimestre-movel",
    "comparar": true,
+   "sentido": "maior-melhor",
    "fonte": {
     "orgao": "IBGE",
     "sistema": "SIDRA",
@@ -1452,7 +1456,7 @@
     "nomeOficial": "Rendimento médio mensal real das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, habitualmente recebido em todos os trabalhos",
     "unidadeOficial": "Reais",
     "url": "https://apisidra.ibge.gov.br/values/t/6390/n1/all/v/5933/p/last%2012",
-    "consultadoEm": "2026-10-26T11:01:04.432Z"
+    "consultadoEm": "2026-10-26T11:48:13.919Z"
    },
    "conferencia": null,
    "status": "fonte-unica",
@@ -1630,21 +1634,35 @@
    "casas": 1,
    "periodicidade": "mensal",
    "comparar": true,
+   "sentido": "menor-melhor",
    "fonte": {
     "orgao": "Banco Central do Brasil",
     "sistema": "SGS",
     "codigo": 13762,
     "referencia": "Série 13762 do SGS",
     "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados/ultimos/12?formato=json",
-    "consultadoEm": "2026-10-26T11:01:04.432Z"
+    "consultadoEm": "2026-10-26T11:48:13.919Z"
    },
    "conferencia": {
     "tipo": "razao",
     "orgao": "Banco Central do Brasil",
-    "status": "sem-conferencia",
-    "erro": "Unexpected token '<', \"<?xml vers\"... is not valid JSON"
+    "sistema": "SGS",
+    "referencia": "SGS 13761 ÷ SGS 4382",
+    "descricao": "Recalculamos o percentual dividindo o saldo em reais (SGS 13761) pelo PIB acumulado em 12 meses (SGS 4382). Diferenças de até 0,06 ponto vêm de arredondamento.",
+    "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13761/dados/ultimos/12?formato=json",
+    "urlDenominador": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4382/dados/ultimos/12?formato=json",
+    "tolerancia": 0.06,
+    "status": "confere",
+    "periodo": "2026-08",
+    "valorPrimaria": 82.87,
+    "valorConferencia": 82.8665,
+    "diferenca": 0.0035,
+    "comparados": 12,
+    "conferidos": 12,
+    "maiorDiferenca": 0.0048,
+    "defasagem": null
    },
-   "status": "sem-conferencia",
+   "status": "confere",
    "ultimo": {
     "periodo": "2026-08",
     "valor": 82.87
@@ -1819,16 +1837,17 @@
    "casas": 0,
    "periodicidade": "mensal",
    "comparar": false,
+   "sentido": "neutro",
    "fonte": {
     "orgao": "Banco Central do Brasil",
     "sistema": "SGS",
     "codigo": 13761,
     "referencia": "Série 13761 do SGS",
     "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13761/dados/ultimos/12?formato=json",
-    "consultadoEm": "2026-10-26T10:56:42.699Z"
+    "consultadoEm": "2026-10-26T11:48:13.919Z"
    },
    "conferencia": null,
-   "status": "falha",
+   "status": "fonte-unica",
    "ultimo": {
     "periodo": "2026-08",
     "valor": 11054954.37
@@ -1991,12 +2010,7 @@
     ["2026-06",10809475.19],
     ["2026-07",10946725.8],
     ["2026-08",11054954.37]
-   ],
-   "falha": {
-    "em": "2026-10-26T11:01:04.432Z",
-    "erro": "Unexpected token '<', \"<?xml vers\"... is not valid JSON",
-    "statusAnterior": "fonte-unica"
-   }
+   ]
   },
   "dlsp": {
    "id": "dlsp",
@@ -2008,13 +2022,14 @@
    "casas": 1,
    "periodicidade": "mensal",
    "comparar": true,
+   "sentido": "menor-melhor",
    "fonte": {
     "orgao": "Banco Central do Brasil",
     "sistema": "SGS",
     "codigo": 4513,
     "referencia": "Série 4513 do SGS",
     "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4513/dados/ultimos/12?formato=json",
-    "consultadoEm": "2026-10-26T11:01:04.432Z"
+    "consultadoEm": "2026-10-26T11:48:13.919Z"
    },
    "conferencia": {
     "tipo": "razao",
@@ -2212,13 +2227,14 @@
    "transformacao": "inverter-sinal",
    "notaTransformacao": "A série 5793 do Banco Central mede as necessidades de financiamento (NFSP), em que déficit é positivo. Invertemos o sinal para que déficit apareça como valor negativo.",
    "comparar": true,
+   "sentido": "maior-melhor",
    "fonte": {
     "orgao": "Banco Central do Brasil",
     "sistema": "SGS",
     "codigo": 5793,
     "referencia": "Série 5793 do SGS",
     "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados/ultimos/12?formato=json",
-    "consultadoEm": "2026-10-26T11:01:04.432Z"
+    "consultadoEm": "2026-10-26T11:48:13.919Z"
    },
    "conferencia": null,
    "status": "fonte-unica",

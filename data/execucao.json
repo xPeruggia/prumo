@@ -1,7 +1,7 @@
 {
- "inicio": "2026-10-26T11:01:04.432Z",
- "fim": "2026-10-26T11:11:23.449Z",
- "segundos": 619,
+ "inicio": "2026-10-26T11:48:13.919Z",
+ "fim": "2026-10-26T11:52:22.096Z",
+ "segundos": 248,
  "partes": [
   "series",
   "orcamento",
@@ -9,28 +9,14 @@
   "noticias",
   "seguranca"
  ],
- "chamadas": 162,
- "falhas": 3,
- "repeticoes": 6,
+ "chamadas": 156,
+ "falhas": 1,
+ "repeticoes": 1,
  "status": {
-  "confere": 5,
-  "falha": 2,
-  "fonte-unica": 4,
-  "sem-conferencia": 1
+  "confere": 6,
+  "fonte-unica": 6
  },
  "avisos": [
-  {
-   "parte": "series",
-   "mensagem": "selic: coleta falhou (Unexpected token '<', \"<?xml vers\"... is not valid JSON). Mantido o último dado válido."
-  },
-  {
-   "parte": "series",
-   "mensagem": "dbgg: segunda fonte indisponível (Unexpected token '<', \"<?xml vers\"... is not valid JSON)"
-  },
-  {
-   "parte": "series",
-   "mensagem": "dbggReais: coleta falhou (Unexpected token '<', \"<?xml vers\"... is not valid JSON). Mantido o último dado válido."
-  },
   {
    "parte": "noticias",
    "mensagem": "IBGE: fetch failed. Mantidas as notícias anteriores dessa fonte."
@@ -42,59 +28,70 @@
    "chamadas": 8,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 5215
+   "ms": 4188
   },
   {
    "host": "api.bcb.gov.br",
-   "chamadas": 39,
-   "falhas": 6,
-   "repeticoes": 5,
-   "ms": 295584
+   "chamadas": 33,
+   "falhas": 0,
+   "repeticoes": 0,
+   "ms": 20223
   },
   {
    "host": "olinda.bcb.gov.br",
    "chamadas": 5,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 3414
+   "ms": 2000
   },
   {
    "host": "apidatalake.tesouro.gov.br",
    "chamadas": 32,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 51059
+   "ms": 30254
   },
   {
    "host": "dadosabertos.camara.leg.br",
    "chamadas": 72,
    "falhas": 0,
    "repeticoes": 1,
-   "ms": 77238
+   "ms": 57230
   },
   {
    "host": "servicodados.ibge.gov.br",
    "chamadas": 3,
    "falhas": 3,
    "repeticoes": 0,
-   "ms": 31469
+   "ms": 31477
   },
   {
    "host": "www.bcb.gov.br",
    "chamadas": 1,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 1485
+   "ms": 919
   },
   {
    "host": "www.gov.br",
    "chamadas": 2,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 73736
+   "ms": 47965
   }
  ],
  "historico": [
+  {
+   "inicio": "2026-10-26T11:48:13.919Z",
+   "segundos": 248,
+   "chamadas": 156,
+   "falhas": 1,
+   "status": {
+    "confere": 6,
+    "fonte-unica": 6
+   },
+   "avisos": 1
+  },
   {
    "inicio": "2026-10-26T11:01:04.432Z",
    "segundos": 619,
