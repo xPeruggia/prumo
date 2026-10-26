@@ -7,6 +7,9 @@ import { conferirNoNavegador, carimbo } from './conferir.js';
 import { $, h, icone, selo, alternador, chipTendencia } from './dom.js';
 import { renderSeguranca, painelSegurancaMandatos } from './seguranca.js';
 import { coletaDoIbgeFalhou, buscarIbgeNoNavegador } from './noticias-ao-vivo.js';
+import { montarResumo } from './resumo.js';
+import { renderCambio } from './cambio.js';
+import { renderTributos } from './tributos.js';
 
 const NS = 'http://www.w3.org/2000/svg';
 
@@ -91,7 +94,7 @@ const D = {};
 
 async function carregar() {
   const ler = (c) => fetch(c, { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
-  const [indicadores, orcamento, programas, noticias, diario, execucao, seguranca, mandatos, site] = await Promise.all([
+  const [indicadores, orcamento, programas, noticias, diario, execucao, seguranca, cambio, tributos, mandatos, site, configTributos] = await Promise.all([
     ler('data/indicadores.json'),
     ler('data/orcamento.json'),
     ler('data/programas.json'),
@@ -99,23 +102,46 @@ async function carregar() {
     ler('data/diario.json'),
     ler('data/execucao.json'),
     ler('data/seguranca.json'),
+    ler('data/cambio.json'),
+    ler('data/tributos.json'),
     ler('config/mandatos.json'),
     ler('config/site.json'),
+    ler('config/tributos.json'),
   ]);
-  Object.assign(D, { indicadores, orcamento, programas, noticias, diario, execucao, seguranca, mandatos, site });
+  Object.assign(D, { indicadores, orcamento, programas, noticias, diario, execucao, seguranca, cambio, tributos, mandatos, site, configTributos });
   D.hoje = N.hojeBrasilia();
   return Boolean(indicadores && mandatos);
 }
 
 function falhaDeCarga() {
   $('titulo-boletim').textContent = 'Os dados não carregaram';
-  $('boletim-lede').replaceChildren(
-    h('span', {
-      texto:
-        'O navegador não conseguiu ler os arquivos da pasta data/. Se você abriu o index.html direto do computador, sirva a pasta com um servidor local (por exemplo, "python3 -m http.server" dentro dela) e abra o endereço indicado.',
+  $('resumo-intro').textContent =
+    'O navegador não conseguiu ler os arquivos da pasta data/. Se você abriu o index.html direto do computador, sirva a pasta com um servidor local (por exemplo, "npm run servir" dentro dela) e abra o endereço indicado.';
+  $('resumo-intro').classList.add('erro-carga');
+}
+
+// "Em poucas palavras": frases de resumo.js, com os números entre ** em destaque e a seta da variação.
+function renderResumo() {
+  const itens = montarResumo(D);
+  $('resumo-intro').textContent = 'O que os números oficiais mais recentes mostram sobre o país, em linguagem do dia a dia. Os detalhes e as fontes estão nas seções abaixo.';
+  const comDestaques = (texto) => texto.split(/\*\*(.+?)\*\*/g).map((parte, i) => (i % 2 ? h('strong', { texto: parte }) : parte));
+  $('resumo-lista').replaceChildren(
+    ...itens.map((item) => {
+      const v = item.serie ? variacaoLinha(item.serie) : null;
+      const t = item.tendencia ?? v?.tendencia;
+      const textoTendencia = item.tendencia?.texto ?? v?.texto;
+      return h('li', { class: 'resumo__item' },
+        h('span', { class: 'resumo__tema', texto: item.tema }),
+        h('div', {},
+          h('p', { class: 'resumo__texto' }, item.frases.map((f, i) => [i ? ' ' : '', comDestaques(f)])),
+          h('p', { class: 'resumo__fonte' },
+            t && textoTendencia ? [chipTendencia(t, textoTendencia), '  '] : null,
+            `Fonte: ${item.fonte}`,
+          ),
+        ),
+      );
     }),
   );
-  $('boletim-lede').classList.add('erro-carga');
 }
 
 // ---------- Boletim ----------
@@ -129,19 +155,6 @@ function renderBoletim() {
   document.title = `Prumo — boletim de ${extenso.texto}`;
 
   const S = I.series;
-  const partes = [];
-  const forte = (t) => h('strong', { texto: t });
-  if (S.ipca12m) partes.push('A inflação oficial acumulada em 12 meses está em ', forte(fmt(S.ipca12m, S.ipca12m.ultimo.valor)), ` (${rotulo(S.ipca12m, S.ipca12m.ultimo.periodo)}). `);
-  const resto = [];
-  if (S.selic) resto.push(['a Selic em ', forte(`${N.formatarNumero(valorAtual(S.selic).valor, 2)}% ao ano`)]);
-  if (S.desemprego) resto.push(['o desemprego em ', forte(fmt(S.desemprego, S.desemprego.ultimo.valor)), ` (${rotulo(S.desemprego, S.desemprego.ultimo.periodo)})`]);
-  if (S.dbgg) resto.push(['a dívida bruta do governo em ', forte(`${N.formatarNumero(S.dbgg.ultimo.valor, 1)}% do PIB`), ` (${rotulo(S.dbgg, S.dbgg.ultimo.periodo)})`]);
-  resto.forEach((r, i) => {
-    if (i === 0) r[0] = r[0][0].toUpperCase() + r[0].slice(1);
-    partes.push(...r, i === resto.length - 1 ? '.' : i === resto.length - 2 ? ' e ' : ', ');
-  });
-  $('boletim-lede').replaceChildren(...partes);
-
   const [mA, mB] = D.mandatos.comparacao.map((id) => M.mandatos.find((m) => m.id === id));
   const faltam = N.diasAte(mB.inicio, D.hoje);
   const posse = N.dataPorExtenso(mB.inicio).texto;
@@ -1112,6 +1125,7 @@ function renderNoticias() {
       if (e.serie === 'orcamento') texto = `Relatório do orçamento da União até ${N.rotuloPeriodo(e.periodo, 'mensal')}`;
       else if (e.serie === 'sinesp') texto = `Dados de segurança pública (Sinesp) até ${N.rotuloPeriodo(e.periodo, 'mensal')}`;
       else if (e.serie === 'disque100') texto = `Denúncias do Disque 100 até ${N.rotuloPeriodo(e.periodo, 'mensal')}`;
+      else if (e.serie === 'tributos') texto = `Arrecadação federal por tributo até ${N.rotuloPeriodo(e.periodo, 'mensal')}`;
       else if (e.serie === 'programas') texto = `${e.programa.rotulo}: ${e.programa.ementa.slice(0, 110)}${e.programa.ementa.length > 110 ? '…' : ''}`;
       else if (S[e.serie]) {
         const s = S[e.serie];
@@ -1132,9 +1146,11 @@ function renderMetodo() {
   const S = D.indicadores.series;
   const fontes = [
     ['IBGE', 'Inflação, PIB, desemprego, renda, população e notícias', 'SIDRA e API de notícias'],
-    ['Banco Central do Brasil', 'Juros, câmbio, dívida pública, resultado primário, expectativas e notas', 'SGS, PTAX e Focus'],
+    ['Banco Central do Brasil', 'Juros, câmbio oficial (8 moedas), dívida pública, resultado primário, expectativas e notas', 'SGS, PTAX e Focus'],
     ['Tesouro Nacional', 'Receitas e despesas da União por área', 'SICONFI (RREO)'],
-    ['Câmara dos Deputados', 'Medidas provisórias e projetos do Executivo', 'Dados Abertos da Câmara'],
+    ['Receita Federal', 'Arrecadação federal por tributo, mês e estado', 'Arquivo de arrecadação por estado'],
+    ['Câmara dos Deputados', 'Medidas provisórias e projetos do Executivo; projetos que criam tributos', 'Dados Abertos da Câmara'],
+    ['AwesomeAPI (privada, não oficial)', 'Câmbio de mercado em tempo real, sempre comparado com a PTAX', 'API de moedas'],
     ['Ministério da Justiça', 'Homicídios, feminicídios, latrocínios, estupros, roubos e furtos', 'Sinesp VDE'],
     ['Ministério dos Direitos Humanos', 'Denúncias de LGBTfobia e intolerância religiosa', 'Microdados do Disque 100'],
   ];
@@ -1154,12 +1170,19 @@ function renderMetodo() {
       h('p', { texto: 'O feed reúne apenas comunicados publicados pelo IBGE e pelo Banco Central. Títulos e resumos que mencionam partidos, candidatos, eleições ou disputas partidárias são retirados e listados com o termo que provocou a exclusão. Quando o título cita um número de indicador acompanhado aqui, ele é comparado com a série oficial.' }),
       h('p', { texto: 'O site não classifica notícias como verdadeiras ou falsas. Ele mostra se o número citado bate com a série oficial e deixa o link para a fonte.' }),
       h('p', { texto: 'O servidor de notícias do IBGE não aceita conexões de fora do Brasil, onde roda a coleta automática. Quando ela falha, o seu navegador busca as notícias do IBGE direto na API oficial e aplica o mesmo filtro e a mesma conferência, com o mesmo código da coleta. Um aviso acima das notícias indica quando isso acontece.' }),
+      h('h3', { texto: 'Câmbio ao vivo' }),
+      h('p', { texto: 'A cotação de mercado vem de um serviço privado e gratuito, por isso nunca aparece sozinha. Ela é comparada com a PTAX do Banco Central e com o dólar calculado pelo euro (euro em reais dividido por dólares por euro). Se as fontes discordam em mais de 3%, se o cálculo pelo euro não bate, ou se uma cotação se move mais de 5% num só dia, o painel avisa que o número ainda não está confirmado.' }),
+      h('h3', { texto: 'Tributos e o resumo do dia' }),
+      h('p', { texto: 'A arrecadação por tributo vem do arquivo público da Receita Federal, somando todos os estados. Para conferir, somamos 2024 inteiro: R$ 2,651 trilhões em reais da época, a menos de 0,1% dos R$ 2,652 trilhões que a Receita divulgou como arrecadação federal do ano. A lista de tributos em vigor e dos que a Constituição permite criar segue o texto constitucional, a Emenda 132/2023 e a Lei Complementar 214/2025, com o link de cada norma. Os projetos que criam tributos são encontrados pela ementa na Câmara; o site mostra o que está escrito, sem avaliar o mérito.' }),
+      h('p', { texto: 'O resumo "Em poucas palavras", no topo da página, é escrito por regras fixas a partir dos mesmos números das seções abaixo, sempre com a fonte. Ninguém redige o texto à mão.' }),
       h('h3', { texto: 'Limitações conhecidas' }),
       h('ul', {},
         h('li', { texto: 'O orçamento cobre apenas a União. Estados e municípios publicam relatórios próprios.' }),
         h('li', { texto: 'O detector de programas lê medidas provisórias e projetos de lei do Executivo. Programas criados por decreto ou por iniciativa do Congresso ficam de fora, e a classificação “social” é feita por palavras-chave.' }),
         h('li', { texto: 'O número de beneficiários de programas como o Bolsa Família não tem API pública aberta e por isso não é coletado automaticamente.' }),
         h('li', { texto: 'O contador de arrecadação é uma projeção do ritmo do último relatório oficial, não um dado em tempo real.' }),
+        h('li', { texto: 'A arrecadação por tributo cobre os tributos federais. ICMS, ISS, IPVA, IPTU e os demais tributos de estados e municípios aparecem na lista com a base legal, mas sem valores, porque não há uma fonte nacional mensal única para eles.' }),
+        h('li', { texto: 'O Banco Central não publica PTAX do peso argentino nem do yuan no serviço usado aqui; para essas duas moedas só há a cotação de mercado.' }),
         h('li', { texto: 'Os órgãos revisam séries com frequência. Quando isso acontece, o diário de atualizações registra o valor anterior.' }),
         h('li', { texto: 'Os dados de crimes são os registros enviados pelas polícias de cada estado ao Ministério da Justiça. Mudanças na forma de registrar de um estado aparecem como mudanças nos números; as notas metodológicas dos estados estão no link da fonte.' }),
         h('li', { texto: 'O Sinesp só tem série nacional padronizada para roubos e furtos de veículos, de carga e a instituições financeiras. Roubos e furtos de celulares e a pessoas não têm série nacional mensal oficial.' }),
@@ -1253,9 +1276,16 @@ async function iniciar() {
   if (!ok) return falhaDeCarga();
   const etapas = [
     renderBoletim,
+    renderResumo,
     renderIndicadores,
+    function renderCambioAoVivo() {
+      renderCambio(D).catch((e) => console.error('Falha no câmbio ao vivo:', e));
+    },
     renderArrecadacao,
     renderDividas,
+    function renderTributosSecao() {
+      renderTributos(D);
+    },
     renderGastos,
     function renderSegurancaSecao() {
       renderSeguranca(D);

@@ -351,5 +351,11 @@
       "uso": "População estimada, para valores por habitante."
     }
   ],
-  "notaSentido": "Cor das variações: verde quando o número muda no sentido geralmente considerado favorável e vermelho no sentido contrário. Selic e dólar não têm um sentido favorável consensual e ficam sem cor; a dívida em reais também, porque cresce com a inflação mesmo quando cai em proporção do PIB. A seta sempre indica só a direção da mudança."
+  "notaSentido": "Cor das variações: verde quando o número muda no sentido geralmente considerado favorável e vermelho no sentido contrário. Selic e dólar não têm um sentido favorável consensual e ficam sem cor; a dívida em reais também, porque cresce com a inflação mesmo quando cai em proporção do PIB. A seta sempre indica só a direção da mudança.",
+  "metaInflacao": {
+    "centro": 3,
+    "piso": 1.5,
+    "teto": 4.5,
+    "fonte": "Conselho Monetário Nacional: meta contínua de 3% ao ano desde 2025, com tolerância de 1,5 ponto para cima ou para baixo."
+  }
 }

@@ -6,8 +6,10 @@ os principais indicadores do país a partir das fontes oficiais, com a conferên
 
 O que o site acompanha:
 
+- **Em poucas palavras**: logo abaixo da data do boletim, um resumo em linguagem do dia a dia (preços, juros, emprego, renda, economia, dólar, contas do governo, dívida, impostos e segurança), escrito por regras fixas a partir dos mesmos números das seções (`assets/js/resumo.js`).
 - **Indicadores do dia**: inflação (IPCA), Selic, dólar, PIB, desemprego, rendimento, dívida bruta e líquida, resultado primário e expectativas do mercado (Focus).
-- **Contas públicas**: arrecadação de impostos e contribuições da União (com contador estimado em tempo real), dívida pública e resultado primário desde 2015.
+- **Câmbio agora**: dólar, euro, libra, peso argentino, yuan, iene, franco suíço e dólar canadense em reais, atualizados enquanto a página está aberta. A cotação de mercado (AwesomeAPI, a cada minuto) aparece sempre ao lado da oficial (PTAX do Banco Central, a cada 5 minutos), com gráfico de 12 meses.
+- **Contas públicas**: arrecadação de impostos e contribuições da União (com contador estimado em tempo real), dívida pública e resultado primário desde 2015. Também a arrecadação de cada tributo federal nos últimos 12 meses (Receita Federal), a lista de todos os tributos do país com a base legal e o que muda com a reforma tributária, e os tributos que podem ser criados: o que a Constituição permite e os projetos na Câmara cuja ementa cria um tributo.
 - **Gastos por área**: despesa da União em cada função (saúde, educação, assistência social, segurança etc.) e investimentos, ano a ano, corrigidos pela inflação.
 - **Programas criados pelo Executivo**: medidas provisórias e projetos de lei da Presidência que instituem programas, detectados automaticamente, com a situação de cada um.
 - **Segurança e violência**: mortes violentas intencionais, homicídios, feminicídios, latrocínios, estupros, roubos e furtos de veículos e de carga, mortes por intervenção policial (Sinesp, 2015 em diante, por estado), e denúncias de LGBTfobia (homofobia e transfobia) e de intolerância religiosa com filtro por religião da vítima (Disque 100, jul/2020 em diante). Comparação mês a mês com os anos anteriores e por mandato.
@@ -32,6 +34,9 @@ Além disso:
 - **Filtro político**: notícias com os termos de `config/filtro-politico.json` são retiradas e listadas publicamente, com o termo encontrado.
 - **Números em notícias**: quando um título cita IPCA, desemprego, PIB ou Selic, o número é comparado com a série oficial. O site nunca rotula uma notícia como “falsa”; diz apenas se o número bate.
 - **Cores das variações**: cada número mostra a variação sobre o período anterior com seta (▲▼) e cor. Verde quando a mudança vai no sentido geralmente considerado favorável e vermelho no contrário, definido por indicador no campo `sentido` de `config/series.json` (inflação, desemprego e dívida: verde ao cair; PIB, renda e resultado primário: verde ao subir; Selic, dólar e dívida em reais: sem cor). Em segurança e violência, queda é verde e alta é vermelha (`config/seguranca.json`).
+- **Câmbio ao vivo**: a cotação de mercado é comparada com a PTAX e com o dólar calculado pelo euro (EUR/BRL ÷ EUR/USD). Diferença acima de 3% entre as fontes, cálculo pelo euro que não bate (acima de 2%) ou variação acima de 5% num só dia fazem o painel avisar que o número ainda não está confirmado. Na coleta, um fechamento PTAX mais de 5% longe do dia anterior gera aviso em `data/execucao.json`.
+- **Arrecadação por tributo**: a soma de 2024 no arquivo da Receita (R$ 2,651 trilhões, valores da época) ficou a menos de 0,1% do total anual divulgado pela Receita (R$ 2,652 trilhões). Colunas do arquivo que não pertencem a nenhum tributo conhecido geram aviso.
+- **Instabilidade das fontes**: as APIs são consultadas com até 5 tentativas e espera crescente. Respostas que não são JSON (o SGS do Banco Central às vezes devolve página de erro com status 200) contam como falha, e uma janela longa do SGS que falha é pedida de ano em ano. Depois de 8 falhas seguidas no mesmo servidor, as consultas seguintes a ele fazem uma tentativa só, para a coleta não estourar o tempo.
 - **Histórico**: cada coleta vira um commit em `data/`. Qualquer alteração de valor fica registrada no git e no diário de atualizações do site.
 
 ## Fontes
@@ -39,9 +44,11 @@ Além disso:
 | Órgão | O que vem de lá | Serviço |
 |---|---|---|
 | IBGE | IPCA, PIB, desemprego, rendimento, população, notícias | [SIDRA](https://apisidra.ibge.gov.br/), [API de notícias](https://servicodados.ibge.gov.br/api/docs/noticias) |
-| Banco Central | Selic, dólar, dívida, resultado primário, Focus, notas à imprensa | [SGS](https://dadosabertos.bcb.gov.br/), PTAX e Expectativas (Olinda) |
+| Banco Central | Selic, dólar, câmbio oficial de 6 moedas, dívida, resultado primário, Focus, notas à imprensa | [SGS](https://dadosabertos.bcb.gov.br/), PTAX e Expectativas (Olinda) |
 | Tesouro Nacional | Receitas e despesas da União por área | [SICONFI – RREO](https://apidatalake.tesouro.gov.br/docs/siconfi/) |
-| Câmara dos Deputados | Medidas provisórias e projetos do Executivo | [Dados Abertos da Câmara](https://dadosabertos.camara.leg.br/swagger/api.html) |
+| Receita Federal | Arrecadação federal por tributo, mês e estado | [arrecadacao-estado.csv](https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv) |
+| Câmara dos Deputados | Medidas provisórias e projetos do Executivo; projetos que criam tributos | [Dados Abertos da Câmara](https://dadosabertos.camara.leg.br/swagger/api.html) |
+| AwesomeAPI (privada, não oficial) | Câmbio de mercado em tempo real, consultado pelo navegador do leitor | [API de moedas](https://docs.awesomeapi.com.br/api-de-moedas) |
 | Ministério da Justiça | Crimes e vítimas por estado e mês | [Sinesp VDE](https://www.gov.br/mj/pt-br/assuntos/sua-seguranca/seguranca-publica/estatistica/dados-nacionais-1/base-de-dados-e-notas-metodologicas-dos-gestores-estaduais-sinesp-vde-2022-e-2023) |
 | Ministério dos Direitos Humanos | Denúncias de LGBTfobia e intolerância religiosa | [Disque 100](https://www.gov.br/mdh/pt-br/acesso-a-informacao/dados-abertos/disque100) |
 
@@ -86,6 +93,7 @@ Os microdados do Disque 100 têm de 1 a 2 GB por arquivo. Eles ficam fora da col
 - `config/mandatos.json`: datas dos mandatos e quais dois são comparados.
 - `config/series.json`: indicadores, fontes, segunda fonte de conferência e faixa plausível.
 - `config/filtro-politico.json`: termos que retiram uma notícia do feed.
+- `config/tributos.json`: lista de tributos do país (base legal, situação na reforma), tributos que podem ser criados e as regras do detector de projetos que criam tributos.
 - `config/programas.json`: regras do detector de programas e o campo `revisoes`, onde um editor corrige a classificação “social” de uma proposição:
 
 ```json
@@ -97,6 +105,11 @@ Os microdados do Disque 100 têm de 1 a 2 GB por arquivo. Eles ficam fora da col
 ## Limitações conhecidas
 
 - O orçamento cobre a União. Estados e municípios não estão incluídos; o contador de arrecadação é federal.
+- A arrecadação por tributo cobre só os tributos federais. ICMS, ISS, IPVA, IPTU e os demais tributos estaduais e municipais aparecem na lista com a base legal, sem valores: não há fonte nacional mensal única para eles.
+- O arquivo de arrecadação da Receita mistura formatos de número (em 2001–2002 a vírgula separa milhares; a partir de 2004 é decimal). A leitura trata os dois casos, e colunas novas que não pertencem a nenhum tributo conhecido geram aviso em vez de entrar no total.
+- O detector de projetos que criam tributos lê PEC, PLP e PL apresentados na Câmara desde 2023 cuja ementa começa com "institui" ou "cria" seguido de imposto, contribuição, taxa ou empréstimo compulsório. Projetos que criam tributos no meio do texto, ou que tramitam só no Senado, ficam de fora.
+- O Banco Central não publica PTAX do peso argentino nem do yuan no serviço de consulta usado; para essas moedas o site mostra só a cotação de mercado e o histórico dela.
+- O SGS do Banco Central fica instável com frequência (respostas 502 ou página de erro). Quando uma série falha em todas as tentativas, o site mantém o último dado válido com o selo de falha, e a próxima coleta tenta de novo.
 - O detector de programas lê só medidas provisórias e projetos de lei do Executivo. Programas criados por decreto ou por iniciativa do Congresso ficam de fora, e a classificação “social” é por palavras-chave.
 - O número de beneficiários de programas como o Bolsa Família não tem API pública aberta (o portal do MDS exige login e o Portal da Transparência exige chave e consulta município por município), por isso não é coletado.
 - O layout do RREO no SICONFI muda antes de 2018; o orçamento começa em 2019, cobrindo integralmente os mandatos 2019–2022 e 2023–2026.
@@ -117,9 +130,13 @@ assets/js/graficos.js      gráficos em SVG, sem bibliotecas
 assets/js/conferir.js      conferência feita no navegador do leitor e o carimbo
 assets/js/dom.js           utilidades de interface compartilhadas
 assets/js/seguranca.js     seção de segurança e violência
+assets/js/resumo.js        resumo "Em poucas palavras" (regras fixas, testadas)
+assets/js/cambio.js        câmbio ao vivo e conferência entre as fontes
+assets/js/tributos.js      arrecadação por tributo, lista de tributos e propostas
 assets/js/app.js           monta as demais seções a partir de data/
 scripts/atualizar.mjs      coleta diária
 scripts/seguranca.mjs      Sinesp e Disque 100 (lidos em fluxo, só os totais são guardados)
+scripts/tributos.mjs       arrecadação da Receita por tributo e projetos que criam tributos
 scripts/lib/               clientes das APIs, leitores de .xlsx e CSV e regras de verificação
 scripts/testes/            testes automatizados
 data/                      gerado pela coleta (não editar à mão)

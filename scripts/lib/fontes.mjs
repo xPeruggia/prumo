@@ -12,19 +12,31 @@ export const urlSgs = (codigo, ini, fim) =>
 export const urlSgsUltimos = (codigo, n = 12) =>
   `https://api.bcb.gov.br/dados/serie/bcdata.sgs.${codigo}/dados/ultimos/${n}?formato=json`;
 
+// Uma janela de anos do SGS. Quando o servidor está instável, janelas longas estouram o tempo dele
+// (resposta 502 ou página de erro); nesse caso a mesma janela é pedida de ano em ano.
+async function janelaSgs(codigo, de, ate) {
+  try {
+    return await buscar(urlSgs(codigo, `01/01/${de}`, `31/12/${ate}`), { vazioEm404: true, tentativas: de === ate ? 5 : 3 });
+  } catch (e) {
+    if (e instanceof Vazio) return [];
+    if (de === ate) throw e;
+    const dados = [];
+    for (let ano = de; ano <= ate; ano++) {
+      dados.push(...(await janelaSgs(codigo, ano, ano)));
+      await esperar(400);
+    }
+    return dados;
+  }
+}
+
 // O SGS limita consultas de séries diárias a janelas de 10 anos; pedimos de 5 em 5.
 export async function sgs(codigo, anoInicial) {
   const hoje = hojeBrasilia();
   const anoFinal = Number(hoje.slice(0, 4));
   const pontos = new Map();
   for (let ano = anoInicial; ano <= anoFinal; ano += 5) {
-    const ate = Math.min(ano + 4, anoFinal);
-    let dados = [];
-    try {
-      dados = await buscar(urlSgs(codigo, `01/01/${ano}`, `31/12/${ate}`), { vazioEm404: true });
-    } catch (e) {
-      if (!(e instanceof Vazio)) throw e;
-    }
+    const dados = await janelaSgs(codigo, ano, Math.min(ano + 4, anoFinal));
+    await esperar(400); // intervalo entre consultas ao SGS, que limita rajadas de acesso
     for (const { data, valor } of dados) {
       const [d, m, a] = data.split('/');
       const iso = `${a}-${m}-${d}`;
@@ -139,7 +151,8 @@ export async function detalheProposicao(id) {
 export const URL_NOTICIAS_IBGE = 'https://servicodados.ibge.gov.br/api/v3/noticias/?qtd=40';
 
 export async function noticiasIbge() {
-  return normalizarNoticiasIbge(await buscar(URL_NOTICIAS_IBGE));
+  // Poucas tentativas: o servidor recusa conexões de fora do Brasil (o navegador do leitor cobre essa falha).
+  return normalizarNoticiasIbge(await buscar(URL_NOTICIAS_IBGE, { tentativas: 2 }));
 }
 
 export async function notasBcb(qtd = 25) {
@@ -167,6 +180,44 @@ export async function ptaxDoDia(dataISO) {
   const resp = await buscar(url);
   const cot = resp.value[resp.value.length - 1];
   return cot ? { venda: cot.cotacaoVenda, compra: cot.cotacaoCompra, url } : null;
+}
+
+// Fechamentos diários da PTAX de uma moeda num período (datas AAAA-MM-DD).
+export async function ptaxPeriodo(moeda, inicio, fim) {
+  const br = (iso) => {
+    const [a, m, d] = iso.split('-');
+    return `${m}-${d}-${a}`;
+  };
+  const url =
+    `https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoMoedaPeriodo(moeda=@moeda,dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)` +
+    `?@moeda='${moeda}'&@dataInicial='${br(inicio)}'&@dataFinalCotacao='${br(fim)}'` +
+    `&$filter=${encodeURIComponent("tipoBoletim eq 'Fechamento'")}&$format=json&$select=cotacaoVenda,dataHoraCotacao`;
+  const resp = await buscar(url);
+  return { pontos: resp.value.map((v) => [v.dataHoraCotacao.slice(0, 10), v.cotacaoVenda]), url };
+}
+
+// Arrecadação federal por tributo, mês e estado (Receita Federal, CSV em Latin-1).
+export const URL_ARRECADACAO_RECEITA = 'https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv';
+
+export async function arrecadacaoReceita() {
+  const bytes = await buscar(URL_ARRECADACAO_RECEITA, { tipo: 'bytes', tempoLimite: 180000 });
+  const texto = new TextDecoder('latin1').decode(bytes);
+  const linhas = texto.split(/\r?\n/).filter((l) => l.trim()).map((l) => l.split(';'));
+  return { cabecalho: linhas[0], linhas: linhas.slice(1) };
+}
+
+// Busca de proposições por palavra-chave (a API procura na ementa e na indexação).
+export async function proposicoesPorPalavra({ siglaTipo, ano, palavra, maxPaginas = 10 }) {
+  const todas = [];
+  for (let pagina = 1; pagina <= maxPaginas; pagina++) {
+    const url =
+      `https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=${siglaTipo}&ano=${ano}` +
+      `&keywords=${encodeURIComponent(palavra)}&itens=100&pagina=${pagina}&ordem=ASC&ordenarPor=id`;
+    const resp = await buscar(url);
+    todas.push(...resp.dados);
+    if (!resp.links.some((l) => l.rel === 'next')) break;
+  }
+  return todas;
 }
 
 export async function focusAnual(indicador) {

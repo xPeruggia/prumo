@@ -15,6 +15,7 @@ import * as F from './lib/fontes.mjs';
 import { cruzar, toleranciaPadrao, testarPlausibilidade, triarNoticias } from './lib/verificacao.mjs';
 import { hojeBrasilia, mandatoEm } from '../assets/js/nucleo.js';
 import { coletarSinesp, coletarDisque100, montarSeguranca } from './seguranca.mjs';
+import { coletarTributos } from './tributos.mjs';
 
 const RAIZ = join(dirname(fileURLToPath(import.meta.url)), '..');
 const caminho = (rel) => join(RAIZ, rel);
@@ -238,7 +239,7 @@ async function coletarSeries(ctx) {
     }
   }
   const focus = await coletarFocus(ctx, anterior.focus);
-  return { geradoEm: ctx.agora, temas: config.temas, notaSentido: config.notaSentido, series, auxiliares, focus, anterior };
+  return { geradoEm: ctx.agora, temas: config.temas, notaSentido: config.notaSentido, metaInflacao: config.metaInflacao, series, auxiliares, focus, anterior };
 }
 
 async function coletarFocus(ctx, anterior) {
@@ -531,6 +532,54 @@ async function coletarNoticias(ctx, series) {
 }
 
 // ---------------------------------------------------------------------------
+// Câmbio: histórico diário oficial (PTAX) das principais moedas. A cotação do dia é buscada
+// ao vivo pelo navegador do leitor (assets/js/cambio.js); aqui fica a série verificada para comparações.
+// ---------------------------------------------------------------------------
+
+const MOEDAS_PTAX = [
+  ['USD', 'Dólar americano'],
+  ['EUR', 'Euro'],
+  ['GBP', 'Libra esterlina'],
+  ['JPY', 'Iene japonês'],
+  ['CHF', 'Franco suíço'],
+  ['CAD', 'Dólar canadense'],
+];
+
+async function coletarCambio(ctx) {
+  const anterior = await lerJSON('data/cambio.json', { moedas: [] });
+  const inicio = new Date(Date.parse(ctx.hoje) - 400 * 864e5).toISOString().slice(0, 10);
+  const moedas = [];
+  for (const [codigo, nome] of MOEDAS_PTAX) {
+    try {
+      const r = await F.ptaxPeriodo(codigo, inicio, ctx.hoje);
+      if (!r.pontos.length || r.pontos.some(([, v]) => !(v > 0))) throw new Error('série vazia ou com valor inválido');
+      // Fechamento mais de 5% longe do dia útil anterior é raro o bastante para ser conferido antes de confiar nele.
+      const [penultimo, ultimo] = r.pontos.slice(-2);
+      const salto = penultimo ? (ultimo[1] / penultimo[1] - 1) * 100 : 0;
+      if (Math.abs(salto) > 5) {
+        avisar('cambio', `PTAX ${codigo}: o fechamento de ${ultimo[0]} ficou ${salto.toFixed(1)}% longe do dia útil anterior. Variação atípica; conferir no Banco Central.`);
+      }
+      moedas.push({ codigo, nome, pontos: r.pontos, url: r.url });
+    } catch (e) {
+      avisar('cambio', `PTAX ${codigo}: ${e.message}. Mantida a série anterior.`);
+      const velha = anterior.moedas.find((m) => m.codigo === codigo);
+      if (velha) moedas.push(velha);
+    }
+  }
+  console.log(`✓ câmbio: ${moedas.length} moedas, até ${moedas[0]?.pontos.at(-1)?.[0] ?? '—'}`);
+  return {
+    geradoEm: ctx.agora,
+    fonte: {
+      orgao: 'Banco Central do Brasil',
+      sistema: 'PTAX (Olinda)',
+      nota: 'Taxa de venda no fechamento de cada dia útil, calculada pelo Banco Central a partir das cotações do mercado.',
+      pagina: 'https://www.bcb.gov.br/estabilidadefinanceira/historicocotacoes',
+    },
+    moedas,
+  };
+}
+
+// ---------------------------------------------------------------------------
 // Diário de atualizações: o que mudou desde a última coleta
 // ---------------------------------------------------------------------------
 
@@ -615,9 +664,33 @@ async function main() {
     console.log(`✓ notícias: ${noticias.itens.length} publicadas, ${noticias.excluidos.length} excluídas pelo filtro`);
   }
 
+  if (fazer('cambio')) {
+    try {
+      await gravarJSON('data/cambio.json', await coletarCambio(ctx));
+    } catch (e) {
+      avisar('cambio', `Coleta do câmbio falhou (${e.message}). Mantido o arquivo anterior.`);
+    }
+  }
+
+  const extrasTributos = [];
+  if (fazer('tributos')) {
+    try {
+      const anteriorTributos = await lerJSON('data/tributos.json', null);
+      const config = await lerJSON('config/tributos.json');
+      const tributos = await coletarTributos(ctx, anteriorTributos, avisar, config);
+      await gravarJSON('data/tributos.json', tributos);
+      const antes = anteriorTributos?.receita?.atualizadoAte;
+      if (tributos.receita?.atualizadoAte && tributos.receita.atualizadoAte !== antes) {
+        extrasTributos.push({ tipo: antes ? 'novo' : 'registro', serie: 'tributos', periodo: tributos.receita.atualizadoAte, valor: null });
+      }
+    } catch (e) {
+      avisar('tributos', `Coleta de tributos falhou (${e.message}). Mantido o arquivo anterior.`);
+    }
+  }
+
   // Segurança: o Sinesp entra na coleta diária; o Disque 100 (arquivos de vários GB) só quando pedido,
   // pelo fluxo semanal próprio (node scripts/atualizar.mjs disque100).
-  const extrasDiario = [];
+  const extrasDiario = [...extrasTributos];
   if (fazer('seguranca') || partes.includes('disque100')) {
     try {
       const anterior = await lerJSON('data/seguranca.json', null);
@@ -664,7 +737,7 @@ async function main() {
     inicio: ctx.agora,
     fim: fim.toISOString(),
     segundos: Math.round((fim - agora) / 1000),
-    partes: partes.length ? partes : ['series', 'orcamento', 'programas', 'noticias', 'seguranca'],
+    partes: partes.length ? partes : ['series', 'orcamento', 'programas', 'noticias', 'cambio', 'tributos', 'seguranca'],
     chamadas: registro.length,
     falhas: semResposta.size,
     repeticoes: registro.filter((r) => !r.ok && respondidas.has(r.url)).length,
