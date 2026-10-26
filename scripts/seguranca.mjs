@@ -18,7 +18,7 @@ import { hojeBrasilia, indiceMes, periodoDeIndice } from '../assets/js/nucleo.js
 
 const RAIZ = join(dirname(fileURLToPath(import.meta.url)), '..');
 const caminho = (rel) => join(RAIZ, rel);
-const AGENTE = 'Prumo/1.0 (observatorio independente de dados publicos)';
+const AGENTE = 'QuadroReal/1.0 (observatorio independente de dados publicos)';
 const UFS = ['AC', 'AL', 'AM', 'AP', 'BA', 'CE', 'DF', 'ES', 'GO', 'MA', 'MG', 'MS', 'MT', 'PA', 'PB', 'PE', 'PI', 'PR', 'RJ', 'RN', 'RO', 'RR', 'RS', 'SC', 'SE', 'SP', 'TO'];
 
 async function lerJSON(rel, padrao) {

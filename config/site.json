@@ -1,8 +1,9 @@
 {
-  "nome": "Prumo",
+  "nome": "Quadro Real",
   "slogan": "O Brasil medido todos os dias",
   "descricao": "Observatório independente de dados públicos do Brasil. Indicadores oficiais coletados diariamente, conferidos em mais de uma fonte quando possível e publicados com o link para o dado original.",
   "responsavel": "",
   "contato": "",
-  "repositorio": "https://github.com/xPeruggia/prumo"
+  "repositorio": "https://github.com/xPeruggia/quadro-real",
+  "sobreNome": "Em 1911, a Mona Lisa sumiu do Louvre. Quem a levou foi Vincenzo Peruggia, um vidraceiro que tinha ajudado a instalar o vidro de proteção do quadro. Por dois anos, multidões foram ao museu ver a parede vazia, até a pintura reaparecer em Florença, em 1913, e ser examinada por especialistas antes de voltar a Paris. O Quadro Real mostra o quadro do país como ele é, e cada número leva à fonte original."
 }

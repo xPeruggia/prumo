@@ -1,4 +1,6 @@
-# Prumo — o Brasil medido todos os dias
+# Quadro Real — o Brasil medido todos os dias
+
+No ar em https://xperuggia.github.io/quadro-real/
 
 Observatório independente de dados públicos do Brasil. Um site estático que mostra, todos os dias,
 os principais indicadores do país a partir das fontes oficiais, com a conferência de cada número
@@ -124,7 +126,7 @@ Os microdados do Disque 100 têm de 1 a 2 GB por arquivo. Eles ficam fora da col
 
 ```
 index.html                 página única
-assets/css/prumo.css       identidade visual (claro e escuro)
+assets/css/quadro-real.css identidade visual (claro e escuro)
 assets/js/nucleo.js        regras puras: períodos, mandatos, deflação (usadas no site e na coleta)
 assets/js/graficos.js      gráficos em SVG, sem bibliotecas
 assets/js/conferir.js      conferência feita no navegador do leitor e o carimbo

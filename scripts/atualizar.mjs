@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Coleta diária do Prumo.
+// Coleta diária do Quadro Real.
 // Busca cada indicador na fonte oficial, confere com uma segunda fonte quando existe,
 // testa a plausibilidade dos valores e grava os arquivos em data/.
 // Se uma fonte falhar, o último dado válido é mantido e marcado como tal: nada é inventado.

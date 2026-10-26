@@ -50,7 +50,7 @@ export function carimbo({ data, diverge = false, batido = false }) {
         <text x="120" y="38" text-anchor="middle" font-size="19" font-weight="800" letter-spacing="1.6" style="font-variation-settings:'wdth' 78">${linha1}</text>
         <text x="120" y="54" text-anchor="middle" font-size="13" font-weight="700" letter-spacing="3" style="font-variation-settings:'wdth' 90">${linha2}</text>
         <text x="120" y="76" text-anchor="middle" font-size="17" font-weight="800" letter-spacing="2.4" style="font-variation-settings:'wdth' 96">${data}</text>
-        <text x="120" y="97" text-anchor="middle" font-size="9.5" font-weight="700" letter-spacing="2.2" style="font-variation-settings:'wdth' 90">PRUMO  VERIFICAÇÃO DIÁRIA</text>
+        <text x="120" y="97" text-anchor="middle" font-size="9" font-weight="700" letter-spacing="1.2" style="font-variation-settings:'wdth' 86">QUADRO REAL  VERIFICAÇÃO DIÁRIA</text>
       </g>
     </g>`;
   return svg;

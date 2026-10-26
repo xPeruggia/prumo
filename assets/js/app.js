@@ -152,7 +152,7 @@ function renderBoletim() {
   const extenso = N.dataPorExtenso(dia);
   $('boletim-semana').textContent = `Boletim de ${extenso.semana}`;
   $('titulo-boletim').textContent = extenso.texto;
-  document.title = `Prumo — boletim de ${extenso.texto}`;
+  document.title = `Quadro Real — boletim de ${extenso.texto}`;
 
   const S = I.series;
   const [mA, mB] = D.mandatos.comparacao.map((id) => M.mandatos.find((m) => m.id === id));
@@ -378,7 +378,7 @@ function abrirDetalhe(id) {
   const csv = () => {
     const linhas = [['periodo', 'valor'], ...s.pontos].map((l) => l.join(';')).join('\n');
     const url = URL.createObjectURL(new Blob([`﻿${linhas}`], { type: 'text/csv;charset=utf-8' }));
-    const a = h('a', { href: url, download: `prumo-${s.id}.csv` });
+    const a = h('a', { href: url, download: `quadro-real-${s.id}.csv` });
     document.body.appendChild(a);
     a.click();
     a.remove();
@@ -1226,8 +1226,9 @@ function renderMetodo() {
   const site = D.site || {};
   $('rodape').replaceChildren(
     h('div', {},
-      h('p', {}, h('b', { texto: `${site.nome || 'Prumo'}. ` }), site.descricao || ''),
+      h('p', {}, h('b', { texto: `${site.nome || 'Quadro Real'}. ` }), site.descricao || ''),
       h('p', { style: 'margin-top:8px', texto: site.declaracao || 'Projeto independente, sem vínculo com governos, partidos ou órgãos públicos. Os dados são públicos e podem ser reutilizados citando a fonte original.' }),
+      site.sobreNome ? h('p', { style: 'margin-top:8px' }, h('b', { texto: 'Sobre o nome. ' }), site.sobreNome) : null,
     ),
     h('div', {},
       site.repositorio ? h('p', {}, h('a', { href: site.repositorio, texto: 'Código e histórico de dados' })) : null,
@@ -1242,14 +1243,14 @@ function renderMetodo() {
 function prepararTema() {
   const raiz = document.documentElement;
   try {
-    const salvo = localStorage.getItem('prumo-tema');
+    const salvo = localStorage.getItem('quadro-real-tema');
     if (salvo) raiz.dataset.theme = salvo;
   } catch {}
   $('tema').addEventListener('click', () => {
     const escuroAgora = raiz.dataset.theme ? raiz.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
     raiz.dataset.theme = escuroAgora ? 'light' : 'dark';
     try {
-      localStorage.setItem('prumo-tema', raiz.dataset.theme);
+      localStorage.setItem('quadro-real-tema', raiz.dataset.theme);
     } catch {}
   });
 }

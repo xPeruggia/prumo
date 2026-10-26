@@ -1,7 +1,7 @@
 // Acesso às APIs oficiais com repetição, tempo-limite e registro de cada chamada.
 // O registro vai para data/execucao.json, para que qualquer pessoa veja o que foi consultado.
 
-const AGENTE = 'Prumo/1.0 (observatorio independente de dados publicos)';
+const AGENTE = 'QuadroReal/1.0 (observatorio independente de dados publicos)';
 
 export const registro = [];
 

@@ -48,8 +48,8 @@ jobs:
 
       - name: Registrar a coleta no histórico
         run: |
-          git config user.name "prumo-coleta"
-          git config user.email "prumo-coleta@users.noreply.github.com"
+          git config user.name "quadro-real-coleta"
+          git config user.email "quadro-real-coleta@users.noreply.github.com"
           git add data/
           if git diff --cached --quiet; then
             echo "Nenhum dado mudou desde a última coleta."

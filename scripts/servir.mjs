@@ -34,4 +34,4 @@ createServer(async (req, res) => {
     res.writeHead(e.code === 'ENOENT' ? 404 : 500, { 'Content-Type': 'text/plain; charset=utf-8' });
     res.end(e.code === 'ENOENT' ? 'Não encontrado' : 'Erro interno');
   }
-}).listen(PORTA, () => console.log(`Prumo em http://localhost:${PORTA}`));
+}).listen(PORTA, () => console.log(`Quadro Real em http://localhost:${PORTA}`));
