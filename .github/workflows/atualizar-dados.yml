@@ -57,8 +57,13 @@ jobs:
           fi
           git commit -m "Coleta de $(TZ=America/Sao_Paulo date +'%d/%m/%Y %H:%M') (horário de Brasília)"
           # Em conflito nos dados, vale a coleta que acabou de rodar ("theirs" é o commit local durante o rebase).
-          git pull --rebase -X theirs
-          git push
+          # O GitHub às vezes recusa o envio com erro interno; tenta de novo antes de perder a coleta.
+          for tentativa in 1 2 3 4; do
+            git pull --rebase -X theirs && git push && exit 0
+            echo "Envio falhou (tentativa $tentativa); nova tentativa em $((tentativa * 20)) s."
+            sleep $((tentativa * 20))
+          done
+          exit 1
 
   publicar:
     needs: coletar
