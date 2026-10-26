@@ -31,7 +31,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
+      # Sempre a versão mais recente do ramo, que pode já ter dados de uma coleta anterior na fila.
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
 
       - uses: actions/setup-node@v4
         with:
@@ -53,7 +56,8 @@ jobs:
             exit 0
           fi
           git commit -m "Coleta de $(TZ=America/Sao_Paulo date +'%d/%m/%Y %H:%M') (horário de Brasília)"
-          git pull --rebase
+          # Em conflito nos dados, vale a coleta que acabou de rodar ("theirs" é o commit local durante o rebase).
+          git pull --rebase -X theirs
           git push
 
   publicar:
