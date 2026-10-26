@@ -1,6 +1,17 @@
 {
- "atualizadoEm": "2026-10-26T15:27:59.164Z",
+ "atualizadoEm": "2026-10-26T20:55:47.465Z",
  "entradas": [
+  {
+   "em": "2026-10-26",
+   "tipo": "revisao",
+   "serie": "dolar",
+   "periodo": "2026-10",
+   "valor": 5.0732,
+   "anterior": {
+    "periodo": "2026-10",
+    "valor": 5.0465
+   }
+  },
   {
    "em": "2026-10-25",
    "tipo": "registro",
