@@ -1,0 +1,777 @@
+{
+ "geradoEm": "2026-10-26T03:09:33.166Z",
+ "criterio": "Somente comunicados publicados diretamente pelo IBGE e pelo Banco Central. Itens com termos político-partidários são retirados e listados com o termo encontrado.",
+ "fontes": [
+  {
+   "fonte": "IBGE",
+   "ok": true,
+   "itens": 30
+  },
+  {
+   "fonte": "BCB",
+   "ok": true,
+   "itens": 100
+  }
+ ],
+ "itens": [
+  {
+   "fonte": "BCB",
+   "fonteNome": "Banco Central do Brasil",
+   "id": "bcb-21296",
+   "tipo": "Nota à imprensa",
+   "titulo": "BC coloca em Consulta Pública proposta para reforçar a transparência e a priorização do interesse do cliente na distribuição de produtos de captação",
+   "resumo": "",
+   "publicadoEm": "2026-10-23T22:32:03Z",
+   "link": "https://www.bcb.gov.br/detalhenoticia/21296/nota",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "BCB",
+   "fonteNome": "Banco Central do Brasil",
+   "id": "bcb-21297",
+   "tipo": "Nota à imprensa",
+   "titulo": "BC aprova medidas para ampliar a proteção do consumidor financeiro nas relações de crédito",
+   "resumo": "",
+   "publicadoEm": "2026-10-23T21:23:52Z",
+   "link": "https://www.bcb.gov.br/detalhenoticia/21297/nota",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48349",
+   "tipo": "Divulgação de dado oficial",
+   "titulo": "O IPCA-15 é de 0,32% em outubro",
+   "resumo": "O Índice Nacional de Preços ao Consumidor Amplo 15 (IPCA-15) foi de 0,32% em outubro, ficando 0,38 ponto percentual (p.p.) abaixo da taxa de setembro (0,70%). No ano, o IPCA-15 acumula alta de 4,15% e, em 12 meses, de 4,62%, acima dos 4,47% observados...",
+   "publicadoEm": "2026-10-23T09:00:00-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48349-o-ipca-15-e-de-0-32-em-outubro.html",
+   "editorias": "economicas",
+   "categoria": "dados",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48364",
+   "tipo": "Notícia institucional",
+   "titulo": "IBGE e Instituto Nacional de Estatística da China avançam na cooperação técnica bilateral",
+   "resumo": "O presidente do IBGE, Marcio Pochmann, e o diretor do Centro de Documentação e Disseminação de Informações (CDDI), José Daniel Castro, realizaram uma reunião técnica de trabalho com Kang Yi, responsável pelo Instituto Nacional de Estatística da China, e...",
+   "publicadoEm": "2026-10-23T02:30:54-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48364-ibge-e-instituto-nacional-de-estatistica-da-china-avancam-na-cooperacao-tecnica-bilateral.html",
+   "editorias": "ibge",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "BCB",
+   "fonteNome": "Banco Central do Brasil",
+   "id": "bcb-21294",
+   "tipo": "Nota à imprensa",
+   "titulo": "CMN e BC aprovam aperfeiçoamentos nas regras de contratos de parceria e na utilização do Open Finance por clientes Pessoas Jurídicas",
+   "resumo": "",
+   "publicadoEm": "2026-10-22T21:05:48Z",
+   "link": "https://www.bcb.gov.br/detalhenoticia/21294/nota",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "BCB",
+   "fonteNome": "Banco Central do Brasil",
+   "id": "bcb-21293",
+   "tipo": "Nota à imprensa",
+   "titulo": "BC divulga ranking de reclamações do terceiro trimestre",
+   "resumo": "",
+   "publicadoEm": "2026-10-22T18:00:27Z",
+   "link": "https://www.bcb.gov.br/detalhenoticia/21293/nota",
+   "categoria": "dados",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48335",
+   "tipo": "Notícia institucional",
+   "titulo": "IBGE apresenta metodologia de avaliação de ecossistemas no Rio de Janeiro e na Caatinga",
+   "resumo": "Região da Caatinga em Pernambuco. - Foto: Sudene. O IBGE divulga hoje (22) um estudo experimental para integrar informações sobre a extensão e a condição dos ecossistemas protegidos utilizando a metodologia das Contas Econômicas Ambientais - Contas de...",
+   "publicadoEm": "2026-10-22T10:00:00-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48335-ibge-apresenta-metodologia-de-avaliacao-de-ecossistemas-no-rio-de-janeiro-e-na-caatinga.html",
+   "editorias": "geociencias",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "BCB",
+   "fonteNome": "Banco Central do Brasil",
+   "id": "bcb-21292",
+   "tipo": "Nota à imprensa",
+   "titulo": "BC divulga Fluxo cambial mensal e IBCR de agosto",
+   "resumo": "",
+   "publicadoEm": "2026-10-21T18:06:40Z",
+   "link": "https://www.bcb.gov.br/detalhenoticia/21292/nota",
+   "categoria": "dados",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48339",
+   "tipo": "Notícia institucional",
+   "titulo": "Espaço Geociências da CONFEST/CONFEGE 2026 debate território, meio ambiente e geotecnologias",
+   "resumo": "A Conferência Nacional dos Agentes Produtores e Usuários de Dados (CONFEST/CONFEGE) 2026 contará com espaços temáticos dedicados a diferentes áreas do conhecimento e da produção de informações estatísticas e geocientíficas. A programação dedicada às...",
+   "publicadoEm": "2026-10-21T05:34:12-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48339-espaco-geociencias-da-confest-confege-2026-debate-territorio-meio-ambiente-e-geotecnologias.html",
+   "editorias": "ibge",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48336",
+   "tipo": "Notícia institucional",
+   "titulo": "IBGE e Embaixada do Brasil na China discutem cooperação em datificação e inteligência artificial",
+   "resumo": "O presidente do IBGE, Marcio Pochmann, e o diretor do Centro de Documentação e Disseminação de Informações (CDDI) do IBGE, José Daniel Castro, reuniram-se nesta quarta-feira (21), em Pequim, com o embaixador do Brasil na China, Marcos Galvão, e...",
+   "publicadoEm": "2026-10-21T02:03:11-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48336-ibge-e-embaixada-do-brasil-na-china-discutem-cooperacao-em-datificacao-e-inteligencia-artificial.html",
+   "editorias": "ibge",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "BCB",
+   "fonteNome": "Banco Central do Brasil",
+   "id": "bcb-21289",
+   "tipo": "Nota à imprensa",
+   "titulo": "BC altera data de divulgação das Estatísticas do Setor Externo de setembro",
+   "resumo": "",
+   "publicadoEm": "2026-10-20T14:08:59Z",
+   "link": "https://www.bcb.gov.br/detalhenoticia/21289/nota",
+   "categoria": "dados",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "BCB",
+   "fonteNome": "Banco Central do Brasil",
+   "id": "bcb-21288",
+   "tipo": "Nota à imprensa",
+   "titulo": "Relatório de Estabilidade Financeira do primeiro semestre de 2026 será divulgado no dia 27 de outubro",
+   "resumo": "",
+   "publicadoEm": "2026-10-20T14:00:20Z",
+   "link": "https://www.bcb.gov.br/detalhenoticia/21288/nota",
+   "categoria": "dados",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48325",
+   "tipo": "Notícia institucional",
+   "titulo": "IBGE apresenta ações do Censo Experimental e lança Cadastro Prévio de Estabelecimentos Agropecuários",
+   "resumo": "PP2 realizado em Irati (PR). - Foto: Equipe CDDI/CCS O Instituto Brasileiro de Geografia e Estatística (IBGE) realizará, no dia 27 de outubro, uma coletiva pública para apresentar as ações do Censo Experimental do 12º Censo Agropecuário, Florestal e...",
+   "publicadoEm": "2026-10-20T10:49:17-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48325-ibge-apresenta-acoes-do-censo-experimental-e-lanca-cadastro-previo-de-estabelecimentos-agropecuarios-no-pais.html",
+   "editorias": "ibge",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48307",
+   "tipo": "Notícia institucional",
+   "titulo": "IBGE disponibiliza Agenda semanal com programações para os dias 19 a 23 de outubro",
+   "resumo": "Agenda IBGE traz a programação do instituto para a semana - Foto: Bel Corção/Brasil com S O Instituto Brasileiro de Geografia e Estatística (IBGE) disponibilizou hoje (19) a Agenda IBGE para a semana dos dias 19 a 23 de outubro. A edição contempla as...",
+   "publicadoEm": "2026-10-19T09:00:00-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48307-ibge-disponibiliza-agenda-semanal-com-programacoes-para-os-dias-19-a-23-de-outubro.html",
+   "editorias": "ibge",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48324",
+   "tipo": "Notícia institucional",
+   "titulo": "IBGE visita Bolsa de Dados de Xangai em agenda internacional",
+   "resumo": "Em 10 de outubro, o presidente do Instituto Brasileiro de Geografia e Estatística (IBGE), Marcio Pochmann, e o diretor do Centro de Documentação e Disseminação de Informações (CDDI), José Daniel Castro, visitaram a Bolsa de Dados de Xangai, na China,...",
+   "publicadoEm": "2026-10-19T05:22:34-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48324-ibge-visita-bolsa-de-dados-de-xangai-em-agenda-internacional.html",
+   "editorias": "ibge",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "BCB",
+   "fonteNome": "Banco Central do Brasil",
+   "id": "bcb-21285",
+   "tipo": "Nota à imprensa",
+   "titulo": "BC divulga o IBC-Br de agosto de 2026",
+   "resumo": "",
+   "publicadoEm": "2026-10-16T12:00:49Z",
+   "link": "https://www.bcb.gov.br/detalhenoticia/21285/nota",
+   "categoria": "dados",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "BCB",
+   "fonteNome": "Banco Central do Brasil",
+   "id": "bcb-21286",
+   "tipo": "Nota à imprensa",
+   "titulo": "Banco Central decreta liquidação extrajudicial da Cooperativa de Crédito Mútuo dos Empregados do Centro Universitário Newton Paiva Ltda. – Credipaiva",
+   "resumo": "",
+   "publicadoEm": "2026-10-16T10:44:51Z",
+   "link": "https://www.bcb.gov.br/detalhenoticia/21286/nota",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48304",
+   "tipo": "Notícia institucional",
+   "titulo": "País tinha 1,5 milhão de crianças e adolescentes em situação de trabalho infantil em 2025",
+   "resumo": "Na análise por grupos etários, o trabalho infantil tende a aumentar com o avanço da idade. - Foto: Ministério do Trabalho O país tinha 1,499 milhão de crianças e adolescentes entre 5 e 17 anos em situação de trabalho infantil em 2025, o que representa...",
+   "publicadoEm": "2026-10-16T10:00:00-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48304-pais-tinha-1-5-milhao-de-criancas-e-adolescentes-em-situacao-de-trabalho-infantil-em-2025.html",
+   "editorias": "sociais",
+   "categoria": "dados",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48310",
+   "tipo": "Notícia institucional",
+   "titulo": "Em Xangai, IBGE debate uso de dados e tecnologia digital a serviço das pessoas",
+   "resumo": "Como garantir que os avanços na produção de dados e nas tecnologias digitais contribuam efetivamente para melhorar a vida das pessoas? Essa é a questão central do evento “Os dados e a tecnologia digital a serviço das pessoas”, realizado no dia 16 de...",
+   "publicadoEm": "2026-10-16T01:28:30-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48310-em-xangai-ibge-participa-de-debate-sobre-como-colocar-os-dados-e-a-tecnologia-digital-a-servico-das-pessoas.html",
+   "editorias": "ibge",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48309",
+   "tipo": "Notícia institucional",
+   "titulo": "ENDEF é destaque do terceiro seminário do projeto Memória e História do IBGE",
+   "resumo": "O IBGE realiza, na próxima quarta-feira (21/10), das 9h às 11h, o terceiro seminário do projeto Memória e História, com o tema \"O conflito entre a autonomia técnica e a interferência política\", com destaque para o Estudo Nacional de Despesa Familiar...",
+   "publicadoEm": "2026-10-16T01:17:24-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48309-estudo-nacional-de-despesa-familiar-endef-e-o-destaque-do-terceiro-seminario-do-projeto-memoria-e-historia-do-ibge.html",
+   "editorias": "ibge",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48303",
+   "tipo": "Notícia institucional",
+   "titulo": "IBGE participa de debate global sobre o futuro do planeta e novas medidas de desenvolvimento humano",
+   "resumo": "O Instituto Brasileiro de Geografia e Estatística (IBGE) participou da Conferência Global de Pontos de Inflexão de 2026, realizada de 12 a 15 de outubro, em Kuala Lumpur, na Malásia. O Instituto foi representado por seu presidente, Marcio Pochmann. O...",
+   "publicadoEm": "2026-10-15T12:34:19-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48303-ibge-participa-de-debate-global-sobre-o-futuro-do-planeta-e-novas-medidas-de-desenvolvimento-humano.html",
+   "editorias": "ibge",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48301",
+   "tipo": "Notícia institucional",
+   "titulo": "IBGE amplia parceria mundial e reforça protagonismo do Sul Global na produção de novos indicadores",
+   "resumo": "O presidente do Instituto Brasileiro de Geografia e Estatística (IBGE), Marcio Pochmann, reuniu-se com a embaixadora do Brasil na Malásia, Daniella Menezes, na sede da representação diplomática brasileira, em Kuala Lumpur, para tratar da presença do IBGE...",
+   "publicadoEm": "2026-10-15T10:33:08-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48301-ibge-amplia-parceria-internacional-e-reforca-protagonismo-do-sul-global-na-producao-de-novos-indicadores.html",
+   "editorias": "ibge",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48294",
+   "tipo": "Notícia institucional",
+   "titulo": "IBGE propõe metodologia para orientar levantamentos sobre a flora brasileira",
+   "resumo": "Metodologia pode apoiar o planejamento de pesquisas, a ampliação de acervos científicos e a produção de estatísticas e indicadores relacionados à biodiversidade - Foto: Foto: Licia Rubinstein/Agência IBGE Notícias O Instituto Brasileiro de Geografia e...",
+   "publicadoEm": "2026-10-15T10:00:00-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48294-ibge-propoe-metodologia-para-orientar-levantamentos-sobre-a-flora-brasileira.html",
+   "editorias": "geociencias",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48289",
+   "tipo": "Divulgação de dado oficial",
+   "titulo": "Em setembro, safra prevista pelo IBGE para 2026 é de 354,5 milhões de toneladas",
+   "resumo": "A estimativa de setembro do IBGE para a produção de grãos em 2026 foi de 354,5 milhões de toneladas, 2,4% (8,4 milhões de toneladas) maior que a obtida em 2025 (346,1 milhões de toneladas). Em relação a agosto de 2026, houve aumento de 1.566.233...",
+   "publicadoEm": "2026-10-15T09:00:00-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48289-em-setembro-safra-prevista-pelo-ibge-para-2026-e-de-354-5-milhoes-de-toneladas.html",
+   "editorias": "economicas",
+   "categoria": "dados",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48292",
+   "tipo": "Divulgação de dado oficial",
+   "titulo": "Em agosto, comércio varejista registra variação de 0,1%",
+   "resumo": "Em agosto de 2026, o volume de vendas no comércio varejista registrou variação de 0,1% frente a julho, na série com ajuste sazonal, após queda de 0,8% em julho de 2026. Com isso, a média móvel trimestral para o varejo, depois de recuar 0,1% no trimestre...",
+   "publicadoEm": "2026-10-15T09:00:00-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48292-em-agosto-comercio-varejista-registra-variacao-0-1.html",
+   "editorias": "economicas",
+   "categoria": "dados",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "BCB",
+   "fonteNome": "Banco Central do Brasil",
+   "id": "bcb-21284",
+   "tipo": "Nota à imprensa",
+   "titulo": "BC retomará em 19 de outubro de 2026 os leilões de swap cambial tradicional para rolagem dos contratos com vencimento em 3 de novembro de 2026",
+   "resumo": "",
+   "publicadoEm": "2026-10-14T21:30:22Z",
+   "link": "https://www.bcb.gov.br/detalhenoticia/21284/nota",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48279",
+   "tipo": "Divulgação de dado oficial",
+   "titulo": "Volume dos Serviços varia -0,1% em agosto",
+   "resumo": "Período Variação (%) Volume Receita Nominal Agosto 26 / Julho 26* -0,1 0,2 Agosto 26 / Agosto 25 0,6 6,1 Acumulada Janeiro-Agosto 1,7 7,4 Acumulada em 12 Meses 2,2 7,5 * série com ajuste sazonal Em agosto de 2026, o volume de serviços no Brasil teve...",
+   "publicadoEm": "2026-10-14T09:00:00-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48279-volume-dos-servicos-varia-0-1-em-agosto.html",
+   "editorias": "economicas",
+   "categoria": "dados",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48271",
+   "tipo": "Notícia institucional",
+   "titulo": "IBGE e Malásia avançam em cooperação para desenvolver estatísticas da era digital",
+   "resumo": "O IBGE e o Departamento de Estatística da Malásia avançam em uma cooperação voltada à produção de estatísticas da era digital. A parceria busca desenvolver novos indicadores para a economia digital e fortalecer a colaboração entre países do Sul Global,...",
+   "publicadoEm": "2026-10-13T10:48:42-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48271-ibge-e-malasia-avancam-em-cooperacao-para-desenvolver-estatisticas-da-era-digital.html",
+   "editorias": "ibge",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48258",
+   "tipo": "Notícia institucional",
+   "titulo": "IBGE disponibiliza Agenda semanal com programações para os dias 12 a 16 de outubro",
+   "resumo": "Agenda IBGE traz a programação do instituto para a semana - Foto: Bel Corção/Brasil com S O Instituto Brasileiro de Geografia e Estatística (IBGE) disponibilizou hoje (12) a Agenda IBGE para a semana dos dias 12 a 16 de outubro. A edição contempla as...",
+   "publicadoEm": "2026-10-12T09:00:00-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48258-ibge-disponibiliza-agenda-semanal-com-programacoes-para-os-dias-12-a-16-de-outubro.html",
+   "editorias": "ibge",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48267",
+   "tipo": "Notícia institucional",
+   "titulo": "Seminário debate o papel do IBGE no planejamento desenvolvimentista e nos Censos de 1970 e 1980",
+   "resumo": "O projeto Memória e História do IBGE realiza na próxima quarta-feira o seminário temático da série de cinco seminários, que compõem o ciclo do projeto. O evento será dia 14 de outubro, de 9 às 11h, com transmissão pelo IBGE Digital. A iniciativa é do...",
+   "publicadoEm": "2026-10-12T04:11:54-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48267-seminario-debate-o-papel-do-ibge-no-planejamento-desenvolvimentista-e-nos-censos-de-1970-e-1980.html",
+   "editorias": "ibge",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "BCB",
+   "fonteNome": "Banco Central do Brasil",
+   "id": "bcb-21283",
+   "tipo": "Nota à imprensa",
+   "titulo": "BC divulga Relatório de Poupança de setembro",
+   "resumo": "",
+   "publicadoEm": "2026-10-09T12:00:24Z",
+   "link": "https://www.bcb.gov.br/detalhenoticia/21283/nota",
+   "categoria": "dados",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48251",
+   "tipo": "Divulgação de dado oficial",
+   "titulo": "Índice Nacional da Construção Civil apresenta variação de 0,30% em setembro",
+   "resumo": "O Índice Nacional da Construção Civil (Sinapi) apresentou variação de 0,30% em setembro, percentagem que representou a segunda menor no ano. A taxa ficou 0,14 ponto percentual abaixo daquela apresentada em agosto (0,44%). O acumulado dos últimos doze...",
+   "publicadoEm": "2026-10-09T09:00:00-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48251-indice-nacional-da-construcao-civil-apresenta-variacao-de-0-30-em-setembro.html",
+   "editorias": "economicas",
+   "categoria": "dados",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48246",
+   "tipo": "Divulgação de dado oficial",
+   "titulo": "IPCA fica em 0,82% em setembro",
+   "resumo": "O Índice Nacional de Preços ao Consumidor Amplo (IPCA) de setembro foi de 0,82%, 1,14 ponto percentual (p.p.) acima do -0,32% registrado em agosto. No ano, o IPCA acumula alta de 3,95% e, nos últimos 12 meses, o índice ficou em 4,58%, acima dos 4,22% dos...",
+   "publicadoEm": "2026-10-09T09:00:00-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48246-ipca-fica-em-0-82-em-setembro.html",
+   "editorias": "economicas",
+   "categoria": "dados",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": {
+     "ok": true,
+     "descricao": "IPCA de set/2026",
+     "serie": "ipcaMes",
+     "periodo": "2026-09",
+     "valorNoticia": 0.82,
+     "valorSerie": 0.82,
+     "nota": "0,82% confere com a série oficial (IPCA de set/2026)."
+    }
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48255",
+   "tipo": "Notícia institucional",
+   "titulo": "Acervo bibliográfico de Pedro Geiger é doado à Biblioteca do IBGE",
+   "resumo": "A Gerência de Biblioteca, Informação e Memória (GEBIM), do Instituto Brasileiro de Geografia e Estatística (IBGE), recebeu a doação do acervo bibliográfico pessoal do geógrafo Pedro Pinchas Geiger, um dos mais importantes estudiosos da Geografia...",
+   "publicadoEm": "2026-10-09T06:03:16-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48255-acervo-bibliografico-de-pedro-geiger-e-doado-a-biblioteca-do-ibge.html",
+   "editorias": "ibge",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48259",
+   "tipo": "Notícia institucional",
+   "titulo": "IBGE divulga programação de censos na conferência",
+   "resumo": "O Instituto Brasileiro de Geografia e Estatística (IBGE) realizou, nesta sexta-feira (9/10), na 64ª Festa do Boi, a coletiva pública de apresentação da programação do Espaço Censos, que detalhou o debate internacional do 1° encontro internacional do 12º...",
+   "publicadoEm": "2026-10-09T06:01:01-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48259-ibge-divulga-programacao-de-censos-na-conferencia.html",
+   "editorias": "ibge",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48242",
+   "tipo": "Divulgação de dado oficial",
+   "titulo": "Em agosto, indústria recua em dez dos 15 locais pesquisados",
+   "resumo": "Em agosto de 2026, a produção industrial nacional recuou -0,6% frente ao mês anterior, na série com ajuste sazonal, com dez dos quinze locais pesquisados apresentando resultados negativos. As reduções mais acentuadas ocorreram no Pará (-7,3%), Amazonas...",
+   "publicadoEm": "2026-10-08T09:00:00-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48242-em-agosto-industria-recua-em-dez-dos-15-locais-pesquisados.html",
+   "editorias": "economicas",
+   "categoria": "dados",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48253",
+   "tipo": "Notícia institucional",
+   "titulo": "Confest/Confege 2026 terá participação internacional e debates sobre dados, inovação e estatísticas",
+   "resumo": "O IBGE apresentou, nesta quinta-feira (8/10), a programação internacional da Conferência Nacional dos Agentes Produtores e Usuários de Dados (Confest/Confege) 2026, no Auditório Joaquim Victor de Holanda, na sede da Federação das Indústrias do Estado do...",
+   "publicadoEm": "2026-10-08T04:10:32-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48253-confest-coletiva-apresenta-programacao-internacional-2026.html",
+   "editorias": "ibge",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48256",
+   "tipo": "Notícia institucional",
+   "titulo": "Seminário debate Reforma Administrativa de 1967 e transformações na trajetória do IBGE",
+   "resumo": "O Projeto Memória e História do IBGE realizou, nesta quarta-feira (7), o primeiro de uma série de cinco seminários dedicados à trajetória do Instituto e à sua atuação em diferentes momentos da história brasileira. Com transmissão feita pelo IBGE Digital,...",
+   "publicadoEm": "2026-10-08T04:00:26-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48256-seminario-debate-reforma-administrativa-de-1967-e-transformacoes-na-trajetoria-do-ibge.html",
+   "editorias": "ibge",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "BCB",
+   "fonteNome": "Banco Central do Brasil",
+   "id": "bcb-21282",
+   "tipo": "Nota à imprensa",
+   "titulo": "BC divulga IC-Br de setembro",
+   "resumo": "",
+   "publicadoEm": "2026-10-07T17:31:37Z",
+   "link": "https://www.bcb.gov.br/detalhenoticia/21282/nota",
+   "categoria": "dados",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48224",
+   "tipo": "Notícia institucional",
+   "titulo": "Como a Reforma de 1967 mudou o IBGE? Seminário abre série sobre memória e história do Instituto",
+   "resumo": "O Projeto Memória e História do IBGE realiza, no próximo dia 7 de outubro, das 9h às 11h, o primeiro de uma série de cinco seminários temáticos dedicados à reflexão sobre a trajetória institucional do IBGE e sua atuação na história recente do Brasil. Com...",
+   "publicadoEm": "2026-10-06T11:57:46-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48224-como-a-reforma-de-1967-mudou-o-ibge-seminario-abre-serie-sobre-memoria-e-historia-do-instituto.html",
+   "editorias": "ibge",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48203",
+   "tipo": "Notícia institucional",
+   "titulo": "IBGE disponibiliza Agenda semanal com programações para os dias 5 a 9 de outubro ",
+   "resumo": "Agenda IBGE traz a programação do instituto para a semana - Foto: Bel Corção/Brasil com S O Instituto Brasileiro de Geografia e Estatística (IBGE) disponibilizou hoje (5) a Agenda IBGE para a semana dos dias 5 a 9 de outubro. A edição contempla as...",
+   "publicadoEm": "2026-10-05T09:00:00-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48203-ibge-disponibiliza-agenda-semanal-com-programacoes-para-os-dias-5-a-9-de-outubro.html",
+   "editorias": "ibge",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "IBGE",
+   "fonteNome": "Agência de Notícias do IBGE",
+   "id": "ibge-48208",
+   "tipo": "Notícia institucional",
+   "titulo": "IBGE reúne representantes de corporações globais e nacionais do setor de tecnologia e serviços",
+   "resumo": "Entre os membros: inclui nomes como Uber, 99, iFood, Buser, Zé Delivery, Amazon e Lalamove. O Instituto Brasileiro de Geografia e Estatística (IBGE) reuniu-se com representantes da Associação Brasileira de Mobilidade e Tecnologia (Amobitec) e das...",
+   "publicadoEm": "2026-10-05T02:03:22-03:00",
+   "link": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/48208-ibge-reune-representantes-de-corporacoes-globais-e-nacionais-do-setor-de-tecnologia-e-servicos.html",
+   "editorias": "ibge",
+   "categoria": "institucional",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "BCB",
+   "fonteNome": "Banco Central do Brasil",
+   "id": "bcb-21277",
+   "tipo": "Nota à imprensa",
+   "titulo": "BC divulga Estatísticas Fiscais à imprensa",
+   "resumo": "",
+   "publicadoEm": "2026-09-30T11:33:42Z",
+   "link": "https://www.bcb.gov.br/detalhenoticia/21277/nota",
+   "categoria": "dados",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "BCB",
+   "fonteNome": "Banco Central do Brasil",
+   "id": "bcb-21275",
+   "tipo": "Nota à imprensa",
+   "titulo": "BC divulga Estatísticas Monetárias e de Crédito à imprensa",
+   "resumo": "",
+   "publicadoEm": "2026-09-29T11:31:49Z",
+   "link": "https://www.bcb.gov.br/detalhenoticia/21275/nota",
+   "categoria": "dados",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  },
+  {
+   "fonte": "BCB",
+   "fonteNome": "Banco Central do Brasil",
+   "id": "bcb-21274",
+   "tipo": "Nota à imprensa",
+   "titulo": "BC divulga Estatísticas do Setor Externo à imprensa",
+   "resumo": "",
+   "publicadoEm": "2026-09-28T11:33:28Z",
+   "link": "https://www.bcb.gov.br/detalhenoticia/21274/nota",
+   "categoria": "dados",
+   "verificacoes": {
+    "fonteOficial": true,
+    "semConteudoPolitico": true,
+    "numero": null
+   }
+  }
+ ],
+ "excluidos": []
+}

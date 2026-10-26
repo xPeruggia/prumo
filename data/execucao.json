@@ -1,0 +1,157 @@
+{
+ "inicio": "2026-10-26T03:09:33.166Z",
+ "fim": "2026-10-26T03:12:40.612Z",
+ "segundos": 187,
+ "partes": [
+  "series",
+  "orcamento",
+  "programas",
+  "noticias",
+  "seguranca"
+ ],
+ "chamadas": 156,
+ "falhas": 0,
+ "repeticoes": 3,
+ "status": {
+  "confere": 6,
+  "fonte-unica": 6
+ },
+ "avisos": [],
+ "fontes": [
+  {
+   "host": "apisidra.ibge.gov.br",
+   "chamadas": 8,
+   "falhas": 0,
+   "repeticoes": 0,
+   "ms": 2939
+  },
+  {
+   "host": "api.bcb.gov.br",
+   "chamadas": 34,
+   "falhas": 0,
+   "repeticoes": 1,
+   "ms": 58463
+  },
+  {
+   "host": "olinda.bcb.gov.br",
+   "chamadas": 5,
+   "falhas": 0,
+   "repeticoes": 0,
+   "ms": 477
+  },
+  {
+   "host": "apidatalake.tesouro.gov.br",
+   "chamadas": 32,
+   "falhas": 0,
+   "repeticoes": 0,
+   "ms": 2067
+  },
+  {
+   "host": "dadosabertos.camara.leg.br",
+   "chamadas": 73,
+   "falhas": 0,
+   "repeticoes": 2,
+   "ms": 63773
+  },
+  {
+   "host": "servicodados.ibge.gov.br",
+   "chamadas": 1,
+   "falhas": 0,
+   "repeticoes": 0,
+   "ms": 106
+  },
+  {
+   "host": "www.bcb.gov.br",
+   "chamadas": 1,
+   "falhas": 0,
+   "repeticoes": 0,
+   "ms": 1037
+  },
+  {
+   "host": "www.gov.br",
+   "chamadas": 2,
+   "falhas": 0,
+   "repeticoes": 0,
+   "ms": 9057
+  }
+ ],
+ "historico": [
+  {
+   "inicio": "2026-10-26T03:09:33.166Z",
+   "segundos": 187,
+   "chamadas": 156,
+   "falhas": 0,
+   "status": {
+    "confere": 6,
+    "fonte-unica": 6
+   },
+   "avisos": 0
+  },
+  {
+   "inicio": "2026-10-26T02:22:05.450Z",
+   "segundos": 67,
+   "chamadas": 151,
+   "falhas": 0,
+   "status": {
+    "confere": 6,
+    "fonte-unica": 6
+   },
+   "avisos": 0
+  },
+  {
+   "inicio": "2026-10-26T02:21:32.935Z",
+   "segundos": 12,
+   "chamadas": 49,
+   "falhas": 0,
+   "status": {
+    "confere": 6,
+    "fonte-unica": 6
+   },
+   "avisos": 0
+  },
+  {
+   "inicio": "2026-10-26T02:17:07.056Z",
+   "segundos": 214,
+   "chamadas": 153,
+   "falhas": 2,
+   "status": {
+    "confere": 6,
+    "fonte-unica": 6
+   },
+   "avisos": 0
+  },
+  {
+   "inicio": "2026-10-26T01:57:57.287Z",
+   "segundos": 64,
+   "chamadas": 151,
+   "falhas": 0,
+   "status": {
+    "confere": 6,
+    "fonte-unica": 6
+   },
+   "avisos": 0
+  },
+  {
+   "inicio": "2026-10-26T01:53:56.281Z",
+   "segundos": 134,
+   "chamadas": 124,
+   "falhas": 0,
+   "status": {
+    "confere": 6,
+    "fonte-unica": 6
+   },
+   "avisos": 5
+  },
+  {
+   "inicio": "2026-10-26T01:52:55.553Z",
+   "segundos": 43,
+   "chamadas": 48,
+   "falhas": 0,
+   "status": {
+    "confere": 6,
+    "fonte-unica": 6
+   },
+   "avisos": 0
+  }
+ ]
+}

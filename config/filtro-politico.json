@@ -1,0 +1,21 @@
+{
+  "nota": "Notícias cujo título ou resumo contenham algum destes termos são retiradas do feed e listadas, com o termo encontrado, na seção de itens excluídos. A lista é pública para que qualquer pessoa possa auditar o filtro. Termos sem distinção de maiúsculas usam limite de palavra; siglas só casam em maiúsculas.",
+  "termos": [
+    "eleição", "eleições", "eleitoral", "eleitorais", "eleitor", "eleitores", "eleito", "eleita",
+    "candidato", "candidata", "candidatos", "candidatura", "campanha eleitoral", "propaganda eleitoral",
+    "pesquisa eleitoral", "intenção de voto", "intenções de voto", "segundo turno", "primeiro turno",
+    "urna", "urnas", "votação", "plebiscito", "referendo",
+    "partido", "partidos", "partidário", "partidária", "coligação", "federação partidária",
+    "oposição", "governista", "governistas", "base aliada", "aliados do governo",
+    "impeachment", "CPI", "CPMI", "golpe", "anistia",
+    "esquerda", "direita", "centrão", "bolsonarismo", "bolsonarista", "lulismo", "lulista", "petista", "petistas",
+    "Lula", "Bolsonaro", "Alckmin", "Haddad", "Tarcísio", "Michelle Bolsonaro", "Eduardo Bolsonaro", "Flávio Bolsonaro",
+    "Ciro Gomes", "Simone Tebet", "Marina Silva", "Gleisi", "Ratinho Júnior", "Romeu Zema", "Ronaldo Caiado", "Pablo Marçal",
+    "Hugo Motta", "Davi Alcolumbre", "Alexandre de Moraes"
+  ],
+  "siglas": [
+    "PT", "PL", "PSDB", "MDB", "PSD", "PP", "PSOL", "PDT", "PSB", "PCdoB", "PV", "PRD", "PSTU", "PCO", "UP",
+    "União Brasil", "Republicanos", "Podemos", "Avante", "Solidariedade", "Cidadania", "Rede Sustentabilidade", "Partido Novo",
+    "TSE", "TRE"
+  ]
+}

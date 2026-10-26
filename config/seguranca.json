@@ -1,0 +1,288 @@
+{
+  "sinesp": {
+    "anoInicial": 2015,
+    "url": "https://www.gov.br/mj/pt-br/assuntos/sua-seguranca/seguranca-publica/estatistica/download/dnsp-base-de-dados/bancovde-{ano}.xlsx/@@download/file",
+    "pagina": "https://www.gov.br/mj/pt-br/assuntos/sua-seguranca/seguranca-publica/estatistica/dados-nacionais-1/base-de-dados-e-notas-metodologicas-dos-gestores-estaduais-sinesp-vde-2022-e-2023",
+    "anosRecentesParaRecoletar": 2,
+    "eventos": [
+      {
+        "id": "homicidioDoloso",
+        "evento": "Homicídio doloso",
+        "nome": "Homicídios dolosos (sem feminicídios)",
+        "grupo": "vida",
+        "unidade": "vítimas",
+        "descricao": "Assassinatos intencionais registrados como homicídio doloso. Os feminicídios são registrados à parte no Sinesp."
+      },
+      {
+        "id": "feminicidio",
+        "evento": "Feminicídio",
+        "nome": "Feminicídios",
+        "grupo": "vida",
+        "unidade": "vítimas",
+        "descricao": "Assassinatos de mulheres por razões da condição de sexo feminino, como violência doméstica ou menosprezo à condição de mulher."
+      },
+      {
+        "id": "latrocinio",
+        "evento": "Roubo seguido de morte (latrocínio)",
+        "nome": "Latrocínios",
+        "grupo": "vida",
+        "unidade": "vítimas",
+        "descricao": "Roubos que terminaram com a morte da vítima."
+      },
+      {
+        "id": "lesaoMorte",
+        "evento": "Lesão corporal seguida de morte",
+        "nome": "Lesões corporais seguidas de morte",
+        "grupo": "vida",
+        "unidade": "vítimas",
+        "descricao": "Agressões sem intenção de matar que resultaram em morte."
+      },
+      {
+        "id": "intervencao",
+        "evento": "Morte por intervenção de Agente do Estado",
+        "nome": "Mortes por intervenção policial",
+        "grupo": "estado",
+        "unidade": "vítimas",
+        "descricao": "Pessoas mortas em ações de agentes de segurança do Estado."
+      },
+      {
+        "id": "agenteMorto",
+        "evento": "Morte de Agente do Estado",
+        "nome": "Policiais e agentes mortos",
+        "grupo": "estado",
+        "unidade": "vítimas",
+        "descricao": "Agentes de segurança do Estado mortos."
+      },
+      {
+        "id": "tentativaHomicidio",
+        "evento": "Tentativa de homicídio",
+        "nome": "Tentativas de homicídio",
+        "grupo": "tentativas",
+        "unidade": "vítimas",
+        "descricao": "Vítimas de tentativas de homicídio."
+      },
+      {
+        "id": "tentativaFeminicidio",
+        "evento": "Tentativa de feminicídio",
+        "nome": "Tentativas de feminicídio",
+        "grupo": "tentativas",
+        "unidade": "vítimas",
+        "descricao": "Vítimas de tentativas de feminicídio."
+      },
+      {
+        "id": "estupro",
+        "evento": "Estupro",
+        "nome": "Estupros",
+        "grupo": "sexual",
+        "unidade": "vítimas",
+        "descricao": "Vítimas de estupro registradas pelas polícias estaduais."
+      },
+      {
+        "id": "estuproVulneravel",
+        "evento": "Estupro de vulnerável",
+        "nome": "Estupros de vulnerável",
+        "grupo": "sexual",
+        "unidade": "vítimas",
+        "descricao": "Vítimas menores de 14 anos ou sem condição de consentir."
+      },
+      {
+        "id": "rouboVeiculo",
+        "evento": "Roubo de veículo",
+        "nome": "Roubos de veículos",
+        "grupo": "patrimonio",
+        "unidade": "ocorrências",
+        "descricao": "Veículos tomados com violência ou grave ameaça."
+      },
+      {
+        "id": "furtoVeiculo",
+        "evento": "Furto de veículo",
+        "nome": "Furtos de veículos",
+        "grupo": "patrimonio",
+        "unidade": "ocorrências",
+        "descricao": "Veículos levados sem violência contra a pessoa."
+      },
+      {
+        "id": "rouboCarga",
+        "evento": "Roubo de carga",
+        "nome": "Roubos de carga",
+        "grupo": "patrimonio",
+        "unidade": "ocorrências",
+        "descricao": "Roubos de cargas transportadas."
+      },
+      {
+        "id": "rouboBanco",
+        "evento": "Roubo a instituição financeira",
+        "nome": "Roubos a instituições financeiras",
+        "grupo": "patrimonio",
+        "unidade": "ocorrências",
+        "descricao": "Roubos a bancos, agências e caixas eletrônicos."
+      }
+    ],
+    "grupos": [
+      {
+        "id": "vida",
+        "nome": "Mortes violentas"
+      },
+      {
+        "id": "sexual",
+        "nome": "Violência sexual"
+      },
+      {
+        "id": "patrimonio",
+        "nome": "Roubos e furtos"
+      },
+      {
+        "id": "tentativas",
+        "nome": "Tentativas"
+      },
+      {
+        "id": "estado",
+        "nome": "Ação policial"
+      }
+    ],
+    "notaFeminicidio": "A Lei 14.994/2024 tornou o feminicídio crime autônomo em outubro de 2024. Testamos se o Sinesp contava feminicídios dentro do homicídio doloso antes disso: as vítimas mulheres de homicídio doloso foram em média 192 por mês de jan a set/2024 e 184 de out/2024 a jun/2025, enquanto os feminicídios somavam cerca de 120 por mês. Se estivessem incluídos antes, a queda teria sido desse tamanho. Por isso tratamos as duas naturezas como separadas e somamos ambas em todo o período, sem ajuste."
+  },
+  "disque100": {
+    "paginaLista": "https://www.gov.br/mdh/pt-br/acesso-a-informacao/dados-abertos/disque100",
+    "padraoLinks": "/disque100/(?:disque100-)?(primeiro|segundo|terceiro|quarto)-(semestre|trimestre)-(?:de-)?(\\d{4})",
+    "colunasMinimas": 60,
+    "orientacoesLGB": [
+      "HOMOSSEXUAL",
+      "BISSEXUAL",
+      "PANSEXUAL",
+      "ASSEXUAL"
+    ],
+    "marcadoresTrans": [
+      "TRANS",
+      "TRAVESTI"
+    ],
+    "marcadorViolacaoReligiosa": "RELIGI",
+    "religioes": [
+      {
+        "id": "matrizAfricana",
+        "nome": "Matriz africana (umbanda, candomblé e outras)",
+        "termos": [
+          "UMBANDA",
+          "CANDOMBL",
+          "AFRO",
+          "MATRIZ AFRICANA",
+          "QUIMBANDA",
+          "BATUQUE",
+          "XANG",
+          "TAMBOR DE MINA",
+          "JUREMA"
+        ]
+      },
+      {
+        "id": "evangelica",
+        "nome": "Evangélica",
+        "termos": [
+          "EVANG",
+          "ASSEMBLEIA DE DEUS",
+          "BATISTA",
+          "PENTECOSTAL",
+          "QUADRANGULAR",
+          "UNIVERSAL DO REINO",
+          "CONGREGAÇÃO CRISTÃ",
+          "ADVENTISTA",
+          "PRESBITERIANA",
+          "LUTERANA",
+          "METODISTA",
+          "DEUS É AMOR",
+          "MARANATA"
+        ]
+      },
+      {
+        "id": "catolica",
+        "nome": "Católica",
+        "termos": [
+          "CATÓLICA",
+          "CATOLICA"
+        ]
+      },
+      {
+        "id": "espirita",
+        "nome": "Espírita",
+        "termos": [
+          "ESPÍRITA",
+          "ESPIRITA",
+          "ESPIRITISMO",
+          "ESPIRITUALISTA",
+          "KARDEC"
+        ]
+      },
+      {
+        "id": "judaica",
+        "nome": "Judaica",
+        "termos": [
+          "JUDA"
+        ]
+      },
+      {
+        "id": "muculmana",
+        "nome": "Muçulmana",
+        "termos": [
+          "ISLAM",
+          "MUÇULMAN",
+          "MUCULMAN"
+        ]
+      },
+      {
+        "id": "semReligiao",
+        "nome": "Sem religião, ateus e agnósticos",
+        "termos": [
+          "SEM RELIGI",
+          "ATEU",
+          "AGNÓSTIC",
+          "AGNOSTIC"
+        ]
+      },
+      {
+        "id": "naoInformada",
+        "nome": "Não informada",
+        "termos": [
+          "NULL",
+          "N/D",
+          "NÃO SABE",
+          "NÃO INFORMAD",
+          "NAO INFORMAD"
+        ],
+        "vazio": true
+      },
+      {
+        "id": "outras",
+        "nome": "Outras religiões",
+        "termos": []
+      }
+    ],
+    "conferencias": [
+      {
+        "serie": "lgbt",
+        "de": "2022-01",
+        "ate": "2022-12",
+        "rotulo": "Denúncias de LGBTfobia em 2022",
+        "oficial": 3948,
+        "fonte": "Agência Brasil, com dados do Disque 100 divulgados pelo Ministério dos Direitos Humanos (out/2024)",
+        "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2024-10/populacao-lgbtqia-denuncia-mais-casos-de-violencia-no-pais"
+      },
+      {
+        "serie": "lgbt",
+        "de": "2023-01",
+        "ate": "2023-12",
+        "rotulo": "Denúncias de LGBTfobia em 2023",
+        "oficial": 6070,
+        "fonte": "Agência Brasil, com dados do Disque 100 divulgados pelo Ministério dos Direitos Humanos (out/2024)",
+        "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2024-10/populacao-lgbtqia-denuncia-mais-casos-de-violencia-no-pais"
+      },
+      {
+        "serie": "lgbt",
+        "de": "2024-01",
+        "ate": "2024-09",
+        "rotulo": "Denúncias de LGBTfobia de jan a set/2024",
+        "oficial": 5741,
+        "fonte": "Agência Brasil, com dados do Disque 100 divulgados pelo Ministério dos Direitos Humanos (out/2024)",
+        "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2024-10/populacao-lgbtqia-denuncia-mais-casos-de-violencia-no-pais"
+      }
+    ]
+  }
+}

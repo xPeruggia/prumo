@@ -1,0 +1,13 @@
+{
+  "name": "prumo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Observatório independente de dados públicos do Brasil, atualizado diariamente a partir de fontes oficiais.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "atualizar": "node scripts/atualizar.mjs",
+    "testar": "node --test scripts/testes/*.test.mjs",
+    "servir": "node scripts/servir.mjs 8080"
+  }
+}
