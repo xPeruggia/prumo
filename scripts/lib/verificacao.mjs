@@ -68,6 +68,57 @@ export function montarFiltro({ termos, siglas }) {
   };
 }
 
+// ---------- Notícias: normalização e triagem, usadas pela coleta e pelo navegador ----------
+
+// Converte a resposta da API de notícias do IBGE para o formato do site.
+export function normalizarNoticiasIbge(resposta) {
+  return resposta.items.map((n) => {
+    const [d, m, resto] = n.data_publicacao.split('/');
+    const [a, hora] = resto.split(' ');
+    return {
+      fonte: 'IBGE',
+      fonteNome: 'Agência de Notícias do IBGE',
+      id: `ibge-${n.id}`,
+      tipo: n.tipo === 'Release' ? 'Divulgação de dado oficial' : 'Notícia institucional',
+      titulo: n.titulo,
+      resumo: n.introducao,
+      publicadoEm: `${a}-${m}-${d}T${hora}-03:00`,
+      link: n.link.replace(/^http:/, 'https:'),
+      editorias: n.editorias,
+    };
+  });
+}
+
+// "Dados" = divulgação de estatística ou indicador; "institucional" = agenda, eventos, cooperação, regulação.
+export function categoriaNoticia(n) {
+  if (n.fonte === 'IBGE') return n.tipo === 'Divulgação de dado oficial' || /economicas|sociais/.test(n.editorias || '') ? 'dados' : 'institucional';
+  return /\bdivulga\b|IBC-Br|Copom|Selic|Focus|estatísticas|relatório/i.test(n.titulo) ? 'dados' : 'institucional';
+}
+
+// Aplica o filtro político e a conferência de números; devolve as publicadas e as retiradas.
+export function triarNoticias(brutas, series, filtroConfig) {
+  const politico = montarFiltro(filtroConfig);
+  const itens = [];
+  const excluidos = [];
+  const vistos = new Set();
+  for (const n of brutas) {
+    if (vistos.has(n.id)) continue;
+    vistos.add(n.id);
+    const termo = politico(`${n.titulo} ${n.resumo || ''}`);
+    if (termo) {
+      excluidos.push({ id: n.id, fonte: n.fonte, titulo: n.titulo, link: n.link, publicadoEm: n.publicadoEm, termo });
+      continue;
+    }
+    itens.push({
+      ...n,
+      categoria: categoriaNoticia(n),
+      verificacoes: { fonteOficial: true, semConteudoPolitico: true, numero: conferirNumero(n, series) },
+    });
+  }
+  const porData = (a, b) => (a.publicadoEm < b.publicadoEm ? 1 : -1);
+  return { itens: itens.sort(porData), excluidos: excluidos.sort(porData) };
+}
+
 // ---------- Números citados em notícias ----------
 
 const NOME_MES = new RegExp(`\\b(${MESES.join('|')})\\b`, 'i');

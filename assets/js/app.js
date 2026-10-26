@@ -6,6 +6,7 @@ import { graficoLinhas, graficoBarras, graficoColunas, faisca, tabela, botaoTabe
 import { conferirNoNavegador, carimbo } from './conferir.js';
 import { $, h, icone, selo, alternador } from './dom.js';
 import { renderSeguranca, painelSegurancaMandatos } from './seguranca.js';
+import { coletaDoIbgeFalhou, buscarIbgeNoNavegador } from './noticias-ao-vivo.js';
 
 const NS = 'http://www.w3.org/2000/svg';
 
@@ -1030,9 +1031,24 @@ function renderOrcamentoMandatos(mA, mB) {
 
 const estadoNoticias = { filtro: 'dados' };
 
+function avisoNoticiasIbge(Nt) {
+  const aviso = $('aviso-noticias');
+  const fonte = Nt.fontes?.find((f) => f.fonte === 'IBGE');
+  const desde = fonte?.ultimoSucesso ? `${dataCurta(fonte.ultimoSucesso)} às ${horaBrasilia(fonte.ultimoSucesso)}` : 'a coleta anterior';
+  const textos = {
+    buscando: 'Buscando as notícias mais recentes do IBGE pelo seu navegador…',
+    ok: 'As notícias do IBGE abaixo foram buscadas agora pelo seu navegador, direto da API oficial: o servidor do IBGE não aceita a coleta automática, que roda fora do Brasil. O mesmo filtro político e a mesma conferência de números foram aplicados.',
+    falhou: `Não foi possível obter notícias novas do IBGE: nem a coleta automática nem o seu navegador conseguiram acessar a API. As notícias do IBGE abaixo são as obtidas em ${desde}.`,
+  };
+  const estado = Nt.ibgeNoNavegador?.estado;
+  aviso.hidden = !estado;
+  aviso.textContent = estado ? textos[estado] : '';
+}
+
 function renderNoticias() {
   const Nt = D.noticias;
   if (!Nt) return;
+  avisoNoticiasIbge(Nt);
   const E = estadoNoticias;
   $('controles-noticias').replaceChildren(
     alternador('Tipo de notícia', [['dados', 'Divulgações de dados'], ['todas', 'Todas, inclusive institucionais']], E.filtro, (v) => {
@@ -1119,6 +1135,7 @@ function renderMetodo() {
       h('h3', { texto: 'Notícias e o filtro político' }),
       h('p', { texto: 'O feed reúne apenas comunicados publicados pelo IBGE e pelo Banco Central. Títulos e resumos que mencionam partidos, candidatos, eleições ou disputas partidárias são retirados e listados com o termo que provocou a exclusão. Quando o título cita um número de indicador acompanhado aqui, ele é comparado com a série oficial.' }),
       h('p', { texto: 'O site não classifica notícias como verdadeiras ou falsas. Ele mostra se o número citado bate com a série oficial e deixa o link para a fonte.' }),
+      h('p', { texto: 'O servidor de notícias do IBGE não aceita conexões de fora do Brasil, onde roda a coleta automática. Quando ela falha, o seu navegador busca as notícias do IBGE direto na API oficial e aplica o mesmo filtro e a mesma conferência, com o mesmo código da coleta. Um aviso acima das notícias indica quando isso acontece.' }),
       h('h3', { texto: 'Limitações conhecidas' }),
       h('ul', {},
         h('li', { texto: 'O orçamento cobre apenas a União. Estados e municípios publicam relatórios próprios.' }),
@@ -1232,6 +1249,18 @@ async function iniciar() {
   }
   const alvo = location.hash.match(/^#indicador=(\w+)/);
   if (alvo) abrirDetalhe(alvo[1]);
+
+  if (coletaDoIbgeFalhou(D.noticias)) {
+    D.noticias = { ...D.noticias, ibgeNoNavegador: { estado: 'buscando' } };
+    renderNoticias();
+    try {
+      D.noticias = await buscarIbgeNoNavegador(D.noticias, D.indicadores.series);
+    } catch (e) {
+      console.warn('Notícias do IBGE indisponíveis no navegador:', e);
+      D.noticias = { ...D.noticias, ibgeNoNavegador: { estado: 'falhou' } };
+    }
+    renderNoticias();
+  }
 }
 
 iniciar();

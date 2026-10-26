@@ -1260,6 +1260,18 @@ button {
   padding: 0;
 }
 
+.aviso-noticias {
+  font-size: var(--texto-s);
+  color: var(--tinta-2);
+  background: var(--superficie);
+  border: 1px solid var(--linha);
+  border-left: 3px solid var(--carimbo);
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin-bottom: 8px;
+  max-width: 52em;
+}
+
 .noticia {
   padding: 18px 0;
   border-bottom: 1px solid var(--linha);

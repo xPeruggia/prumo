@@ -12,7 +12,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { registro } from './lib/http.mjs';
 import * as F from './lib/fontes.mjs';
-import { cruzar, toleranciaPadrao, testarPlausibilidade, montarFiltro, conferirNumero } from './lib/verificacao.mjs';
+import { cruzar, toleranciaPadrao, testarPlausibilidade, triarNoticias } from './lib/verificacao.mjs';
 import { hojeBrasilia, mandatoEm } from '../assets/js/nucleo.js';
 import { coletarSinesp, coletarDisque100, montarSeguranca } from './seguranca.mjs';
 
@@ -496,58 +496,37 @@ async function coletarProgramas(ctx, mandatos) {
 // Notícias de fontes oficiais, com filtro político e conferência de números
 // ---------------------------------------------------------------------------
 
+// O servidor de notícias do IBGE recusa conexões de fora do Brasil, como as do GitHub Actions.
+// Quando isso acontece, mantemos as notícias anteriores, registramos a falha e o navegador do leitor
+// busca as do IBGE diretamente (ver assets/js/noticias-ao-vivo.js), com o mesmo filtro e a mesma conferência.
 async function coletarNoticias(ctx, series) {
   const filtroConfig = await lerJSON('config/filtro-politico.json');
-  const anterior = await lerJSON('data/noticias.json', { itens: [], excluidos: [] });
-  const politico = montarFiltro(filtroConfig);
+  const anterior = await lerJSON('data/noticias.json', { itens: [], excluidos: [], fontes: [] });
   const brutas = [];
   const fontes = [];
-  for (const [nome, coletor] of [['IBGE', () => F.noticiasIbge(40)], ['BCB', () => F.notasBcb(25)]]) {
+  for (const [nome, coletor, url] of [
+    ['IBGE', F.noticiasIbge, F.URL_NOTICIAS_IBGE],
+    ['BCB', () => F.notasBcb(25), null],
+  ]) {
+    const ultimoSucessoAntes = anterior.fontes?.find((f) => f.fonte === nome)?.ultimoSucesso ?? null;
     try {
       const lista = await coletor();
       brutas.push(...lista);
-      fontes.push({ fonte: nome, ok: true, itens: lista.length });
+      fontes.push({ fonte: nome, ok: true, itens: lista.length, ultimoSucesso: ctx.agora, url });
     } catch (e) {
-      fontes.push({ fonte: nome, ok: false, erro: String(e.message) });
+      fontes.push({ fonte: nome, ok: false, erro: String(e.message), ultimoSucesso: ultimoSucessoAntes, url });
       avisar('noticias', `${nome}: ${e.message}. Mantidas as notícias anteriores dessa fonte.`);
       brutas.push(...anterior.itens.filter((i) => i.fonte === nome));
     }
   }
-  const itens = [];
-  const excluidos = [];
-  const vistos = new Set();
-  for (const n of brutas) {
-    if (vistos.has(n.id)) continue;
-    vistos.add(n.id);
-    const termo = politico(`${n.titulo} ${n.resumo || ''}`);
-    if (termo) {
-      excluidos.push({ id: n.id, fonte: n.fonte, titulo: n.titulo, link: n.link, publicadoEm: n.publicadoEm, termo });
-      continue;
-    }
-    const numero = conferirNumero(n, series);
-    // "Dados" = divulgação de estatística ou indicador; "institucional" = agenda, eventos, cooperação, regulação.
-    const categoria =
-      n.fonte === 'IBGE'
-        ? n.tipo === 'Divulgação de dado oficial' || /economicas|sociais/.test(n.editorias || '') ? 'dados' : 'institucional'
-        : /\bdivulga\b|IBC-Br|Copom|Selic|Focus|estatísticas|relatório/i.test(n.titulo) ? 'dados' : 'institucional';
-    itens.push({
-      ...n,
-      categoria,
-      verificacoes: {
-        fonteOficial: true,
-        semConteudoPolitico: true,
-        numero,
-      },
-    });
-  }
-  const porData = (a, b) => (a.publicadoEm < b.publicadoEm ? 1 : -1);
+  const { itens, excluidos } = triarNoticias(brutas, series, filtroConfig);
   return {
     geradoEm: ctx.agora,
     criterio:
       'Somente comunicados publicados diretamente pelo IBGE e pelo Banco Central. Itens com termos político-partidários são retirados e listados com o termo encontrado.',
     fontes,
-    itens: itens.sort(porData).slice(0, 45),
-    excluidos: excluidos.sort(porData),
+    itens: itens.slice(0, 45),
+    excluidos,
   };
 }
 

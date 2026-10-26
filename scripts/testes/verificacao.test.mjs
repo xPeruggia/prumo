@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
-import { cruzar, toleranciaPadrao, testarPlausibilidade, montarFiltro, conferirNumero } from '../lib/verificacao.mjs';
+import { cruzar, toleranciaPadrao, testarPlausibilidade, montarFiltro, conferirNumero, normalizarNoticiasIbge, triarNoticias } from '../lib/verificacao.mjs';
 
 const filtro = montarFiltro(JSON.parse(await readFile(new URL('../../config/filtro-politico.json', import.meta.url), 'utf8')));
 
@@ -66,4 +66,22 @@ test('PIB do trimestre e desocupação são conferidos', () => {
 
 test('Selic citada em nota do Copom é comparada com a meta da semana', () => {
   assert.equal(conferirNumero({ titulo: 'Copom mantém a taxa Selic em 13,75% a.a.', resumo: '', publicadoEm: '2026-09-16T18:30:00-03:00' }, series).ok, true);
+});
+
+test('triagem de notícias (a mesma usada no navegador) normaliza, filtra e confere', async () => {
+  const configFiltro = JSON.parse(await readFile(new URL('../../config/filtro-politico.json', import.meta.url), 'utf8'));
+  const resposta = {
+    items: [
+      { id: 1, tipo: 'Release', titulo: 'IPCA fica em 0,82% em setembro', introducao: '', data_publicacao: '09/10/2026 09:00:00', link: 'http://agenciadenoticias.ibge.gov.br/1', editorias: 'economicas' },
+      { id: 2, tipo: 'Notícia', titulo: 'Candidato visita o IBGE', introducao: '', data_publicacao: '10/10/2026 10:00:00', link: 'http://agenciadenoticias.ibge.gov.br/2', editorias: 'ibge' },
+    ],
+  };
+  const brutas = normalizarNoticiasIbge(resposta);
+  assert.equal(brutas[0].publicadoEm, '2026-10-09T09:00:00-03:00');
+  assert.equal(brutas[0].link, 'https://agenciadenoticias.ibge.gov.br/1');
+  const { itens, excluidos } = triarNoticias(brutas, series, configFiltro);
+  assert.equal(itens.length, 1);
+  assert.equal(itens[0].categoria, 'dados');
+  assert.equal(itens[0].verificacoes.numero.ok, true);
+  assert.equal(excluidos[0].termo, 'candidato');
 });

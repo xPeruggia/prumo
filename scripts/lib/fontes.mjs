@@ -3,6 +3,7 @@
 
 import { buscar, esperar, Vazio } from './http.mjs';
 import { hojeBrasilia } from '../../assets/js/nucleo.js';
+import { normalizarNoticiasIbge } from './verificacao.mjs';
 
 // ---------- Banco Central: Sistema Gerenciador de Séries Temporais (SGS) ----------
 
@@ -135,24 +136,10 @@ export async function detalheProposicao(id) {
 
 // ---------- Notícias oficiais ----------
 
-export async function noticiasIbge(qtd = 40) {
-  const url = `https://servicodados.ibge.gov.br/api/v3/noticias/?qtd=${qtd}`;
-  const resp = await buscar(url);
-  return resp.items.map((n) => {
-    const [d, m, resto] = n.data_publicacao.split('/');
-    const [a, hora] = resto.split(' ');
-    return {
-      fonte: 'IBGE',
-      fonteNome: 'Agência de Notícias do IBGE',
-      id: `ibge-${n.id}`,
-      tipo: n.tipo === 'Release' ? 'Divulgação de dado oficial' : 'Notícia institucional',
-      titulo: n.titulo,
-      resumo: n.introducao,
-      publicadoEm: `${a}-${m}-${d}T${hora}-03:00`,
-      link: n.link.replace(/^http:/, 'https:'),
-      editorias: n.editorias,
-    };
-  });
+export const URL_NOTICIAS_IBGE = 'https://servicodados.ibge.gov.br/api/v3/noticias/?qtd=40';
+
+export async function noticiasIbge() {
+  return normalizarNoticiasIbge(await buscar(URL_NOTICIAS_IBGE));
 }
 
 export async function notasBcb(qtd = 25) {
