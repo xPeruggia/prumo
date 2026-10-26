@@ -16,7 +16,10 @@ export const urlSgsUltimos = (codigo, n = 12) =>
 // (resposta 502 ou página de erro); nesse caso a mesma janela é pedida de ano em ano.
 async function janelaSgs(codigo, de, ate) {
   try {
-    return await buscar(urlSgs(codigo, `01/01/${de}`, `31/12/${ate}`), { vazioEm404: true, tentativas: de === ate ? 5 : 3 });
+    const dados = await buscar(urlSgs(codigo, `01/01/${de}`, `31/12/${ate}`), { vazioEm404: true, tentativas: de === ate ? 5 : 3 });
+    // Em erro, o SGS às vezes devolve um objeto JSON em vez da lista de pontos.
+    if (!Array.isArray(dados)) throw new Error(`resposta inesperada do SGS: ${JSON.stringify(dados).slice(0, 160)}`);
+    return dados;
   } catch (e) {
     if (e instanceof Vazio) return [];
     if (de === ate) throw e;
