@@ -1,7 +1,7 @@
 {
- "inicio": "2026-10-26T10:48:41.238Z",
- "fim": "2026-10-26T10:56:04.191Z",
- "segundos": 443,
+ "inicio": "2026-10-26T10:56:42.699Z",
+ "fim": "2026-10-26T10:59:37.887Z",
+ "segundos": 175,
  "partes": [
   "series",
   "orcamento",
@@ -9,19 +9,14 @@
   "noticias",
   "seguranca"
  ],
- "chamadas": 160,
- "falhas": 2,
- "repeticoes": 3,
+ "chamadas": 155,
+ "falhas": 1,
+ "repeticoes": 0,
  "status": {
   "confere": 6,
-  "fonte-unica": 5,
-  "falha": 1
+  "fonte-unica": 6
  },
  "avisos": [
-  {
-   "parte": "series",
-   "mensagem": "primario: coleta falhou (HTTP 502). Mantido o último dado válido."
-  },
   {
    "parte": "noticias",
    "mensagem": "IBGE: fetch failed. Mantidas as notícias anteriores dessa fonte."
@@ -33,59 +28,70 @@
    "chamadas": 8,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 5129
+   "ms": 3436
   },
   {
    "host": "api.bcb.gov.br",
-   "chamadas": 38,
-   "falhas": 3,
-   "repeticoes": 3,
-   "ms": 178633
+   "chamadas": 33,
+   "falhas": 0,
+   "repeticoes": 0,
+   "ms": 9222
   },
   {
    "host": "olinda.bcb.gov.br",
    "chamadas": 5,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 3994
+   "ms": 2910
   },
   {
    "host": "apidatalake.tesouro.gov.br",
    "chamadas": 32,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 40215
+   "ms": 1400
   },
   {
    "host": "dadosabertos.camara.leg.br",
    "chamadas": 71,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 56412
+   "ms": 22244
   },
   {
    "host": "servicodados.ibge.gov.br",
    "chamadas": 3,
    "falhas": 3,
    "repeticoes": 0,
-   "ms": 31466
+   "ms": 30985
   },
   {
    "host": "www.bcb.gov.br",
    "chamadas": 1,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 741
+   "ms": 860
   },
   {
    "host": "www.gov.br",
    "chamadas": 2,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 64040
+   "ms": 48561
   }
  ],
  "historico": [
+  {
+   "inicio": "2026-10-26T10:56:42.699Z",
+   "segundos": 175,
+   "chamadas": 155,
+   "falhas": 1,
+   "status": {
+    "confere": 6,
+    "fonte-unica": 6
+   },
+   "avisos": 1
+  },
   {
    "inicio": "2026-10-26T10:48:41.238Z",
    "segundos": 443,
