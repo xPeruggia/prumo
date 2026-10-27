@@ -1,0 +1,7594 @@
+{
+ "geradoEm": "2026-10-27T21:05:13.060Z",
+ "janelaHoras": 48,
+ "nota": "Matérias publicadas pelos próprios veículos em seus feeds públicos (RSS). O site agrupa as que tratam do mesmo fato, mostra o título e um trecho curto de cada uma, com o link para o texto completo, e não classifica nenhum veículo. Palavras destacadas são as que só aquele veículo usou no título. \"Coluna ou opinião\" e \"Análise\" seguem a seção em que o próprio veículo publicou o texto.",
+ "veiculos": [
+  {
+   "id": "g1",
+   "nome": "g1",
+   "idioma": "pt",
+   "ok": true,
+   "materias": 134
+  },
+  {
+   "id": "folha",
+   "nome": "Folha de S.Paulo",
+   "idioma": "pt",
+   "ok": true,
+   "materias": 100
+  },
+  {
+   "id": "estadao",
+   "nome": "Estadão",
+   "idioma": "pt",
+   "ok": true,
+   "materias": 55
+  },
+  {
+   "id": "cnn",
+   "nome": "CNN Brasil",
+   "idioma": "pt",
+   "ok": true,
+   "materias": 60
+  },
+  {
+   "id": "bbc",
+   "nome": "BBC News Brasil",
+   "idioma": "pt",
+   "ok": true,
+   "materias": 19
+  },
+  {
+   "id": "elpais",
+   "nome": "El País",
+   "idioma": "es",
+   "ok": true,
+   "materias": 10
+  },
+  {
+   "id": "agenciabrasil",
+   "nome": "Agência Brasil",
+   "idioma": "pt",
+   "ok": true,
+   "materias": 19
+  },
+  {
+   "id": "poder360",
+   "nome": "Poder360",
+   "idioma": "pt",
+   "ok": true,
+   "materias": 10
+  },
+  {
+   "id": "uol",
+   "nome": "UOL",
+   "idioma": "pt",
+   "ok": true,
+   "materias": 15
+  },
+  {
+   "id": "gazetadopovo",
+   "nome": "Gazeta do Povo",
+   "idioma": "pt",
+   "ok": true,
+   "materias": 239
+  },
+  {
+   "id": "cartacapital",
+   "nome": "CartaCapital",
+   "idioma": "pt",
+   "ok": true,
+   "materias": 20
+  },
+  {
+   "id": "veja",
+   "nome": "Veja",
+   "idioma": "pt",
+   "ok": true,
+   "materias": 20
+  },
+  {
+   "id": "metropoles",
+   "nome": "Metrópoles",
+   "idioma": "pt",
+   "ok": true,
+   "materias": 20
+  }
+ ],
+ "totalMaterias": 714,
+ "comparacoes": [
+  {
+   "id": "https://www.cnnbrasil.com.br/politica/uniao-pp-anuncia-apoio-a-reeleicao-de-alcolumbre-na-presidencia-do-senado/",
+   "veiculos": 7,
+   "primeiro": "2026-10-27T19:14:23.000Z",
+   "ultimo": "2026-10-27T20:58:00.000Z",
+   "comuns": [
+    "União-PP",
+    "reeleição",
+    "Alcolumbre",
+    "apoio",
+    "Senado"
+   ],
+   "politica": "PP",
+   "materias": [
+    {
+     "veiculo": "cnn",
+     "titulo": "União-PP anuncia apoio à reeleição de Alcolumbre na presidência do Senado",
+     "tituloMarcado": [
+      [
+       "União-PP",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "anuncia",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "apoio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "à",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reeleição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Alcolumbre",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "na",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "presidência",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Senado",
+       false
+      ]
+     ],
+     "trecho": "Partidos que apoiaram Flávio Bolsonaro, cuja campanha mirava lançar candidato à presidência da Casa, agora se alinham a Alcolumbre; Ciro Nogueira teria formalizado apoio sem consultar bancada",
+     "link": "https://www.cnnbrasil.com.br/politica/uniao-pp-anuncia-apoio-a-reeleicao-de-alcolumbre-na-presidencia-do-senado/",
+     "publicadoEm": "2026-10-27T19:14:23.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "União Brasil e PP contrariam aliança com Flávio e declaram apoio à reeleição de Alcolumbre",
+     "tituloMarcado": [
+      [
+       "União",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Brasil",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "PP",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "contrariam",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "aliança",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "com",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "declaram",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "apoio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "à",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reeleição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Alcolumbre",
+       false
+      ]
+     ],
+     "trecho": "Federação de partidos não apoiará mais a candidatura do senador Rogério Marinho para a presidência do Senado em 2027.",
+     "link": "https://www.gazetadopovo.com.br/republica/uniao-pp-contrariam-alianca-flavio-apoio-reeleicao-alcolumbre/",
+     "publicadoEm": "2026-10-27T19:47:01.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "folha",
+     "titulo": "União Brasil e PP apoiam reeleição de Alcolumbre para chefia do Senado e escanteiam Tereza Cristina",
+     "tituloMarcado": [
+      [
+       "União",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Brasil",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "PP",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "apoiam",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reeleição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Alcolumbre",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "para",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "chefia",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Senado",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "escanteiam",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Tereza",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Cristina",
+       true
+      ]
+     ],
+     "trecho": "O presidente do Senado, Davi Alcolumbre (União Brasil -AP), recebeu nesta terça (27) o apoio formal de União Brasil e PP à reeleição para o comando da Casa, num movimento para esvaziar a candidatura da senadora Tereza…",
+     "link": "https://www1.folha.uol.com.br/poder/2026/10/uniao-brasil-e-pp-apoiam-reeleicao-de-alcolumbre-para-chefia-do-senado-e-escanteiam-tereza-cristina.shtml",
+     "publicadoEm": "2026-10-27T19:52:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "g1",
+     "titulo": "Federação União-PP anuncia apoio a reeleição de Alcolumbre para a presidência do Senado",
+     "tituloMarcado": [
+      [
+       "Federação",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "União-PP",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "anuncia",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "apoio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reeleição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Alcolumbre",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "para",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "presidência",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Senado",
+       false
+      ]
+     ],
+     "trecho": "Federação União-PP anuncia apoio a reeleição de Alcolumbre para a presidência do Senado A federação formada por União Brasil e PP anunciou, nesta terça-feira (27), apoio à reeleição de Davi Alcolumbre (União-AP) à…",
+     "link": "https://g1.globo.com/politica/noticia/2026/10/27/federacao-uniao-pp-anuncia-apoio-a-reeleicao-de-alcolumbre-para-a-presidencia-do-senado.ghtml",
+     "publicadoEm": "2026-10-27T19:55:20.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "poder360",
+     "titulo": "União Progressista declara apoio à reeleição de Davi Alcolumbre",
+     "tituloMarcado": [
+      [
+       "União",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Progressista",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "declara",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "apoio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "à",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reeleição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Davi",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Alcolumbre",
+       false
+      ]
+     ],
+     "trecho": "Federação afirma que continuidade do senador no comando da Casa contribui para a estabilidade institucional e o diálogo entre os Poderes",
+     "link": "https://www.poder360.com.br/poder-congresso/uniao-progressista-declara-apoio-a-reeleicao-de-davi-alcolumbre/",
+     "publicadoEm": "2026-10-27T20:04:08.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "estadao",
+     "titulo": "União-PP declara apoio à reeleição de Alcolumbre para presidente do Senado",
+     "tituloMarcado": [
+      [
+       "União-PP",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "declara",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "apoio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "à",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reeleição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Alcolumbre",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "para",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "presidente",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Senado",
+       false
+      ]
+     ],
+     "trecho": "BRASÍLIA — A Federação União Progressista manifestou apoio nesta terça-feira, 27, à reeleição de Davi Alcolumbre (União-AP) para presidente do Senado e do Congresso Nacional. A declaração ocorre em nota assinada pelos…",
+     "link": "https://www.estadao.com.br/politica/uniao-pp-declara-apoio-a-reeleicao-de-alcolumbre-para-presidente-do-senado/",
+     "publicadoEm": "2026-10-27T20:34:43.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "uol",
+     "titulo": "União-PP declara apoio à reeleição de Alcolumbre para presidente do Senado",
+     "tituloMarcado": [
+      [
+       "União-PP",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "declara",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "apoio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "à",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reeleição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Alcolumbre",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "para",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "presidente",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Senado",
+       false
+      ]
+     ],
+     "trecho": "A Federação União Progressista manifestou apoio nesta terça-feira, 27, à reeleição de Davi Alcolumbre (União-AP) para presidente do Senado e do Congresso Nacional. A declaração ocorre em nota assinada pelos presidentes…",
+     "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/27/uniao-pp-declara-apoio-a-reeleicao-de-alcolumbre-para-presidente-do-senado.htm",
+     "publicadoEm": "2026-10-27T20:58:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://www.gazetadopovo.com.br/eleicoes/2026/extensao-horario-votacao-teve-35-mil-votos-17h-19h/",
+   "veiculos": 5,
+   "primeiro": "2026-10-26T15:13:02.000Z",
+   "ultimo": "2026-10-27T20:13:00.000Z",
+   "comuns": [
+    "mil",
+    "votos",
+    "17h",
+    "TSE",
+    "34",
+    "após"
+   ],
+   "politica": "votação",
+   "materias": [
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "Extensão do horário de votação teve 35 mil votos entre 17h e 19h, aponta levantamento",
+     "tituloMarcado": [
+      [
+       "Extensão",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "horário",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "votação",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "teve",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "35",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mil",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "votos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "entre",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "17h",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "19h,",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "aponta",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "levantamento",
+       true
+      ]
+     ],
+     "trecho": "Dados dos registros eletrônicos de 497 mil urnas mostram que 35.521 votos para presidente foram computados depois das 17h.",
+     "link": "https://www.gazetadopovo.com.br/eleicoes/2026/extensao-horario-votacao-teve-35-mil-votos-17h-19h/",
+     "publicadoEm": "2026-10-26T15:13:02.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "bbc",
+     "titulo": "TSE registrou 34 mil votos durante prorrogação ordenada por Zanin, menos de 0,03% dos votos totais",
+     "tituloMarcado": [
+      [
+       "TSE",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "registrou",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "34",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mil",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "votos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "durante",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "prorrogação",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ordenada",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "por",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Zanin,",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "menos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "0,03%",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "votos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "totais",
+       true
+      ]
+     ],
+     "trecho": "Vantagem de Lula sobre Flávio Bolsonaro foi cerca de 130 vezes o volume de votos registrados após as 17h, mostra levantamento da BBC News Brasil",
+     "link": "https://www.bbc.com/portuguese/articles/crp3g2ynkp1xo?at_medium=RSS&at_campaign=rss",
+     "publicadoEm": "2026-10-27T18:46:18.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "cartacapital",
+     "titulo": "TSE confirma: apenas 34 mil eleitores votaram após as 17h",
+     "tituloMarcado": [
+      [
+       "TSE",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "confirma:",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "apenas",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "34",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mil",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "eleitores",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "votaram",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "após",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "as",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "17h",
+       false
+      ]
+     ],
+     "trecho": "Lula conquistou 4.392.907 votos a mais que Flávio Bolsonaro",
+     "link": "https://www.cartacapital.com.br/cartaexpressa/tse-confirma-apenas-34-mil-eleitores-votaram-apos-as-17h/",
+     "publicadoEm": "2026-10-27T19:17:11.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "cnn",
+     "titulo": "Eleições 2026: TSE confirma 34 mil votos após as 17h no 2º turno",
+     "tituloMarcado": [
+      [
+       "Eleições",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "2026:",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "TSE",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "confirma",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "34",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mil",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "votos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "após",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "as",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "17h",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "no",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "2º",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "turno",
+       false
+      ]
+     ],
+     "trecho": "Prorrogação determinada pelo ministro Cristiano Zanin, do STF, ocorreu após relatos de problemas no transporte público pelo país; número havia sido antecipado pela CNN Brasil",
+     "link": "https://www.cnnbrasil.com.br/eleicoes/eleicoes-2026-tse-confirma-34-mil-votos-apos-as-17h-no-2o-turno/",
+     "publicadoEm": "2026-10-27T19:37:44.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "agenciabrasil",
+     "titulo": "TSE contabiliza 34,3 mil votos após as 17h no 2º turno das eleições",
+     "tituloMarcado": [
+      [
+       "TSE",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "contabiliza",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "34,3",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mil",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "votos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "após",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "as",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "17h",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "no",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "2º",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "turno",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "das",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "eleições",
+       false
+      ]
+     ],
+     "trecho": "Dados do Tribunal Superior Eleitoral (TSE) mostram que as urnas eletrônicas registraram 34.393 votos após as 17h neste domingo (25), o que equivale a 0.027% do total de votos depositados durante todo o dia de segundo…",
+     "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/tse-contabiliza-menos-de-35-mil-votos-apos-as-17h-no-2-turno",
+     "publicadoEm": "2026-10-27T20:13:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://www.gazetadopovo.com.br/mundo/israel-vai-as-urnas-em-primeira-eleicao-desde-os-ataques-terroristas-do-hamas/",
+   "veiculos": 5,
+   "primeiro": "2026-10-26T22:41:28.000Z",
+   "ultimo": "2026-10-27T20:00:34.000Z",
+   "comuns": [
+    "Israel",
+    "urnas",
+    "Netanyahu",
+    "eleição"
+   ],
+   "politica": "eleição",
+   "materias": [
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "Israel vai às urnas em primeira eleição desde os ataques terroristas do Hamas",
+     "tituloMarcado": [
+      [
+       "Israel",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "vai",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "às",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "urnas",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "primeira",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "eleição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "desde",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "os",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ataques",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "terroristas",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Hamas",
+       true
+      ]
+     ],
+     "trecho": "Israel vai às urnas nesta terça (27) em eleição que pode definir o futuro de Netanyahu após três anos de guerras.",
+     "link": "https://www.gazetadopovo.com.br/mundo/israel-vai-as-urnas-em-primeira-eleicao-desde-os-ataques-terroristas-do-hamas/",
+     "publicadoEm": "2026-10-26T22:41:28.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "bbc",
+     "titulo": "Israel vai às urnas, e legado do 7 de outubro pode definir se Netanyahu terá seu sétimo mandato",
+     "tituloMarcado": [
+      [
+       "Israel",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "vai",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "às",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "urnas,",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "legado",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "7",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "outubro",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "pode",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "definir",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "se",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Netanyahu",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "terá",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "seu",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "sétimo",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mandato",
+       true
+      ]
+     ],
+     "trecho": "Muitos temem que nenhum dos principais blocos políticos consiga cadeiras suficientes para formar maioria, o que significa que semanas ou meses de disputas políticas podem estar por vir.",
+     "link": "https://www.bbc.com/portuguese/articles/cm4g1qpnkv11o?at_medium=RSS&at_campaign=rss",
+     "publicadoEm": "2026-10-27T10:17:45.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "agenciabrasil",
+     "titulo": "Israelenses vão às urnas em eleição que pode tirar Netanyahu do poder",
+     "tituloMarcado": [
+      [
+       "Israelenses",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "vão",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "às",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "urnas",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "eleição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "pode",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "tirar",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Netanyahu",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "poder",
+       true
+      ]
+     ],
+     "trecho": "Cerca de 7 milhões de israelenses vão às urnas, nesta terça-feira (27), pela primeira vez desde o ataque do Hamas de 7 de outubro de 2023. Entre os favoritos para assumir o governo, estão três partidos liderados por…",
+     "link": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/israelenses-vao-as-urnas-em-eleicao-que-pode-tirar-netanyahu-do-poder",
+     "publicadoEm": "2026-10-27T17:36:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "g1",
+     "titulo": "Sem apresentar provas, Netanyahu alega tentativa de fraude nas eleições em Israel",
+     "tituloMarcado": [
+      [
+       "Sem",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "apresentar",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "provas,",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Netanyahu",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "alega",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "tentativa",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fraude",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "nas",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "eleições",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Israel",
+       false
+      ]
+     ],
+     "trecho": "Eleições em Israel são marcadas por polarização e O primeiro-ministro de Israel, Benjamin Netanyahu, denunciou nesta terça-feira (27) supostas tentativas de fraude nas primeiras eleições do país desde os ataques do…",
+     "link": "https://g1.globo.com/mundo/noticia/2026/10/27/netanyahu-denuncia-tentativa-de-fraude-nas-eleicoes-em-israel.ghtml",
+     "publicadoEm": "2026-10-27T19:06:51.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "cnn",
+     "titulo": "Urnas fecham em Israel em disputa que vai definir futuro de Netanyahu",
+     "tituloMarcado": [
+      [
+       "Urnas",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fecham",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Israel",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "disputa",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "vai",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "definir",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "futuro",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Netanyahu",
+       false
+      ]
+     ],
+     "trecho": "Pesquisas indicam que bloco do primeiro-ministro pode perder cadeiras no Parlamento; rival Gadi Eisenkot também deve precisar do apoio de partidos árabes para formar maioria",
+     "link": "https://www.cnnbrasil.com.br/internacional/urnas-fecham-em-israel-em-disputa-que-vai-definir-futuro-de-netanyahu/",
+     "publicadoEm": "2026-10-27T20:00:34.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://www.gazetadopovo.com.br/republica/flavio-bolsonaro-tem-passaportes-apreendidos-e-esta-proibido-de-deixar-o-pais/",
+   "veiculos": 4,
+   "primeiro": "2026-10-26T21:46:38.000Z",
+   "ultimo": "2026-10-27T20:51:00.000Z",
+   "comuns": [
+    "Flávio",
+    "PF",
+    "passaportes",
+    "Moraes",
+    "Bolsonaro"
+   ],
+   "politica": "Bolsonaro",
+   "materias": [
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "Flávio Bolsonaro diz ter sido intimado pela PF a entregar passaportes por ordem de Moraes",
+     "tituloMarcado": [
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Bolsonaro",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "diz",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ter",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "sido",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "intimado",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "pela",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "PF",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "entregar",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "passaportes",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "por",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ordem",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Moraes",
+       false
+      ]
+     ],
+     "trecho": "Flávio Bolsonaro disse ter sido abordado pela PF quando deixava a casa do pai, o ex-presidente Jair Bolsonaro (PL).",
+     "link": "https://www.gazetadopovo.com.br/republica/flavio-bolsonaro-tem-passaportes-apreendidos-e-esta-proibido-de-deixar-o-pais/",
+     "publicadoEm": "2026-10-26T21:46:38.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "estadao",
+     "titulo": "PF cancela passaportes de Flávio Bolsonaro, suspeito de ter deixado o País, e comunica a Moraes",
+     "tituloMarcado": [
+      [
+       "PF",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "cancela",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "passaportes",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Bolsonaro,",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "suspeito",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ter",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "deixado",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "o",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "País,",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "comunica",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Moraes",
+       false
+      ]
+     ],
+     "trecho": "BRASÍLIA – A Polícia Federal comunicou ao ministro do Supremo Tribunal Federal (STF) Alexandre de Moraes que o senador e candidato derrotado à Presidência, Flávio Bolsonaro (PL-RJ), descumpriu a ordem judicial para…",
+     "link": "https://www.estadao.com.br/politica/pf-cancela-passaportes-de-flavio-bolsonaro-e-vai-comunicar-moraes-que-senador-descumpriu-ordem/",
+     "publicadoEm": "2026-10-27T15:25:35.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "g1",
+     "titulo": "PF apontou risco de Flávio fugir do Brasil e suspeita sobre dinheiro de Vorcaro ao pedir a Moraes apreensão de passaporte",
+     "tituloMarcado": [
+      [
+       "PF",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "apontou",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "risco",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fugir",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Brasil",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "suspeita",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "sobre",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dinheiro",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Vorcaro",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ao",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "pedir",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Moraes",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "apreensão",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "passaporte",
+       false
+      ]
+     ],
+     "trecho": "Flávio Bolsonaro em pronunciamento após perder eleição. Agustin Marcarian/Reuters A Polícia Federal (PF) apontou riscos \"concretos e atuais\" de fuga em pedido ao ministro Alexandre de Moraes, do Supremo Tribunal Federal…",
+     "link": "https://g1.globo.com/politica/noticia/2026/10/27/pf-apontou-risco-de-flavio-bolsonaro-fugir-do-brasil-e-suspeita-sobre-destino-de-dinheiro-de-vorcaro-ao-pedir-a-moraes-apreensao-de-passaporte.ghtml",
+     "publicadoEm": "2026-10-27T19:26:53.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "folha",
+     "titulo": "PF apontou risco concreto de Flávio Bolsonaro fugir do país ao pedir apreensão de passaporte a Moraes",
+     "tituloMarcado": [
+      [
+       "PF",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "apontou",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "risco",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "concreto",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Bolsonaro",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fugir",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "país",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ao",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "pedir",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "apreensão",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "passaporte",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Moraes",
+       false
+      ]
+     ],
+     "trecho": "A Polícia Federal apontou \"risco concreto de evasão do território nacional\" pelo senador Flávio Bolsonaro (PL -RJ) em manifestação enviada no último domingo (25) ao ministro Alexandre de Moraes, do STF (Supremo Tribunal…",
+     "link": "https://www1.folha.uol.com.br/poder/2026/10/pf-apontou-risco-concreto-de-flavio-bolsonaro-fugir-do-pais-ao-pedir-apreensao-de-passaporte-a-moraes.shtml",
+     "publicadoEm": "2026-10-27T20:51:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://g1.globo.com/mundo/noticia/2026/10/27/eleicoes-em-israel-urnas-sao-fechadas-em-disputa-com-participacao-recorde.ghtml",
+   "veiculos": 4,
+   "primeiro": "2026-10-27T20:02:40.000Z",
+   "ultimo": "2026-10-27T20:36:21.000Z",
+   "comuns": [
+    "Israel",
+    "boca",
+    "urna",
+    "oposição",
+    "Netanyahu"
+   ],
+   "politica": "eleições",
+   "materias": [
+    {
+     "veiculo": "g1",
+     "titulo": "Eleições em Israel: urnas são fechadas, e pesquisas de boca de urna indicam impasse",
+     "tituloMarcado": [
+      [
+       "Eleições",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Israel:",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "urnas",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "são",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fechadas,",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "pesquisas",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "boca",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "urna",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "indicam",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "impasse",
+       false
+      ]
+     ],
+     "trecho": "Benjamin Netanyahu e Gadi Eisenkot Yonatan Sindel/Pool via REUTERS e REUTERS/Shir Torem As urnas fecharam em Israel, que teve suas primeiras eleições gerais no país desde o início da guerra na Faixa de Gaza nesta…",
+     "link": "https://g1.globo.com/mundo/noticia/2026/10/27/eleicoes-em-israel-urnas-sao-fechadas-em-disputa-com-participacao-recorde.ghtml",
+     "publicadoEm": "2026-10-27T20:02:40.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "cnn",
+     "titulo": "Boca de urna em Israel mostra oposição ligeiramente à frente de Netanyahu",
+     "tituloMarcado": [
+      [
+       "Boca",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "urna",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Israel",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mostra",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "oposição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ligeiramente",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "à",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "frente",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Netanyahu",
+       false
+      ]
+     ],
+     "trecho": "Netanyahu e Eisenkot, adversários e principais candidatos, ainda não têm um caminho definido",
+     "link": "https://www.cnnbrasil.com.br/internacional/eleicoes-de-israel-pesquisa-de-boca-de-urna-nao-mostra-vencedor-claro/",
+     "publicadoEm": "2026-10-27T20:06:14.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "folha",
+     "titulo": "Partido de Netanyahu tem mais votos, mas bloco de oposição pode vencer em Israel, diz boca de urna",
+     "tituloMarcado": [
+      [
+       "Partido",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Netanyahu",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "tem",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mais",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "votos,",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mas",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "bloco",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "oposição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "pode",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "vencer",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Israel,",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "diz",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "boca",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "urna",
+       false
+      ]
+     ],
+     "trecho": "Os israelenses compareceram em massa às urnas nesta terça-feira (27), em participação recorde, e, segundo pesquisas de boca de urna, o partido do atual primeiro-ministro Binyamin Netanyahu deve conquistar o maior número…",
+     "link": "https://www1.folha.uol.com.br/mundo/2026/10/partido-de-netanyahu-tem-mais-votos-mas-bloco-de-oposicao-pode-vencer-em-israel-diz-boca-de-urna.shtml",
+     "publicadoEm": "2026-10-27T20:19:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "veja",
+     "titulo": "Eleições em Israel: boca de urna indica impasse entre Netanyahu e oposição",
+     "tituloMarcado": [
+      [
+       "Eleições",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Israel:",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "boca",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "urna",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "indica",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "impasse",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "entre",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Netanyahu",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "oposição",
+       false
+      ]
+     ],
+     "trecho": "Projeções indicam que os dois principais blocos devem ficar abaixo das 61 cadeiras necessárias para formar maioria no Parlamento",
+     "link": "https://veja.abril.com.br/mundo/eleicoes-em-israel-boca-de-urna-indica-impasse-entre-netanyahu-e-oposicao/",
+     "publicadoEm": "2026-10-27T20:36:21.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://g1.globo.com/economia/noticia/2026/10/27/ministro-da-fazenda-anuncia-projeto-para-mirar-centro-da-meta-fiscal-e-diz-que-espera-racionalidade-do-mercado.ghtml",
+   "veiculos": 4,
+   "primeiro": "2026-10-27T13:03:39.000Z",
+   "ultimo": "2026-10-27T16:04:00.000Z",
+   "comuns": [
+    "Durigan",
+    "meta",
+    "fiscal"
+   ],
+   "politica": null,
+   "materias": [
+    {
+     "veiculo": "g1",
+     "titulo": "Durigan anuncia projeto para cumprir centro da meta fiscal e pede 'racionalidade' do mercado",
+     "tituloMarcado": [
+      [
+       "Durigan",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "anuncia",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "projeto",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "para",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "cumprir",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "centro",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "da",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "meta",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fiscal",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "pede",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "'racionalidade'",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mercado",
+       false
+      ]
+     ],
+     "trecho": "Ministro da Fazenda fala sobre reação do mercado O ministro da Fazenda, Dario Durigan, anunciou nesta terça-feira (27) que o governo federal enviará ao Congresso Nacional um projeto de lei para estabelecer expressamente…",
+     "link": "https://g1.globo.com/economia/noticia/2026/10/27/ministro-da-fazenda-anuncia-projeto-para-mirar-centro-da-meta-fiscal-e-diz-que-espera-racionalidade-do-mercado.ghtml",
+     "publicadoEm": "2026-10-27T13:03:39.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "Ministro de Lula diz esperar “racionalidade” do mercado um dia depois de reação negativa",
+     "tituloMarcado": [
+      [
+       "Ministro",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Lula",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "diz",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "esperar",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "“racionalidade”",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mercado",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "um",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dia",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "depois",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reação",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "negativa",
+       true
+      ]
+     ],
+     "trecho": "Durigan afirma que governo está em contato com agentes do mercado e que segue com objetivo de cumprir o centro da meta de inflação.",
+     "link": "https://www.gazetadopovo.com.br/economia/ministro-lula-esperar-racionalidade-mercado-um-dia-depois-reacao-negativa/",
+     "publicadoEm": "2026-10-27T14:18:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "estadao",
+     "titulo": "Durigan diz que governo fará projeto de lei complementar para perseguir centro da meta fiscal",
+     "tituloMarcado": [
+      [
+       "Durigan",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "diz",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "governo",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fará",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "projeto",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "lei",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "complementar",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "para",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "perseguir",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "centro",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "da",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "meta",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fiscal",
+       false
+      ]
+     ],
+     "trecho": "BRASÍLIA - O ministro da Fazenda, Dario Durigan, disse nesta terça-feira, 27, que o governo tem em mente um Projeto de Lei Complementar (PLP) para reafirmar que perseguirá o centro da meta de resultado primário e…",
+     "link": "https://www.estadao.com.br/economia/durigan-governo-projeto-lei-complementar-perseguir-centro-meta-fiscal/",
+     "publicadoEm": "2026-10-27T14:19:40.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "agenciabrasil",
+     "titulo": "Governo buscará cumprir meta fiscal com diálogo, diz Durigan",
+     "tituloMarcado": [
+      [
+       "Governo",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "buscará",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "cumprir",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "meta",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fiscal",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "com",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "diálogo,",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "diz",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Durigan",
+       false
+      ]
+     ],
+     "trecho": "O ministro da Fazenda, Dario Durigan, assegurou, nesta terça-feira (27), em Brasília, que o governo federal vai discutir com agentes do mercado financeiro e do setor privado em geral medidas de ajuste que favoreçam o…",
+     "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-buscara-cumprir-meta-fiscal-com-dialogo-diz-durigan",
+     "publicadoEm": "2026-10-27T16:04:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://f5.folha.uol.com.br/celebridades/2026/10/soso-careca-e-mc-paiva-anunciam-gravidez-em-publicacao-nas-redes-sociais.shtml",
+   "veiculos": 3,
+   "primeiro": "2026-10-27T17:51:00.000Z",
+   "ultimo": "2026-10-27T20:57:33.000Z",
+   "comuns": [
+    "Soso",
+    "Careca",
+    "gravidez",
+    "Paiva",
+    "anunciam",
+    "Malévola"
+   ],
+   "politica": null,
+   "materias": [
+    {
+     "veiculo": "folha",
+     "titulo": "Soso Careca e MC Paiva anunciam gravidez em publicação nas redes sociais",
+     "tituloMarcado": [
+      [
+       "Soso",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Careca",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "MC",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Paiva",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "anunciam",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "gravidez",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "publicação",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "nas",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "redes",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "sociais",
+       true
+      ]
+     ],
+     "trecho": "A influenciadora Soso Careca, de 19 anos, e o cantor MC Paiva, de 24, anunciaram, nesta terça-feira (27), por meio das redes sociais, que estão esperando um filho.",
+     "link": "https://f5.folha.uol.com.br/celebridades/2026/10/soso-careca-e-mc-paiva-anunciam-gravidez-em-publicacao-nas-redes-sociais.shtml",
+     "publicadoEm": "2026-10-27T17:51:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "cnn",
+     "titulo": "Malévola ironiza gravidez de Soso Careca e Paiva: “Quero ser madrinha”",
+     "tituloMarcado": [
+      [
+       "Malévola",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ironiza",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "gravidez",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Soso",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Careca",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Paiva:",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "“Quero",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ser",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "madrinha”",
+       true
+      ]
+     ],
+     "trecho": "Influenciadora e funkeiro fizeram o anúncio nas redes sociais nesta terça-feira (28) após diversos boatos circularem nas redes sociais quando casal foi flagrado em um PS obstétrico",
+     "link": "https://www.cnnbrasil.com.br/pop/celebridades/malevola-ironiza-gravidez-de-soso-careca-e-paiva-quero-ser-madrinha/",
+     "publicadoEm": "2026-10-27T19:15:47.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "metropoles",
+     "titulo": "Malévola questiona maternidade de Soso Careca após anúncio de gravidez",
+     "tituloMarcado": [
+      [
+       "Malévola",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "questiona",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "maternidade",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Soso",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Careca",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "após",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "anúncio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "gravidez",
+       false
+      ]
+     ],
+     "trecho": "A influenciadora gravou um vídeo para falar sobre Soso Careca, que está grávida de MC Paiva. Recentemente, os três estavam em pé de guerra",
+     "link": "https://www.metropoles.com/celebridades/malevola-questiona-maternidade-de-soso-careca-apos-anuncio-de-gravidez",
+     "publicadoEm": "2026-10-27T20:57:33.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://www.cnnbrasil.com.br/politica/pl-convoca-reuniao-de-emergencia-apos-flavio-bolsonaro-deixar-o-brasil/",
+   "veiculos": 3,
+   "primeiro": "2026-10-27T19:07:41.000Z",
+   "ultimo": "2026-10-27T20:51:12.000Z",
+   "comuns": [
+    "PL",
+    "reunião",
+    "Flávio",
+    "convoca",
+    "emergência",
+    "após"
+   ],
+   "politica": "Bolsonaro",
+   "materias": [
+    {
+     "veiculo": "cnn",
+     "titulo": "PL convoca reunião de emergência após Flávio Bolsonaro deixar o Brasil",
+     "tituloMarcado": [
+      [
+       "PL",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "convoca",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reunião",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "emergência",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "após",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Bolsonaro",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "deixar",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "o",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Brasil",
+       false
+      ]
+     ],
+     "trecho": "O presidente do PL (Partido Liberal), Valdemar Costa Neto, convocou uma reunião de emergência com dirigentes da sigla após o senador Flávio Bolsonaro (PL) deixar o Brasil rumo aos Estados Unidos. Em atualização.",
+     "link": "https://www.cnnbrasil.com.br/politica/pl-convoca-reuniao-de-emergencia-apos-flavio-bolsonaro-deixar-o-brasil/",
+     "publicadoEm": "2026-10-27T19:07:41.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "veja",
+     "titulo": "PL convoca reunião emergencial em Brasília após relatos de possível fuga de Flávio",
+     "tituloMarcado": [
+      [
+       "PL",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "convoca",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reunião",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "emergencial",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Brasília",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "após",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "relatos",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "possível",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fuga",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ]
+     ],
+     "trecho": "Pessoas próximas à legenda afirmam que o partido já discute sua liderança diante da possibilidade de Flávio ter saído do país",
+     "link": "https://veja.abril.com.br/brasil/pl-convoca-reuniao-emergencial-em-brasilia-apos-relatos-de-possivel-fuga-de-flavio/",
+     "publicadoEm": "2026-10-27T20:06:30.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "uol",
+     "titulo": "Em dia de fuga de Flávio, Michelle tem reunião no PL com Valdemar",
+     "tituloMarcado": [
+      [
+       "Em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dia",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fuga",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio,",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Michelle",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "tem",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reunião",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "no",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "PL",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "com",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Valdemar",
+       true
+      ]
+     ],
+     "trecho": "O presidente nacional do PL, Valdemar Costa Neto, se reuniu com a senadora eleita Michelle Bolsonaro (PL-DF) após Flávio Bolsonaro (PL) fugir do Brasil rumo aos Estados Unidos.",
+     "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/10/27/em-dia-de-fuga-de-flavio-michelle-tem-reuniao-no-pl-com-valdemar.ghtm",
+     "publicadoEm": "2026-10-27T20:51:12.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/27/denuncias-de-assedio-eleitoral-no-trabalho-outubro.ghtml",
+   "veiculos": 3,
+   "primeiro": "2026-10-27T06:30:00.000Z",
+   "ultimo": "2026-10-27T20:48:25.000Z",
+   "comuns": [
+    "Denúncias",
+    "assédio",
+    "eleitoral",
+    "trabalho",
+    "MPT"
+   ],
+   "politica": "eleitoral",
+   "materias": [
+    {
+     "veiculo": "g1",
+     "titulo": "Denúncias de assédio eleitoral no trabalho mais que dobram em outubro; veja como denunciar",
+     "tituloMarcado": [
+      [
+       "Denúncias",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "assédio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "eleitoral",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "no",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "trabalho",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mais",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dobram",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "outubro;",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "veja",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "como",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "denunciar",
+       false
+      ]
+     ],
+     "trecho": "Urna eletrônica eleições mulher Tribunal Superior Eleitoral/TSE As denúncias de assédio eleitoral recebidas pelo Ministério Público do Trabalho (MPT) chegaram a 2.009 em 2026, até as 17h desta segunda-feira (26)…",
+     "link": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/27/denuncias-de-assedio-eleitoral-no-trabalho-outubro.ghtml",
+     "publicadoEm": "2026-10-27T06:30:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "agenciabrasil",
+     "titulo": "MPT registra quase 2 mil denúncias de assédio eleitoral no Brasil",
+     "tituloMarcado": [
+      [
+       "MPT",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "registra",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "quase",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "2",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mil",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "denúncias",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "assédio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "eleitoral",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "no",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Brasil",
+       true
+      ]
+     ],
+     "trecho": "O Ministério Público do Trabalho (MPT) recebeu 1.937 denúncias de assédio eleitoral até essa segunda-feira (26), dia seguinte ao segundo turno das eleições. Desse total, 946 ocorreram entre o primeiro e o segundo…",
+     "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/mpt-registra-1937-denuncias-de-assedio-eleitoral",
+     "publicadoEm": "2026-10-27T16:35:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "metropoles",
+     "titulo": "MPT investiga denúncias de trabalhadores demitidos após votarem no PT",
+     "tituloMarcado": [
+      [
+       "MPT",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "investiga",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "denúncias",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "trabalhadores",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "demitidos",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "após",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "votarem",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "no",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "PT",
+       true
+      ]
+     ],
+     "trecho": "Relatos incluem situações em que empresários estariam orientando outros empregadores a demitir funcionários que votaram no PT",
+     "link": "https://www.metropoles.com/distrito-federal/mpt-denuncias-trabalhadores-demitidos-voto-pt",
+     "publicadoEm": "2026-10-27T20:48:25.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://www1.folha.uol.com.br/poder/2026/10/comissao-da-camara-aprova-convite-para-ouvir-roberta-luchsinger-sobre-caso-lulinha.shtml",
+   "veiculos": 3,
+   "primeiro": "2026-10-27T18:46:00.000Z",
+   "ultimo": "2026-10-27T20:38:13.000Z",
+   "comuns": [
+    "Câmara",
+    "aprova",
+    "Roberta",
+    "Luchsinger",
+    "Comissão",
+    "convite"
+   ],
+   "politica": null,
+   "materias": [
+    {
+     "veiculo": "folha",
+     "titulo": "Comissão da Câmara aprova convite para ouvir Roberta Luchsinger sobre caso Lulinha",
+     "tituloMarcado": [
+      [
+       "Comissão",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "da",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Câmara",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "aprova",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "convite",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "para",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ouvir",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Roberta",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Luchsinger",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "sobre",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "caso",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Lulinha",
+       true
+      ]
+     ],
+     "trecho": "A Comissão de Segurança Pública e Combate ao Crime Organizado da Câmara dos Deputados aprovou, nesta terça-feira (27), um convite para a lobista Roberta Luchsinger falar ao colegiado sobre as investigações que miram ela…",
+     "link": "https://www1.folha.uol.com.br/poder/2026/10/comissao-da-camara-aprova-convite-para-ouvir-roberta-luchsinger-sobre-caso-lulinha.shtml",
+     "publicadoEm": "2026-10-27T18:46:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "poder360",
+     "titulo": "Câmara aprova convite para Roberta Luchsinger falar sobre ameaças",
+     "tituloMarcado": [
+      [
+       "Câmara",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "aprova",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "convite",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "para",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Roberta",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Luchsinger",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "falar",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "sobre",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ameaças",
+       true
+      ]
+     ],
+     "trecho": "Colegiado também quer ouvir diretor-geral da PF, Andrei Rodrigues, sobre Master; lobista falará sobre relação com Lulinha",
+     "link": "https://www.poder360.com.br/poder-congresso/camara-aprova-convite-para-roberta-luchsinger-falar-sobre-ameacas/",
+     "publicadoEm": "2026-10-27T19:53:06.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "Comissão da Câmara aprova convocação de Roberta Luchsinger e diretor da PF",
+     "tituloMarcado": [
+      [
+       "Comissão",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "da",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Câmara",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "aprova",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "convocação",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Roberta",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Luchsinger",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "diretor",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "da",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "PF",
+       true
+      ]
+     ],
+     "trecho": "Deputados da oposição querem esclarecimentos sobre relações da lobista e do diretor da PF com o governo Lula e o Banco Master.",
+     "link": "https://www.gazetadopovo.com.br/republica/comissao-camara-convocacao-roberta-luchsinger-diretor-pf/",
+     "publicadoEm": "2026-10-27T20:38:13.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://www.estadao.com.br/politica/governo-reparacao-mensal-17-5-mil-dilma-ditadura-militar-npr/",
+   "veiculos": 3,
+   "primeiro": "2026-10-27T19:41:03.000Z",
+   "ultimo": "2026-10-27T20:37:46.000Z",
+   "comuns": [
+    "Dilma",
+    "mensal",
+    "mil",
+    "perseguição",
+    "17",
+    "Ditadura"
+   ],
+   "politica": null,
+   "materias": [
+    {
+     "veiculo": "estadao",
+     "titulo": "Dilma Rousseff terá pagamento mensal superior a R$ 17 mil por reparação de perseguição na Ditadura",
+     "tituloMarcado": [
+      [
+       "Dilma",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Rousseff",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "terá",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "pagamento",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mensal",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "superior",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "R$",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "17",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mil",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "por",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reparação",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "perseguição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "na",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Ditadura",
+       false
+      ]
+     ],
+     "trecho": "O Ministério dos Direitos Humanos e da Cidadania fixou um pagamento mensal de R$ 17.562,80 para a ex-presidente Dilma Rousseff (PT) como reparação econômica por perseguição política durante o regime militar. A portaria…",
+     "link": "https://www.estadao.com.br/politica/governo-reparacao-mensal-17-5-mil-dilma-ditadura-militar-npr/",
+     "publicadoEm": "2026-10-27T19:41:03.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "cnn",
+     "titulo": "Dilma receberá indenização mensal de R$ 17 mil por perseguição na ditadura",
+     "tituloMarcado": [
+      [
+       "Dilma",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "receberá",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "indenização",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mensal",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "R$",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "17",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mil",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "por",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "perseguição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "na",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ditadura",
+       false
+      ]
+     ],
+     "trecho": "Decisão do Ministério dos Direitos Humanos e da Cidadania também estabeleceu o pagamento de uma parcela única de R$ 6,6 milhões retroativos desde 1997",
+     "link": "https://www.cnnbrasil.com.br/politica/dilma-recebera-indenizacao-mensal-de-r-17-mil-por-perseguicao-na-ditadura/",
+     "publicadoEm": "2026-10-27T20:36:06.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "Dilma receberá R$ 17,5 mil mensais e R$ 6,6 milhões retroativos por “perseguição” no regime militar",
+     "tituloMarcado": [
+      [
+       "Dilma",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "receberá",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "R$",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "17,5",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mil",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mensais",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "R$",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "6,6",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "milhões",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "retroativos",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "por",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "“perseguição”",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "no",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "regime",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "militar",
+       true
+      ]
+     ],
+     "trecho": "Dilma receberá R$ 17,5 mil mensais e terá R$ 6,6 milhões em retroativos calculados por \"perseguição política\" durante a ditadura militar.",
+     "link": "https://www.gazetadopovo.com.br/republica/dilma-recebera-r-175-mil-mensais-e-r-66-milhoes-retroativos-por-perseguicao-no-regime-militar/",
+     "publicadoEm": "2026-10-27T20:37:46.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://www.gazetadopovo.com.br/economia/vitoria-de-lula-provoca-tombo-historico-na-bolsa-faz-o-dolar-disparar-e-pressiona-os-juros/",
+   "veiculos": 3,
+   "primeiro": "2026-10-26T21:00:06.000Z",
+   "ultimo": "2026-10-27T20:26:56.000Z",
+   "comuns": [
+    "tombo",
+    "Bolsa",
+    "Lula",
+    "dólar",
+    "após"
+   ],
+   "politica": "Lula",
+   "materias": [
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "Vitória de Lula provoca tombo histórico na Bolsa, faz o dólar disparar e pressiona os juros",
+     "tituloMarcado": [
+      [
+       "Vitória",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Lula",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "provoca",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "tombo",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "histórico",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "na",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Bolsa,",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "faz",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "o",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dólar",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "disparar",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "pressiona",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "os",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "juros",
+       true
+      ]
+     ],
+     "trecho": "Vitória de Lula provoca turbulência no mercado: Bolsa cai 17,34%, dólar supera R$ 5,60 e perdas somam US$ 15 bilhões.",
+     "link": "https://www.gazetadopovo.com.br/economia/vitoria-de-lula-provoca-tombo-historico-na-bolsa-faz-o-dolar-disparar-e-pressiona-os-juros/",
+     "publicadoEm": "2026-10-26T21:00:06.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "g1",
+     "titulo": "Bilionários brasileiros perdem R$ 75 bilhões em um dia após tombo da bolsa; veja os mais afetados",
+     "tituloMarcado": [
+      [
+       "Bilionários",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "brasileiros",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "perdem",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "R$",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "75",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "bilhões",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "um",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dia",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "após",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "tombo",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "da",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "bolsa;",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "veja",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "os",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mais",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "afetados",
+       true
+      ]
+     ],
+     "trecho": "O que explica o ‘circuit breaker’ na bolsa de valores? A forte turbulência nos mercados financeiros após a reeleição do presidente Luiz Inácio Lula da Silva (PT) provocou uma queda expressiva na bolsa brasileira nesta…",
+     "link": "https://g1.globo.com/economia/noticia/2026/10/27/bilionarios-brasileiros-perdem-us-14-bilhoes-apos-tombo-do-ibovespa.ghtml",
+     "publicadoEm": "2026-10-27T12:12:31.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "poder360",
+     "titulo": "Bolsa volta a cair após tombo com reeleição de Lula; dólar recua",
+     "tituloMarcado": [
+      [
+       "Bolsa",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "volta",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "cair",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "após",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "tombo",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "com",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reeleição",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Lula;",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dólar",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "recua",
+       true
+      ]
+     ],
+     "trecho": "Mercado tenta se recuperar das perdas de 2ª feira, mas mantém cautela diante das incertezas fiscais e dos sinais do governo",
+     "link": "https://www.poder360.com.br/poder-economia/bolsa-volta-a-cair-apos-tombo-com-reeleicao-de-lula-dolar-recua/",
+     "publicadoEm": "2026-10-27T20:26:56.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://www.gazetadopovo.com.br/gazeta-agora/gazeta-agora-donald-trump-e-marco-rubio-ajudam-flavio-a-deixar-o-brasil/",
+   "veiculos": 3,
+   "primeiro": "2026-10-27T19:15:50.000Z",
+   "ultimo": "2026-10-27T19:58:28.000Z",
+   "comuns": [
+    "Trump",
+    "Flávio",
+    "Marco",
+    "Rubio",
+    "Aliado",
+    "Bolsonaro"
+   ],
+   "politica": "Bolsonaro",
+   "materias": [
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "Gazeta Agora: Donald Trump e Marco Rubio ajudam Flávio a deixar o Brasil",
+     "tituloMarcado": [
+      [
+       "Gazeta",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Agora:",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Donald",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Trump",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Marco",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Rubio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ajudam",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "deixar",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "o",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Brasil",
+       true
+      ]
+     ],
+     "trecho": "A edição desta terça-feira (26) destaca, entre outros assuntos, que Flávio Bolsonaro deixa o Brasil e viaja aos EUA.",
+     "link": "https://www.gazetadopovo.com.br/gazeta-agora/gazeta-agora-donald-trump-e-marco-rubio-ajudam-flavio-a-deixar-o-brasil/",
+     "publicadoEm": "2026-10-27T19:15:50.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "agenciabrasil",
+     "titulo": "Aliado de Trump diz que Flávio Bolsonaro chegou aos EUA",
+     "tituloMarcado": [
+      [
+       "Aliado",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Trump",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "diz",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Bolsonaro",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "chegou",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "aos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "EUA",
+       true
+      ]
+     ],
+     "trecho": "O investidor e ex-secretário de Turismo do México, Simón Levy, publicou uma postagem nas redes sociais nesta terça-feira (27) relatando que Flávio Bolsonaro teria chegado aos Estados Unidos (EUA), em uma articulação…",
+     "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/aliado-de-trump-diz-que-flavio-bolsonaro-chegou-aos-eua",
+     "publicadoEm": "2026-10-27T19:26:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "cartacapital",
+     "titulo": "Aliado de Trump diz que fuga de Flávio Bolsonaro foi articulada por Marco Rubio",
+     "tituloMarcado": [
+      [
+       "Aliado",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Trump",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "diz",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fuga",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Bolsonaro",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "foi",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "articulada",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "por",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Marco",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Rubio",
+       false
+      ]
+     ],
+     "trecho": "Segundo o empresário mexicano Simón Levy, o senador brasileiro já está nos EUA",
+     "link": "https://www.cartacapital.com.br/politica/aliado-de-trump-diz-que-fuga-de-flavio-bolsonaro-foi-articulada-por-marco-rubio/",
+     "publicadoEm": "2026-10-27T19:58:28.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://www1.folha.uol.com.br/poder/2026/10/justica-italiana-atende-defesa-de-zambelli-e-adia-audiencia-de-extradicao.shtml",
+   "veiculos": 3,
+   "primeiro": "2026-10-27T16:42:00.000Z",
+   "ultimo": "2026-10-27T19:31:46.000Z",
+   "comuns": [
+    "Justiça",
+    "italiana",
+    "Zambelli",
+    "adia",
+    "extradição",
+    "audiência"
+   ],
+   "politica": null,
+   "materias": [
+    {
+     "veiculo": "folha",
+     "titulo": "Justiça italiana atende defesa de Zambelli e adia audiência de extradição",
+     "tituloMarcado": [
+      [
+       "Justiça",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "italiana",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "atende",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "defesa",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Zambelli",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "adia",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "audiência",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "extradição",
+       false
+      ]
+     ],
+     "trecho": "A Corte de Apelação de Roma recomeçou a análise do segundo pedido do Brasil para que a ex-deputada Carla Zambelli (PL-SP) seja extraditada. Na audiência desta terça-feira (27), a defesa pediu mais tempo para avaliar…",
+     "link": "https://www1.folha.uol.com.br/poder/2026/10/justica-italiana-atende-defesa-de-zambelli-e-adia-audiencia-de-extradicao.shtml",
+     "publicadoEm": "2026-10-27T16:42:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "agenciabrasil",
+     "titulo": "Justiça italiana adia julgamento sobre extradição de Zambelli",
+     "tituloMarcado": [
+      [
+       "Justiça",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "italiana",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "adia",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "julgamento",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "sobre",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "extradição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Zambelli",
+       false
+      ]
+     ],
+     "trecho": "A Justiça da Itália adiou para 24 de novembro o julgamento sobre a extradição para o Brasil da deputada cassada Carla Zambelli, no caso em que ela foi condenada por porte ilegal de arma de fogo e constrangimento ilegal…",
+     "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/justica-italiana-adia-julgamento-sobre-extradicao-de-zambelli",
+     "publicadoEm": "2026-10-27T17:28:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "Justiça italiana adia para novembro audiência sobre extradição de Carla Zambelli",
+     "tituloMarcado": [
+      [
+       "Justiça",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "italiana",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "adia",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "para",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "novembro",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "audiência",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "sobre",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "extradição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Carla",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Zambelli",
+       false
+      ]
+     ],
+     "trecho": "Justiça italiana adia audiência sobre Carla Zambelli após defesa alegar falta de acesso a documentos sobre condições carcerárias no Brasil.",
+     "link": "https://www.gazetadopovo.com.br/mundo/justica-italiana-adia-para-novembro-audiencia-sobre-extradicao-de-carla-zambelli/",
+     "publicadoEm": "2026-10-27T19:31:46.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://www.estadao.com.br/politica/eleicoes/em-video-tarcisio-reconhece-vitoria-de-lula-e-repete-6-vezes-que-eleicao-passou/",
+   "veiculos": 3,
+   "primeiro": "2026-10-27T17:40:13.000Z",
+   "ultimo": "2026-10-27T18:21:48.000Z",
+   "comuns": [
+    "Tarcísio",
+    "eleição",
+    "passou",
+    "repete",
+    "vezes"
+   ],
+   "politica": "eleição",
+   "materias": [
+    {
+     "veiculo": "estadao",
+     "titulo": "Em vídeo, Tarcísio reconhece vitória de Lula e repete 6 vezes que ‘eleição passou’",
+     "tituloMarcado": [
+      [
+       "Em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "vídeo,",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Tarcísio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reconhece",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "vitória",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Lula",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "repete",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "6",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "vezes",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "‘eleição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "passou’",
+       false
+      ]
+     ],
+     "trecho": "O governador de São Paulo, Tarcísio de Freitas (Republicanos), publicou um vídeo em que reconhece a vitória de Luiz Inácio Lula da Silva (PT), embora não cite nominalmente o presidente, e defende uma “oposição…",
+     "link": "https://www.estadao.com.br/politica/eleicoes/em-video-tarcisio-reconhece-vitoria-de-lula-e-repete-6-vezes-que-eleicao-passou/",
+     "publicadoEm": "2026-10-27T17:40:13.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "folha",
+     "titulo": "Com Flávio a caminho dos EUA, Tarcísio diz que eleição passou e que país precisa de projeto",
+     "tituloMarcado": [
+      [
+       "Com",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "caminho",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "EUA,",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Tarcísio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "diz",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "eleição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "passou",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "país",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "precisa",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "projeto",
+       true
+      ]
+     ],
+     "trecho": "O governador Tarcísio de Freitas (Republicanos) publicou um vídeo no começo da tarde desta terça-feira (27), poucas horas após a circulação das primeiras notícias sobre a possível fuga de Flávio Bolsonaro (PL) do país…",
+     "link": "https://www1.folha.uol.com.br/poder/2026/10/com-flavio-a-caminho-dos-eua-tarcisio-diz-que-eleicao-passou-e-que-pais-precisa-de-projeto.shtml",
+     "publicadoEm": "2026-10-27T18:06:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "cartacapital",
+     "titulo": "Tarcísio de Freitas repete 6 vezes em vídeo que ‘a eleição passou’",
+     "tituloMarcado": [
+      [
+       "Tarcísio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Freitas",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "repete",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "6",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "vezes",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "vídeo",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "‘a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "eleição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "passou’",
+       false
+      ]
+     ],
+     "trecho": "O PL já reconheceu a derrota. O candidato perdedor, não",
+     "link": "https://www.cartacapital.com.br/cartaexpressa/tarcisio-de-freitas-repete-6-vezes-em-video-que-a-eleicao-passou/",
+     "publicadoEm": "2026-10-27T18:21:48.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://g1.globo.com/economia/noticia/2026/10/27/principais-preocupacoes-dos-bancos-sao-com-as-contas-publicas-e-inadimplencia-diz-relatorio-do-banco-central.ghtml",
+   "veiculos": 3,
+   "primeiro": "2026-10-27T11:41:28.000Z",
+   "ultimo": "2026-10-27T17:48:58.000Z",
+   "comuns": [
+    "bancos",
+    "Central",
+    "estabilidade",
+    "financeira",
+    "não",
+    "risco"
+   ],
+   "politica": null,
+   "materias": [
+    {
+     "veiculo": "g1",
+     "titulo": "Principais preocupações dos bancos são com as contas públicas e inadimplência, diz Banco Central",
+     "tituloMarcado": [
+      [
+       "Principais",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "preocupações",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "bancos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "são",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "com",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "as",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "contas",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "públicas",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "inadimplência,",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "diz",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Banco",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Central",
+       false
+      ]
+     ],
+     "trecho": "Sede do Banco Central em Brasília Raphael Ribeiro/BCB As principais preocupações das instituições financeiras envolvem o chamado \"risco fiscal\" — relacionado aos déficits sucessivos nas contas públicas e à trajetória da…",
+     "link": "https://g1.globo.com/economia/noticia/2026/10/27/principais-preocupacoes-dos-bancos-sao-com-as-contas-publicas-e-inadimplencia-diz-relatorio-do-banco-central.ghtml",
+     "publicadoEm": "2026-10-27T11:41:28.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "agenciabrasil",
+     "titulo": "Banco Central diz que estabilidade financeira não está em risco",
+     "tituloMarcado": [
+      [
+       "Banco",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Central",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "diz",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "estabilidade",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "financeira",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "não",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "está",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "risco",
+       false
+      ]
+     ],
+     "trecho": "O Banco Central (BC) informou nesta terça-feira (27) que \"não vê risco relevante\" para a estabilidade financeira do país, apesar da piora dos indicadores de crédito das famílias. Segundo o Relatório de Estabilidade…",
+     "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/banco-central-diz-que-estabilidade-financeira-nao-esta-em-risco",
+     "publicadoEm": "2026-10-27T14:28:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "cartacapital",
+     "titulo": "Banco Central diz que estabilidade financeira não está em risco",
+     "tituloMarcado": [
+      [
+       "Banco",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Central",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "diz",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "estabilidade",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "financeira",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "não",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "está",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "risco",
+       false
+      ]
+     ],
+     "trecho": "Segundo o BC, o sistema financeiro continua com níveis confortáveis de capitalização e liquidez, além de capacidade de resistir a cenários adversos",
+     "link": "https://www.cartacapital.com.br/economia/banco-central-diz-que-estabilidade-financeira-nao-esta-em-risco/",
+     "publicadoEm": "2026-10-27T17:48:58.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://g1.globo.com/economia/noticia/2026/10/27/governo-prorroga-subvencao-ao-diesel-por-mais-30-dias.ghtml",
+   "veiculos": 3,
+   "primeiro": "2026-10-27T11:13:04.000Z",
+   "ultimo": "2026-10-27T15:41:00.000Z",
+   "comuns": [
+    "Governo",
+    "subvenção",
+    "diesel",
+    "prorroga",
+    "2,12",
+    "mês"
+   ],
+   "politica": null,
+   "materias": [
+    {
+     "veiculo": "g1",
+     "titulo": "Governo prorroga subvenção ao diesel por mais 30 dias, em meio à alta do petróleo",
+     "tituloMarcado": [
+      [
+       "Governo",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "prorroga",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "subvenção",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ao",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "diesel",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "por",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mais",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "30",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dias,",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "meio",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "à",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "alta",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "petróleo",
+       true
+      ]
+     ],
+     "trecho": "Bruno Moretti, ministro do Planejamento e Orçamento Edilson Rodrigues/Agência Senado O Ministério do Planejamento informou nesta terça-feira (27) que a subvenção ao diesel, um subsídio concedido pelo governo para…",
+     "link": "https://g1.globo.com/economia/noticia/2026/10/27/governo-prorroga-subvencao-ao-diesel-por-mais-30-dias.ghtml",
+     "publicadoEm": "2026-10-27T11:13:04.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "estadao",
+     "titulo": "Governo vai renovar subvenção de R$ 2,12 por litro do diesel por um mês",
+     "tituloMarcado": [
+      [
+       "Governo",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "vai",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "renovar",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "subvenção",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "R$",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "2,12",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "por",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "litro",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "diesel",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "por",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "um",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mês",
+       false
+      ]
+     ],
+     "trecho": "BRASÍLIA - O Ministério do Planejamento e Orçamento anunciou nesta terça-feira, 27, que o governo irá renovar a subvenção de R$ 2,12 por litro do diesel por um mês. De acordo com a pasta, o impacto fiscal continuará…",
+     "link": "https://www.estadao.com.br/economia/governo-renova-subvencao-diesel-um-mes/",
+     "publicadoEm": "2026-10-27T11:41:05.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "agenciabrasil",
+     "titulo": "Governo prorroga por um mês subvenção de R$ 2,12 ao diesel",
+     "tituloMarcado": [
+      [
+       "Governo",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "prorroga",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "por",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "um",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mês",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "subvenção",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "R$",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "2,12",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ao",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "diesel",
+       false
+      ]
+     ],
+     "trecho": "O governo federal informou nesta terça-feira (27) que renovará por mais um mês a subvenção de R$ 2,12 por litro ao óleo diesel. A medida será formalizada por meio de portaria a ser publicada no Diário Oficial da União…",
+     "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-prorroga-por-um-mes-subvencao-de-r-212-ao-diesel",
+     "publicadoEm": "2026-10-27T15:41:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://g1.globo.com/economia/noticia/2026/10/26/em-dia-de-nervosismo-no-mercado-tesouro-nacional-recompra-r-71-bilhoes-em-titulos-publicos.ghtml",
+   "veiculos": 3,
+   "primeiro": "2026-10-26T15:53:39.000Z",
+   "ultimo": "2026-10-27T15:36:00.000Z",
+   "comuns": [
+    "Tesouro",
+    "títulos",
+    "Nacional",
+    "recompra",
+    "públicos"
+   ],
+   "politica": null,
+   "materias": [
+    {
+     "veiculo": "g1",
+     "titulo": "Em dia de nervosismo no mercado, Tesouro Nacional recompra R$ 7,1 bilhões em títulos públicos",
+     "tituloMarcado": [
+      [
+       "Em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dia",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "nervosismo",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "no",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mercado,",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Tesouro",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Nacional",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "recompra",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "R$",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "7,1",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "bilhões",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "títulos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "públicos",
+       false
+      ]
+     ],
+     "trecho": "Circuit breaker: entenda o que é a suspensão das negociações quando a bolsa despenca A Secretaria do Tesouro Nacional realizou nesta segunda-feira (26) a recompra de títulos públicos no valor de R$ 7,1 bilhões. Foram…",
+     "link": "https://g1.globo.com/economia/noticia/2026/10/26/em-dia-de-nervosismo-no-mercado-tesouro-nacional-recompra-r-71-bilhoes-em-titulos-publicos.ghtml",
+     "publicadoEm": "2026-10-26T15:53:39.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "Tesouro Nacional trava venda de títulos públicos após disparada dos juros",
+     "tituloMarcado": [
+      [
+       "Tesouro",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Nacional",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "trava",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "venda",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "títulos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "públicos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "após",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "disparada",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "juros",
+       true
+      ]
+     ],
+     "trecho": "O Tesouro Direto suspendeu negociações nesta segunda (26) devido à alta volatilidade dos juros. Entenda os impactos da suspensão e o cancelamento de leilões.",
+     "link": "https://www.gazetadopovo.com.br/economia/tesouro-nacional-trava-venda-de-titulos-publicos-apos-disparada-dos-juros/",
+     "publicadoEm": "2026-10-26T21:03:22.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "agenciabrasil",
+     "titulo": "Para conter oscilações, Tesouro anuncia nova recompra de títulos",
+     "tituloMarcado": [
+      [
+       "Para",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "conter",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "oscilações,",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Tesouro",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "anuncia",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "nova",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "recompra",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "títulos",
+       false
+      ]
+     ],
+     "trecho": "O Tesouro Nacional anunciou nesta terça-feira (27) que vai recomprar Notas do Tesouro Nacional Série B (NTN-B) com vencimentos em 15/08/2030, 15/05/2035, 15/08/2040 e 15/05/2045. O edital com as condições do leilão de…",
+     "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/para-conter-oscilacoes-tesouro-anuncia-nova-recompra-de-titulos",
+     "publicadoEm": "2026-10-27T15:36:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  }
+ ]
+}

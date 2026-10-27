@@ -29,12 +29,13 @@
       <nav class="navegacao" aria-label="Capítulos">
         <a href="#indicadores">Seu bolso</a>
         <a href="#cambio">Câmbio</a>
-        <a href="#contas">Contas públicas</a>
+        <a href="#contas">Contas</a>
         <a href="#gastos">Gastos</a>
         <a href="#programas">Programas</a>
         <a href="#seguranca">Segurança</a>
         <a href="#mandatos">Mandatos</a>
         <a href="#noticias">Notícias</a>
+        <a href="#imprensa">Imprensa</a>
         <a href="#metodo">Como verificamos</a>
       </nav>
       <button class="tema" type="button" id="tema" aria-label="Alternar tema claro ou escuro">
@@ -291,6 +292,33 @@
             <ul class="diario" id="diario" data-limite="6" data-rotulo="Ver todo o diário ({n} registros)"></ul>
           </aside>
         </div>
+        <a class="proximo" href="#imprensa">
+          <span class="proximo__rotulo">Próximo capítulo</span>
+          <span class="proximo__titulo">Como a imprensa contou</span>
+          <span class="proximo__texto">O mesmo fato em vários jornais e sites, lado a lado.</span>
+          <svg class="proximo__seta" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v13M6 12l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <section class="secao" id="imprensa" aria-labelledby="titulo-imprensa">
+      <div class="miolo">
+        <header class="secao__cabeca">
+          <div class="secao__titulo">
+            <p class="capitulo"><span class="capitulo__numero">9</span>Como a imprensa contou</p>
+            <h2 id="titulo-imprensa">A mesma notícia em vários veículos</h2>
+          </div>
+          <div class="secao__texto">
+            <p class="secao__intro">O mesmo fato contado por jornais e sites de linhas editoriais diferentes, lado a lado. Compare os títulos: as palavras destacadas são as que só aquele veículo usou.</p>
+            <details class="ver-mais">
+              <summary>Ver mais sobre este capítulo</summary>
+              <p>Matérias publicadas pelos próprios veículos em seus feeds públicos (RSS). O site agrupa as que tratam do mesmo fato, mostra o título e um trecho curto de cada uma, com o link para o texto completo, e não classifica nenhum veículo. Palavras destacadas são as que só aquele veículo usou no título. "Coluna ou opinião" e "Análise" seguem a seção em que o próprio veículo publicou o texto. Um fato só entra quando pelo menos três veículos publicaram sobre ele nas últimas 48 horas. A marca "Política partidária" usa a mesma lista pública de termos do filtro das notícias oficiais e serve só para o leitor escolher o que ver.</p>
+            </details>
+          </div>
+        </header>
+        <div class="controles" id="controles-imprensa"></div>
+        <ul class="lista-comparacoes" id="lista-comparacoes" data-limite="3" data-rotulo="Ver todas as {n} comparações"></ul>
+        <p class="legenda-painel imprensa-veiculos" id="imprensa-veiculos"></p>
         <a class="proximo" href="#metodo">
           <span class="proximo__rotulo">Próximo capítulo</span>
           <span class="proximo__titulo">Por que confiar</span>
@@ -304,7 +332,7 @@
       <div class="miolo">
         <header class="secao__cabeca">
           <div class="secao__titulo">
-            <p class="capitulo"><span class="capitulo__numero">9</span>Por que confiar</p>
+            <p class="capitulo"><span class="capitulo__numero">10</span>Por que confiar</p>
             <h2 id="titulo-metodo">Como verificamos</h2>
           </div>
           <div class="secao__texto">

@@ -1,0 +1,118 @@
+{
+  "nota": "Matérias publicadas pelos próprios veículos em seus feeds públicos (RSS). O site agrupa as que tratam do mesmo fato, mostra o título e um trecho curto de cada uma, com o link para o texto completo, e não classifica nenhum veículo. Palavras destacadas são as que só aquele veículo usou no título. \"Coluna ou opinião\" e \"Análise\" seguem a seção em que o próprio veículo publicou o texto.",
+  "janelaHoras": 48,
+  "minimoVeiculos": 3,
+  "limiar": 0.22,
+  "maximoComparacoes": 30,
+  "marcacao": {
+    "analise": {
+      "url": "/analises?/|/analysis/",
+      "categorias": "\\ban[aá]lises?\\b",
+      "titulo": "^an[aá]lise\\s*[:|–-]"
+    },
+    "coluna": {
+      "url": "/opiniao/|/opinion/|/colunas?/|/colunistas?/|/blogs?/|/editorial/|/artigos?/|/vozes/|/columnas?/",
+      "categorias": "opini[aã]o|opinión|colunistas?|colunas?|editorial|artigos?|blogs?",
+      "titulo": "^(opini[aã]o|editorial|artigo|coluna)\\s*[:|–-]"
+    }
+  },
+  "veiculos": [
+    {
+      "id": "g1",
+      "nome": "g1",
+      "feeds": [
+        "https://g1.globo.com/rss/g1/",
+        "https://g1.globo.com/rss/g1/economia/"
+      ]
+    },
+    {
+      "id": "folha",
+      "nome": "Folha de S.Paulo",
+      "feeds": [
+        "https://feeds.folha.uol.com.br/emcimadahora/rss091.xml"
+      ]
+    },
+    {
+      "id": "estadao",
+      "nome": "Estadão",
+      "feeds": [
+        "https://www.estadao.com.br/arc/outboundfeeds/feeds/rss/sections/brasil/",
+        "https://www.estadao.com.br/arc/outboundfeeds/feeds/rss/sections/economia/",
+        "https://www.estadao.com.br/arc/outboundfeeds/feeds/rss/sections/politica/"
+      ]
+    },
+    {
+      "id": "cnn",
+      "nome": "CNN Brasil",
+      "feeds": [
+        "https://www.cnnbrasil.com.br/feed/"
+      ]
+    },
+    {
+      "id": "bbc",
+      "nome": "BBC News Brasil",
+      "feeds": [
+        "https://feeds.bbci.co.uk/portuguese/rss.xml"
+      ]
+    },
+    {
+      "id": "elpais",
+      "nome": "El País",
+      "idioma": "es",
+      "feeds": [
+        "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america/portada"
+      ],
+      "somenteSe": "Brasil|brasileñ|Lula|Bolsonaro|São Paulo|Sao Paulo|Río de Janeiro|Rio de Janeiro|Brasilia|Amazonía"
+    },
+    {
+      "id": "agenciabrasil",
+      "nome": "Agência Brasil",
+      "feeds": [
+        "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml",
+        "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml"
+      ]
+    },
+    {
+      "id": "poder360",
+      "nome": "Poder360",
+      "feeds": [
+        "https://www.poder360.com.br/feed/"
+      ]
+    },
+    {
+      "id": "uol",
+      "nome": "UOL",
+      "feeds": [
+        "https://rss.uol.com.br/feed/noticias.xml"
+      ]
+    },
+    {
+      "id": "gazetadopovo",
+      "nome": "Gazeta do Povo",
+      "feeds": [
+        "https://www.gazetadopovo.com.br/feed/rss/ultimas-noticias.xml"
+      ]
+    },
+    {
+      "id": "cartacapital",
+      "nome": "CartaCapital",
+      "feeds": [
+        "https://www.cartacapital.com.br/feed/"
+      ]
+    },
+    {
+      "id": "veja",
+      "nome": "Veja",
+      "feeds": [
+        "https://veja.abril.com.br/feed/"
+      ]
+    },
+    {
+      "id": "metropoles",
+      "nome": "Metrópoles",
+      "feeds": [
+        "https://www.metropoles.com/feed"
+      ]
+    }
+  ]
+}

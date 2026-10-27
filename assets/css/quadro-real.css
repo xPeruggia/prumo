@@ -35,6 +35,7 @@
   --sombra: 0 1px 2px rgba(35, 22, 100, 0.05), 0 18px 40px -22px rgba(35, 22, 100, 0.28);
   --desfoque: blur(18px) saturate(160%);
   --halo-lacre: rgba(124, 92, 255, 0.28);
+  --destaque-fundo: rgba(52, 214, 176, 0.3);
 
   --fonte: 'Gotham Web', 'Montserrat', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
   --mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
@@ -82,6 +83,7 @@
     --vidro-realce: inset 0 1px 0 rgba(255, 255, 255, 0.07);
     --sombra: 0 24px 60px -28px rgba(0, 0, 0, 0.7);
     --halo-lacre: rgba(190, 172, 255, 0.5);
+    --destaque-fundo: rgba(61, 219, 180, 0.24);
   }
 }
 
@@ -114,6 +116,7 @@
   --vidro-realce: inset 0 1px 0 rgba(255, 255, 255, 0.07);
   --sombra: 0 24px 60px -28px rgba(0, 0, 0, 0.7);
   --halo-lacre: rgba(190, 172, 255, 0.5);
+  --destaque-fundo: rgba(61, 219, 180, 0.24);
 }
 
 /* Para usar a Gotham (licença web): coloque os arquivos em assets/fonts/ e ative este bloco.
@@ -298,7 +301,7 @@ button {
   font-size: var(--texto-s);
   font-weight: 500;
   color: var(--tinta-2);
-  padding: 8px 10px;
+  padding: 8px 9px;
   border-radius: 999px;
 }
 
@@ -2511,6 +2514,142 @@ dialog.detalhe::backdrop {
   display: none;
 }
 
+/* ---------- Imprensa lado a lado ---------- */
+
+.lista-comparacoes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 20px;
+}
+
+.comparacao {
+  min-width: 0;
+  padding: clamp(18px, 2.4vw, 26px);
+  border: 1px solid var(--linha);
+  border-radius: var(--raio-painel);
+  background: var(--superficie);
+  box-shadow: var(--vidro-realce), var(--sombra);
+}
+
+.comparacao__topo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px 24px;
+  margin-bottom: 16px;
+}
+
+.comparacao__comuns {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.comparacao__rotulo {
+  margin-right: 4px;
+  font-size: var(--texto-xs);
+  font-weight: 600;
+  color: var(--tinta-3);
+}
+
+.comparacao__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+  font-size: var(--texto-xs);
+  color: var(--tinta-2);
+}
+
+.comparacao__materias {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 12px;
+}
+
+.materia {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  border: 1px solid var(--linha);
+  border-radius: var(--raio-cartao);
+  background: var(--superficie-2);
+}
+
+.materia__topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.materia__veiculo {
+  font-size: var(--texto-s);
+  font-weight: 700;
+}
+
+.materia__hora {
+  font-size: var(--texto-xs);
+  color: var(--tinta-3);
+  white-space: nowrap;
+}
+
+.materia__titulo {
+  font-size: var(--texto-m);
+  font-weight: 600;
+  line-height: 1.38;
+}
+
+.materia__trecho {
+  font-size: var(--texto-s);
+  line-height: 1.5;
+  color: var(--tinta-2);
+}
+
+.materia .selo {
+  white-space: normal;
+  align-items: flex-start;
+}
+
+.materia__link {
+  margin-top: auto;
+  padding-top: 4px;
+  font-size: var(--texto-xs);
+  font-weight: 600;
+  color: var(--carimbo);
+}
+
+/* Palavras que só aquele veículo usou no título: o ponto de partida da comparação. */
+.exclusiva {
+  background: var(--destaque-fundo);
+  color: inherit;
+  border-radius: 4px;
+  padding: 0 3px;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.etiqueta--tipo {
+  align-self: flex-start;
+  border-color: color-mix(in srgb, var(--serie-2) 55%, transparent);
+  color: var(--tinta);
+}
+
+.etiqueta--politica {
+  border-color: var(--linha-forte);
+}
+
+.imprensa-veiculos {
+  margin-top: 18px;
+  max-width: none;
+  font-size: var(--texto-xs);
+}
+
 /* ---------- Responsivo ---------- */
 
 @media (max-width: 1080px) {
@@ -2557,6 +2696,26 @@ dialog.detalhe::backdrop {
   .proximo {
     padding: 18px 20px;
     gap: 2px 16px;
+  }
+
+  /* No celular, as matérias de um mesmo fato ficam lado a lado e deslizam para o lado. */
+  .comparacao__materias {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    margin: 0 -18px;
+    padding: 0 18px 4px;
+    scroll-padding: 0 18px;
+  }
+
+  .comparacao__materias::-webkit-scrollbar {
+    display: none;
+  }
+
+  .materia {
+    flex: 0 0 82%;
+    scroll-snap-align: start;
   }
 
   .grupo ul {

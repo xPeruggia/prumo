@@ -33,7 +33,8 @@ O site conta uma história em capítulos, um levando ao outro: do bolso de quem 
 | 6. Viver em segurança | Segurança e violência | Um dos resultados mais sentidos no dia a dia |
 | 7. Lado a lado | Comparativo entre mandatos | Com as evidências na mesa, a comparação entre governos |
 | 8. O que foi anunciado | Notícias de fontes oficiais | O que os órgãos divulgaram |
-| 9. Por que confiar | Como verificamos | As regras por trás de tudo |
+| 9. Como a imprensa contou | A mesma notícia em vários veículos | O mesmo fato em 13 veículos, lado a lado |
+| 10. Por que confiar | Como verificamos | As regras por trás de tudo |
 
 Leitura em camadas (`assets/js/leitura.js`): nada é retirado da página.
 - Cada capítulo abre com um texto curto que diz do que se trata e como ler o gráfico. O texto técnico fica em "Ver mais sobre este capítulo".
@@ -45,6 +46,19 @@ Leitura em camadas (`assets/js/leitura.js`): nada é retirado da página.
 - Cada capítulo termina com um atalho para o próximo.
 
 Visual: painéis de vidro sobre um fundo com luzes violeta, menta e magenta, nos temas claro e escuro. O logo é o lacre de cera (`assets/img/selo.png`). A fonte escolhida é a Gotham. Enquanto os arquivos web licenciados não estão no projeto, o site usa a Montserrat, a alternativa livre mais próxima. Para trocar, coloque os `.woff2` da Gotham em `assets/fonts/` e ative o bloco `@font-face` indicado no início de `assets/css/quadro-real.css`. A cópia da Gotham instalada no computador tem licença de uso no computador, que não cobre a publicação num site.
+
+## Imprensa lado a lado
+
+`scripts/imprensa.mjs` lê os feeds públicos (RSS) de 13 veículos com linhas editoriais diferentes (`config/imprensa.json`): g1, Folha, Estadão, CNN Brasil, BBC News Brasil, El País, Agência Brasil, Poder360, UOL, Gazeta do Povo, CartaCapital, Veja e Metrópoles.
+
+- As matérias das últimas 48 horas são comparadas por TF-IDF sobre o título (peso 2) e o resumo (peso 1). As palavras são reduzidas às cinco primeiras letras, o que junta flexões e aproxima português e espanhol.
+- O agrupamento é por ligação média, com limiar 0,22 e no máximo uma matéria por veículo. Entram só os fatos publicados por três ou mais veículos.
+- Na página aparecem as palavras em comum nos títulos e, destacadas, as que só um veículo usou.
+- "Coluna ou opinião" e "Análise" seguem a seção em que o próprio veículo publicou o texto (endereço, categoria do feed ou prefixo do título).
+- "Política partidária" marca o grupo quando um termo do filtro público aparece no título de pelo menos metade das matérias. Nada é retirado: o leitor escolhe entre "Todos os assuntos" e "Sem política partidária".
+- De cada matéria são guardados só o título, um trecho de até 220 caracteres do resumo do feed e o link. Matérias republicadas com o mesmo endereço (o UOL republica a Folha) contam uma vez só.
+- Números de indicadores citados nos títulos passam pela mesma conferência das notícias oficiais.
+- O site não classifica veículos como de direita ou de esquerda.
 
 ## Como a verificação funciona
 
@@ -164,11 +178,13 @@ assets/js/resumo.js        resumo "Em poucas palavras" (regras fixas, testadas)
 assets/js/cambio.js        câmbio ao vivo e conferência entre as fontes
 assets/js/tributos.js      arrecadação por tributo, lista de tributos e propostas
 assets/js/leitura.js       leitura em camadas: "Ver mais", notas recolhidas, listas e legenda fixa
+assets/js/imprensa.js      a mesma notícia em vários veículos, lado a lado
 assets/img/                lacre (logo) e ícones
 assets/js/app.js           monta as demais seções a partir de data/
 scripts/atualizar.mjs      coleta diária
 scripts/seguranca.mjs      Sinesp e Disque 100 (lidos em fluxo, só os totais são guardados)
 scripts/tributos.mjs       arrecadação da Receita por tributo e projetos que criam tributos
+scripts/imprensa.mjs       feeds dos veículos, agrupamento do mesmo fato e marcação de colunas
 scripts/lib/               clientes das APIs, leitores de .xlsx e CSV e regras de verificação
 scripts/testes/            testes automatizados
 data/                      gerado pela coleta (não editar à mão)

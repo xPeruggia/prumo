@@ -67,6 +67,11 @@ function limitarLista(lista) {
 }
 
 function processar(no, listas) {
+  // Texto escrito depois num elemento que já estava na página (ex.: a lista de veículos consultados).
+  if (no.nodeType === Node.TEXT_NODE) {
+    if (no.parentElement?.matches(RESUMIVEIS)) resumirTexto(no.parentElement);
+    return;
+  }
   if (!(no instanceof Element)) return;
   const achar = (sel) => [...(no.matches(sel) ? [no] : []), ...no.querySelectorAll(sel)];
   achar(RESUMIVEIS).forEach(resumirTexto);

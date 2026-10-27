@@ -16,6 +16,7 @@ import { cruzar, toleranciaPadrao, testarPlausibilidade, triarNoticias } from '.
 import { hojeBrasilia, mandatoEm } from '../assets/js/nucleo.js';
 import { coletarSinesp, coletarDisque100, montarSeguranca } from './seguranca.mjs';
 import { coletarTributos } from './tributos.mjs';
+import { coletarImprensa } from './imprensa.mjs';
 
 const RAIZ = join(dirname(fileURLToPath(import.meta.url)), '..');
 const caminho = (rel) => join(RAIZ, rel);
@@ -664,6 +665,18 @@ async function main() {
     console.log(`✓ notícias: ${noticias.itens.length} publicadas, ${noticias.excluidos.length} excluídas pelo filtro`);
   }
 
+  if (fazer('imprensa')) {
+    try {
+      const anterior = await lerJSON('data/imprensa.json', null);
+      const config = await lerJSON('config/imprensa.json');
+      const filtro = await lerJSON('config/filtro-politico.json');
+      const imprensa = await coletarImprensa(ctx, anterior, avisar, config, filtro, indicadores.series);
+      if (imprensa) await gravarJSON('data/imprensa.json', imprensa);
+    } catch (e) {
+      avisar('imprensa', `Comparação da imprensa falhou (${e.message}). Mantido o arquivo anterior.`);
+    }
+  }
+
   if (fazer('cambio')) {
     try {
       await gravarJSON('data/cambio.json', await coletarCambio(ctx));
@@ -737,7 +750,7 @@ async function main() {
     inicio: ctx.agora,
     fim: fim.toISOString(),
     segundos: Math.round((fim - agora) / 1000),
-    partes: partes.length ? partes : ['series', 'orcamento', 'programas', 'noticias', 'cambio', 'tributos', 'seguranca'],
+    partes: partes.length ? partes : ['series', 'orcamento', 'programas', 'noticias', 'imprensa', 'cambio', 'tributos', 'seguranca'],
     chamadas: registro.length,
     falhas: semResposta.size,
     repeticoes: registro.filter((r) => !r.ok && respondidas.has(r.url)).length,

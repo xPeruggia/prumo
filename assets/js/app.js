@@ -10,6 +10,7 @@ import { coletaDoIbgeFalhou, buscarIbgeNoNavegador } from './noticias-ao-vivo.js
 import { montarResumo } from './resumo.js';
 import { renderCambio } from './cambio.js';
 import { renderTributos } from './tributos.js';
+import { renderImprensa } from './imprensa.js';
 import { prepararLeitura, acordeao, montarLegendaFixa } from './leitura.js';
 
 const NS = 'http://www.w3.org/2000/svg';
@@ -95,7 +96,7 @@ const D = {};
 
 async function carregar() {
   const ler = (c) => fetch(c, { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
-  const [indicadores, orcamento, programas, noticias, diario, execucao, seguranca, cambio, tributos, mandatos, site, configTributos] = await Promise.all([
+  const [indicadores, orcamento, programas, noticias, diario, execucao, seguranca, cambio, tributos, imprensa, mandatos, site, configTributos] = await Promise.all([
     ler('data/indicadores.json'),
     ler('data/orcamento.json'),
     ler('data/programas.json'),
@@ -105,11 +106,12 @@ async function carregar() {
     ler('data/seguranca.json'),
     ler('data/cambio.json'),
     ler('data/tributos.json'),
+    ler('data/imprensa.json'),
     ler('config/mandatos.json'),
     ler('config/site.json'),
     ler('config/tributos.json'),
   ]);
-  Object.assign(D, { indicadores, orcamento, programas, noticias, diario, execucao, seguranca, cambio, tributos, mandatos, site, configTributos });
+  Object.assign(D, { indicadores, orcamento, programas, noticias, diario, execucao, seguranca, cambio, tributos, imprensa, mandatos, site, configTributos });
   D.hoje = N.hojeBrasilia();
   return Boolean(indicadores && mandatos);
 }
@@ -1150,6 +1152,7 @@ function renderMetodo() {
     ['Receita Federal', 'Arrecadação federal por tributo, mês e estado', 'Arquivo de arrecadação por estado'],
     ['Câmara dos Deputados', 'Medidas provisórias e projetos do Executivo; projetos que criam tributos', 'Dados Abertos da Câmara'],
     ['AwesomeAPI (privada, não oficial)', 'Câmbio de mercado em tempo real, sempre comparado com a PTAX', 'API de moedas'],
+    ['Imprensa (13 veículos)', 'Títulos e trechos curtos das matérias, para a comparação lado a lado', 'Feeds públicos (RSS) de cada veículo'],
     ['Ministério da Justiça', 'Homicídios, feminicídios, latrocínios, estupros, roubos e furtos', 'Sinesp VDE'],
     ['Ministério dos Direitos Humanos', 'Denúncias de LGBTfobia e intolerância religiosa', 'Microdados do Disque 100'],
   ];
@@ -1174,6 +1177,11 @@ function renderMetodo() {
       h('h3', { texto: 'Tributos e o resumo do dia' }),
       h('p', { texto: 'A arrecadação por tributo vem do arquivo público da Receita Federal, somando todos os estados. Para conferir, somamos 2024 inteiro: R$ 2,651 trilhões em reais da época, a menos de 0,1% dos R$ 2,652 trilhões que a Receita divulgou como arrecadação federal do ano. A lista de tributos em vigor e dos que a Constituição permite criar segue o texto constitucional, a Emenda 132/2023 e a Lei Complementar 214/2025, com o link de cada norma. Os projetos que criam tributos são encontrados pela ementa na Câmara; o site mostra o que está escrito, sem avaliar o mérito.' }),
       h('p', { texto: 'O resumo "Em poucas palavras", no topo da página, é escrito por regras fixas a partir dos mesmos números das seções abaixo, sempre com a fonte. Ninguém redige o texto à mão.' }),
+      h('h3', { texto: 'Imprensa lado a lado' }),
+      h('p', { texto: 'O capítulo "Como a imprensa contou" lê os feeds públicos de g1, Folha de S.Paulo, Estadão, CNN Brasil, BBC News Brasil, El País, Agência Brasil, Poder360, UOL, Gazeta do Povo, CartaCapital, Veja e Metrópoles, veículos de linhas editoriais diferentes. O site não classifica nenhum deles como de direita ou de esquerda e não julga o conteúdo das matérias.' }),
+      h('p', { texto: 'As matérias das últimas 48 horas são comparadas pelas palavras do título e do resumo; as que tratam do mesmo fato formam um grupo, com no máximo uma matéria por veículo, e só entram fatos publicados por três ou mais veículos. As palavras em comum aparecem no topo; as que só um veículo usou ficam destacadas no título dele. Quando um título cita um indicador acompanhado aqui, o número é conferido com a série oficial.' }),
+      h('p', { texto: '"Coluna ou opinião" e "Análise" seguem a seção em que o próprio veículo publicou o texto (colunas, blogs, editoriais, artigos). A marca "Política partidária" aparece quando um termo da lista pública do filtro está no título de pelo menos metade das matérias do grupo; ela não retira nada e serve para o leitor escolher o que ver.' }),
+      h('p', { texto: 'De cada matéria o site guarda só o título, um trecho curto do resumo publicado no feed e o link para o texto completo no veículo.' }),
       h('h3', { texto: 'Limitações conhecidas' }),
       h('ul', {},
         h('li', { texto: 'O orçamento cobre apenas a União. Estados e municípios publicam relatórios próprios.' }),
@@ -1182,6 +1190,7 @@ function renderMetodo() {
         h('li', { texto: 'O contador de arrecadação é uma projeção do ritmo do último relatório oficial, não um dado em tempo real.' }),
         h('li', { texto: 'A arrecadação por tributo cobre os tributos federais. ICMS, ISS, IPVA, IPTU e os demais tributos de estados e municípios aparecem na lista com a base legal, mas sem valores, porque não há uma fonte nacional mensal única para eles.' }),
         h('li', { texto: 'O Banco Central não publica PTAX do peso argentino nem do yuan no serviço usado aqui; para essas duas moedas só há a cotação de mercado.' }),
+        h('li', { texto: 'O agrupamento das matérias é automático e pode juntar fatos parecidos ou separar o mesmo fato em dois grupos. O El País publica em espanhol, o que reduz as chances de suas matérias entrarem num grupo. O feed de O Globo não traz matérias, e por isso o grupo Globo aparece pelo g1.' }),
         h('li', { texto: 'Os órgãos revisam séries com frequência. Quando isso acontece, o diário de atualizações registra o valor anterior.' }),
         h('li', { texto: 'Os dados de crimes são os registros enviados pelas polícias de cada estado ao Ministério da Justiça. Mudanças na forma de registrar de um estado aparecem como mudanças nos números; as notas metodológicas dos estados estão no link da fonte.' }),
         h('li', { texto: 'O Sinesp só tem série nacional padronizada para roubos e furtos de veículos, de carga e a instituições financeiras. Roubos e furtos de celulares e a pessoas não têm série nacional mensal oficial.' }),
@@ -1308,6 +1317,9 @@ async function iniciar() {
       painelSegurancaMandatos(D);
     },
     renderNoticias,
+    function renderImprensaSecao() {
+      renderImprensa(D);
+    },
     renderMetodo,
   ];
   for (const etapa of etapas) {
