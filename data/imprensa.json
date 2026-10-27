@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-10-27T21:07:19.455Z",
+ "geradoEm": "2026-10-27T21:14:37.600Z",
  "janelaHoras": 48,
  "nota": "Matérias publicadas pelos próprios veículos em seus feeds públicos (RSS). O site agrupa as que tratam do mesmo fato, mostra o título e um trecho curto de cada uma, com o link para o texto completo, e não classifica nenhum veículo. Palavras destacadas são as que só aquele veículo usou no título. \"Coluna ou opinião\" e \"Análise\" seguem a seção em que o próprio veículo publicou o texto.",
  "veiculos": [
@@ -22,7 +22,7 @@
    "nome": "Estadão",
    "idioma": "pt",
    "ok": true,
-   "materias": 55
+   "materias": 54
   },
   {
    "id": "cnn",
@@ -71,7 +71,7 @@
    "nome": "Gazeta do Povo",
    "idioma": "pt",
    "ok": true,
-   "materias": 239
+   "materias": 238
   },
   {
    "id": "cartacapital",
@@ -95,11 +95,11 @@
    "materias": 20
   }
  ],
- "totalMaterias": 715,
+ "totalMaterias": 713,
  "comparacoes": [
   {
    "id": "https://www.cnnbrasil.com.br/politica/uniao-pp-anuncia-apoio-a-reeleicao-de-alcolumbre-na-presidencia-do-senado/",
-   "veiculos": 7,
+   "veiculos": 5,
    "primeiro": "2026-10-27T19:14:23.000Z",
    "ultimo": "2026-10-27T20:34:43.000Z",
    "comuns": [
@@ -107,7 +107,8 @@
     "reeleição",
     "Alcolumbre",
     "apoio",
-    "Senado"
+    "Senado",
+    "presidência"
    ],
    "politica": "PP",
    "materias": [
@@ -576,180 +577,6 @@
      "trecho": "Federação União-PP anuncia apoio a reeleição de Alcolumbre para a presidência do Senado A federação formada por União Brasil e PP anunciou, nesta terça-feira (27), apoio à reeleição de Davi Alcolumbre (União-AP) à…",
      "link": "https://g1.globo.com/politica/noticia/2026/10/27/federacao-uniao-pp-anuncia-apoio-a-reeleicao-de-alcolumbre-para-a-presidencia-do-senado.ghtml",
      "publicadoEm": "2026-10-27T19:55:20.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "uol",
-     "titulo": "União-PP declara apoio à reeleição de Alcolumbre para presidente do Senado",
-     "tituloMarcado": [
-      [
-       "União-PP",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "declara",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "apoio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "à",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "reeleição",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Alcolumbre",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "para",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "presidente",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "do",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Senado",
-       false
-      ]
-     ],
-     "trecho": "A Federação União Progressista manifestou apoio nesta terça-feira, 27, à reeleição de Davi Alcolumbre (União-AP) para presidente do Senado e do Congresso Nacional. A declaração ocorre em nota assinada pelos presidentes…",
-     "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/27/uniao-pp-declara-apoio-a-reeleicao-de-alcolumbre-para-presidente-do-senado.htm",
-     "publicadoEm": "2026-10-27T19:58:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "poder360",
-     "titulo": "União Progressista declara apoio à reeleição de Davi Alcolumbre",
-     "tituloMarcado": [
-      [
-       "União",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Progressista",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "declara",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "apoio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "à",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "reeleição",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Davi",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Alcolumbre",
-       false
-      ]
-     ],
-     "trecho": "Federação afirma que continuidade do senador no comando da Casa contribui para a estabilidade institucional e o diálogo entre os Poderes",
-     "link": "https://www.poder360.com.br/poder-congresso/uniao-progressista-declara-apoio-a-reeleicao-de-davi-alcolumbre/",
-     "publicadoEm": "2026-10-27T20:04:08.000Z",
      "tipo": "noticia",
      "numero": null
     },
@@ -1439,64 +1266,24 @@
    ]
   },
   {
-   "id": "https://www.gazetadopovo.com.br/mundo/israel-vai-as-urnas-em-primeira-eleicao-desde-os-ataques-terroristas-do-hamas/",
-   "veiculos": 5,
-   "primeiro": "2026-10-26T22:41:28.000Z",
-   "ultimo": "2026-10-27T20:00:34.000Z",
+   "id": "https://www.gazetadopovo.com.br/gazeta-agora/gazeta-agora-donald-trump-e-marco-rubio-ajudam-flavio-a-deixar-o-brasil/",
+   "veiculos": 4,
+   "primeiro": "2026-10-27T19:15:50.000Z",
+   "ultimo": "2026-10-27T21:13:13.000Z",
    "comuns": [
-    "Israel",
-    "urnas",
-    "Netanyahu",
-    "eleição"
+    "Flávio",
+    "Trump",
+    "Rubio",
+    "Bolsonaro"
    ],
-   "politica": "eleição",
+   "politica": "Bolsonaro",
    "materias": [
     {
      "veiculo": "gazetadopovo",
-     "titulo": "Israel vai às urnas em primeira eleição desde os ataques terroristas do Hamas",
+     "titulo": "Gazeta Agora: Donald Trump e Marco Rubio ajudam Flávio a deixar o Brasil",
      "tituloMarcado": [
       [
-       "Israel",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "vai",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "às",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "urnas",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "em",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "primeira",
+       "Gazeta",
        true
       ],
       [
@@ -1504,15 +1291,7 @@
        ""
       ],
       [
-       "eleição",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "desde",
+       "Agora:",
        true
       ],
       [
@@ -1520,15 +1299,7 @@
        ""
       ],
       [
-       "os",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "ataques",
+       "Donald",
        true
       ],
       [
@@ -1536,62 +1307,7 @@
        ""
       ],
       [
-       "terroristas",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "do",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Hamas",
-       true
-      ]
-     ],
-     "trecho": "Israel vai às urnas nesta terça (27) em eleição que pode definir o futuro de Netanyahu após três anos de guerras.",
-     "link": "https://www.gazetadopovo.com.br/mundo/israel-vai-as-urnas-em-primeira-eleicao-desde-os-ataques-terroristas-do-hamas/",
-     "publicadoEm": "2026-10-26T22:41:28.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "bbc",
-     "titulo": "Israel vai às urnas, e legado do 7 de outubro pode definir se Netanyahu terá seu sétimo mandato",
-     "tituloMarcado": [
-      [
-       "Israel",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "vai",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "às",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "urnas,",
+       "Trump",
        false
       ],
       [
@@ -1607,499 +1323,31 @@
        ""
       ],
       [
-       "legado",
+       "Marco",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Rubio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ajudam",
        true
       ],
       [
        " ",
        ""
       ],
-      [
-       "do",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "7",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "outubro",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "pode",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "definir",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "se",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Netanyahu",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "terá",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "seu",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "sétimo",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "mandato",
-       true
-      ]
-     ],
-     "trecho": "Muitos temem que nenhum dos principais blocos políticos consiga cadeiras suficientes para formar maioria, o que significa que semanas ou meses de disputas políticas podem estar por vir.",
-     "link": "https://www.bbc.com/portuguese/articles/cm4g1qpnkv11o?at_medium=RSS&at_campaign=rss",
-     "publicadoEm": "2026-10-27T10:17:45.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "agenciabrasil",
-     "titulo": "Israelenses vão às urnas em eleição que pode tirar Netanyahu do poder",
-     "tituloMarcado": [
-      [
-       "Israelenses",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "vão",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "às",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "urnas",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "em",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "eleição",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "que",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "pode",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "tirar",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Netanyahu",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "do",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "poder",
-       true
-      ]
-     ],
-     "trecho": "Cerca de 7 milhões de israelenses vão às urnas, nesta terça-feira (27), pela primeira vez desde o ataque do Hamas de 7 de outubro de 2023. Entre os favoritos para assumir o governo, estão três partidos liderados por…",
-     "link": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/israelenses-vao-as-urnas-em-eleicao-que-pode-tirar-netanyahu-do-poder",
-     "publicadoEm": "2026-10-27T17:36:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "g1",
-     "titulo": "Sem apresentar provas, Netanyahu alega tentativa de fraude nas eleições em Israel",
-     "tituloMarcado": [
-      [
-       "Sem",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "apresentar",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "provas,",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Netanyahu",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "alega",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "tentativa",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fraude",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "nas",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "eleições",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "em",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Israel",
-       false
-      ]
-     ],
-     "trecho": "Eleições em Israel são marcadas por polarização e O primeiro-ministro de Israel, Benjamin Netanyahu, denunciou nesta terça-feira (27) supostas tentativas de fraude nas primeiras eleições do país desde os ataques do…",
-     "link": "https://g1.globo.com/mundo/noticia/2026/10/27/netanyahu-denuncia-tentativa-de-fraude-nas-eleicoes-em-israel.ghtml",
-     "publicadoEm": "2026-10-27T19:06:51.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "cnn",
-     "titulo": "Urnas fecham em Israel em disputa que vai definir futuro de Netanyahu",
-     "tituloMarcado": [
-      [
-       "Urnas",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fecham",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "em",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Israel",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "em",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "disputa",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "que",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "vai",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "definir",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "futuro",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Netanyahu",
-       false
-      ]
-     ],
-     "trecho": "Pesquisas indicam que bloco do primeiro-ministro pode perder cadeiras no Parlamento; rival Gadi Eisenkot também deve precisar do apoio de partidos árabes para formar maioria",
-     "link": "https://www.cnnbrasil.com.br/internacional/urnas-fecham-em-israel-em-disputa-que-vai-definir-futuro-de-netanyahu/",
-     "publicadoEm": "2026-10-27T20:00:34.000Z",
-     "tipo": "noticia",
-     "numero": null
-    }
-   ]
-  },
-  {
-   "id": "https://www.gazetadopovo.com.br/republica/flavio-bolsonaro-tem-passaportes-apreendidos-e-esta-proibido-de-deixar-o-pais/",
-   "veiculos": 4,
-   "primeiro": "2026-10-26T21:46:38.000Z",
-   "ultimo": "2026-10-27T20:51:00.000Z",
-   "comuns": [
-    "Flávio",
-    "PF",
-    "passaportes",
-    "Moraes",
-    "Bolsonaro"
-   ],
-   "politica": "Bolsonaro",
-   "materias": [
-    {
-     "veiculo": "gazetadopovo",
-     "titulo": "Flávio Bolsonaro diz ter sido intimado pela PF a entregar passaportes por ordem de Moraes",
-     "tituloMarcado": [
       [
        "Flávio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Bolsonaro",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "diz",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "ter",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "sido",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "intimado",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "pela",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "PF",
        false
       ],
       [
@@ -2115,134 +1363,7 @@
        ""
       ],
       [
-       "entregar",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "passaportes",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "por",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "ordem",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Moraes",
-       false
-      ]
-     ],
-     "trecho": "Flávio Bolsonaro disse ter sido abordado pela PF quando deixava a casa do pai, o ex-presidente Jair Bolsonaro (PL).",
-     "link": "https://www.gazetadopovo.com.br/republica/flavio-bolsonaro-tem-passaportes-apreendidos-e-esta-proibido-de-deixar-o-pais/",
-     "publicadoEm": "2026-10-26T21:46:38.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "estadao",
-     "titulo": "PF cancela passaportes de Flávio Bolsonaro, suspeito de ter deixado o País, e comunica a Moraes",
-     "tituloMarcado": [
-      [
-       "PF",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "cancela",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "passaportes",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Bolsonaro,",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "suspeito",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "ter",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "deixado",
+       "deixar",
        true
       ],
       [
@@ -2258,70 +1379,22 @@
        ""
       ],
       [
-       "País,",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "comunica",
+       "Brasil",
        true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Moraes",
-       false
       ]
      ],
-     "trecho": "BRASÍLIA – A Polícia Federal comunicou ao ministro do Supremo Tribunal Federal (STF) Alexandre de Moraes que o senador e candidato derrotado à Presidência, Flávio Bolsonaro (PL-RJ), descumpriu a ordem judicial para…",
-     "link": "https://www.estadao.com.br/politica/pf-cancela-passaportes-de-flavio-bolsonaro-e-vai-comunicar-moraes-que-senador-descumpriu-ordem/",
-     "publicadoEm": "2026-10-27T15:25:35.000Z",
+     "trecho": "A edição desta terça-feira (26) destaca, entre outros assuntos, que Flávio Bolsonaro deixa o Brasil e viaja aos EUA.",
+     "link": "https://www.gazetadopovo.com.br/gazeta-agora/gazeta-agora-donald-trump-e-marco-rubio-ajudam-flavio-a-deixar-o-brasil/",
+     "publicadoEm": "2026-10-27T19:15:50.000Z",
      "tipo": "noticia",
      "numero": null
     },
     {
-     "veiculo": "g1",
-     "titulo": "PF apontou risco de Flávio fugir do Brasil e suspeita sobre dinheiro de Vorcaro ao pedir a Moraes apreensão de passaporte",
+     "veiculo": "agenciabrasil",
+     "titulo": "Aliado de Trump diz que Flávio Bolsonaro chegou aos EUA",
      "tituloMarcado": [
       [
-       "PF",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "apontou",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "risco",
+       "Aliado",
        false
       ],
       [
@@ -2330,6 +1403,30 @@
       ],
       [
        "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Trump",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "diz",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
        false
       ],
       [
@@ -2345,7 +1442,7 @@
        ""
       ],
       [
-       "fugir",
+       "Bolsonaro",
        false
       ],
       [
@@ -2353,15 +1450,7 @@
        ""
       ],
       [
-       "do",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Brasil",
+       "chegou",
        true
       ],
       [
@@ -2369,7 +1458,7 @@
        ""
       ],
       [
-       "e",
+       "aos",
        false
       ],
       [
@@ -2377,110 +1466,22 @@
        ""
       ],
       [
-       "suspeita",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "sobre",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "dinheiro",
+       "EUA",
        true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Vorcaro",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "ao",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "pedir",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Moraes",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "apreensão",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "passaporte",
-       false
       ]
      ],
-     "trecho": "Flávio Bolsonaro em pronunciamento após perder eleição. Agustin Marcarian/Reuters A Polícia Federal (PF) apontou riscos \"concretos e atuais\" de fuga em pedido ao ministro Alexandre de Moraes, do Supremo Tribunal Federal…",
-     "link": "https://g1.globo.com/politica/noticia/2026/10/27/pf-apontou-risco-de-flavio-bolsonaro-fugir-do-brasil-e-suspeita-sobre-destino-de-dinheiro-de-vorcaro-ao-pedir-a-moraes-apreensao-de-passaporte.ghtml",
-     "publicadoEm": "2026-10-27T19:26:53.000Z",
+     "trecho": "O investidor e ex-secretário de Turismo do México, Simón Levy, publicou uma postagem nas redes sociais nesta terça-feira (27) relatando que Flávio Bolsonaro teria chegado aos Estados Unidos (EUA), em uma articulação…",
+     "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/aliado-de-trump-diz-que-flavio-bolsonaro-chegou-aos-eua",
+     "publicadoEm": "2026-10-27T19:26:00.000Z",
      "tipo": "noticia",
      "numero": null
     },
     {
-     "veiculo": "folha",
-     "titulo": "PF apontou risco concreto de Flávio Bolsonaro fugir do país ao pedir apreensão de passaporte a Moraes",
+     "veiculo": "cartacapital",
+     "titulo": "Aliado de Trump diz que fuga de Flávio Bolsonaro foi articulada por Marco Rubio",
      "tituloMarcado": [
       [
-       "PF",
+       "Aliado",
        false
       ],
       [
@@ -2488,7 +1489,7 @@
        ""
       ],
       [
-       "apontou",
+       "de",
        false
       ],
       [
@@ -2496,7 +1497,7 @@
        ""
       ],
       [
-       "risco",
+       "Trump",
        false
       ],
       [
@@ -2504,8 +1505,24 @@
        ""
       ],
       [
-       "concreto",
-       true
+       "diz",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fuga",
+       false
       ],
       [
        " ",
@@ -2536,7 +1553,7 @@
        ""
       ],
       [
-       "fugir",
+       "foi",
        false
       ],
       [
@@ -2544,7 +1561,15 @@
        ""
       ],
       [
-       "do",
+       "articulada",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "por",
        false
       ],
       [
@@ -2552,7 +1577,7 @@
        ""
       ],
       [
-       "país",
+       "Marco",
        false
       ],
       [
@@ -2560,23 +1585,30 @@
        ""
       ],
       [
-       "ao",
+       "Rubio",
        false
+      ]
+     ],
+     "trecho": "Segundo o empresário mexicano Simón Levy, o senador brasileiro já está nos EUA",
+     "link": "https://www.cartacapital.com.br/politica/aliado-de-trump-diz-que-fuga-de-flavio-bolsonaro-foi-articulada-por-marco-rubio/",
+     "publicadoEm": "2026-10-27T19:58:28.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "uol",
+     "titulo": "Após fuga de Flávio, bolsonarista posta agradecimento a Rubio",
+     "tituloMarcado": [
+      [
+       "Após",
+       true
       ],
       [
        " ",
        ""
       ],
       [
-       "pedir",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "apreensão",
+       "fuga",
        false
       ],
       [
@@ -2592,8 +1624,32 @@
        ""
       ],
       [
-       "passaporte",
+       "Flávio,",
        false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "bolsonarista",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "posta",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "agradecimento",
+       true
       ],
       [
        " ",
@@ -2608,13 +1664,506 @@
        ""
       ],
       [
-       "Moraes",
+       "Rubio",
        false
       ]
      ],
-     "trecho": "A Polícia Federal apontou \"risco concreto de evasão do território nacional\" pelo senador Flávio Bolsonaro (PL -RJ) em manifestação enviada no último domingo (25) ao ministro Alexandre de Moraes, do STF (Supremo Tribunal…",
-     "link": "https://www1.folha.uol.com.br/poder/2026/10/pf-apontou-risco-concreto-de-flavio-bolsonaro-fugir-do-pais-ao-pedir-apreensao-de-passaporte-a-moraes.shtml",
-     "publicadoEm": "2026-10-27T20:51:00.000Z",
+     "trecho": "O empresário Paulo Generoso, que já teve sociedade com Eduardo Bolsonaro e que vive nos Estados Unidos, agradeceu o secretário de Estado, Marco Rubio, pela \"ajuda\" a Flávio Bolsonaro (PL). O senador fugiu do Brasil hoje…",
+     "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/10/27/apos-fuga-de-flavio-bolsonarista-posta-agradecimento-a-rubio.ghtm",
+     "publicadoEm": "2026-10-27T21:13:13.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://www.estadao.com.br/politica/governo-reparacao-mensal-17-5-mil-dilma-ditadura-militar-npr/",
+   "veiculos": 4,
+   "primeiro": "2026-10-27T19:41:03.000Z",
+   "ultimo": "2026-10-27T21:11:00.000Z",
+   "comuns": [
+    "Dilma",
+    "mensal",
+    "mil",
+    "17",
+    "perseguição",
+    "Ditadura"
+   ],
+   "politica": null,
+   "materias": [
+    {
+     "veiculo": "estadao",
+     "titulo": "Dilma Rousseff terá pagamento mensal superior a R$ 17 mil por reparação de perseguição na Ditadura",
+     "tituloMarcado": [
+      [
+       "Dilma",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Rousseff",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "terá",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "pagamento",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mensal",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "superior",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "R$",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "17",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mil",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "por",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reparação",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "perseguição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "na",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Ditadura",
+       false
+      ]
+     ],
+     "trecho": "O Ministério dos Direitos Humanos e da Cidadania fixou um pagamento mensal de R$ 17.562,80 para a ex-presidente Dilma Rousseff (PT) como reparação econômica por perseguição política durante o regime militar. A portaria…",
+     "link": "https://www.estadao.com.br/politica/governo-reparacao-mensal-17-5-mil-dilma-ditadura-militar-npr/",
+     "publicadoEm": "2026-10-27T19:41:03.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "cnn",
+     "titulo": "Dilma receberá indenização mensal de R$ 17 mil por perseguição na ditadura",
+     "tituloMarcado": [
+      [
+       "Dilma",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "receberá",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "indenização",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mensal",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "R$",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "17",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mil",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "por",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "perseguição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "na",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ditadura",
+       false
+      ]
+     ],
+     "trecho": "Decisão do Ministério dos Direitos Humanos e da Cidadania também estabeleceu o pagamento de uma parcela única de R$ 6,6 milhões retroativos desde 1997",
+     "link": "https://www.cnnbrasil.com.br/politica/dilma-recebera-indenizacao-mensal-de-r-17-mil-por-perseguicao-na-ditadura/",
+     "publicadoEm": "2026-10-27T20:36:06.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "Dilma receberá R$ 17,5 mil mensais e R$ 6,6 milhões retroativos por “perseguição” no regime militar",
+     "tituloMarcado": [
+      [
+       "Dilma",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "receberá",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "R$",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "17,5",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mil",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mensais",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "R$",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "6,6",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "milhões",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "retroativos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "por",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "“perseguição”",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "no",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "regime",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "militar",
+       true
+      ]
+     ],
+     "trecho": "Dilma receberá R$ 17,5 mil mensais e terá R$ 6,6 milhões em retroativos calculados por \"perseguição política\" durante a ditadura militar.",
+     "link": "https://www.gazetadopovo.com.br/republica/dilma-recebera-r-175-mil-mensais-e-r-66-milhoes-retroativos-por-perseguicao-no-regime-militar/",
+     "publicadoEm": "2026-10-27T20:37:46.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "folha",
+     "titulo": "Dilma receberá R$ 17 mil mensais e retroativos como indenização da ditadura",
+     "tituloMarcado": [
+      [
+       "Dilma",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "receberá",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "R$",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "17",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mil",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mensais",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "retroativos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "como",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "indenização",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "da",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ditadura",
+       false
+      ]
+     ],
+     "trecho": "A ex-presidente Dilma Rousseff (PT) receberá uma indenização mensal de R$ 17.562,80 por ter sido perseguida durante a ditadura militar. A informação foi publicada na edição desta terça-feira (27) do Diário Oficial da…",
+     "link": "https://www1.folha.uol.com.br/poder/2026/10/dilma-recebera-r-17-mil-mensais-e-retroativos-como-indenizacao-da-ditadura.shtml",
+     "publicadoEm": "2026-10-27T21:11:00.000Z",
      "tipo": "noticia",
      "numero": null
     }
@@ -3113,6 +2662,488 @@
    ]
   },
   {
+   "id": "https://www.gazetadopovo.com.br/mundo/israel-vai-as-urnas-em-primeira-eleicao-desde-os-ataques-terroristas-do-hamas/",
+   "veiculos": 4,
+   "primeiro": "2026-10-26T22:41:28.000Z",
+   "ultimo": "2026-10-27T20:00:34.000Z",
+   "comuns": [
+    "Israel",
+    "urnas",
+    "Netanyahu"
+   ],
+   "politica": "eleição",
+   "materias": [
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "Israel vai às urnas em primeira eleição desde os ataques terroristas do Hamas",
+     "tituloMarcado": [
+      [
+       "Israel",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "vai",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "às",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "urnas",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "primeira",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "eleição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "desde",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "os",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ataques",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "terroristas",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Hamas",
+       true
+      ]
+     ],
+     "trecho": "Israel vai às urnas nesta terça (27) em eleição que pode definir o futuro de Netanyahu após três anos de guerras.",
+     "link": "https://www.gazetadopovo.com.br/mundo/israel-vai-as-urnas-em-primeira-eleicao-desde-os-ataques-terroristas-do-hamas/",
+     "publicadoEm": "2026-10-26T22:41:28.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "bbc",
+     "titulo": "Israel vai às urnas, e legado do 7 de outubro pode definir se Netanyahu terá seu sétimo mandato",
+     "tituloMarcado": [
+      [
+       "Israel",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "vai",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "às",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "urnas,",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "legado",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "7",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "outubro",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "pode",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "definir",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "se",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Netanyahu",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "terá",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "seu",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "sétimo",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mandato",
+       true
+      ]
+     ],
+     "trecho": "Muitos temem que nenhum dos principais blocos políticos consiga cadeiras suficientes para formar maioria, o que significa que semanas ou meses de disputas políticas podem estar por vir.",
+     "link": "https://www.bbc.com/portuguese/articles/cm4g1qpnkv11o?at_medium=RSS&at_campaign=rss",
+     "publicadoEm": "2026-10-27T10:17:45.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "agenciabrasil",
+     "titulo": "Israelenses vão às urnas em eleição que pode tirar Netanyahu do poder",
+     "tituloMarcado": [
+      [
+       "Israelenses",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "vão",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "às",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "urnas",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "eleição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "pode",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "tirar",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Netanyahu",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "poder",
+       true
+      ]
+     ],
+     "trecho": "Cerca de 7 milhões de israelenses vão às urnas, nesta terça-feira (27), pela primeira vez desde o ataque do Hamas de 7 de outubro de 2023. Entre os favoritos para assumir o governo, estão três partidos liderados por…",
+     "link": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/israelenses-vao-as-urnas-em-eleicao-que-pode-tirar-netanyahu-do-poder",
+     "publicadoEm": "2026-10-27T17:36:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "cnn",
+     "titulo": "Urnas fecham em Israel em disputa que vai definir futuro de Netanyahu",
+     "tituloMarcado": [
+      [
+       "Urnas",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fecham",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Israel",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "disputa",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "vai",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "definir",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "futuro",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Netanyahu",
+       false
+      ]
+     ],
+     "trecho": "Pesquisas indicam que bloco do primeiro-ministro pode perder cadeiras no Parlamento; rival Gadi Eisenkot também deve precisar do apoio de partidos árabes para formar maioria",
+     "link": "https://www.cnnbrasil.com.br/internacional/urnas-fecham-em-israel-em-disputa-que-vai-definir-futuro-de-netanyahu/",
+     "publicadoEm": "2026-10-27T20:00:34.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
    "id": "https://g1.globo.com/economia/noticia/2026/10/27/ministro-da-fazenda-anuncia-projeto-para-mirar-centro-da-meta-fiscal-e-diz-que-espera-racionalidade-do-mercado.ghtml",
    "veiculos": 4,
    "primeiro": "2026-10-27T13:03:39.000Z",
@@ -3571,6 +3602,348 @@
    ]
   },
   {
+   "id": "https://www1.folha.uol.com.br/colunas/monicabergamo/2026/10/fachin-arquiva-inqueritos-contra-eduardo-bolsonaro-malafaia-e-fiuza.shtml",
+   "veiculos": 3,
+   "primeiro": "2026-10-27T18:44:00.000Z",
+   "ultimo": "2026-10-27T21:12:43.000Z",
+   "comuns": [
+    "Fachin",
+    "Malafaia",
+    "arquiva",
+    "Eduardo",
+    "inquérito",
+    "fake"
+   ],
+   "politica": null,
+   "materias": [
+    {
+     "veiculo": "folha",
+     "titulo": "Fachin arquiva ações contra Eduardo Bolsonaro, Malafaia e Fiuza no inquérito das fake news",
+     "tituloMarcado": [
+      [
+       "Fachin",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "arquiva",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ações",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "contra",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Eduardo",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Bolsonaro,",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Malafaia",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Fiuza",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "no",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "inquérito",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "das",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fake",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "news",
+       false
+      ]
+     ],
+     "trecho": "O presidente do STF, Edson Fachin, determinou na segunda (26) o arquivamento de ações que investigavam Eduardo Bolsonaro, o pastor Silas Malafaia e o escritor Guilherme Fiuza no inquérito das fake news.",
+     "link": "https://www1.folha.uol.com.br/colunas/monicabergamo/2026/10/fachin-arquiva-inqueritos-contra-eduardo-bolsonaro-malafaia-e-fiuza.shtml",
+     "publicadoEm": "2026-10-27T18:44:00.000Z",
+     "tipo": "coluna",
+     "numero": null
+    },
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "Fachin arquiva investigações sobre Eduardo e Malafaia ligadas ao inquérito das fake news",
+     "tituloMarcado": [
+      [
+       "Fachin",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "arquiva",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "investigações",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "sobre",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Eduardo",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Malafaia",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ligadas",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ao",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "inquérito",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "das",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fake",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "news",
+       false
+      ]
+     ],
+     "trecho": "Fachin arquivou investigações ligadas ao inquérito das fake news contra Silas Malafaia, Eduardo Bolsonaro (PL-SP) e Guilherme Fiuza.",
+     "link": "https://www.gazetadopovo.com.br/republica/fachin-arquiva-investigacoes-sobre-eduardo-e-malafaia-ligadas-ao-inquerito-das-fake-news/",
+     "publicadoEm": "2026-10-27T21:02:01.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "metropoles",
+     "titulo": "Malafaia acusa Moraes de covardia e elogia Fachin por devolver passaporte",
+     "tituloMarcado": [
+      [
+       "Malafaia",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "acusa",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Moraes",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "covardia",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "elogia",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Fachin",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "por",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "devolver",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "passaporte",
+       true
+      ]
+     ],
+     "trecho": "Pastor diz que apreensão de seus bens tentou silenciá-lo e comemora arquivamento da investigação e ordem para devolver passaporte.",
+     "link": "https://www.metropoles.com/colunas/manoela-alcantara/malafaia-acusa-moraes-de-covardia-e-elogia-fachin-por-devolver-passaporte",
+     "publicadoEm": "2026-10-27T21:12:43.000Z",
+     "tipo": "coluna",
+     "numero": null
+    }
+   ]
+  },
+  {
    "id": "https://f5.folha.uol.com.br/celebridades/2026/10/soso-careca-e-mc-paiva-anunciam-gravidez-em-publicacao-nas-redes-sociais.shtml",
    "veiculos": 3,
    "primeiro": "2026-10-27T17:51:00.000Z",
@@ -3867,6 +4240,769 @@
      "trecho": "A influenciadora gravou um vídeo para falar sobre Soso Careca, que está grávida de MC Paiva. Recentemente, os três estavam em pé de guerra",
      "link": "https://www.metropoles.com/celebridades/malevola-questiona-maternidade-de-soso-careca-apos-anuncio-de-gravidez",
      "publicadoEm": "2026-10-27T20:57:33.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://g1.globo.com/politica/noticia/2026/10/27/pf-apontou-risco-de-flavio-bolsonaro-fugir-do-brasil-e-suspeita-sobre-destino-de-dinheiro-de-vorcaro-ao-pedir-a-moraes-apreensao-de-passaporte.ghtml",
+   "veiculos": 3,
+   "primeiro": "2026-10-27T19:26:53.000Z",
+   "ultimo": "2026-10-27T20:51:00.000Z",
+   "comuns": [
+    "PF",
+    "risco",
+    "Flávio",
+    "Moraes",
+    "apontou",
+    "fugir"
+   ],
+   "politica": null,
+   "materias": [
+    {
+     "veiculo": "g1",
+     "titulo": "PF apontou risco de Flávio fugir do Brasil e suspeita sobre dinheiro de Vorcaro ao pedir a Moraes apreensão de passaporte",
+     "tituloMarcado": [
+      [
+       "PF",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "apontou",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "risco",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fugir",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Brasil",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "suspeita",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "sobre",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dinheiro",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Vorcaro",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ao",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "pedir",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Moraes",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "apreensão",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "passaporte",
+       false
+      ]
+     ],
+     "trecho": "Flávio Bolsonaro em pronunciamento após perder eleição. Agustin Marcarian/Reuters A Polícia Federal (PF) apontou riscos \"concretos e atuais\" de fuga em pedido ao ministro Alexandre de Moraes, do Supremo Tribunal Federal…",
+     "link": "https://g1.globo.com/politica/noticia/2026/10/27/pf-apontou-risco-de-flavio-bolsonaro-fugir-do-brasil-e-suspeita-sobre-destino-de-dinheiro-de-vorcaro-ao-pedir-a-moraes-apreensao-de-passaporte.ghtml",
+     "publicadoEm": "2026-10-27T19:26:53.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "PF relatou a Moraes risco de Flávio deixar o Brasil para longa permanência no exterior",
+     "tituloMarcado": [
+      [
+       "PF",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "relatou",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Moraes",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "risco",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "deixar",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "o",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Brasil",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "para",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "longa",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "permanência",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "no",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "exterior",
+       true
+      ]
+     ],
+     "trecho": "Investigadores apontaram indícios de possível fuga para o exterior, incluindo orientação de Eduardo Bolsonaro.",
+     "link": "https://www.gazetadopovo.com.br/republica/pf-relatou-moraes-risco-flavio-deixar-brasil-longa-permanencia-exterior/",
+     "publicadoEm": "2026-10-27T20:42:44.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "folha",
+     "titulo": "PF apontou risco concreto de Flávio Bolsonaro fugir do país ao pedir apreensão de passaporte a Moraes",
+     "tituloMarcado": [
+      [
+       "PF",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "apontou",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "risco",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "concreto",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Bolsonaro",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fugir",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "país",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ao",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "pedir",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "apreensão",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "passaporte",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Moraes",
+       false
+      ]
+     ],
+     "trecho": "A Polícia Federal apontou \"risco concreto de evasão do território nacional\" pelo senador Flávio Bolsonaro (PL -RJ) em manifestação enviada no último domingo (25) ao ministro Alexandre de Moraes, do STF (Supremo Tribunal…",
+     "link": "https://www1.folha.uol.com.br/poder/2026/10/pf-apontou-risco-concreto-de-flavio-bolsonaro-fugir-do-pais-ao-pedir-apreensao-de-passaporte-a-moraes.shtml",
+     "publicadoEm": "2026-10-27T20:51:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://www.gazetadopovo.com.br/mundo/imprensa-internacional-repercute-decisao-de-moraes-de-reter-passaporte-de-flavio-apos-derrota-para-lula/",
+   "veiculos": 3,
+   "primeiro": "2026-10-26T21:27:02.000Z",
+   "ultimo": "2026-10-27T20:48:54.000Z",
+   "comuns": [
+    "Flávio",
+    "Imprensa",
+    "internacional",
+    "repercute",
+    "fuga"
+   ],
+   "politica": "Lula",
+   "materias": [
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "Imprensa internacional repercute decisão de Moraes de reter passaporte de Flávio após derrota para Lula",
+     "tituloMarcado": [
+      [
+       "Imprensa",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "internacional",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "repercute",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "decisão",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Moraes",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reter",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "passaporte",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "após",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "derrota",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "para",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Lula",
+       true
+      ]
+     ],
+     "trecho": "Imprensa estrangeira repercute ordem de Moraes para reter passaporte de Flávio Bolsonaro após derrota para Lula.",
+     "link": "https://www.gazetadopovo.com.br/mundo/imprensa-internacional-repercute-decisao-de-moraes-de-reter-passaporte-de-flavio-apos-derrota-para-lula/",
+     "publicadoEm": "2026-10-26T21:27:02.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "folha",
+     "titulo": "Imprensa internacional repercute fuga de Flávio Bolsonaro do Brasil",
+     "tituloMarcado": [
+      [
+       "Imprensa",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "internacional",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "repercute",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fuga",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Bolsonaro",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Brasil",
+       true
+      ]
+     ],
+     "trecho": "A imprensa internacional repercute nesta terça-feira (27) a fuga do senador Flávio Bolsonaro (PL) do Brasil após a derrota para Lula (PT) na eleição presidencial e a ordem emitida pelo ministro do STF Alexandre de…",
+     "link": "https://www1.folha.uol.com.br/mundo/2026/10/imprensa-internacional-repercute-fuga-de-flavio-bolsonaro-do-brasil.shtml",
+     "publicadoEm": "2026-10-27T19:49:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "cnn",
+     "titulo": "Oposição alega “perseguição” contra Flávio e governistas criticam fuga",
+     "tituloMarcado": [
+      [
+       "Oposição",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "alega",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "“perseguição”",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "contra",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "governistas",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "criticam",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fuga",
+       false
+      ]
+     ],
+     "trecho": "Sessão da Câmara dos Deputados desta terça-feira (27) repercutiu a decisão do senador de fugir para os EUA após derrota nas urnas por Lula e confisco de passaportes por ordem judicial",
+     "link": "https://www.cnnbrasil.com.br/politica/oposicao-alega-perseguicao-contra-flavio-e-governistas-criticam-fuga/",
+     "publicadoEm": "2026-10-27T20:48:54.000Z",
      "tipo": "noticia",
      "numero": null
     }
@@ -4190,208 +5326,25 @@
    ]
   },
   {
-   "id": "https://www1.folha.uol.com.br/poder/2026/10/comissao-da-camara-aprova-convite-para-ouvir-roberta-luchsinger-sobre-caso-lulinha.shtml",
+   "id": "https://www.gazetadopovo.com.br/republica/flavio-bolsonaro-tem-passaportes-apreendidos-e-esta-proibido-de-deixar-o-pais/",
    "veiculos": 3,
-   "primeiro": "2026-10-27T18:46:00.000Z",
-   "ultimo": "2026-10-27T20:38:13.000Z",
+   "primeiro": "2026-10-26T21:46:38.000Z",
+   "ultimo": "2026-10-27T20:33:52.000Z",
    "comuns": [
-    "Câmara",
-    "aprova",
-    "Roberta",
-    "Luchsinger",
-    "Comissão",
-    "convite"
+    "Flávio",
+    "Bolsonaro",
+    "intimado",
+    "entregar",
+    "passaportes"
    ],
-   "politica": null,
+   "politica": "Bolsonaro",
    "materias": [
     {
-     "veiculo": "folha",
-     "titulo": "Comissão da Câmara aprova convite para ouvir Roberta Luchsinger sobre caso Lulinha",
-     "tituloMarcado": [
-      [
-       "Comissão",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "da",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Câmara",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "aprova",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "convite",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "para",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "ouvir",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Roberta",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Luchsinger",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "sobre",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "caso",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Lulinha",
-       true
-      ]
-     ],
-     "trecho": "A Comissão de Segurança Pública e Combate ao Crime Organizado da Câmara dos Deputados aprovou, nesta terça-feira (27), um convite para a lobista Roberta Luchsinger falar ao colegiado sobre as investigações que miram ela…",
-     "link": "https://www1.folha.uol.com.br/poder/2026/10/comissao-da-camara-aprova-convite-para-ouvir-roberta-luchsinger-sobre-caso-lulinha.shtml",
-     "publicadoEm": "2026-10-27T18:46:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "poder360",
-     "titulo": "Câmara aprova convite para Roberta Luchsinger falar sobre ameaças",
-     "tituloMarcado": [
-      [
-       "Câmara",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "aprova",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "convite",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "para",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Roberta",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Luchsinger",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "falar",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "sobre",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "ameaças",
-       true
-      ]
-     ],
-     "trecho": "Colegiado também quer ouvir diretor-geral da PF, Andrei Rodrigues, sobre Master; lobista falará sobre relação com Lulinha",
-     "link": "https://www.poder360.com.br/poder-congresso/camara-aprova-convite-para-roberta-luchsinger-falar-sobre-ameacas/",
-     "publicadoEm": "2026-10-27T19:53:06.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
      "veiculo": "gazetadopovo",
-     "titulo": "Comissão da Câmara aprova convocação de Roberta Luchsinger e diretor da PF",
+     "titulo": "Flávio Bolsonaro diz ter sido intimado pela PF a entregar passaportes por ordem de Moraes",
      "tituloMarcado": [
       [
-       "Comissão",
+       "Flávio",
        false
       ],
       [
@@ -4399,7 +5352,7 @@
        ""
       ],
       [
-       "da",
+       "Bolsonaro",
        false
       ],
       [
@@ -4407,7 +5360,7 @@
        ""
       ],
       [
-       "Câmara",
+       "diz",
        false
       ],
       [
@@ -4415,7 +5368,7 @@
        ""
       ],
       [
-       "aprova",
+       "ter",
        false
       ],
       [
@@ -4423,7 +5376,7 @@
        ""
       ],
       [
-       "convocação",
+       "sido",
        true
       ],
       [
@@ -4431,7 +5384,7 @@
        ""
       ],
       [
-       "de",
+       "intimado",
        false
       ],
       [
@@ -4439,39 +5392,7 @@
        ""
       ],
       [
-       "Roberta",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Luchsinger",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "diretor",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "da",
+       "pela",
        false
       ],
       [
@@ -4480,78 +5401,6 @@
       ],
       [
        "PF",
-       true
-      ]
-     ],
-     "trecho": "Deputados da oposição querem esclarecimentos sobre relações da lobista e do diretor da PF com o governo Lula e o Banco Master.",
-     "link": "https://www.gazetadopovo.com.br/republica/comissao-camara-convocacao-roberta-luchsinger-diretor-pf/",
-     "publicadoEm": "2026-10-27T20:38:13.000Z",
-     "tipo": "noticia",
-     "numero": null
-    }
-   ]
-  },
-  {
-   "id": "https://www.estadao.com.br/politica/governo-reparacao-mensal-17-5-mil-dilma-ditadura-militar-npr/",
-   "veiculos": 3,
-   "primeiro": "2026-10-27T19:41:03.000Z",
-   "ultimo": "2026-10-27T20:37:46.000Z",
-   "comuns": [
-    "Dilma",
-    "mensal",
-    "mil",
-    "perseguição",
-    "17",
-    "Ditadura"
-   ],
-   "politica": null,
-   "materias": [
-    {
-     "veiculo": "estadao",
-     "titulo": "Dilma Rousseff terá pagamento mensal superior a R$ 17 mil por reparação de perseguição na Ditadura",
-     "tituloMarcado": [
-      [
-       "Dilma",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Rousseff",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "terá",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "pagamento",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "mensal",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "superior",
        true
       ],
       [
@@ -4567,7 +5416,7 @@
        ""
       ],
       [
-       "R$",
+       "entregar",
        false
       ],
       [
@@ -4575,15 +5424,7 @@
        ""
       ],
       [
-       "17",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "mil",
+       "passaportes",
        false
       ],
       [
@@ -4599,7 +5440,7 @@
        ""
       ],
       [
-       "reparação",
+       "ordem",
        true
       ],
       [
@@ -4615,7 +5456,22 @@
        ""
       ],
       [
-       "perseguição",
+       "Moraes",
+       true
+      ]
+     ],
+     "trecho": "Flávio Bolsonaro disse ter sido abordado pela PF quando deixava a casa do pai, o ex-presidente Jair Bolsonaro (PL).",
+     "link": "https://www.gazetadopovo.com.br/republica/flavio-bolsonaro-tem-passaportes-apreendidos-e-esta-proibido-de-deixar-o-pais/",
+     "publicadoEm": "2026-10-26T21:46:38.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "bbc",
+     "titulo": "Por que Flávio Bolsonaro foi intimado a entregar os passaportes?",
+     "tituloMarcado": [
+      [
+       "Por",
        false
       ],
       [
@@ -4623,7 +5479,7 @@
        ""
       ],
       [
-       "na",
+       "que",
        false
       ],
       [
@@ -4631,38 +5487,78 @@
        ""
       ],
       [
-       "Ditadura",
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Bolsonaro",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "foi",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "intimado",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "entregar",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "os",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "passaportes?",
        false
       ]
      ],
-     "trecho": "O Ministério dos Direitos Humanos e da Cidadania fixou um pagamento mensal de R$ 17.562,80 para a ex-presidente Dilma Rousseff (PT) como reparação econômica por perseguição política durante o regime militar. A portaria…",
-     "link": "https://www.estadao.com.br/politica/governo-reparacao-mensal-17-5-mil-dilma-ditadura-militar-npr/",
-     "publicadoEm": "2026-10-27T19:41:03.000Z",
+     "trecho": "Decisão foi dada em processo envolvendo o advogado Willer Tomaz e suspeitas de lavagem de dinheiro. Senador afirmou nunca ter pensado em deixar o país.",
+     "link": "https://www.bbc.com/portuguese/articles/ck054vvj66g5o?at_medium=RSS&at_campaign=rss",
+     "publicadoEm": "2026-10-27T16:37:04.000Z",
      "tipo": "noticia",
      "numero": null
     },
     {
      "veiculo": "cnn",
-     "titulo": "Dilma receberá indenização mensal de R$ 17 mil por perseguição na ditadura",
+     "titulo": "Moro diz que “Flávio deixar o país é compreensível”",
      "tituloMarcado": [
       [
-       "Dilma",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "receberá",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "indenização",
+       "Moro",
        true
       ],
       [
@@ -4670,7 +5566,7 @@
        ""
       ],
       [
-       "mensal",
+       "diz",
        false
       ],
       [
@@ -4678,7 +5574,7 @@
        ""
       ],
       [
-       "de",
+       "que",
        false
       ],
       [
@@ -4686,7 +5582,7 @@
        ""
       ],
       [
-       "R$",
+       "“Flávio",
        false
       ],
       [
@@ -4694,86 +5590,7 @@
        ""
       ],
       [
-       "17",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "mil",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "por",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "perseguição",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "na",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "ditadura",
-       false
-      ]
-     ],
-     "trecho": "Decisão do Ministério dos Direitos Humanos e da Cidadania também estabeleceu o pagamento de uma parcela única de R$ 6,6 milhões retroativos desde 1997",
-     "link": "https://www.cnnbrasil.com.br/politica/dilma-recebera-indenizacao-mensal-de-r-17-mil-por-perseguicao-na-ditadura/",
-     "publicadoEm": "2026-10-27T20:36:06.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "gazetadopovo",
-     "titulo": "Dilma receberá R$ 17,5 mil mensais e R$ 6,6 milhões retroativos por “perseguição” no regime militar",
-     "tituloMarcado": [
-      [
-       "Dilma",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "receberá",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "R$",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "17,5",
+       "deixar",
        true
       ],
       [
@@ -4781,7 +5598,7 @@
        ""
       ],
       [
-       "mil",
+       "o",
        false
       ],
       [
@@ -4789,31 +5606,7 @@
        ""
       ],
       [
-       "mensais",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "R$",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "6,6",
+       "país",
        true
       ],
       [
@@ -4821,23 +5614,7 @@
        ""
       ],
       [
-       "milhões",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "retroativos",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "por",
+       "é",
        false
       ],
       [
@@ -4845,37 +5622,13 @@
        ""
       ],
       [
-       "“perseguição”",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "no",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "regime",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "militar",
+       "compreensível”",
        true
       ]
      ],
-     "trecho": "Dilma receberá R$ 17,5 mil mensais e terá R$ 6,6 milhões em retroativos calculados por \"perseguição política\" durante a ditadura militar.",
-     "link": "https://www.gazetadopovo.com.br/republica/dilma-recebera-r-175-mil-mensais-e-r-66-milhoes-retroativos-por-perseguicao-no-regime-militar/",
-     "publicadoEm": "2026-10-27T20:37:46.000Z",
+     "trecho": "Governador eleito do Paraná questionou o fato de Flávio Bolsonaro ter sido intimado a entregar seus passaportes à Polícia Federal",
+     "link": "https://www.cnnbrasil.com.br/politica/moro-diz-que-flavio-deixar-o-pais-e-compreensivel/",
+     "publicadoEm": "2026-10-27T20:33:52.000Z",
      "tipo": "noticia",
      "numero": null
     }
@@ -5273,674 +6026,6 @@
      "trecho": "Mercado tenta se recuperar das perdas de 2ª feira, mas mantém cautela diante das incertezas fiscais e dos sinais do governo",
      "link": "https://www.poder360.com.br/poder-economia/bolsa-volta-a-cair-apos-tombo-com-reeleicao-de-lula-dolar-recua/",
      "publicadoEm": "2026-10-27T20:26:56.000Z",
-     "tipo": "noticia",
-     "numero": null
-    }
-   ]
-  },
-  {
-   "id": "https://www.cnnbrasil.com.br/politica/pl-convoca-reuniao-de-emergencia-apos-flavio-bolsonaro-deixar-o-brasil/",
-   "veiculos": 3,
-   "primeiro": "2026-10-27T19:07:41.000Z",
-   "ultimo": "2026-10-27T20:06:30.000Z",
-   "comuns": [
-    "PL",
-    "reunião",
-    "Flávio",
-    "convoca",
-    "emergência",
-    "após"
-   ],
-   "politica": "Bolsonaro",
-   "materias": [
-    {
-     "veiculo": "cnn",
-     "titulo": "PL convoca reunião de emergência após Flávio Bolsonaro deixar o Brasil",
-     "tituloMarcado": [
-      [
-       "PL",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "convoca",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "reunião",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "emergência",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "após",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Bolsonaro",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "deixar",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "o",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Brasil",
-       false
-      ]
-     ],
-     "trecho": "O presidente do PL (Partido Liberal), Valdemar Costa Neto, convocou uma reunião de emergência com dirigentes da sigla após o senador Flávio Bolsonaro (PL) deixar o Brasil rumo aos Estados Unidos. Em atualização.",
-     "link": "https://www.cnnbrasil.com.br/politica/pl-convoca-reuniao-de-emergencia-apos-flavio-bolsonaro-deixar-o-brasil/",
-     "publicadoEm": "2026-10-27T19:07:41.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "uol",
-     "titulo": "Em dia de fuga de Flávio, Michelle tem reunião no PL com Valdemar",
-     "tituloMarcado": [
-      [
-       "Em",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "dia",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fuga",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio,",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Michelle",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "tem",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "reunião",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "no",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "PL",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "com",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Valdemar",
-       true
-      ]
-     ],
-     "trecho": "O presidente nacional do PL, Valdemar Costa Neto, se reuniu com a senadora eleita Michelle Bolsonaro (PL-DF) após Flávio Bolsonaro (PL) fugir do Brasil rumo aos Estados Unidos.",
-     "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/10/27/em-dia-de-fuga-de-flavio-michelle-tem-reuniao-no-pl-com-valdemar.ghtm",
-     "publicadoEm": "2026-10-27T19:51:12.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "veja",
-     "titulo": "PL convoca reunião emergencial em Brasília após relatos de possível fuga de Flávio",
-     "tituloMarcado": [
-      [
-       "PL",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "convoca",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "reunião",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "emergencial",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "em",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Brasília",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "após",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "relatos",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "possível",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fuga",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       false
-      ]
-     ],
-     "trecho": "Pessoas próximas à legenda afirmam que o partido já discute sua liderança diante da possibilidade de Flávio ter saído do país",
-     "link": "https://veja.abril.com.br/brasil/pl-convoca-reuniao-emergencial-em-brasilia-apos-relatos-de-possivel-fuga-de-flavio/",
-     "publicadoEm": "2026-10-27T20:06:30.000Z",
-     "tipo": "noticia",
-     "numero": null
-    }
-   ]
-  },
-  {
-   "id": "https://www.gazetadopovo.com.br/gazeta-agora/gazeta-agora-donald-trump-e-marco-rubio-ajudam-flavio-a-deixar-o-brasil/",
-   "veiculos": 3,
-   "primeiro": "2026-10-27T19:15:50.000Z",
-   "ultimo": "2026-10-27T19:58:28.000Z",
-   "comuns": [
-    "Trump",
-    "Flávio",
-    "Marco",
-    "Rubio",
-    "Aliado",
-    "Bolsonaro"
-   ],
-   "politica": "Bolsonaro",
-   "materias": [
-    {
-     "veiculo": "gazetadopovo",
-     "titulo": "Gazeta Agora: Donald Trump e Marco Rubio ajudam Flávio a deixar o Brasil",
-     "tituloMarcado": [
-      [
-       "Gazeta",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Agora:",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Donald",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Trump",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Marco",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Rubio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "ajudam",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "deixar",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "o",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Brasil",
-       true
-      ]
-     ],
-     "trecho": "A edição desta terça-feira (26) destaca, entre outros assuntos, que Flávio Bolsonaro deixa o Brasil e viaja aos EUA.",
-     "link": "https://www.gazetadopovo.com.br/gazeta-agora/gazeta-agora-donald-trump-e-marco-rubio-ajudam-flavio-a-deixar-o-brasil/",
-     "publicadoEm": "2026-10-27T19:15:50.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "agenciabrasil",
-     "titulo": "Aliado de Trump diz que Flávio Bolsonaro chegou aos EUA",
-     "tituloMarcado": [
-      [
-       "Aliado",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Trump",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "diz",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "que",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Bolsonaro",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "chegou",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "aos",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "EUA",
-       true
-      ]
-     ],
-     "trecho": "O investidor e ex-secretário de Turismo do México, Simón Levy, publicou uma postagem nas redes sociais nesta terça-feira (27) relatando que Flávio Bolsonaro teria chegado aos Estados Unidos (EUA), em uma articulação…",
-     "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/aliado-de-trump-diz-que-flavio-bolsonaro-chegou-aos-eua",
-     "publicadoEm": "2026-10-27T19:26:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "cartacapital",
-     "titulo": "Aliado de Trump diz que fuga de Flávio Bolsonaro foi articulada por Marco Rubio",
-     "tituloMarcado": [
-      [
-       "Aliado",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Trump",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "diz",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "que",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fuga",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Bolsonaro",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "foi",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "articulada",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "por",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Marco",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Rubio",
-       false
-      ]
-     ],
-     "trecho": "Segundo o empresário mexicano Simón Levy, o senador brasileiro já está nos EUA",
-     "link": "https://www.cartacapital.com.br/politica/aliado-de-trump-diz-que-fuga-de-flavio-bolsonaro-foi-articulada-por-marco-rubio/",
-     "publicadoEm": "2026-10-27T19:58:28.000Z",
      "tipo": "noticia",
      "numero": null
     }
