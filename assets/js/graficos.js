@@ -33,6 +33,10 @@ function obterDica() {
 
 export function mostrarDica(clienteX, clienteY, titulo, linhas) {
   const d = obterDica();
+  // Um diálogo aberto fica numa camada que o navegador desenha acima de toda a página;
+  // para aparecer na frente do gráfico ampliado, a dica precisa morar dentro dele.
+  const hospedeiro = document.querySelector('dialog[open]') || document.body;
+  if (d.parentElement !== hospedeiro) hospedeiro.appendChild(d);
   d.replaceChildren();
   const t = document.createElement('div');
   t.className = 'dica__titulo';
@@ -62,8 +66,15 @@ export function mostrarDica(clienteX, clienteY, titulo, linhas) {
   let y = clienteY - r.height - 12;
   if (x + r.width > window.innerWidth - 8) x = clienteX - r.width - 14;
   if (y < 8) y = clienteY + 16;
-  d.style.left = `${Math.max(8, x)}px`;
+  x = Math.max(8, x);
+  d.style.left = `${x}px`;
   d.style.top = `${y}px`;
+  // Se algum elemento acima da dica mudar a referência da posição fixa, corrige pela diferença medida.
+  const real = d.getBoundingClientRect();
+  if (Math.abs(real.left - x) > 0.5 || Math.abs(real.top - y) > 0.5) {
+    d.style.left = `${2 * x - real.left}px`;
+    d.style.top = `${2 * y - real.top}px`;
+  }
 }
 
 export function esconderDica() {
@@ -215,7 +226,7 @@ export function graficoLinhas(container, op) {
     // Camada de interação: mira vertical que procura o X mais próximo
     const mira = el('line', { class: 'mira', y1: m.topo, y2: altura - m.base, visibility: 'hidden' }, svg);
     const corDe = (s) => (s.fraco ? 'var(--tinta-3)' : s.cor);
-    const marcadores = series.map((s) => el('circle', { r: s.fraco ? 3 : 4, fill: corDe(s), stroke: 'var(--superficie)', 'stroke-width': 2, visibility: 'hidden' }, svg));
+    const marcadores = series.map((s) => el('circle', { r: s.fraco ? 3 : 4, fill: corDe(s), stroke: 'var(--superficie-solida)', 'stroke-width': 2, visibility: 'hidden' }, svg));
     const zona = el('rect', { class: 'zona-toque', x: m.esq, y: 0, width: largura - m.esq - m.dir + 8, height: altura }, svg);
     let indice = xs.length - 1;
 

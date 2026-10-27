@@ -46,8 +46,8 @@
   --texto-l: 1.1875rem;
   --texto-xl: 1.5rem;
 
-  --largura: 1240px;
-  --margem: clamp(16px, 4vw, 48px);
+  --largura: 1440px;
+  --margem: clamp(16px, 3vw, 40px);
   --raio: 10px;
   --raio-cartao: 18px;
   --raio-painel: 26px;
@@ -214,7 +214,7 @@ button {
   left: 16px;
   top: -60px;
   background: var(--tinta);
-  color: var(--superficie);
+  color: var(--superficie-solida);
   padding: 8px 14px;
   border-radius: var(--raio);
   z-index: 50;
@@ -416,7 +416,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  padding: 18px 18px 16px;
+  padding: 18px 16px 16px;
   background: var(--superficie);
   border: 1px solid var(--linha);
   border-radius: var(--raio-cartao);
@@ -1338,7 +1338,7 @@ button {
 }
 
 .grafico .ponto-final {
-  stroke: var(--superficie);
+  stroke: var(--superficie-solida);
   stroke-width: 2;
 }
 
@@ -1434,7 +1434,9 @@ button {
 }
 
 .dica__titulo {
-  color: color-mix(in srgb, var(--superficie) 72%, transparent);
+  color: var(--superficie-solida);
+  font-size: var(--texto-s);
+  font-weight: 700;
   margin-bottom: 4px;
 }
 
@@ -1989,9 +1991,7 @@ dialog.detalhe {
   padding: 0;
   border: 1px solid var(--linha-forte);
   border-radius: var(--raio-painel);
-  background: color-mix(in srgb, var(--superficie-solida) 90%, transparent);
-  -webkit-backdrop-filter: var(--desfoque);
-  backdrop-filter: var(--desfoque);
+  background: color-mix(in srgb, var(--superficie-solida) 94%, transparent);
   color: var(--tinta);
   box-shadow: var(--vidro-realce), 0 30px 80px -20px rgba(10, 5, 40, 0.6);
 }
@@ -2651,6 +2651,13 @@ dialog.detalhe::backdrop {
 }
 
 /* ---------- Responsivo ---------- */
+
+/* Abaixo de 1200 px, cinco quadros por fileira ficam estreitos demais: o resumo passa a duas colunas. */
+@media (max-width: 1199px) {
+  .resumo__lista {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
 
 @media (max-width: 1080px) {
   .boletim__grade {
