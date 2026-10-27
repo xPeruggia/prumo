@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-10-27T21:05:13.060Z",
+ "geradoEm": "2026-10-27T21:07:19.455Z",
  "janelaHoras": 48,
  "nota": "Matérias publicadas pelos próprios veículos em seus feeds públicos (RSS). O site agrupa as que tratam do mesmo fato, mostra o título e um trecho curto de cada uma, com o link para o texto completo, e não classifica nenhum veículo. Palavras destacadas são as que só aquele veículo usou no título. \"Coluna ou opinião\" e \"Análise\" seguem a seção em que o próprio veículo publicou o texto.",
  "veiculos": [
@@ -95,13 +95,13 @@
    "materias": 20
   }
  ],
- "totalMaterias": 714,
+ "totalMaterias": 715,
  "comparacoes": [
   {
    "id": "https://www.cnnbrasil.com.br/politica/uniao-pp-anuncia-apoio-a-reeleicao-de-alcolumbre-na-presidencia-do-senado/",
    "veiculos": 7,
    "primeiro": "2026-10-27T19:14:23.000Z",
-   "ultimo": "2026-10-27T20:58:00.000Z",
+   "ultimo": "2026-10-27T20:34:43.000Z",
    "comuns": [
     "União-PP",
     "reeleição",
@@ -580,6 +580,101 @@
      "numero": null
     },
     {
+     "veiculo": "uol",
+     "titulo": "União-PP declara apoio à reeleição de Alcolumbre para presidente do Senado",
+     "tituloMarcado": [
+      [
+       "União-PP",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "declara",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "apoio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "à",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reeleição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Alcolumbre",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "para",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "presidente",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Senado",
+       false
+      ]
+     ],
+     "trecho": "A Federação União Progressista manifestou apoio nesta terça-feira, 27, à reeleição de Davi Alcolumbre (União-AP) para presidente do Senado e do Congresso Nacional. A declaração ocorre em nota assinada pelos presidentes…",
+     "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/27/uniao-pp-declara-apoio-a-reeleicao-de-alcolumbre-para-presidente-do-senado.htm",
+     "publicadoEm": "2026-10-27T19:58:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
      "veiculo": "poder360",
      "titulo": "União Progressista declara apoio à reeleição de Davi Alcolumbre",
      "tituloMarcado": [
@@ -750,101 +845,6 @@
      "trecho": "BRASÍLIA — A Federação União Progressista manifestou apoio nesta terça-feira, 27, à reeleição de Davi Alcolumbre (União-AP) para presidente do Senado e do Congresso Nacional. A declaração ocorre em nota assinada pelos…",
      "link": "https://www.estadao.com.br/politica/uniao-pp-declara-apoio-a-reeleicao-de-alcolumbre-para-presidente-do-senado/",
      "publicadoEm": "2026-10-27T20:34:43.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "uol",
-     "titulo": "União-PP declara apoio à reeleição de Alcolumbre para presidente do Senado",
-     "tituloMarcado": [
-      [
-       "União-PP",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "declara",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "apoio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "à",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "reeleição",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Alcolumbre",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "para",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "presidente",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "do",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Senado",
-       false
-      ]
-     ],
-     "trecho": "A Federação União Progressista manifestou apoio nesta terça-feira, 27, à reeleição de Davi Alcolumbre (União-AP) para presidente do Senado e do Congresso Nacional. A declaração ocorre em nota assinada pelos presidentes…",
-     "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/27/uniao-pp-declara-apoio-a-reeleicao-de-alcolumbre-para-presidente-do-senado.htm",
-     "publicadoEm": "2026-10-27T20:58:00.000Z",
      "tipo": "noticia",
      "numero": null
     }
@@ -3873,340 +3873,6 @@
    ]
   },
   {
-   "id": "https://www.cnnbrasil.com.br/politica/pl-convoca-reuniao-de-emergencia-apos-flavio-bolsonaro-deixar-o-brasil/",
-   "veiculos": 3,
-   "primeiro": "2026-10-27T19:07:41.000Z",
-   "ultimo": "2026-10-27T20:51:12.000Z",
-   "comuns": [
-    "PL",
-    "reunião",
-    "Flávio",
-    "convoca",
-    "emergência",
-    "após"
-   ],
-   "politica": "Bolsonaro",
-   "materias": [
-    {
-     "veiculo": "cnn",
-     "titulo": "PL convoca reunião de emergência após Flávio Bolsonaro deixar o Brasil",
-     "tituloMarcado": [
-      [
-       "PL",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "convoca",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "reunião",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "emergência",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "após",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Bolsonaro",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "deixar",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "o",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Brasil",
-       false
-      ]
-     ],
-     "trecho": "O presidente do PL (Partido Liberal), Valdemar Costa Neto, convocou uma reunião de emergência com dirigentes da sigla após o senador Flávio Bolsonaro (PL) deixar o Brasil rumo aos Estados Unidos. Em atualização.",
-     "link": "https://www.cnnbrasil.com.br/politica/pl-convoca-reuniao-de-emergencia-apos-flavio-bolsonaro-deixar-o-brasil/",
-     "publicadoEm": "2026-10-27T19:07:41.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "veja",
-     "titulo": "PL convoca reunião emergencial em Brasília após relatos de possível fuga de Flávio",
-     "tituloMarcado": [
-      [
-       "PL",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "convoca",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "reunião",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "emergencial",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "em",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Brasília",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "após",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "relatos",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "possível",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fuga",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       false
-      ]
-     ],
-     "trecho": "Pessoas próximas à legenda afirmam que o partido já discute sua liderança diante da possibilidade de Flávio ter saído do país",
-     "link": "https://veja.abril.com.br/brasil/pl-convoca-reuniao-emergencial-em-brasilia-apos-relatos-de-possivel-fuga-de-flavio/",
-     "publicadoEm": "2026-10-27T20:06:30.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "uol",
-     "titulo": "Em dia de fuga de Flávio, Michelle tem reunião no PL com Valdemar",
-     "tituloMarcado": [
-      [
-       "Em",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "dia",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fuga",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio,",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Michelle",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "tem",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "reunião",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "no",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "PL",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "com",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Valdemar",
-       true
-      ]
-     ],
-     "trecho": "O presidente nacional do PL, Valdemar Costa Neto, se reuniu com a senadora eleita Michelle Bolsonaro (PL-DF) após Flávio Bolsonaro (PL) fugir do Brasil rumo aos Estados Unidos.",
-     "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/10/27/em-dia-de-fuga-de-flavio-michelle-tem-reuniao-no-pl-com-valdemar.ghtm",
-     "publicadoEm": "2026-10-27T20:51:12.000Z",
-     "tipo": "noticia",
-     "numero": null
-    }
-   ]
-  },
-  {
    "id": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/27/denuncias-de-assedio-eleitoral-no-trabalho-outubro.ghtml",
    "veiculos": 3,
    "primeiro": "2026-10-27T06:30:00.000Z",
@@ -5607,6 +5273,340 @@
      "trecho": "Mercado tenta se recuperar das perdas de 2ª feira, mas mantém cautela diante das incertezas fiscais e dos sinais do governo",
      "link": "https://www.poder360.com.br/poder-economia/bolsa-volta-a-cair-apos-tombo-com-reeleicao-de-lula-dolar-recua/",
      "publicadoEm": "2026-10-27T20:26:56.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://www.cnnbrasil.com.br/politica/pl-convoca-reuniao-de-emergencia-apos-flavio-bolsonaro-deixar-o-brasil/",
+   "veiculos": 3,
+   "primeiro": "2026-10-27T19:07:41.000Z",
+   "ultimo": "2026-10-27T20:06:30.000Z",
+   "comuns": [
+    "PL",
+    "reunião",
+    "Flávio",
+    "convoca",
+    "emergência",
+    "após"
+   ],
+   "politica": "Bolsonaro",
+   "materias": [
+    {
+     "veiculo": "cnn",
+     "titulo": "PL convoca reunião de emergência após Flávio Bolsonaro deixar o Brasil",
+     "tituloMarcado": [
+      [
+       "PL",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "convoca",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reunião",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "emergência",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "após",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Bolsonaro",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "deixar",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "o",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Brasil",
+       false
+      ]
+     ],
+     "trecho": "O presidente do PL (Partido Liberal), Valdemar Costa Neto, convocou uma reunião de emergência com dirigentes da sigla após o senador Flávio Bolsonaro (PL) deixar o Brasil rumo aos Estados Unidos. Em atualização.",
+     "link": "https://www.cnnbrasil.com.br/politica/pl-convoca-reuniao-de-emergencia-apos-flavio-bolsonaro-deixar-o-brasil/",
+     "publicadoEm": "2026-10-27T19:07:41.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "uol",
+     "titulo": "Em dia de fuga de Flávio, Michelle tem reunião no PL com Valdemar",
+     "tituloMarcado": [
+      [
+       "Em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dia",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fuga",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio,",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Michelle",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "tem",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reunião",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "no",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "PL",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "com",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Valdemar",
+       true
+      ]
+     ],
+     "trecho": "O presidente nacional do PL, Valdemar Costa Neto, se reuniu com a senadora eleita Michelle Bolsonaro (PL-DF) após Flávio Bolsonaro (PL) fugir do Brasil rumo aos Estados Unidos.",
+     "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/10/27/em-dia-de-fuga-de-flavio-michelle-tem-reuniao-no-pl-com-valdemar.ghtm",
+     "publicadoEm": "2026-10-27T19:51:12.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "veja",
+     "titulo": "PL convoca reunião emergencial em Brasília após relatos de possível fuga de Flávio",
+     "tituloMarcado": [
+      [
+       "PL",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "convoca",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reunião",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "emergencial",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Brasília",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "após",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "relatos",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "possível",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fuga",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ]
+     ],
+     "trecho": "Pessoas próximas à legenda afirmam que o partido já discute sua liderança diante da possibilidade de Flávio ter saído do país",
+     "link": "https://veja.abril.com.br/brasil/pl-convoca-reuniao-emergencial-em-brasilia-apos-relatos-de-possivel-fuga-de-flavio/",
+     "publicadoEm": "2026-10-27T20:06:30.000Z",
      "tipo": "noticia",
      "numero": null
     }
