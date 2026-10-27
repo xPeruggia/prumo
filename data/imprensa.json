@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-10-27T21:36:05.768Z",
+ "geradoEm": "2026-10-27T22:24:34.669Z",
  "janelaHoras": 48,
  "nota": "Matérias publicadas pelos próprios veículos em seus feeds públicos (RSS). O site agrupa as que tratam do mesmo fato, mostra o título e um trecho curto de cada uma, com o link para o texto completo, e não classifica nenhum veículo. Palavras destacadas são as que só aquele veículo usou no título. \"Coluna ou opinião\" e \"Análise\" seguem a seção em que o próprio veículo publicou o texto.",
  "veiculos": [
@@ -50,7 +50,7 @@
    "nome": "Agência Brasil",
    "idioma": "pt",
    "ok": true,
-   "materias": 18
+   "materias": 19
   },
   {
    "id": "poder360",
@@ -71,7 +71,7 @@
    "nome": "Gazeta do Povo",
    "idioma": "pt",
    "ok": true,
-   "materias": 238
+   "materias": 243
   },
   {
    "id": "cartacapital",
@@ -95,20 +95,1542 @@
    "materias": 20
   }
  ],
- "totalMaterias": 715,
+ "totalMaterias": 722,
  "comparacoes": [
   {
-   "id": "https://www.gazetadopovo.com.br/republica/uniao-pp-contrariam-alianca-flavio-apoio-reeleicao-alcolumbre/",
-   "veiculos": 5,
-   "primeiro": "2026-10-27T19:47:01.000Z",
-   "ultimo": "2026-10-27T20:35:35.000Z",
+   "id": "https://www1.folha.uol.com.br/poder/2026/10/governo-trump-esta-ciente-sobre-saida-de-flavio-bolsonaro-do-brasil-dizem-aliados.shtml",
+   "veiculos": 8,
+   "primeiro": "2026-10-27T17:33:00.000Z",
+   "ultimo": "2026-10-27T22:18:21.000Z",
    "comuns": [
-    "União",
+    "visto",
+    "Flávio",
+    "Bolsonaro",
+    "EUA",
+    "família"
+   ],
+   "politica": "Bolsonaro",
+   "materias": [
+    {
+     "veiculo": "folha",
+     "titulo": "Governo Trump dará visto a Flávio Bolsonaro após fuga do Brasil",
+     "tituloMarcado": [
+      [
+       "Governo",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Trump",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dará",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "visto",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Bolsonaro",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "após",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fuga",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Brasil",
+       true
+      ]
+     ],
+     "trecho": "O governo Donald Trump está ciente da ida de Flávio Bolsonaro aos Estados Unidos e vai conceder vistos ao senador do PL e sua família, autorizando sua permanência no país.",
+     "link": "https://www1.folha.uol.com.br/poder/2026/10/governo-trump-esta-ciente-sobre-saida-de-flavio-bolsonaro-do-brasil-dizem-aliados.shtml",
+     "publicadoEm": "2026-10-27T17:33:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "g1",
+     "titulo": "Governo Trump dará visto para Flávio Bolsonaro e permitirá entrada dele nos EUA",
+     "tituloMarcado": [
+      [
+       "Governo",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Trump",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dará",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "visto",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "para",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Bolsonaro",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "permitirá",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "entrada",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dele",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "nos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "EUA",
+       false
+      ]
+     ],
+     "trecho": "EUA vão emitir visto e permitir entrada de Flávio O Departamento de Estado dos EUA concederá vistos a Flávio Bolsonaro e a sua família e permitirá a entrada deles no país, segundo informou uma autoridade do órgão à…",
+     "link": "https://g1.globo.com/mundo/noticia/2026/10/27/governo-dos-eua-concedera-vistos-a-flavio-bolsonaro-e-sua-familia.ghtml",
+     "publicadoEm": "2026-10-27T21:03:46.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "cnn",
+     "titulo": "Departamento de Estado dos EUA diz à CNN que emitirá vistos para Flávio",
+     "tituloMarcado": [
+      [
+       "Departamento",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Estado",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "EUA",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "diz",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "à",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "CNN",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "emitirá",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "vistos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "para",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ]
+     ],
+     "trecho": "Alto funcionário do órgão confirmou que o senador e seus familiares poderão entrar no país",
+     "link": "https://www.cnnbrasil.com.br/internacional/departamento-de-estado-dos-eua-diz-a-cnn-que-emitira-vistos-para-flavio/",
+     "publicadoEm": "2026-10-27T21:11:41.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "estadao",
+     "titulo": "EUA dizem que concederão vistos a Flávio Bolsonaro e sua família",
+     "tituloMarcado": [
+      [
+       "EUA",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dizem",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "concederão",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "vistos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Bolsonaro",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "sua",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "família",
+       false
+      ]
+     ],
+     "trecho": "O Departamento de Estado norte-americano informou à AFP e ao jornal The New York Times nesta terça-feira, 27, que concederá vistos a Flávio Bolsonaro e sua família, em meio a relatos de que ele estaria a caminho dos…",
+     "link": "https://www.estadao.com.br/politica/eua-visto-flavio-bolsonaro-npr/",
+     "publicadoEm": "2026-10-27T21:24:36.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "veja",
+     "titulo": "Governo Trump diz que concederá vistos a Flávio Bolsonaro e sua família",
+     "tituloMarcado": [
+      [
+       "Governo",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Trump",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "diz",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "concederá",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "vistos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Bolsonaro",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "sua",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "família",
+       false
+      ]
+     ],
+     "trecho": "Ex-presidenciável deixou o Brasil e está a caminho dos EUA",
+     "link": "https://veja.abril.com.br/politica/governo-trump-diz-que-concedera-vistos-a-flavio-bolsonaro-e-sua-familia/",
+     "publicadoEm": "2026-10-27T21:49:23.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "cartacapital",
+     "titulo": "EUA dará visto a Flávio Bolsonaro e sua família",
+     "tituloMarcado": [
+      [
+       "EUA",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dará",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "visto",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Bolsonaro",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "sua",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "família",
+       false
+      ]
+     ],
+     "trecho": "Investigado no STF, o senador deixou o Brasil com a esposa e as duas filhas após perder a eleição",
+     "link": "https://www.cartacapital.com.br/politica/eua-dara-visto-a-flavio-bolsonaro-e-sua-familia/",
+     "publicadoEm": "2026-10-27T21:58:54.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "Governo Trump vai conceder vistos a Flávio Bolsonaro e sua família, diz imprensa dos EUA",
+     "tituloMarcado": [
+      [
+       "Governo",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Trump",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "vai",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "conceder",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "vistos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Bolsonaro",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "sua",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "família,",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "diz",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "imprensa",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "EUA",
+       false
+      ]
+     ],
+     "trecho": "Imprensa americana, citando fontes do Departamento de Estado, afirmam que o governo dos EUA vai conceder vistos a Flávio e sua família.",
+     "link": "https://www.gazetadopovo.com.br/mundo/governo-trump-vai-conceder-vistos-a-flavio-bolsonaro-e-sua-familia-diz-imprensa-dos-eua/",
+     "publicadoEm": "2026-10-27T21:59:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "poder360",
+     "titulo": "EUA irão conceder vistos a Flávio Bolsonaro e família, diz jornal",
+     "tituloMarcado": [
+      [
+       "EUA",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "irão",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "conceder",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "vistos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Bolsonaro",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "família,",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "diz",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "jornal",
+       true
+      ]
+     ],
+     "trecho": "Senador deixou o Brasil depois derrota eleitoral e descumpriu ordem de Alexandre de Moraes para entregar passaportes",
+     "link": "https://www.poder360.com.br/poder-internacional/eua-irao-conceder-vistos-a-flavio-bolsonaro-e-familia/",
+     "publicadoEm": "2026-10-27T22:18:21.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://www.gazetadopovo.com.br/eleicoes/2026/presidentes-camara-senado-defendem-pacificacao-apos-vitoria-lula/",
+   "veiculos": 6,
+   "primeiro": "2026-10-26T12:55:29.000Z",
+   "ultimo": "2026-10-27T22:14:40.000Z",
+   "comuns": [
+    "PT",
     "reeleição",
+    "Motta",
+    "Presidentes",
+    "Câmara",
+    "apoio"
+   ],
+   "politica": "Lula",
+   "materias": [
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "Presidentes da Câmara e do Senado defendem pacificação após vitória de Lula",
+     "tituloMarcado": [
+      [
+       "Presidentes",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "da",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Câmara",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Senado",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "defendem",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "pacificação",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "após",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "vitória",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Lula",
+       true
+      ]
+     ],
+     "trecho": "Hugo Motta e Davi Alcolumbre reconhecem resultado das urnas, parabenizam Lula pela reeleição e cobram união nacional.",
+     "link": "https://www.gazetadopovo.com.br/eleicoes/2026/presidentes-camara-senado-defendem-pacificacao-apos-vitoria-lula/",
+     "publicadoEm": "2026-10-26T12:55:29.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "folha",
+     "titulo": "PT vai apoiar reeleição de Hugo Motta à Presidência da Câmara",
+     "tituloMarcado": [
+      [
+       "PT",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "vai",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "apoiar",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reeleição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Hugo",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Motta",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "à",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Presidência",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "da",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Câmara",
+       false
+      ]
+     ],
+     "trecho": "O PT (Partido dos Trabalhadores) declarou nesta terça-feira (27) apoio à tentativa de reeleição de Hugo Motta (Republicanos -PB) para a Presidência da Câmara dos Deputados, após uma reunião da bancada da sigla em…",
+     "link": "https://www1.folha.uol.com.br/poder/2026/10/pt-vai-apoiar-reeleicao-de-hugo-motta-a-presidencia-da-camara.shtml",
+     "publicadoEm": "2026-10-27T20:46:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "uol",
+     "titulo": "PT anuncia apoio à reeleição de Motta e eleva pressão sobre o PL",
+     "tituloMarcado": [
+      [
+       "PT",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "anuncia",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "apoio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "à",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reeleição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Motta",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "eleva",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "pressão",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "sobre",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "o",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "PL",
+       false
+      ]
+     ],
+     "trecho": "A bancada do PT na Câmara anunciou nesta terça-feira (27) apoio à reeleição de Hugo Motta (Republicanos-PB) no comando da Casa. Com a adesão do partido do presidente Lula, já são 13 legendas formalmente aliadas à…",
+     "link": "https://noticias.uol.com.br/colunas/marcela-mattos/2026/10/27/pt-anuncia-apoio-a-reeleicao-de-motta-na-camara-e-eleva-pressao-sobre-o-pl.htm",
+     "publicadoEm": "2026-10-27T21:17:18.000Z",
+     "tipo": "coluna",
+     "numero": null
+    },
+    {
+     "veiculo": "g1",
+     "titulo": "PT, PV e PC do B anunciam apoio à reeleição de Motta para presidência da Câmara",
+     "tituloMarcado": [
+      [
+       "PT,",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "PV",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "PC",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "B",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "anunciam",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "apoio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "à",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reeleição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Motta",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "para",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "presidência",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "da",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Câmara",
+       false
+      ]
+     ],
+     "trecho": "O presidente Lula recebeu os presidentes da Câmara e do Senado A federação partidária formada pelo PT, PV e PC do B anunciou nesta terça-feira (27) que vai apoiar a reeleição do deputado Hugo Motta (Republicanos-PB)…",
+     "link": "https://g1.globo.com/politica/noticia/2026/10/27/pt-pv-e-pc-do-b-anunciam-apoio-a-reeleicao-de-motta-para-presidencia-da-camara.ghtml",
+     "publicadoEm": "2026-10-27T21:32:12.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "metropoles",
+     "titulo": "PT declara apoio à reeleição de Motta e se une ao Centrão para frear PL",
+     "tituloMarcado": [
+      [
+       "PT",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "declara",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "apoio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "à",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reeleição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Motta",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "se",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "une",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ao",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Centrão",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "para",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "frear",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "PL",
+       false
+      ]
+     ],
+     "trecho": "Com a adesão da federação PT-PCdoB-PV, partidos que apoiam o presidente da Câmara somam 361 deputados eleitos para 2027",
+     "link": "https://www.metropoles.com/brasil/pt-declara-apoio-a-reeleicao-de-motta-e-se-une-ao-centrao-para-frear-pl",
+     "publicadoEm": "2026-10-27T22:14:07.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "poder360",
+     "titulo": "PT declara apoio à reeleição de Hugo Motta na Presidência da Câmara",
+     "tituloMarcado": [
+      [
+       "PT",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "declara",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "apoio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "à",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reeleição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Hugo",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Motta",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "na",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Presidência",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "da",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Câmara",
+       false
+      ]
+     ],
+     "trecho": "Sigla negocia cargos na Mesa Diretora e em comissões estratégicas; partido também quer votar a PEC da tarifa zero até o fim de 2026",
+     "link": "https://www.poder360.com.br/poder-congresso/pt-declara-apoio-a-reeleicao-de-hugo-motta-na-presidencia-da-camara/",
+     "publicadoEm": "2026-10-27T22:14:40.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://www.gazetadopovo.com.br/republica/uniao-pp-contrariam-alianca-flavio-apoio-reeleicao-alcolumbre/",
+   "veiculos": 6,
+   "primeiro": "2026-10-27T19:47:01.000Z",
+   "ultimo": "2026-10-27T22:07:56.000Z",
+   "comuns": [
     "Alcolumbre",
-    "apoio",
     "Senado",
-    "Brasil"
+    "União",
+    "PP",
+    "reeleição"
    ],
    "politica": "PP",
    "materias": [
@@ -277,7 +1799,7 @@
       ],
       [
        "apoiam",
-       true
+       false
       ],
       [
        " ",
@@ -357,7 +1879,7 @@
       ],
       [
        "Tereza",
-       true
+       false
       ],
       [
        " ",
@@ -371,117 +1893,6 @@
      "trecho": "O presidente do Senado, Davi Alcolumbre (União Brasil -AP), recebeu nesta terça (27) o apoio formal de União Brasil e PP à reeleição para o comando da Casa, num movimento para esvaziar a candidatura da senadora Tereza…",
      "link": "https://www1.folha.uol.com.br/poder/2026/10/uniao-brasil-e-pp-apoiam-reeleicao-de-alcolumbre-para-chefia-do-senado-e-escanteiam-tereza-cristina.shtml",
      "publicadoEm": "2026-10-27T19:52:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "g1",
-     "titulo": "Federação União-PP anuncia apoio a reeleição de Alcolumbre para a presidência do Senado",
-     "tituloMarcado": [
-      [
-       "Federação",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "União-PP",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "anuncia",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "apoio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "reeleição",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Alcolumbre",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "para",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "presidência",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "do",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Senado",
-       false
-      ]
-     ],
-     "trecho": "Federação União-PP anuncia apoio a reeleição de Alcolumbre para a presidência do Senado A federação formada por União Brasil e PP anunciou, nesta terça-feira (27), apoio à reeleição de Davi Alcolumbre (União-AP) à…",
-     "link": "https://g1.globo.com/politica/noticia/2026/10/27/federacao-uniao-pp-anuncia-apoio-a-reeleicao-de-alcolumbre-para-a-presidencia-do-senado.ghtml",
-     "publicadoEm": "2026-10-27T19:55:20.000Z",
      "tipo": "noticia",
      "numero": null
     },
@@ -618,7 +2029,7 @@
       ],
       [
        "anunciam",
-       false
+       true
       ],
       [
        " ",
@@ -698,31 +2109,118 @@
      "publicadoEm": "2026-10-27T20:35:35.000Z",
      "tipo": "noticia",
      "numero": null
-    }
-   ]
-  },
-  {
-   "id": "https://www.gazetadopovo.com.br/eleicoes/2026/extensao-horario-votacao-teve-35-mil-votos-17h-19h/",
-   "veiculos": 5,
-   "primeiro": "2026-10-26T15:13:02.000Z",
-   "ultimo": "2026-10-27T20:13:00.000Z",
-   "comuns": [
-    "mil",
-    "votos",
-    "17h",
-    "TSE",
-    "34",
-    "após"
-   ],
-   "politica": "votação",
-   "materias": [
+    },
     {
-     "veiculo": "gazetadopovo",
-     "titulo": "Extensão do horário de votação teve 35 mil votos entre 17h e 19h, aponta levantamento",
+     "veiculo": "g1",
+     "titulo": "Maior bancada no Senado, PL se divide sobre enfrentar ou não Alcolumbre pela presidência do Senado",
      "tituloMarcado": [
       [
-       "Extensão",
+       "Maior",
        true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "bancada",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "no",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Senado,",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "PL",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "se",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "divide",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "sobre",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "enfrentar",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ou",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "não",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Alcolumbre",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "pela",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "presidência",
+       false
       ],
       [
        " ",
@@ -737,126 +2235,22 @@
        ""
       ],
       [
-       "horário",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
+       "Senado",
        false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "votação",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "teve",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "35",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "mil",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "votos",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "entre",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "17h",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "19h,",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "aponta",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "levantamento",
-       true
       ]
      ],
-     "trecho": "Dados dos registros eletrônicos de 497 mil urnas mostram que 35.521 votos para presidente foram computados depois das 17h.",
-     "link": "https://www.gazetadopovo.com.br/eleicoes/2026/extensao-horario-votacao-teve-35-mil-votos-17h-19h/",
-     "publicadoEm": "2026-10-26T15:13:02.000Z",
+     "trecho": "Apesar das manifestações do presidente do PL, Valdemar Costa Neto, e do desejo de Rogério Marinho (PL-RN) de enfrentar Davi Alcolumbre (União-AP) na disputa pela presidência do Senado no próximo ano, a bancada do PL…",
+     "link": "https://g1.globo.com/politica/noticia/2026/10/27/maior-bancada-no-senado-pl-se-divide-sobre-enfrentar-ou-nao-alcolumbre-pela-presidencia-do-senado.ghtml",
+     "publicadoEm": "2026-10-27T20:55:17.000Z",
      "tipo": "noticia",
      "numero": null
     },
     {
-     "veiculo": "bbc",
-     "titulo": "TSE registrou 34 mil votos durante prorrogação ordenada por Zanin, menos de 0,03% dos votos totais",
+     "veiculo": "metropoles",
+     "titulo": "Após PP apoiar Alcolumbre, Tereza ressalta direito de escolha dos senadores",
      "tituloMarcado": [
       [
-       "TSE",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "registrou",
+       "Após",
        true
       ],
       [
@@ -864,7 +2258,7 @@
        ""
       ],
       [
-       "34",
+       "PP",
        false
       ],
       [
@@ -872,7 +2266,7 @@
        ""
       ],
       [
-       "mil",
+       "apoiar",
        false
       ],
       [
@@ -880,7 +2274,7 @@
        ""
       ],
       [
-       "votos",
+       "Alcolumbre,",
        false
       ],
       [
@@ -888,7 +2282,15 @@
        ""
       ],
       [
-       "durante",
+       "Tereza",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ressalta",
        true
       ],
       [
@@ -896,40 +2298,8 @@
        ""
       ],
       [
-       "prorrogação",
+       "direito",
        true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "ordenada",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "por",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Zanin,",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "menos",
-       false
       ],
       [
        " ",
@@ -944,7 +2314,7 @@
        ""
       ],
       [
-       "0,03%",
+       "escolha",
        true
       ],
       [
@@ -960,330 +2330,13 @@
        ""
       ],
       [
-       "votos",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "totais",
-       true
-      ]
-     ],
-     "trecho": "Vantagem de Lula sobre Flávio Bolsonaro foi cerca de 130 vezes o volume de votos registrados após as 17h, mostra levantamento da BBC News Brasil",
-     "link": "https://www.bbc.com/portuguese/articles/crp3g2ynkp1xo?at_medium=RSS&at_campaign=rss",
-     "publicadoEm": "2026-10-27T18:46:18.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "cartacapital",
-     "titulo": "TSE confirma: apenas 34 mil eleitores votaram após as 17h",
-     "tituloMarcado": [
-      [
-       "TSE",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "confirma:",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "apenas",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "34",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "mil",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "eleitores",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "votaram",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "após",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "as",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "17h",
+       "senadores",
        false
       ]
      ],
-     "trecho": "Lula conquistou 4.392.907 votos a mais que Flávio Bolsonaro",
-     "link": "https://www.cartacapital.com.br/cartaexpressa/tse-confirma-apenas-34-mil-eleitores-votaram-apos-as-17h/",
-     "publicadoEm": "2026-10-27T19:17:11.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "cnn",
-     "titulo": "Eleições 2026: TSE confirma 34 mil votos após as 17h no 2º turno",
-     "tituloMarcado": [
-      [
-       "Eleições",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "2026:",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "TSE",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "confirma",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "34",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "mil",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "votos",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "após",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "as",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "17h",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "no",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "2º",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "turno",
-       false
-      ]
-     ],
-     "trecho": "Prorrogação determinada pelo ministro Cristiano Zanin, do STF, ocorreu após relatos de problemas no transporte público pelo país; número havia sido antecipado pela CNN Brasil",
-     "link": "https://www.cnnbrasil.com.br/eleicoes/eleicoes-2026-tse-confirma-34-mil-votos-apos-as-17h-no-2o-turno/",
-     "publicadoEm": "2026-10-27T19:37:44.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "agenciabrasil",
-     "titulo": "TSE contabiliza 34,3 mil votos após as 17h no 2º turno das eleições",
-     "tituloMarcado": [
-      [
-       "TSE",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "contabiliza",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "34,3",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "mil",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "votos",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "após",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "as",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "17h",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "no",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "2º",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "turno",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "das",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "eleições",
-       false
-      ]
-     ],
-     "trecho": "Dados do Tribunal Superior Eleitoral (TSE) mostram que as urnas eletrônicas registraram 34.393 votos após as 17h neste domingo (25), o que equivale a 0.027% do total de votos depositados durante todo o dia de segundo…",
-     "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/tse-contabiliza-menos-de-35-mil-votos-apos-as-17h-no-2-turno",
-     "publicadoEm": "2026-10-27T20:13:00.000Z",
+     "trecho": "Senadora lembrou que votação será secreta, mas não esclareceu se mantém planos de disputar a presidência da Casa",
+     "link": "https://www.metropoles.com/brasil/apos-pp-apoiar-alcolumbre-tereza-ressalta-direito-de-escolha-dos-senadores",
+     "publicadoEm": "2026-10-27T22:07:56.000Z",
      "tipo": "noticia",
      "numero": null
     }
@@ -1291,16 +2344,16 @@
   },
   {
    "id": "https://www1.folha.uol.com.br/colunas/monicabergamo/2026/10/fachin-arquiva-inqueritos-contra-eduardo-bolsonaro-malafaia-e-fiuza.shtml",
-   "veiculos": 4,
+   "veiculos": 5,
    "primeiro": "2026-10-27T18:44:00.000Z",
-   "ultimo": "2026-10-27T21:38:43.000Z",
+   "ultimo": "2026-10-27T22:25:04.000Z",
    "comuns": [
     "Fachin",
     "arquiva",
-    "Malafaia",
     "inquérito",
     "fake",
-    "news"
+    "news",
+    "Eduardo"
    ],
    "politica": null,
    "materias": [
@@ -1350,7 +2403,7 @@
       ],
       [
        "Bolsonaro,",
-       true
+       false
       ],
       [
        " ",
@@ -1535,101 +2588,6 @@
      "numero": null
     },
     {
-     "veiculo": "metropoles",
-     "titulo": "Malafaia acusa Moraes de covardia e elogia Fachin por devolver passaporte",
-     "tituloMarcado": [
-      [
-       "Malafaia",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "acusa",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Moraes",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "covardia",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "elogia",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Fachin",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "por",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "devolver",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "passaporte",
-       true
-      ]
-     ],
-     "trecho": "Pastor diz que apreensão de seus bens tentou silenciá-lo e comemora arquivamento da investigação e ordem para devolver passaporte.",
-     "link": "https://www.metropoles.com/colunas/manoela-alcantara/malafaia-acusa-moraes-de-covardia-e-elogia-fachin-por-devolver-passaporte",
-     "publicadoEm": "2026-10-27T21:12:43.000Z",
-     "tipo": "coluna",
-     "numero": null
-    },
-    {
      "veiculo": "veja",
      "titulo": "Fachin começa a arquivar investigações relacionadas ao inquérito das fake news",
      "tituloMarcado": [
@@ -1675,7 +2633,7 @@
       ],
       [
        "relacionadas",
-       true
+       false
       ],
       [
        " ",
@@ -1723,164 +2681,29 @@
      "publicadoEm": "2026-10-27T21:38:43.000Z",
      "tipo": "noticia",
      "numero": null
-    }
-   ]
-  },
-  {
-   "id": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/27/vice-flavio-bolsonaro-alfredo-gaspar-reconhece-resultado-2-turno-eleicao-presidencial.ghtml",
-   "veiculos": 4,
-   "primeiro": "2026-10-27T19:37:23.000Z",
-   "ultimo": "2026-10-27T21:31:44.000Z",
-   "comuns": [
-    "Vice",
-    "Flávio",
-    "Gaspar",
-    "reconhece",
-    "derrota"
-   ],
-   "politica": "eleição",
-   "materias": [
-    {
-     "veiculo": "g1",
-     "titulo": "Vice de Flávio Bolsonaro, Alfredo Gaspar reconhece resultado da eleição presidencial: 'Não vamos desistir do Brasil'",
-     "tituloMarcado": [
-      [
-       "Vice",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Bolsonaro,",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Alfredo",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Gaspar",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "reconhece",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "resultado",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "da",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "eleição",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "presidencial:",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "'Não",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "vamos",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "desistir",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "do",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Brasil'",
-       true
-      ]
-     ],
-     "trecho": "Vice de Flávio Bolsonaro, Alfredo Gaspar reconhece resultado da eleição presidencial Candidato a vice-presidente na chapa de Flávio Bolsonaro (PL), Alfredo Gaspar (PL) publicou um pronunciamento nas redes sociais nesta…",
-     "link": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/27/vice-flavio-bolsonaro-alfredo-gaspar-reconhece-resultado-2-turno-eleicao-presidencial.ghtml",
-     "publicadoEm": "2026-10-27T19:37:23.000Z",
-     "tipo": "noticia",
-     "numero": null
     },
     {
-     "veiculo": "cnn",
-     "titulo": "Vice de Flávio, Gaspar agradece eleitores e culpa “sistema” por derrota",
+     "veiculo": "estadao",
+     "titulo": "Fachin arquiva inquérito de Moraes contra Eduardo Bolsonaro já condenado por coação",
      "tituloMarcado": [
       [
-       "Vice",
+       "Fachin",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "arquiva",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "inquérito",
        false
       ],
       [
@@ -1896,23 +2719,7 @@
        ""
       ],
       [
-       "Flávio,",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Gaspar",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "agradece",
+       "Moraes",
        true
       ],
       [
@@ -1920,7 +2727,7 @@
        ""
       ],
       [
-       "eleitores",
+       "contra",
        false
       ],
       [
@@ -1928,7 +2735,7 @@
        ""
       ],
       [
-       "e",
+       "Eduardo",
        false
       ],
       [
@@ -1936,7 +2743,15 @@
        ""
       ],
       [
-       "culpa",
+       "Bolsonaro",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "já",
        true
       ],
       [
@@ -1944,7 +2759,7 @@
        ""
       ],
       [
-       "“sistema”",
+       "condenado",
        true
       ],
       [
@@ -1960,22 +2775,22 @@
        ""
       ],
       [
-       "derrota",
-       false
+       "coação",
+       true
       ]
      ],
-     "trecho": "Deputado citou os quase 60 milhões de votos recebidos pela chapa e apontou o Congresso como espaço para continuidade da atuação política",
-     "link": "https://www.cnnbrasil.com.br/eleicoes/vice-de-flavio-gaspar-agradece-eleitores-e-culpa-sistema-por-derrota/",
-     "publicadoEm": "2026-10-27T20:25:37.000Z",
+     "trecho": "O presidente do Supremo Tribunal Federal Edson Fachin decretou o arquivamento de um inquérito contra o ex-deputado Eduardo Bolsonaro por suposta coação de ministros da Corte máxima via articulação com autoridades…",
+     "link": "https://www.estadao.com.br/politica/blog-do-fausto-macedo/fachin-arquiva-inquerito-de-moraes-contra-eduardo-bolsonaro-ja-condenado-por-coacao/",
+     "publicadoEm": "2026-10-27T22:02:44.000Z",
      "tipo": "noticia",
      "numero": null
     },
     {
-     "veiculo": "gazetadopovo",
-     "titulo": "Vice de Flávio Bolsonaro reconhece derrota e promete oposição no Congresso",
+     "veiculo": "cartacapital",
+     "titulo": "Fachin arquiva investigações relacionadas ao Inquérito das Fake News",
      "tituloMarcado": [
       [
-       "Vice",
+       "Fachin",
        false
       ],
       [
@@ -1983,7 +2798,7 @@
        ""
       ],
       [
-       "de",
+       "arquiva",
        false
       ],
       [
@@ -1991,7 +2806,7 @@
        ""
       ],
       [
-       "Flávio",
+       "investigações",
        false
       ],
       [
@@ -1999,7 +2814,7 @@
        ""
       ],
       [
-       "Bolsonaro",
+       "relacionadas",
        false
       ],
       [
@@ -2007,7 +2822,7 @@
        ""
       ],
       [
-       "reconhece",
+       "ao",
        false
       ],
       [
@@ -2015,7 +2830,197 @@
        ""
       ],
       [
-       "derrota",
+       "Inquérito",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "das",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Fake",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "News",
+       false
+      ]
+     ],
+     "trecho": "Em setembro, o presidente do Supremo avocou o processo para sua relatoria",
+     "link": "https://www.cartacapital.com.br/justica/fachin-arquiva-investigacoes-relacionadas-ao-inquerito-das-fake-news/",
+     "publicadoEm": "2026-10-27T22:25:04.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://www.cnnbrasil.com.br/internacional/trump-volta-a-dizer-que-eleicoes-no-brasil-pareceram-fraudadas/",
+   "veiculos": 5,
+   "primeiro": "2026-10-27T20:54:40.000Z",
+   "ultimo": "2026-10-27T22:22:39.000Z",
+   "comuns": [
+    "Trump",
+    "volta",
+    "eleições",
+    "Brasil",
+    "fraudadas"
+   ],
+   "politica": "eleições",
+   "materias": [
+    {
+     "veiculo": "cnn",
+     "titulo": "Trump volta a dizer que eleições no Brasil pareceram fraudadas",
+     "tituloMarcado": [
+      [
+       "Trump",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "volta",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dizer",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "eleições",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "no",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Brasil",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "pareceram",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fraudadas",
+       false
+      ]
+     ],
+     "trecho": "Em comício no Texas, presidente dos EUA citou \"trapaças dos democratas\" em comparação com votação brasileira",
+     "link": "https://www.cnnbrasil.com.br/internacional/trump-volta-a-dizer-que-eleicoes-no-brasil-pareceram-fraudadas/",
+     "publicadoEm": "2026-10-27T20:54:40.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "uol",
+     "titulo": "Trump volta a criticar eleições no Brasil e repete que não tomou partido",
+     "tituloMarcado": [
+      [
+       "Trump",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "volta",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "criticar",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "eleições",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "no",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Brasil",
        false
       ],
       [
@@ -2031,7 +3036,7 @@
        ""
       ],
       [
-       "promete",
+       "repete",
        true
       ],
       [
@@ -2039,8 +3044,119 @@
        ""
       ],
       [
-       "oposição",
+       "que",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "não",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "tomou",
        true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "partido",
+       true
+      ]
+     ],
+     "trecho": "O presidente dos Estados Unidos, Donald Trump, voltou a criticar as eleições no Brasil e reiterou que não apoiou nenhum dos candidatos na disputa.",
+     "link": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/27/trump-volta-a-criticar-eleicoes-no-brasil-e-repete-que-nao-tomou-partido.htm",
+     "publicadoEm": "2026-10-27T21:08:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "g1",
+     "titulo": "Trump volta a falar, sem provas, em fraude na eleição no Brasil",
+     "tituloMarcado": [
+      [
+       "Trump",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "volta",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "falar,",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "sem",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "provas,",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fraude",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "na",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "eleição",
+       false
       ],
       [
        " ",
@@ -2055,23 +3171,761 @@
        ""
       ],
       [
-       "Congresso",
-       true
+       "Brasil",
+       false
       ]
      ],
-     "trecho": "Alfredo Gaspar, vice na chapa de Flávio, criticou o que chamou de “sistema” e afirmou que a campanha enfrentou obstáculos e perseguições.",
-     "link": "https://www.gazetadopovo.com.br/republica/vice-de-flavio-bolsonaro-reconhece-derrota-e-promete-oposicao-no-congresso/",
-     "publicadoEm": "2026-10-27T21:18:43.000Z",
+     "trecho": "Trump faz campanha no Texas Kevin Lamarque/Reuters O presidente dos Estados Unidos, Donald Trump, voltou nesta terça-feira (27) a insinuar, sem provas, que houve fraude na eleição no Brasil. A declaração foi dada…",
+     "link": "https://g1.globo.com/mundo/noticia/2026/10/27/trump-volta-a-falar-sem-provas-em-fraude-na-eleicao-no-brasil.ghtml",
+     "publicadoEm": "2026-10-27T21:21:33.000Z",
      "tipo": "noticia",
      "numero": null
     },
     {
-     "veiculo": "metropoles",
-     "titulo": "Vice de Flávio, Gaspar reconhece derrota e critica processo eleitoral",
+     "veiculo": "folha",
+     "titulo": "Trump volta a dizer, sem provas, que eleições brasileiras foram fraudadas",
      "tituloMarcado": [
       [
-       "Vice",
+       "Trump",
        false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "volta",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dizer,",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "sem",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "provas,",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "eleições",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "brasileiras",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "foram",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fraudadas",
+       false
+      ]
+     ],
+     "trecho": "O presidente dos Estados Unidos, Donald Trump, voltou a dizer nesta terça-feira (27), sem apresentar provas ou indícios, que foram fraudadas as eleições brasileiras, em que o presidente Luiz Inácio Lula da Silva (PT)…",
+     "link": "https://www1.folha.uol.com.br/mundo/2026/10/trump-volta-a-dizer-sem-provas-que-eleicoes-brasileiras-foram-fraudadas.shtml",
+     "publicadoEm": "2026-10-27T21:39:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "Trump volta a falar em fraude na eleição no Brasil e diz que não gostou do que viu",
+     "tituloMarcado": [
+      [
+       "Trump",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "volta",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "falar",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fraude",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "na",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "eleição",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "no",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Brasil",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "diz",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "não",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "gostou",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "viu",
+       true
+      ]
+     ],
+     "trecho": "Em comício no Texas, Trump voltou a questionar a eleição brasileira, falou em fraude e disse que não gostou do que viu.",
+     "link": "https://www.gazetadopovo.com.br/mundo/trump-volta-a-falar-em-fraude-na-eleicao-no-brasil-e-diz-que-nao-gostou-do-que-viu/",
+     "publicadoEm": "2026-10-27T22:22:39.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://www.bbc.com/portuguese/articles/crp3g2ynkp1xo?at_medium=RSS&at_campaign=rss",
+   "veiculos": 4,
+   "primeiro": "2026-10-27T18:46:18.000Z",
+   "ultimo": "2026-10-27T22:18:55.000Z",
+   "comuns": [
+    "TSE",
+    "mil",
+    "votos",
+    "após",
+    "17h"
+   ],
+   "politica": "TSE",
+   "materias": [
+    {
+     "veiculo": "bbc",
+     "titulo": "TSE registrou 34 mil votos durante prorrogação ordenada por Zanin, menos de 0,03% dos votos totais",
+     "tituloMarcado": [
+      [
+       "TSE",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "registrou",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "34",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mil",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "votos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "durante",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "prorrogação",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ordenada",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "por",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Zanin,",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "menos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "0,03%",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "votos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "totais",
+       true
+      ]
+     ],
+     "trecho": "Vantagem de Lula sobre Flávio Bolsonaro foi cerca de 130 vezes o volume de votos registrados após as 17h, mostra levantamento da BBC News Brasil",
+     "link": "https://www.bbc.com/portuguese/articles/crp3g2ynkp1xo?at_medium=RSS&at_campaign=rss",
+     "publicadoEm": "2026-10-27T18:46:18.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "cartacapital",
+     "titulo": "TSE confirma: apenas 34 mil eleitores votaram após as 17h",
+     "tituloMarcado": [
+      [
+       "TSE",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "confirma:",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "apenas",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "34",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mil",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "eleitores",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "votaram",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "após",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "as",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "17h",
+       false
+      ]
+     ],
+     "trecho": "Lula conquistou 4.392.907 votos a mais que Flávio Bolsonaro",
+     "link": "https://www.cartacapital.com.br/cartaexpressa/tse-confirma-apenas-34-mil-eleitores-votaram-apos-as-17h/",
+     "publicadoEm": "2026-10-27T19:17:11.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "agenciabrasil",
+     "titulo": "TSE contabiliza 34,3 mil votos após as 17h no 2º turno das eleições",
+     "tituloMarcado": [
+      [
+       "TSE",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "contabiliza",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "34,3",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mil",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "votos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "após",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "as",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "17h",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "no",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "2º",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "turno",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "das",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "eleições",
+       true
+      ]
+     ],
+     "trecho": "Dados do Tribunal Superior Eleitoral (TSE) mostram que as urnas eletrônicas registraram 34.393 votos após as 17h neste domingo (25), o que equivale a 0.027% do total de votos depositados durante todo o dia de segundo…",
+     "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/tse-contabiliza-menos-de-35-mil-votos-apos-as-17h-no-2-turno",
+     "publicadoEm": "2026-10-27T20:13:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "TSE informa o registro de 34,3 mil votos após as 17h no segundo turno",
+     "tituloMarcado": [
+      [
+       "TSE",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "informa",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "o",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "registro",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "34,3",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mil",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "votos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "após",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "as",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "17h",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "no",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "segundo",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "turno",
+       false
+      ]
+     ],
+     "trecho": "Decisão do ministro Cristiano Zanin, do STF, gerou confusão, e Kassio Nunes Marques, presidente do TSE, orientou os TREs sobre a prorrogação.",
+     "link": "https://www.gazetadopovo.com.br/republica/tse-informa-o-registro-de-343-mil-votos-apos-as-17h-no-segundo-turno/",
+     "publicadoEm": "2026-10-27T22:18:55.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://www.cartacapital.com.br/politica/apos-fuga-de-flavio-presidente-do-pl-se-reune-com-michelle-para-discutir-o-futuro-do-partido/",
+   "veiculos": 4,
+   "primeiro": "2026-10-27T20:56:15.000Z",
+   "ultimo": "2026-10-27T22:14:56.000Z",
+   "comuns": [
+    "Michelle",
+    "Após",
+    "Flávio",
+    "futuro",
+    "Valdemar"
+   ],
+   "politica": "partido",
+   "materias": [
+    {
+     "veiculo": "cartacapital",
+     "titulo": "Após fuga de Flávio, presidente do PL se reúne com Michelle para discutir o ‘futuro do partido’",
+     "tituloMarcado": [
+      [
+       "Após",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "fuga",
+       true
       ],
       [
        " ",
@@ -2094,151 +3948,7 @@
        ""
       ],
       [
-       "Gaspar",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "reconhece",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "derrota",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "critica",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "processo",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "eleitoral",
-       false
-      ]
-     ],
-     "trecho": "Alfredo Gaspar agradeceu aos eleitores da chapa e afirmou que o grupo enfrentou perseguições durante a campanha presidencial",
-     "link": "https://www.metropoles.com/brasil/vice-de-flavio-gaspar-reconhece-derrota-e-critica-processo-eleitoral",
-     "publicadoEm": "2026-10-27T21:31:44.000Z",
-     "tipo": "noticia",
-     "numero": null
-    }
-   ]
-  },
-  {
-   "id": "https://www1.folha.uol.com.br/poder/2026/10/governo-trump-esta-ciente-sobre-saida-de-flavio-bolsonaro-do-brasil-dizem-aliados.shtml",
-   "veiculos": 4,
-   "primeiro": "2026-10-27T17:33:00.000Z",
-   "ultimo": "2026-10-27T21:28:29.000Z",
-   "comuns": [
-    "visto",
-    "Flávio",
-    "Bolsonaro",
-    "Governo",
-    "Trump",
-    "dará"
-   ],
-   "politica": "Bolsonaro",
-   "materias": [
-    {
-     "veiculo": "folha",
-     "titulo": "Governo Trump dará visto a Flávio Bolsonaro após fuga do Brasil",
-     "tituloMarcado": [
-      [
-       "Governo",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Trump",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "dará",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "visto",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Bolsonaro",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "após",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fuga",
+       "presidente",
        true
       ],
       [
@@ -2254,22 +3964,31 @@
        ""
       ],
       [
-       "Brasil",
+       "PL",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "se",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reúne",
        true
-      ]
-     ],
-     "trecho": "O governo Donald Trump está ciente da ida de Flávio Bolsonaro aos Estados Unidos e vai conceder vistos ao senador do PL e sua família, autorizando sua permanência no país.",
-     "link": "https://www1.folha.uol.com.br/poder/2026/10/governo-trump-esta-ciente-sobre-saida-de-flavio-bolsonaro-do-brasil-dizem-aliados.shtml",
-     "publicadoEm": "2026-10-27T17:33:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "uol",
-     "titulo": "EUA dará visto a Flávio Bolsonaro e sua família",
-     "tituloMarcado": [
+      ],
       [
-       "EUA",
+       " ",
+       ""
+      ],
+      [
+       "com",
        false
       ],
       [
@@ -2277,102 +3996,7 @@
        ""
       ],
       [
-       "dará",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "visto",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Bolsonaro",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "sua",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "família",
-       false
-      ]
-     ],
-     "trecho": "O governo americano concederá vistos ao candidato presidencial derrotado Flávio Bolsonaro (PL) e à sua família, informou nesta terça-feira (27) uma fonte diplomática sob condição de anonimato, após notícias da imprensa…",
-     "link": "https://noticias.uol.com.br/ultimas-noticias/afp/2026/10/27/eua-dara-visto-a-flavio-bolsonaro-e-sua-familia.htm",
-     "publicadoEm": "2026-10-27T20:21:53.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "g1",
-     "titulo": "Governo Trump dará visto para Flávio Bolsonaro e permitirá entrada dele nos EUA",
-     "tituloMarcado": [
-      [
-       "Governo",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Trump",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "dará",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "visto",
+       "Michelle",
        false
       ],
       [
@@ -2388,7 +4012,7 @@
        ""
       ],
       [
-       "Flávio",
+       "discutir",
        false
       ],
       [
@@ -2396,7 +4020,7 @@
        ""
       ],
       [
-       "Bolsonaro",
+       "o",
        false
       ],
       [
@@ -2404,7 +4028,7 @@
        ""
       ],
       [
-       "e",
+       "‘futuro",
        false
       ],
       [
@@ -2412,54 +4036,30 @@
        ""
       ],
       [
-       "permitirá",
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "partido’",
        true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "entrada",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "dele",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "nos",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "EUA",
-       false
       ]
      ],
-     "trecho": "EUA vão emitir visto e permitir entrada de Flávio O Departamento de Estado dos EUA concederá vistos a Flávio Bolsonaro e a sua família e permitirá a entrada deles no país, segundo informou uma autoridade do órgão à…",
-     "link": "https://g1.globo.com/mundo/noticia/2026/10/27/governo-dos-eua-concedera-vistos-a-flavio-bolsonaro-e-sua-familia.ghtml",
-     "publicadoEm": "2026-10-27T21:03:46.000Z",
+     "trecho": "'Seguimos unidos, com diálogo, responsabilidade e compromisso com o Brasil', disse Valdemar Costa Neto",
+     "link": "https://www.cartacapital.com.br/politica/apos-fuga-de-flavio-presidente-do-pl-se-reune-com-michelle-para-discutir-o-futuro-do-partido/",
+     "publicadoEm": "2026-10-27T20:56:15.000Z",
      "tipo": "noticia",
      "numero": null
     },
     {
-     "veiculo": "metropoles",
-     "titulo": "Governo Trump confirma emissão de vistos para Flávio Bolsonaro e família",
+     "veiculo": "g1",
+     "titulo": "Valdemar posta foto com Michelle Bolsonaro: 'conversa sobre o futuro'",
      "tituloMarcado": [
       [
-       "Governo",
+       "Valdemar",
        false
       ],
       [
@@ -2467,7 +4067,23 @@
        ""
       ],
       [
-       "Trump",
+       "posta",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "foto",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "com",
        false
       ],
       [
@@ -2475,7 +4091,23 @@
        ""
       ],
       [
-       "confirma",
+       "Michelle",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Bolsonaro:",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "'conversa",
        true
       ],
       [
@@ -2483,8 +4115,87 @@
        ""
       ],
       [
-       "emissão",
+       "sobre",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "o",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "futuro'",
+       false
+      ]
+     ],
+     "trecho": "Valdemar Costa Neto e Michelle Bolsonaro Reprodução/redes sociais O presidente do PL, Valdemar Costa Neto, publicou nesta terça-feira (27), em seu perfil no Instagram, uma foto ao lado da senadora eleita Michelle…",
+     "link": "https://g1.globo.com/politica/noticia/2026/10/27/valdemar-posta-foto-com-michelle-bolsonaro-conversa-sobre-o-futuro.ghtml",
+     "publicadoEm": "2026-10-27T21:15:20.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "veja",
+     "titulo": "Michelle surge sorridente com Valdemar após saída de Flávio Bolsonaro do país",
+     "tituloMarcado": [
+      [
+       "Michelle",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "surge",
        true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "sorridente",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "com",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Valdemar",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "após",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "saída",
+       false
       ],
       [
        " ",
@@ -2499,22 +4210,6 @@
        ""
       ],
       [
-       "vistos",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "para",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
        "Flávio",
        false
       ],
@@ -2531,6 +4226,37 @@
        ""
       ],
       [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "país",
+       false
+      ]
+     ],
+     "trecho": "Encontro também acontece enquanto o PL discute sua organização no Congresso e os rumos da oposição após o resultado da disputa presidencial",
+     "link": "https://veja.abril.com.br/brasil/michelle-surge-sorridente-com-valdemar-apos-saida-de-flavio-bolsonaro-do-pais/",
+     "publicadoEm": "2026-10-27T21:32:25.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "poder360",
+     "titulo": "Valdemar e Michelle discutem futuro do PL após saída de Flávio do país",
+     "tituloMarcado": [
+      [
+       "Valdemar",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
        "e",
        false
       ],
@@ -2539,13 +4265,93 @@
        ""
       ],
       [
-       "família",
+       "Michelle",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "discutem",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "futuro",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "PL",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "após",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "saída",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "país",
        false
       ]
      ],
-     "trecho": "Casa Branca informou que Flávio Bolsonaro e familiares poderão entrar nos Estados Unidos. Anúncio ocorre após alegação de asilo político",
-     "link": "https://www.metropoles.com/mundo/governo-trump-confirma-emissao-de-vistos-para-flavio-bolsonaro-e-familia",
-     "publicadoEm": "2026-10-27T21:28:29.000Z",
+     "trecho": "Em publicação nas redes sociais, dirigente defendeu união, diálogo e responsabilidade após a derrota do senador",
+     "link": "https://www.poder360.com.br/poder-partidos-politicos/valdemar-e-michelle-discutem-futuro-do-pl-apos-saida-de-flavio-do-pais/",
+     "publicadoEm": "2026-10-27T22:14:56.000Z",
      "tipo": "noticia",
      "numero": null
     }
@@ -3045,25 +4851,25 @@
    ]
   },
   {
-   "id": "https://g1.globo.com/mundo/noticia/2026/10/27/eleicoes-em-israel-urnas-sao-fechadas-em-disputa-com-participacao-recorde.ghtml",
+   "id": "https://www.gazetadopovo.com.br/mundo/israel-escolhe-novos-membros-do-parlamento-nesta-terca-feira/",
    "veiculos": 4,
-   "primeiro": "2026-10-27T20:02:40.000Z",
+   "primeiro": "2026-10-27T02:42:25.000Z",
    "ultimo": "2026-10-27T20:36:21.000Z",
    "comuns": [
     "Israel",
-    "boca",
+    "Boca",
     "urna",
     "oposição",
     "Netanyahu"
    ],
-   "politica": "eleições",
+   "politica": "urna",
    "materias": [
     {
-     "veiculo": "g1",
-     "titulo": "Eleições em Israel: urnas são fechadas, e pesquisas de boca de urna indicam impasse",
+     "veiculo": "gazetadopovo",
+     "titulo": "Israel escolhe novos membros do Parlamento nesta terça-feira",
      "tituloMarcado": [
       [
-       "Eleições",
+       "Israel",
        false
       ],
       [
@@ -3071,23 +4877,7 @@
        ""
       ],
       [
-       "em",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Israel:",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "urnas",
+       "escolhe",
        true
       ],
       [
@@ -3095,7 +4885,7 @@
        ""
       ],
       [
-       "são",
+       "novos",
        true
       ],
       [
@@ -3103,7 +4893,7 @@
        ""
       ],
       [
-       "fechadas,",
+       "membros",
        true
       ],
       [
@@ -3111,7 +4901,7 @@
        ""
       ],
       [
-       "e",
+       "do",
        false
       ],
       [
@@ -3119,7 +4909,7 @@
        ""
       ],
       [
-       "pesquisas",
+       "Parlamento",
        true
       ],
       [
@@ -3127,7 +4917,7 @@
        ""
       ],
       [
-       "de",
+       "nesta",
        false
       ],
       [
@@ -3135,45 +4925,13 @@
        ""
       ],
       [
-       "boca",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "urna",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "indicam",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "impasse",
-       false
+       "terça-feira",
+       true
       ]
      ],
-     "trecho": "Benjamin Netanyahu e Gadi Eisenkot Yonatan Sindel/Pool via REUTERS e REUTERS/Shir Torem As urnas fecharam em Israel, que teve suas primeiras eleições gerais no país desde o início da guerra na Faixa de Gaza nesta…",
-     "link": "https://g1.globo.com/mundo/noticia/2026/10/27/eleicoes-em-israel-urnas-sao-fechadas-em-disputa-com-participacao-recorde.ghtml",
-     "publicadoEm": "2026-10-27T20:02:40.000Z",
+     "trecho": "Israel realiza eleições legislativas nesta terça (27) para definir o futuro de Netanyahu e do Parlamento. Confira os candidatos e temas centrais da disputa.",
+     "link": "https://www.gazetadopovo.com.br/mundo/israel-escolhe-novos-membros-do-parlamento-nesta-terca-feira/",
+     "publicadoEm": "2026-10-27T02:42:25.000Z",
      "tipo": "noticia",
      "numero": null
     },
@@ -3437,7 +5195,7 @@
      "tituloMarcado": [
       [
        "Eleições",
-       false
+       true
       ],
       [
        " ",
@@ -3485,7 +5243,7 @@
       ],
       [
        "indica",
-       false
+       true
       ],
       [
        " ",
@@ -3493,7 +5251,7 @@
       ],
       [
        "impasse",
-       false
+       true
       ],
       [
        " ",
@@ -3531,417 +5289,6 @@
      "trecho": "Projeções indicam que os dois principais blocos devem ficar abaixo das 61 cadeiras necessárias para formar maioria no Parlamento",
      "link": "https://veja.abril.com.br/mundo/eleicoes-em-israel-boca-de-urna-indica-impasse-entre-netanyahu-e-oposicao/",
      "publicadoEm": "2026-10-27T20:36:21.000Z",
-     "tipo": "noticia",
-     "numero": null
-    }
-   ]
-  },
-  {
-   "id": "https://www.gazetadopovo.com.br/gazeta-agora/gazeta-agora-donald-trump-e-marco-rubio-ajudam-flavio-a-deixar-o-brasil/",
-   "veiculos": 4,
-   "primeiro": "2026-10-27T19:15:50.000Z",
-   "ultimo": "2026-10-27T20:13:13.000Z",
-   "comuns": [
-    "Flávio",
-    "Trump",
-    "Rubio",
-    "Bolsonaro"
-   ],
-   "politica": "Bolsonaro",
-   "materias": [
-    {
-     "veiculo": "gazetadopovo",
-     "titulo": "Gazeta Agora: Donald Trump e Marco Rubio ajudam Flávio a deixar o Brasil",
-     "tituloMarcado": [
-      [
-       "Gazeta",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Agora:",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Donald",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Trump",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Marco",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Rubio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "ajudam",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "deixar",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "o",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Brasil",
-       true
-      ]
-     ],
-     "trecho": "A edição desta terça-feira (26) destaca, entre outros assuntos, que Flávio Bolsonaro deixa o Brasil e viaja aos EUA.",
-     "link": "https://www.gazetadopovo.com.br/gazeta-agora/gazeta-agora-donald-trump-e-marco-rubio-ajudam-flavio-a-deixar-o-brasil/",
-     "publicadoEm": "2026-10-27T19:15:50.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "agenciabrasil",
-     "titulo": "Aliado de Trump diz que Flávio Bolsonaro chegou aos EUA",
-     "tituloMarcado": [
-      [
-       "Aliado",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Trump",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "diz",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "que",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Bolsonaro",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "chegou",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "aos",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "EUA",
-       true
-      ]
-     ],
-     "trecho": "O investidor e ex-secretário de Turismo do México, Simón Levy, publicou uma postagem nas redes sociais nesta terça-feira (27) relatando que Flávio Bolsonaro teria chegado aos Estados Unidos (EUA), em uma articulação…",
-     "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/aliado-de-trump-diz-que-flavio-bolsonaro-chegou-aos-eua",
-     "publicadoEm": "2026-10-27T19:26:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "cartacapital",
-     "titulo": "Aliado de Trump diz que fuga de Flávio Bolsonaro foi articulada por Marco Rubio",
-     "tituloMarcado": [
-      [
-       "Aliado",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Trump",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "diz",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "que",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fuga",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Bolsonaro",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "foi",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "articulada",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "por",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Marco",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Rubio",
-       false
-      ]
-     ],
-     "trecho": "Segundo o empresário mexicano Simón Levy, o senador brasileiro já está nos EUA",
-     "link": "https://www.cartacapital.com.br/politica/aliado-de-trump-diz-que-fuga-de-flavio-bolsonaro-foi-articulada-por-marco-rubio/",
-     "publicadoEm": "2026-10-27T19:58:28.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "uol",
-     "titulo": "Após fuga de Flávio, bolsonarista posta agradecimento a Rubio",
-     "tituloMarcado": [
-      [
-       "Após",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fuga",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio,",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "bolsonarista",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "posta",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "agradecimento",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Rubio",
-       false
-      ]
-     ],
-     "trecho": "O empresário Paulo Generoso, que já teve sociedade com Eduardo Bolsonaro e que vive nos Estados Unidos, agradeceu o secretário de Estado, Marco Rubio, pela \"ajuda\" a Flávio Bolsonaro (PL). O senador fugiu do Brasil hoje…",
-     "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/10/27/apos-fuga-de-flavio-bolsonarista-posta-agradecimento-a-rubio.ghtm",
-     "publicadoEm": "2026-10-27T20:13:13.000Z",
      "tipo": "noticia",
      "numero": null
     }
@@ -4430,488 +5777,6 @@
    ]
   },
   {
-   "id": "https://www.gazetadopovo.com.br/eleicoes/2026/tarcisio-critica-decisao-zanin-horario-votacao/",
-   "veiculos": 4,
-   "primeiro": "2026-10-25T23:15:35.000Z",
-   "ultimo": "2026-10-27T18:21:48.000Z",
-   "comuns": [
-    "Tarcísio",
-    "eleição",
-    "passou"
-   ],
-   "politica": "eleição",
-   "materias": [
-    {
-     "veiculo": "gazetadopovo",
-     "titulo": "Tarcísio acusa federação do PT de tumultuar eleição após decisão de Zanin",
-     "tituloMarcado": [
-      [
-       "Tarcísio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "acusa",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "federação",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "do",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "PT",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "tumultuar",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "eleição",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "após",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "decisão",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Zanin",
-       true
-      ]
-     ],
-     "trecho": "Tarcísio afirma que decisão de Zanin de estender a votação não faz sentido e que transporte funcionou em SP.",
-     "link": "https://www.gazetadopovo.com.br/eleicoes/2026/tarcisio-critica-decisao-zanin-horario-votacao/",
-     "publicadoEm": "2026-10-25T23:15:35.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "estadao",
-     "titulo": "Em vídeo, Tarcísio reconhece vitória de Lula e repete 6 vezes que ‘eleição passou’",
-     "tituloMarcado": [
-      [
-       "Em",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "vídeo,",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Tarcísio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "reconhece",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "vitória",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Lula",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "repete",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "6",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "vezes",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "que",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "‘eleição",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "passou’",
-       false
-      ]
-     ],
-     "trecho": "O governador de São Paulo, Tarcísio de Freitas (Republicanos), publicou um vídeo em que reconhece a vitória de Luiz Inácio Lula da Silva (PT), embora não cite nominalmente o presidente, e defende uma “oposição…",
-     "link": "https://www.estadao.com.br/politica/eleicoes/em-video-tarcisio-reconhece-vitoria-de-lula-e-repete-6-vezes-que-eleicao-passou/",
-     "publicadoEm": "2026-10-27T17:40:13.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "folha",
-     "titulo": "Com Flávio a caminho dos EUA, Tarcísio diz que eleição passou e que país precisa de projeto",
-     "tituloMarcado": [
-      [
-       "Com",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "caminho",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "dos",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "EUA,",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Tarcísio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "diz",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "que",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "eleição",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "passou",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "que",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "país",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "precisa",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "projeto",
-       true
-      ]
-     ],
-     "trecho": "O governador Tarcísio de Freitas (Republicanos) publicou um vídeo no começo da tarde desta terça-feira (27), poucas horas após a circulação das primeiras notícias sobre a possível fuga de Flávio Bolsonaro (PL) do país…",
-     "link": "https://www1.folha.uol.com.br/poder/2026/10/com-flavio-a-caminho-dos-eua-tarcisio-diz-que-eleicao-passou-e-que-pais-precisa-de-projeto.shtml",
-     "publicadoEm": "2026-10-27T18:06:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "cartacapital",
-     "titulo": "Tarcísio de Freitas repete 6 vezes em vídeo que ‘a eleição passou’",
-     "tituloMarcado": [
-      [
-       "Tarcísio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Freitas",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "repete",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "6",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "vezes",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "em",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "vídeo",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "que",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "‘a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "eleição",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "passou’",
-       false
-      ]
-     ],
-     "trecho": "O PL já reconheceu a derrota. O candidato perdedor, não",
-     "link": "https://www.cartacapital.com.br/cartaexpressa/tarcisio-de-freitas-repete-6-vezes-em-video-que-a-eleicao-passou/",
-     "publicadoEm": "2026-10-27T18:21:48.000Z",
-     "tipo": "noticia",
-     "numero": null
-    }
-   ]
-  },
-  {
    "id": "https://g1.globo.com/economia/noticia/2026/10/27/ministro-da-fazenda-anuncia-projeto-para-mirar-centro-da-meta-fiscal-e-diz-que-espera-racionalidade-do-mercado.ghtml",
    "veiculos": 4,
    "primeiro": "2026-10-27T13:03:39.000Z",
@@ -5370,25 +6235,51 @@
    ]
   },
   {
-   "id": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/27/denuncias-de-assedio-eleitoral-no-trabalho-outubro.ghtml",
+   "id": "https://www.gazetadopovo.com.br/mundo/imprensa-internacional-repercute-decisao-de-moraes-de-reter-passaporte-de-flavio-apos-derrota-para-lula/",
    "veiculos": 3,
-   "primeiro": "2026-10-27T06:30:00.000Z",
-   "ultimo": "2026-10-27T21:36:07.000Z",
+   "primeiro": "2026-10-26T21:27:02.000Z",
+   "ultimo": "2026-10-27T22:11:00.000Z",
    "comuns": [
-    "Denúncias",
-    "assédio",
-    "eleitoral",
-    "trabalho"
+    "Imprensa",
+    "internacional",
+    "repercute",
+    "Flávio",
+    "fuga",
+    "Bolsonaro"
    ],
-   "politica": "eleitoral",
+   "politica": "Lula",
    "materias": [
     {
-     "veiculo": "g1",
-     "titulo": "Denúncias de assédio eleitoral no trabalho mais que dobram em outubro; veja como denunciar",
+     "veiculo": "gazetadopovo",
+     "titulo": "Imprensa internacional repercute decisão de Moraes de reter passaporte de Flávio após derrota para Lula",
      "tituloMarcado": [
       [
-       "Denúncias",
+       "Imprensa",
        false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "internacional",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "repercute",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "decisão",
+       true
       ],
       [
        " ",
@@ -5403,55 +6294,7 @@
        ""
       ],
       [
-       "assédio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "eleitoral",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "no",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "trabalho",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "mais",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "que",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "dobram",
+       "Moraes",
        true
       ],
       [
@@ -5459,7 +6302,7 @@
        ""
       ],
       [
-       "em",
+       "de",
        false
       ],
       [
@@ -5467,7 +6310,7 @@
        ""
       ],
       [
-       "outubro;",
+       "reter",
        true
       ],
       [
@@ -5475,78 +6318,7 @@
        ""
       ],
       [
-       "veja",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "como",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "denunciar",
-       false
-      ]
-     ],
-     "trecho": "Urna eletrônica eleições mulher Tribunal Superior Eleitoral/TSE As denúncias de assédio eleitoral recebidas pelo Ministério Público do Trabalho (MPT) chegaram a 2.009 em 2026, até as 17h desta segunda-feira (26)…",
-     "link": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/27/denuncias-de-assedio-eleitoral-no-trabalho-outubro.ghtml",
-     "publicadoEm": "2026-10-27T06:30:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "agenciabrasil",
-     "titulo": "Assédio eleitoral: saiba como denunciar crime mesmo após eleições",
-     "tituloMarcado": [
-      [
-       "Assédio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "eleitoral:",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "saiba",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "como",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "denunciar",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "crime",
+       "passaporte",
        true
       ],
       [
@@ -5554,8 +6326,16 @@
        ""
       ],
       [
-       "mesmo",
-       true
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
       ],
       [
        " ",
@@ -5570,215 +6350,8 @@
        ""
       ],
       [
-       "eleições",
+       "derrota",
        true
-      ]
-     ],
-     "trecho": "Mesmo com o fim das eleições, ainda é possível denunciar casos de assédio eleitoral. Nesta segunda-feira (26), o presidente do Tribunal Superior do Trabalho, ministro Vieira de Mello Filho, afirmou que a Justiça…",
-     "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/assedio-eleitoral-saiba-como-denunciar-crime-mesmo-apos-elei%C3%A7oes",
-     "publicadoEm": "2026-10-27T20:50:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "metropoles",
-     "titulo": "Deputada denuncia ameaças a trabalhadores e empresários que votaram em Lula",
-     "tituloMarcado": [
-      [
-       "Deputada",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "denuncia",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "ameaças",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "trabalhadores",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "empresários",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "que",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "votaram",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "em",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Lula",
-       true
-      ]
-     ],
-     "trecho": "Deputada estadual Leninha acionou a Polícia Civil para denunciar ameaças e perseguição contra eleitores de Lula em Minas Gerais",
-     "link": "https://www.metropoles.com/minas-gerais/deputada-denuncia-ameacas-a-trabalhadores-e-empresarios-que-votaram-em-lula",
-     "publicadoEm": "2026-10-27T21:36:07.000Z",
-     "tipo": "noticia",
-     "numero": null
-    }
-   ]
-  },
-  {
-   "id": "https://www.cartacapital.com.br/politica/apos-fuga-de-flavio-presidente-do-pl-se-reune-com-michelle-para-discutir-o-futuro-do-partido/",
-   "veiculos": 3,
-   "primeiro": "2026-10-27T20:56:15.000Z",
-   "ultimo": "2026-10-27T21:32:25.000Z",
-   "comuns": [
-    "Michelle",
-    "Após",
-    "Flávio",
-    "futuro",
-    "Valdemar",
-    "Bolsonaro"
-   ],
-   "politica": "partido",
-   "materias": [
-    {
-     "veiculo": "cartacapital",
-     "titulo": "Após fuga de Flávio, presidente do PL se reúne com Michelle para discutir o ‘futuro do partido’",
-     "tituloMarcado": [
-      [
-       "Após",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fuga",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio,",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "presidente",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "do",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "PL",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "se",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "reúne",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "com",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Michelle",
-       false
       ],
       [
        " ",
@@ -5793,54 +6366,22 @@
        ""
       ],
       [
-       "discutir",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "o",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "‘futuro",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "do",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "partido’",
+       "Lula",
        true
       ]
      ],
-     "trecho": "'Seguimos unidos, com diálogo, responsabilidade e compromisso com o Brasil', disse Valdemar Costa Neto",
-     "link": "https://www.cartacapital.com.br/politica/apos-fuga-de-flavio-presidente-do-pl-se-reune-com-michelle-para-discutir-o-futuro-do-partido/",
-     "publicadoEm": "2026-10-27T20:56:15.000Z",
+     "trecho": "Imprensa estrangeira repercute ordem de Moraes para reter passaporte de Flávio Bolsonaro após derrota para Lula.",
+     "link": "https://www.gazetadopovo.com.br/mundo/imprensa-internacional-repercute-decisao-de-moraes-de-reter-passaporte-de-flavio-apos-derrota-para-lula/",
+     "publicadoEm": "2026-10-26T21:27:02.000Z",
      "tipo": "noticia",
      "numero": null
     },
     {
-     "veiculo": "g1",
-     "titulo": "Valdemar posta foto com Michelle Bolsonaro: 'conversa sobre o futuro'",
+     "veiculo": "folha",
+     "titulo": "Imprensa internacional repercute fuga de Flávio Bolsonaro do Brasil",
      "tituloMarcado": [
       [
-       "Valdemar",
+       "Imprensa",
        false
       ],
       [
@@ -5848,23 +6389,7 @@
        ""
       ],
       [
-       "posta",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "foto",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "com",
+       "internacional",
        false
       ],
       [
@@ -5872,7 +6397,7 @@
        ""
       ],
       [
-       "Michelle",
+       "repercute",
        false
       ],
       [
@@ -5880,103 +6405,8 @@
        ""
       ],
       [
-       "Bolsonaro:",
+       "fuga",
        false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "'conversa",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "sobre",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "o",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "futuro'",
-       false
-      ]
-     ],
-     "trecho": "Valdemar posta foto com Michelle Bolsonaro: 'conversa sobre o futuro' Reprodução O presidente do PL, Valdemar Costa Neto, publicou nesta terça-feira (27), em seu perfil no Instagram, uma foto ao lado da senadora eleita…",
-     "link": "https://g1.globo.com/politica/noticia/2026/10/27/valdemar-posta-foto-com-michelle-bolsonaro-conversa-sobre-o-futuro.ghtml",
-     "publicadoEm": "2026-10-27T21:15:20.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "veja",
-     "titulo": "Michelle surge sorridente com Valdemar após saída de Flávio Bolsonaro do país",
-     "tituloMarcado": [
-      [
-       "Michelle",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "surge",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "sorridente",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "com",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Valdemar",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "após",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "saída",
-       true
       ],
       [
        " ",
@@ -6015,150 +6445,22 @@
        ""
       ],
       [
-       "país",
-       true
-      ]
-     ],
-     "trecho": "Encontro também acontece enquanto o PL discute sua organização no Congresso e os rumos da oposição após o resultado da disputa presidencial",
-     "link": "https://veja.abril.com.br/brasil/michelle-surge-sorridente-com-valdemar-apos-saida-de-flavio-bolsonaro-do-pais/",
-     "publicadoEm": "2026-10-27T21:32:25.000Z",
-     "tipo": "noticia",
-     "numero": null
-    }
-   ]
-  },
-  {
-   "id": "https://www.gazetadopovo.com.br/cafe-com-a-gazeta/trump-diz-que-eleicao-no-brasil-pareceu-fraudada-mas-elogia-relacao-com-lula/",
-   "veiculos": 3,
-   "primeiro": "2026-10-27T01:13:42.000Z",
-   "ultimo": "2026-10-27T21:21:33.000Z",
-   "comuns": [
-    "Trump",
-    "eleição",
-    "Brasil",
-    "fraudada",
-    "pareceu",
-    "volta"
-   ],
-   "politica": "eleição",
-   "materias": [
-    {
-     "veiculo": "gazetadopovo",
-     "titulo": "Trump diz que eleição no Brasil “pareceu fraudada”, mas elogia relação com Lula",
-     "tituloMarcado": [
-      [
-       "Trump",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "diz",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "que",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "eleição",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "no",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
        "Brasil",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "“pareceu",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fraudada”,",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "mas",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "elogia",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "relação",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "com",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Lula",
        true
       ]
      ],
-     "trecho": "",
-     "link": "https://www.gazetadopovo.com.br/cafe-com-a-gazeta/trump-diz-que-eleicao-no-brasil-pareceu-fraudada-mas-elogia-relacao-com-lula/",
-     "publicadoEm": "2026-10-27T01:13:42.000Z",
+     "trecho": "A imprensa internacional repercute nesta terça-feira (27) a fuga do senador Flávio Bolsonaro (PL) do Brasil após a derrota para Lula (PT) na eleição presidencial e a ordem emitida pelo ministro do STF Alexandre de…",
+     "link": "https://www1.folha.uol.com.br/mundo/2026/10/imprensa-internacional-repercute-fuga-de-flavio-bolsonaro-do-brasil.shtml",
+     "publicadoEm": "2026-10-27T19:49:00.000Z",
      "tipo": "noticia",
      "numero": null
     },
     {
      "veiculo": "cnn",
-     "titulo": "Trump volta a dizer que eleições no Brasil pareceram fraudadas",
+     "titulo": "Fuga de Flávio Bolsonaro repercute na imprensa internacional",
      "tituloMarcado": [
       [
-       "Trump",
+       "Fuga",
        false
       ],
       [
@@ -6166,7 +6468,7 @@
        ""
       ],
       [
-       "volta",
+       "de",
        false
       ],
       [
@@ -6174,7 +6476,7 @@
        ""
       ],
       [
-       "a",
+       "Flávio",
        false
       ],
       [
@@ -6182,15 +6484,7 @@
        ""
       ],
       [
-       "dizer",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "que",
+       "Bolsonaro",
        false
       ],
       [
@@ -6198,110 +6492,7 @@
        ""
       ],
       [
-       "eleições",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "no",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Brasil",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "pareceram",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fraudadas",
-       false
-      ]
-     ],
-     "trecho": "Em comício no Texas, presidente dos EUA citou \"trapaças dos democratas\" em comparação com votação brasileira",
-     "link": "https://www.cnnbrasil.com.br/internacional/trump-volta-a-dizer-que-eleicoes-no-brasil-pareceram-fraudadas/",
-     "publicadoEm": "2026-10-27T20:54:40.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "g1",
-     "titulo": "Trump volta a falar, sem provas, em fraude na eleição no Brasil",
-     "tituloMarcado": [
-      [
-       "Trump",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "volta",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "falar,",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "sem",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "provas,",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "em",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fraude",
+       "repercute",
        false
       ],
       [
@@ -6317,8 +6508,120 @@
        ""
       ],
       [
-       "eleição",
+       "imprensa",
        false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "internacional",
+       false
+      ]
+     ],
+     "trecho": "Mídia estrangeira vê “reviravolta dramática” após saída, associa episódio a investigações e fala em \"incerteza\" do futuro da extrema direita no Brasil",
+     "link": "https://www.cnnbrasil.com.br/eleicoes/fuga-de-flavio-bolsonaro-repercute-na-imprensa-internacional/",
+     "publicadoEm": "2026-10-27T22:11:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://f5.folha.uol.com.br/colunistas/outro-canal/2026/10/globo-decide-reprisar-a-dona-do-pedaco-apos-avenida-brasil-no-vale-a-pena-ver-de-novo.shtml",
+   "veiculos": 3,
+   "primeiro": "2026-10-27T21:00:00.000Z",
+   "ultimo": "2026-10-27T22:05:21.000Z",
+   "comuns": [
+    "Dona",
+    "Pedaço",
+    "Globo",
+    "reprisar",
+    "Vale",
+    "Pena"
+   ],
+   "politica": null,
+   "materias": [
+    {
+     "veiculo": "folha",
+     "titulo": "Globo decide reprisar 'A Dona do Pedaço' após 'Avenida Brasil' no Vale a Pena Ver de Novo",
+     "tituloMarcado": [
+      [
+       "Globo",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "decide",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reprisar",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "'A",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Dona",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Pedaço'",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "após",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "'Avenida",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Brasil'",
+       true
       ],
       [
        " ",
@@ -6333,37 +6636,341 @@
        ""
       ],
       [
-       "Brasil",
+       "Vale",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Pena",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Ver",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Novo",
        false
       ]
      ],
-     "trecho": "Trump faz campanha no Texas Kevin Lamarque/Reuters O presidente dos Estados Unidos, Donald Trump, voltou nesta terça-feira (27) a insinuar, sem provas, que houve fraude na eleição no Brasil. A declaração foi dada…",
-     "link": "https://g1.globo.com/mundo/noticia/2026/10/27/trump-volta-a-falar-sem-provas-em-fraude-na-eleicao-no-brasil.ghtml",
-     "publicadoEm": "2026-10-27T21:21:33.000Z",
+     "trecho": "A Globo decidiu reprisar \" A Dona do Pedaço \" (2019) no Vale a Pena Ver de Novo. A novela de Walcyr Carrasco, produzida em 2019, será anunciada ainda nesta terça-feira (27) como sucessora de \" Avenida Brasil \" (2012) na…",
+     "link": "https://f5.folha.uol.com.br/colunistas/outro-canal/2026/10/globo-decide-reprisar-a-dona-do-pedaco-apos-avenida-brasil-no-vale-a-pena-ver-de-novo.shtml",
+     "publicadoEm": "2026-10-27T21:00:00.000Z",
+     "tipo": "coluna",
+     "numero": null
+    },
+    {
+     "veiculo": "cnn",
+     "titulo": "“A Dona do Pedaço” volta à exibição em novembro no Vale a Pena Ver de Novo",
+     "tituloMarcado": [
+      [
+       "“A",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Dona",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Pedaço”",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "volta",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "à",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "exibição",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "novembro",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "no",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Vale",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Pena",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Ver",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Novo",
+       false
+      ]
+     ],
+     "trecho": "Novela substituirá \"Avenida Brasil\" em exibição no período da tarde.",
+     "link": "https://www.cnnbrasil.com.br/pop/tv/a-dona-do-pedaco-volta-a-exibicao-em-novembro-no-vale-a-pena-ver-de-novo/",
+     "publicadoEm": "2026-10-27T21:48:30.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "veja",
+     "titulo": "O que levou Globo a escolher ‘A dona do Pedaço’, de Walcyr Carrasco, para reprise",
+     "tituloMarcado": [
+      [
+       "O",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "levou",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Globo",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "escolher",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "‘A",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dona",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Pedaço’,",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Walcyr",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Carrasco,",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "para",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reprise",
+       false
+      ]
+     ],
+     "trecho": "A trama foi exibida originalmente em 2019",
+     "link": "https://veja.abril.com.br/cultura/o-que-levou-globo-a-escolher-a-dona-do-pedaco-de-walcyr-carrasco-para-reprise/",
+     "publicadoEm": "2026-10-27T22:05:21.000Z",
      "tipo": "noticia",
      "numero": null
     }
    ]
   },
   {
-   "id": "https://elpais.com/cultura/2026-10-27/caetano-veloso-demanda-a-un-diputado-bolsonarista-por-llamarle-sinverguenza-a-el-y-a-gilberto-gil-en-un-acto-electoral.html",
+   "id": "https://veja.abril.com.br/brasil/rogerio-marinho-diz-que-compreende-ida-de-flavio-com-a-familia-aos-eua-e-questiona-decisao-de-moraes/",
    "veiculos": 3,
-   "primeiro": "2026-10-27T17:19:11.000Z",
-   "ultimo": "2026-10-27T21:15:20.000Z",
+   "primeiro": "2026-10-27T21:23:53.000Z",
+   "ultimo": "2026-10-27T22:04:12.000Z",
    "comuns": [
-    "Caetano",
-    "Veloso",
-    "Pavanato",
-    "processa"
+    "Marinho",
+    "Flávio",
+    "Rogério",
+    "EUA",
+    "questiona",
+    "Moraes"
    ],
-   "politica": "bolsonarista",
+   "politica": null,
    "materias": [
     {
-     "veiculo": "elpais",
-     "titulo": "Caetano Veloso demanda a un diputado bolsonarista por llamarle “sinvergüenza” a él y a Gilberto Gil en un acto electoral",
+     "veiculo": "veja",
+     "titulo": "Rogério Marinho diz que compreende ida de Flávio com a família aos EUA e questiona decisão de Moraes",
      "tituloMarcado": [
       [
-       "Caetano",
+       "Rogério",
        false
       ],
       [
@@ -6371,253 +6978,7 @@
        ""
       ],
       [
-       "Veloso",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "demanda",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "un",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "diputado",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "bolsonarista",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "por",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "llamarle",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "“sinvergüenza”",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "él",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "y",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Gilberto",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Gil",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "en",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "un",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "acto",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "electoral",
-       true
-      ]
-     ],
-     "trecho": "El cantante brasileño reclama una indemnización de 8.400 euros y exige una rectificación pública del legislador ultraconservador Lucas Pavanato",
-     "link": "https://elpais.com/cultura/2026-10-27/caetano-veloso-demanda-a-un-diputado-bolsonarista-por-llamarle-sinverguenza-a-el-y-a-gilberto-gil-en-un-acto-electoral.html",
-     "publicadoEm": "2026-10-27T17:19:11.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "folha",
-     "titulo": "Lucas Pavanato xinga Caetano Veloso, e cantor processa deputado eleito",
-     "tituloMarcado": [
-      [
-       "Lucas",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Pavanato",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "xinga",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Caetano",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Veloso,",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "cantor",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "processa",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "deputado",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "eleito",
-       true
-      ]
-     ],
-     "trecho": "Caetano Veloso entrou na Justiça contra o deputado federal eleito Lucas Pavanato (PL -SP) e o jornalista Thiago Asmar, conhecido como Pilhado.",
-     "link": "https://www1.folha.uol.com.br/ilustrada/2026/10/lucas-pavanato-xinga-caetano-veloso-e-cantor-processa-deputado-eleito.shtml",
-     "publicadoEm": "2026-10-27T20:37:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "metropoles",
-     "titulo": "Pavanato diz que é \"perseguido\" por Caetano Veloso após processo",
-     "tituloMarcado": [
-      [
-       "Pavanato",
+       "Marinho",
        false
       ],
       [
@@ -6641,15 +7002,7 @@
        ""
       ],
       [
-       "é",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "\"perseguido\"",
+       "compreende",
        true
       ],
       [
@@ -6657,31 +7010,7 @@
        ""
       ],
       [
-       "por",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Caetano",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Veloso",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "após",
+       "ida",
        true
       ],
       [
@@ -6689,71 +7018,7 @@
        ""
       ],
       [
-       "processo",
-       false
-      ]
-     ],
-     "trecho": "Caetano Veloso entrou na Justiça contra Lucas Pavanato após ser chamado de \"vagabundo\" nas redes sociais",
-     "link": "https://www.metropoles.com/celebridades/pavanato-diz-que-e-perseguido-por-caetano-veloso-apos-processo",
-     "publicadoEm": "2026-10-27T21:15:20.000Z",
-     "tipo": "noticia",
-     "numero": null
-    }
-   ]
-  },
-  {
-   "id": "https://noticias.uol.com.br/colunas/mariana-sanches/2026/10/27/eua-vao-emitir-vistos-para-flavio-bolsonaro-e-familia-apos-fuga.htm",
-   "veiculos": 3,
-   "primeiro": "2026-10-27T20:25:13.000Z",
-   "ultimo": "2026-10-27T21:13:09.000Z",
-   "comuns": [
-    "emitir",
-    "Flávio",
-    "EUA",
-    "vistos",
-    "Bolsonaro",
-    "família"
-   ],
-   "politica": "Bolsonaro",
-   "materias": [
-    {
-     "veiculo": "uol",
-     "titulo": "EUA vão emitir vistos para Flávio Bolsonaro e família após fuga",
-     "tituloMarcado": [
-      [
-       "EUA",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "vão",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "emitir",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "vistos",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "para",
+       "de",
        false
       ],
       [
@@ -6769,7 +7034,39 @@
        ""
       ],
       [
-       "Bolsonaro",
+       "com",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "família",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "aos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "EUA",
        false
       ],
       [
@@ -6785,7 +7082,686 @@
        ""
       ],
       [
-       "família",
+       "questiona",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "decisão",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Moraes",
+       false
+      ]
+     ],
+     "trecho": "Marinho questionou a decisão do ministro Alexandre de Moraes, do STF, que determinou a entrega dos passaportes do senador à PF",
+     "link": "https://veja.abril.com.br/brasil/rogerio-marinho-diz-que-compreende-ida-de-flavio-com-a-familia-aos-eua-e-questiona-decisao-de-moraes/",
+     "publicadoEm": "2026-10-27T21:23:53.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "Rogério Marinho cita surpresa com viagem de Flávio e questiona medidas de Moraes",
+     "tituloMarcado": [
+      [
+       "Rogério",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Marinho",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "cita",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "surpresa",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "com",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "viagem",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "questiona",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "medidas",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Moraes",
+       false
+      ]
+     ],
+     "trecho": "Coordenador da campanha diz desconhecer o paradeiro de Flávio, que viajou aos EUA apesar de decisão de Moraes que o proibia de deixar o país.",
+     "link": "https://www.gazetadopovo.com.br/republica/rogerio-marinho-cita-surpresa-com-viagem-de-flavio-e-questiona-medidas-de-moraes/",
+     "publicadoEm": "2026-10-27T21:36:57.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "poder360",
+     "titulo": "Marinho diz não ter sido avisado sobre viagem de Flávio aos EUA",
+     "tituloMarcado": [
+      [
+       "Marinho",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "diz",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "não",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ter",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "sido",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "avisado",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "sobre",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "viagem",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "aos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "EUA",
+       false
+      ]
+     ],
+     "trecho": "Coordenador da campanha afirma que PL desconhece paradeiro do senador e diz compreender eventual saída do Brasil",
+     "link": "https://www.poder360.com.br/poder-eleicoes-2026/marinho-diz-nao-ter-sido-avisado-sobre-viagem-de-flavio-aos-eua/",
+     "publicadoEm": "2026-10-27T22:04:12.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://g1.globo.com/economia/noticia/2026/10/27/mbappe-desculpas-meme-ditator.ghtml",
+   "veiculos": 3,
+   "primeiro": "2026-10-27T11:50:33.000Z",
+   "ultimo": "2026-10-27T21:41:18.000Z",
+   "comuns": [
+    "Mbappé",
+    "ditador",
+    "contratos",
+    "China"
+   ],
+   "politica": null,
+   "materias": [
+    {
+     "veiculo": "g1",
+     "titulo": "Meme 'Mbappé ditador' faz empresas chinesas romperem contratos com o jogador francês; entenda",
+     "tituloMarcado": [
+      [
+       "Meme",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "'Mbappé",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ditador'",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "faz",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "empresas",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "chinesas",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "romperem",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "contratos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "com",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "o",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "jogador",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "francês;",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "entenda",
+       false
+      ]
+     ],
+     "trecho": "Meme Mbappe ditador reprodução redes sociais O jogador francês Kylian Mbappé pediu desculpas nesta terça-feira (27) após a repercussão de um comentário sobre um meme que o retrata como um ditador chinês. A polêmica…",
+     "link": "https://g1.globo.com/economia/noticia/2026/10/27/mbappe-desculpas-meme-ditator.ghtml",
+     "publicadoEm": "2026-10-27T11:50:33.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "Mbappé pede desculpas por chamar Mao de ditador após perder contratos na China",
+     "tituloMarcado": [
+      [
+       "Mbappé",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "pede",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "desculpas",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "por",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "chamar",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Mao",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ditador",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "após",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "perder",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "contratos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "na",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "China",
+       false
+      ]
+     ],
+     "trecho": "Empresas da China estão rompendo contratos de publicidade com Kylian Mbappé porque o craque francês chamou Mao Tsé-Tung de ditador",
+     "link": "https://www.gazetadopovo.com.br/mundo/marcas-chinesas-rompem-contratos-mbappe-apos-jogador-chamar-mao-ditador/",
+     "publicadoEm": "2026-10-27T12:23:59.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "veja",
+     "titulo": "O ‘problemão’ causado por Mbappé para La Liga com a China",
+     "tituloMarcado": [
+      [
+       "O",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "‘problemão’",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "causado",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "por",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Mbappé",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "para",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "La",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Liga",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "com",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "China",
+       false
+      ]
+     ],
+     "trecho": "Jogador francês é atleta do Real Madrid, da Espanha",
+     "link": "https://veja.abril.com.br/esporte/o-problemao-causado-por-mbappe-para-la-liga-com-a-china/",
+     "publicadoEm": "2026-10-27T21:41:18.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://www.gazetadopovo.com.br/vozes/lorenzo-carrasco/brasil-continua-interditado/",
+   "veiculos": 3,
+   "primeiro": "2026-10-27T17:24:09.000Z",
+   "ultimo": "2026-10-27T21:33:03.000Z",
+   "comuns": [
+    "continua",
+    "Flávio",
+    "STF",
+    "mesmo"
+   ],
+   "politica": null,
+   "materias": [
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "Brasil continua interditado",
+     "tituloMarcado": [
+      [
+       "Brasil",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "continua",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "interditado",
+       true
+      ]
+     ],
+     "trecho": "A permanência de Lula permite antever uma continuação das dificuldades para o licenciamento ambiental de projetos de grande relevância.",
+     "link": "https://www.gazetadopovo.com.br/vozes/lorenzo-carrasco/brasil-continua-interditado/",
+     "publicadoEm": "2026-10-27T17:24:09.000Z",
+     "tipo": "coluna",
+     "numero": null
+    },
+    {
+     "veiculo": "agenciabrasil",
+     "titulo": "Investigações contra Flávio continuam no STF mesmo após fuga",
+     "tituloMarcado": [
+      [
+       "Investigações",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "contra",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "continuam",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "no",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "STF",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mesmo",
        false
       ],
       [
@@ -6805,18 +7781,90 @@
        true
       ]
      ],
-     "trecho": "Uma autoridade do governo de Donald Trump confirmou ao UOL que os Estados Unidos vão emitir vistos para Flávio Bolsonaro (PL) e sua família.",
-     "link": "https://noticias.uol.com.br/colunas/mariana-sanches/2026/10/27/eua-vao-emitir-vistos-para-flavio-bolsonaro-e-familia-apos-fuga.htm",
-     "publicadoEm": "2026-10-27T20:25:13.000Z",
-     "tipo": "coluna",
+     "trecho": "O senador Flávio Bolsonaro (PL-RJ) vai continuar respondendo a dois processos criminais no Supremo Tribunal Federal (STF) mesmo após deixar o Brasil e fugir para os Estados Unidos. Por ter foro privilegiado na Corte, o…",
+     "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/entenda-investigacoes-contra-flavio-continuam-no-stf-apos-fuga",
+     "publicadoEm": "2026-10-27T20:37:00.000Z",
+     "tipo": "noticia",
      "numero": null
     },
     {
      "veiculo": "cnn",
-     "titulo": "Departamento de Estado dos EUA diz à CNN que emitirá vistos para Flávio",
+     "titulo": "Inquéritos contra Flávio podem continuar no STF mesmo com perda de foro",
      "tituloMarcado": [
       [
-       "Departamento",
+       "Inquéritos",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "contra",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "podem",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "continuar",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "no",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "STF",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mesmo",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "com",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "perda",
        true
       ],
       [
@@ -6832,196 +7880,13 @@
        ""
       ],
       [
-       "Estado",
+       "foro",
        true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "dos",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "EUA",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "diz",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "à",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "CNN",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "que",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "emitirá",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "vistos",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "para",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       false
       ]
      ],
-     "trecho": "Alto funcionário do órgão confirmou que o senador e seus familiares poderão entrar no país",
-     "link": "https://www.cnnbrasil.com.br/internacional/departamento-de-estado-dos-eua-diz-a-cnn-que-emitira-vistos-para-flavio/",
-     "publicadoEm": "2026-10-27T21:11:41.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "elpais",
-     "titulo": "EE UU anuncia que emitirá visados para Flávio Bolsonaro y su familia",
-     "tituloMarcado": [
-      [
-       "EE",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "UU",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "anuncia",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "que",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "emitirá",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "visados",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "para",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Bolsonaro",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "y",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "su",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "familia",
-       false
-      ]
-     ],
-     "trecho": "Un portavoz del Departamento de Estado informa que Washington acogerá en su territorio al candidato presidencial brasileño derrotado",
-     "link": "https://elpais.com/america/2026-10-27/ee-uu-confirma-que-emitira-visados-para-flavio-bolsonaro-y-su-familia.html",
-     "publicadoEm": "2026-10-27T21:13:09.000Z",
+     "trecho": "Casos poderão continuar em tramitação na Suprema Corte se magistrados concluírem que crimes foram cometidos em razão do cargo de senador, dizem especialistas",
+     "link": "https://www.cnnbrasil.com.br/politica/inqueritos-contra-flavio-podem-continuar-no-stf-mesmo-com-perda-de-foro/",
+     "publicadoEm": "2026-10-27T21:33:03.000Z",
      "tipo": "noticia",
      "numero": null
     }
@@ -7768,307 +8633,6 @@
    ]
   },
   {
-   "id": "https://www.gazetadopovo.com.br/mundo/imprensa-internacional-repercute-decisao-de-moraes-de-reter-passaporte-de-flavio-apos-derrota-para-lula/",
-   "veiculos": 3,
-   "primeiro": "2026-10-26T21:27:02.000Z",
-   "ultimo": "2026-10-27T20:48:54.000Z",
-   "comuns": [
-    "Flávio",
-    "Imprensa",
-    "internacional",
-    "repercute",
-    "fuga"
-   ],
-   "politica": "Lula",
-   "materias": [
-    {
-     "veiculo": "gazetadopovo",
-     "titulo": "Imprensa internacional repercute decisão de Moraes de reter passaporte de Flávio após derrota para Lula",
-     "tituloMarcado": [
-      [
-       "Imprensa",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "internacional",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "repercute",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "decisão",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Moraes",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "reter",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "passaporte",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "após",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "derrota",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "para",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Lula",
-       true
-      ]
-     ],
-     "trecho": "Imprensa estrangeira repercute ordem de Moraes para reter passaporte de Flávio Bolsonaro após derrota para Lula.",
-     "link": "https://www.gazetadopovo.com.br/mundo/imprensa-internacional-repercute-decisao-de-moraes-de-reter-passaporte-de-flavio-apos-derrota-para-lula/",
-     "publicadoEm": "2026-10-26T21:27:02.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "folha",
-     "titulo": "Imprensa internacional repercute fuga de Flávio Bolsonaro do Brasil",
-     "tituloMarcado": [
-      [
-       "Imprensa",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "internacional",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "repercute",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fuga",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Bolsonaro",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "do",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Brasil",
-       true
-      ]
-     ],
-     "trecho": "A imprensa internacional repercute nesta terça-feira (27) a fuga do senador Flávio Bolsonaro (PL) do Brasil após a derrota para Lula (PT) na eleição presidencial e a ordem emitida pelo ministro do STF Alexandre de…",
-     "link": "https://www1.folha.uol.com.br/mundo/2026/10/imprensa-internacional-repercute-fuga-de-flavio-bolsonaro-do-brasil.shtml",
-     "publicadoEm": "2026-10-27T19:49:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "cnn",
-     "titulo": "Oposição alega “perseguição” contra Flávio e governistas criticam fuga",
-     "tituloMarcado": [
-      [
-       "Oposição",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "alega",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "“perseguição”",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "contra",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "governistas",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "criticam",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fuga",
-       false
-      ]
-     ],
-     "trecho": "Sessão da Câmara dos Deputados desta terça-feira (27) repercutiu a decisão do senador de fugir para os EUA após derrota nas urnas por Lula e confisco de passaportes por ordem judicial",
-     "link": "https://www.cnnbrasil.com.br/politica/oposicao-alega-perseguicao-contra-flavio-e-governistas-criticam-fuga/",
-     "publicadoEm": "2026-10-27T20:48:54.000Z",
-     "tipo": "noticia",
-     "numero": null
-    }
-   ]
-  },
-  {
    "id": "https://www.gazetadopovo.com.br/republica/flavio-bolsonaro-tem-passaportes-apreendidos-e-esta-proibido-de-deixar-o-pais/",
    "veiculos": 3,
    "primeiro": "2026-10-26T21:46:38.000Z",
@@ -8378,25 +8942,26 @@
    ]
   },
   {
-   "id": "https://www.gazetadopovo.com.br/economia/vitoria-de-lula-provoca-tombo-historico-na-bolsa-faz-o-dolar-disparar-e-pressiona-os-juros/",
+   "id": "https://www.gazetadopovo.com.br/gazeta-agora/gazeta-agora-donald-trump-e-marco-rubio-ajudam-flavio-a-deixar-o-brasil/",
    "veiculos": 3,
-   "primeiro": "2026-10-26T21:00:06.000Z",
-   "ultimo": "2026-10-27T20:26:56.000Z",
+   "primeiro": "2026-10-27T19:15:50.000Z",
+   "ultimo": "2026-10-27T19:58:28.000Z",
    "comuns": [
-    "tombo",
-    "Bolsa",
-    "Lula",
-    "dólar",
-    "após"
+    "Trump",
+    "Flávio",
+    "Marco",
+    "Rubio",
+    "Aliado",
+    "Bolsonaro"
    ],
-   "politica": "Lula",
+   "politica": "Bolsonaro",
    "materias": [
     {
      "veiculo": "gazetadopovo",
-     "titulo": "Vitória de Lula provoca tombo histórico na Bolsa, faz o dólar disparar e pressiona os juros",
+     "titulo": "Gazeta Agora: Donald Trump e Marco Rubio ajudam Flávio a deixar o Brasil",
      "tituloMarcado": [
       [
-       "Vitória",
+       "Gazeta",
        true
       ],
       [
@@ -8404,23 +8969,7 @@
        ""
       ],
       [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Lula",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "provoca",
+       "Agora:",
        true
       ],
       [
@@ -8428,15 +8977,7 @@
        ""
       ],
       [
-       "tombo",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "histórico",
+       "Donald",
        true
       ],
       [
@@ -8444,7 +8985,7 @@
        ""
       ],
       [
-       "na",
+       "Trump",
        false
       ],
       [
@@ -8452,7 +8993,7 @@
        ""
       ],
       [
-       "Bolsa,",
+       "e",
        false
       ],
       [
@@ -8460,7 +9001,47 @@
        ""
       ],
       [
-       "faz",
+       "Marco",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Rubio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ajudam",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Flávio",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "deixar",
        true
       ],
       [
@@ -8476,460 +9057,22 @@
        ""
       ],
       [
-       "dólar",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "disparar",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "pressiona",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "os",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "juros",
+       "Brasil",
        true
       ]
      ],
-     "trecho": "Vitória de Lula provoca turbulência no mercado: Bolsa cai 17,34%, dólar supera R$ 5,60 e perdas somam US$ 15 bilhões.",
-     "link": "https://www.gazetadopovo.com.br/economia/vitoria-de-lula-provoca-tombo-historico-na-bolsa-faz-o-dolar-disparar-e-pressiona-os-juros/",
-     "publicadoEm": "2026-10-26T21:00:06.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "g1",
-     "titulo": "Bilionários brasileiros perdem R$ 75 bilhões em um dia após tombo da bolsa; veja os mais afetados",
-     "tituloMarcado": [
-      [
-       "Bilionários",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "brasileiros",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "perdem",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "R$",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "75",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "bilhões",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "em",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "um",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "dia",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "após",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "tombo",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "da",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "bolsa;",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "veja",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "os",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "mais",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "afetados",
-       true
-      ]
-     ],
-     "trecho": "O que explica o ‘circuit breaker’ na bolsa de valores? A forte turbulência nos mercados financeiros após a reeleição do presidente Luiz Inácio Lula da Silva (PT) provocou uma queda expressiva na bolsa brasileira nesta…",
-     "link": "https://g1.globo.com/economia/noticia/2026/10/27/bilionarios-brasileiros-perdem-us-14-bilhoes-apos-tombo-do-ibovespa.ghtml",
-     "publicadoEm": "2026-10-27T12:12:31.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "poder360",
-     "titulo": "Bolsa volta a cair após tombo com reeleição de Lula; dólar recua",
-     "tituloMarcado": [
-      [
-       "Bolsa",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "volta",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "cair",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "após",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "tombo",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "com",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "reeleição",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Lula;",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "dólar",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "recua",
-       true
-      ]
-     ],
-     "trecho": "Mercado tenta se recuperar das perdas de 2ª feira, mas mantém cautela diante das incertezas fiscais e dos sinais do governo",
-     "link": "https://www.poder360.com.br/poder-economia/bolsa-volta-a-cair-apos-tombo-com-reeleicao-de-lula-dolar-recua/",
-     "publicadoEm": "2026-10-27T20:26:56.000Z",
-     "tipo": "noticia",
-     "numero": null
-    }
-   ]
-  },
-  {
-   "id": "https://www1.folha.uol.com.br/poder/2026/10/justica-italiana-atende-defesa-de-zambelli-e-adia-audiencia-de-extradicao.shtml",
-   "veiculos": 3,
-   "primeiro": "2026-10-27T16:42:00.000Z",
-   "ultimo": "2026-10-27T19:31:46.000Z",
-   "comuns": [
-    "Justiça",
-    "italiana",
-    "Zambelli",
-    "adia",
-    "extradição",
-    "audiência"
-   ],
-   "politica": null,
-   "materias": [
-    {
-     "veiculo": "folha",
-     "titulo": "Justiça italiana atende defesa de Zambelli e adia audiência de extradição",
-     "tituloMarcado": [
-      [
-       "Justiça",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "italiana",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "atende",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "defesa",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Zambelli",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "adia",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "audiência",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "extradição",
-       false
-      ]
-     ],
-     "trecho": "A Corte de Apelação de Roma recomeçou a análise do segundo pedido do Brasil para que a ex-deputada Carla Zambelli (PL-SP) seja extraditada. Na audiência desta terça-feira (27), a defesa pediu mais tempo para avaliar…",
-     "link": "https://www1.folha.uol.com.br/poder/2026/10/justica-italiana-atende-defesa-de-zambelli-e-adia-audiencia-de-extradicao.shtml",
-     "publicadoEm": "2026-10-27T16:42:00.000Z",
+     "trecho": "A edição desta terça-feira (26) destaca, entre outros assuntos, que Flávio Bolsonaro deixa o Brasil e viaja aos EUA.",
+     "link": "https://www.gazetadopovo.com.br/gazeta-agora/gazeta-agora-donald-trump-e-marco-rubio-ajudam-flavio-a-deixar-o-brasil/",
+     "publicadoEm": "2026-10-27T19:15:50.000Z",
      "tipo": "noticia",
      "numero": null
     },
     {
      "veiculo": "agenciabrasil",
-     "titulo": "Justiça italiana adia julgamento sobre extradição de Zambelli",
+     "titulo": "Aliado de Trump diz que Flávio Bolsonaro chegou aos EUA",
      "tituloMarcado": [
       [
-       "Justiça",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "italiana",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "adia",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "julgamento",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "sobre",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "extradição",
+       "Aliado",
        false
       ],
       [
@@ -8945,261 +9088,7 @@
        ""
       ],
       [
-       "Zambelli",
-       false
-      ]
-     ],
-     "trecho": "A Justiça da Itália adiou para 24 de novembro o julgamento sobre a extradição para o Brasil da deputada cassada Carla Zambelli, no caso em que ela foi condenada por porte ilegal de arma de fogo e constrangimento ilegal…",
-     "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/justica-italiana-adia-julgamento-sobre-extradicao-de-zambelli",
-     "publicadoEm": "2026-10-27T17:28:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "gazetadopovo",
-     "titulo": "Justiça italiana adia para novembro audiência sobre extradição de Carla Zambelli",
-     "tituloMarcado": [
-      [
-       "Justiça",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "italiana",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "adia",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "para",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "novembro",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "audiência",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "sobre",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "extradição",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Carla",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Zambelli",
-       false
-      ]
-     ],
-     "trecho": "Justiça italiana adia audiência sobre Carla Zambelli após defesa alegar falta de acesso a documentos sobre condições carcerárias no Brasil.",
-     "link": "https://www.gazetadopovo.com.br/mundo/justica-italiana-adia-para-novembro-audiencia-sobre-extradicao-de-carla-zambelli/",
-     "publicadoEm": "2026-10-27T19:31:46.000Z",
-     "tipo": "noticia",
-     "numero": null
-    }
-   ]
-  },
-  {
-   "id": "https://g1.globo.com/economia/noticia/2026/10/27/principais-preocupacoes-dos-bancos-sao-com-as-contas-publicas-e-inadimplencia-diz-relatorio-do-banco-central.ghtml",
-   "veiculos": 3,
-   "primeiro": "2026-10-27T11:41:28.000Z",
-   "ultimo": "2026-10-27T17:48:58.000Z",
-   "comuns": [
-    "bancos",
-    "Central",
-    "estabilidade",
-    "financeira",
-    "não",
-    "risco"
-   ],
-   "politica": null,
-   "materias": [
-    {
-     "veiculo": "g1",
-     "titulo": "Principais preocupações dos bancos são com as contas públicas e inadimplência, diz Banco Central",
-     "tituloMarcado": [
-      [
-       "Principais",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "preocupações",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "dos",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "bancos",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "são",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "com",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "as",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "contas",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "públicas",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "inadimplência,",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "diz",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Banco",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Central",
-       false
-      ]
-     ],
-     "trecho": "Sede do Banco Central em Brasília Raphael Ribeiro/BCB As principais preocupações das instituições financeiras envolvem o chamado \"risco fiscal\" — relacionado aos déficits sucessivos nas contas públicas e à trajetória da…",
-     "link": "https://g1.globo.com/economia/noticia/2026/10/27/principais-preocupacoes-dos-bancos-sao-com-as-contas-publicas-e-inadimplencia-diz-relatorio-do-banco-central.ghtml",
-     "publicadoEm": "2026-10-27T11:41:28.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "agenciabrasil",
-     "titulo": "Banco Central diz que estabilidade financeira não está em risco",
-     "tituloMarcado": [
-      [
-       "Banco",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Central",
+       "Trump",
        false
       ],
       [
@@ -9223,7 +9112,7 @@
        ""
       ],
       [
-       "estabilidade",
+       "Flávio",
        false
       ],
       [
@@ -9231,7 +9120,7 @@
        ""
       ],
       [
-       "financeira",
+       "Bolsonaro",
        false
       ],
       [
@@ -9239,7 +9128,15 @@
        ""
       ],
       [
-       "não",
+       "chegou",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "aos",
        false
       ],
       [
@@ -9247,38 +9144,22 @@
        ""
       ],
       [
-       "está",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "em",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "risco",
-       false
+       "EUA",
+       true
       ]
      ],
-     "trecho": "O Banco Central (BC) informou nesta terça-feira (27) que \"não vê risco relevante\" para a estabilidade financeira do país, apesar da piora dos indicadores de crédito das famílias. Segundo o Relatório de Estabilidade…",
-     "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/banco-central-diz-que-estabilidade-financeira-nao-esta-em-risco",
-     "publicadoEm": "2026-10-27T14:28:00.000Z",
+     "trecho": "O investidor e ex-secretário de Turismo do México, Simón Levy, publicou uma postagem nas redes sociais nesta terça-feira (27) relatando que Flávio Bolsonaro teria chegado aos Estados Unidos (EUA), em uma articulação…",
+     "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/aliado-de-trump-diz-que-flavio-bolsonaro-chegou-aos-eua",
+     "publicadoEm": "2026-10-27T19:26:00.000Z",
      "tipo": "noticia",
      "numero": null
     },
     {
      "veiculo": "cartacapital",
-     "titulo": "Banco Central diz que estabilidade financeira não está em risco",
+     "titulo": "Aliado de Trump diz que fuga de Flávio Bolsonaro foi articulada por Marco Rubio",
      "tituloMarcado": [
       [
-       "Banco",
+       "Aliado",
        false
       ],
       [
@@ -9286,7 +9167,15 @@
        ""
       ],
       [
-       "Central",
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Trump",
        false
       ],
       [
@@ -9310,7 +9199,15 @@
        ""
       ],
       [
-       "estabilidade",
+       "fuga",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
        false
       ],
       [
@@ -9318,7 +9215,7 @@
        ""
       ],
       [
-       "financeira",
+       "Flávio",
        false
       ],
       [
@@ -9326,7 +9223,7 @@
        ""
       ],
       [
-       "não",
+       "Bolsonaro",
        false
       ],
       [
@@ -9334,7 +9231,7 @@
        ""
       ],
       [
-       "está",
+       "foi",
        false
       ],
       [
@@ -9342,7 +9239,15 @@
        ""
       ],
       [
-       "em",
+       "articulada",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "por",
        false
       ],
       [
@@ -9350,13 +9255,21 @@
        ""
       ],
       [
-       "risco",
+       "Marco",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Rubio",
        false
       ]
      ],
-     "trecho": "Segundo o BC, o sistema financeiro continua com níveis confortáveis de capitalização e liquidez, além de capacidade de resistir a cenários adversos",
-     "link": "https://www.cartacapital.com.br/economia/banco-central-diz-que-estabilidade-financeira-nao-esta-em-risco/",
-     "publicadoEm": "2026-10-27T17:48:58.000Z",
+     "trecho": "Segundo o empresário mexicano Simón Levy, o senador brasileiro já está nos EUA",
+     "link": "https://www.cartacapital.com.br/politica/aliado-de-trump-diz-que-fuga-de-flavio-bolsonaro-foi-articulada-por-marco-rubio/",
+     "publicadoEm": "2026-10-27T19:58:28.000Z",
      "tipo": "noticia",
      "numero": null
     }
@@ -10038,78 +9951,24 @@
    ]
   },
   {
-   "id": "https://www.gazetadopovo.com.br/gazeta-agora/gazeta-agora-mercado-reage-a-vitoria-de-lula-com-disparada-do-dolar-e-turbulencia-na-bolsa/",
+   "id": "https://www.gazetadopovo.com.br/vozes/polzonoff/lula-venceu/",
    "veiculos": 3,
-   "primeiro": "2026-10-26T19:20:12.000Z",
-   "ultimo": "2026-10-27T12:00:32.000Z",
+   "primeiro": "2026-10-26T00:05:00.000Z",
+   "ultimo": "2026-10-26T11:29:12.000Z",
    "comuns": [
-    "dólar",
     "Lula",
-    "Bolsa",
-    "após"
+    "presidirá",
+    "Brasil",
+    "quarta",
+    "Virada",
+    "inédita"
    ],
    "politica": "Lula",
    "materias": [
     {
      "veiculo": "gazetadopovo",
-     "titulo": "Gazeta Agora: mercado reage à vitória de Lula com disparada do dólar e turbulência na Bolsa",
+     "titulo": "Lula venceu e presidirá o Brasil pela quarta vez. E agora?",
      "tituloMarcado": [
-      [
-       "Gazeta",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Agora:",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "mercado",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "reage",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "à",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "vitória",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
       [
        "Lula",
        false
@@ -10119,32 +9978,8 @@
        ""
       ],
       [
-       "com",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "disparada",
+       "venceu",
        true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "do",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "dólar",
-       false
       ],
       [
        " ",
@@ -10159,7 +9994,47 @@
        ""
       ],
       [
-       "turbulência",
+       "presidirá",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "o",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Brasil",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "pela",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "quarta",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "vez.",
        true
       ],
       [
@@ -10167,7 +10042,7 @@
        ""
       ],
       [
-       "na",
+       "E",
        false
       ],
       [
@@ -10175,30 +10050,22 @@
        ""
       ],
       [
-       "Bolsa",
-       false
+       "agora?",
+       true
       ]
      ],
-     "trecho": "A edição desta segunda-feira (26) destaca, entre outros assuntos, que vitória de Lula provoca disparada do dólar e trava a Bolsa.",
-     "link": "https://www.gazetadopovo.com.br/gazeta-agora/gazeta-agora-mercado-reage-a-vitoria-de-lula-com-disparada-do-dolar-e-turbulencia-na-bolsa/",
-     "publicadoEm": "2026-10-26T19:20:12.000Z",
-     "tipo": "noticia",
+     "trecho": "Numa virada inédita, Lula venceu Flávio Bolsonaro no segundo turno. Ele presidirá o Brasil pela quarta vez.",
+     "link": "https://www.gazetadopovo.com.br/vozes/polzonoff/lula-venceu/",
+     "publicadoEm": "2026-10-26T00:05:00.000Z",
+     "tipo": "coluna",
      "numero": null
     },
     {
-     "veiculo": "agenciabrasil",
-     "titulo": "Dólar sobe 8,21%, e bolsa cai 13,88% após reeleição de Lula",
+     "veiculo": "estadao",
+     "titulo": "Notícia no Seu Tempo: Virada inédita dá 4º mandato a Lula, em votação conturbada",
      "tituloMarcado": [
       [
-       "Dólar",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "sobe",
+       "Notícia",
        true
       ],
       [
@@ -10206,15 +10073,7 @@
        ""
       ],
       [
-       "8,21%,",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
+       "no",
        false
       ],
       [
@@ -10222,7 +10081,7 @@
        ""
       ],
       [
-       "bolsa",
+       "Seu",
        false
       ],
       [
@@ -10230,7 +10089,7 @@
        ""
       ],
       [
-       "cai",
+       "Tempo:",
        true
       ],
       [
@@ -10238,15 +10097,7 @@
        ""
       ],
       [
-       "13,88%",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "após",
+       "Virada",
        false
       ],
       [
@@ -10254,15 +10105,7 @@
        ""
       ],
       [
-       "reeleição",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
+       "inédita",
        false
       ],
       [
@@ -10270,38 +10113,7 @@
        ""
       ],
       [
-       "Lula",
-       false
-      ]
-     ],
-     "trecho": "O mercado financeiro brasileiro teve um dia de forte turbulência nesta segunda-feira (26), após a reeleição do presidente Luiz Inácio Lula da Silva no segundo turno das eleições presidenciais. O dólar fechou em alta de…",
-     "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-sobe-821-e-bolsa-cai-1388-apos-reeleicao-de-lula",
-     "publicadoEm": "2026-10-26T22:07:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "g1",
-     "titulo": "Ibovespa fecha em queda após eleições e à espera do Fed; dólar recua a R$ 5,35",
-     "tituloMarcado": [
-      [
-       "Ibovespa",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fecha",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "em",
+       "dá",
        false
       ],
       [
@@ -10309,7 +10121,7 @@
        ""
       ],
       [
-       "queda",
+       "4º",
        true
       ],
       [
@@ -10317,72 +10129,8 @@
        ""
       ],
       [
-       "após",
+       "mandato",
        false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "eleições",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "à",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "espera",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "do",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Fed;",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "dólar",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "recua",
-       true
       ],
       [
        " ",
@@ -10397,7 +10145,7 @@
        ""
       ],
       [
-       "R$",
+       "Lula,",
        false
       ],
       [
@@ -10405,27 +10153,190 @@
        ""
       ],
       [
-       "5,35",
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "votação",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "conturbada",
        true
       ]
      ],
-     "trecho": "Bolsa cai e dólar sobe após vitória de Lula; economista explica reação do mercado O Ibovespa, principal índice da bolsa brasileira, oscilou ao longo desta terça-feira (27) e fechou em queda de 0,51%, aos 175.705 pontos…",
-     "link": "https://g1.globo.com/economia/noticia/2026/10/27/dolar-ibovespa.ghtml",
-     "publicadoEm": "2026-10-27T12:00:32.000Z",
+     "trecho": "No podcast 'Notícia No Seu Tempo', confira em áudio as principais notícias da edição impressa do jornal 'O Estado de S.Paulo' desta segunda-feira (26/10/2026): O presidente Luiz Inácio Lula da Silva (PT) conseguiu…",
+     "link": "https://www.estadao.com.br/brasil/estadao-podcasts/noticia-no-seu-tempo-virada-inedita-da-4o-mandato-a-lula-em-votacao-conturbada/",
+     "publicadoEm": "2026-10-26T06:00:31.000Z",
      "tipo": "noticia",
-     "numero": {
-      "ok": false,
-      "descricao": "meta Selic vigente na semana da nota",
-      "valorNoticia": 0.51,
-      "candidatos": [
-       {
-        "serie": "selic",
-        "periodo": "2026-10-27",
-        "valor": 13.75
-       }
+     "numero": null
+    },
+    {
+     "veiculo": "bbc",
+     "titulo": "Lula conquista virada inédita e terá quarto mandato como presidente do Brasil: 'Vamos ter que regular as plataformas digitais'",
+     "tituloMarcado": [
+      [
+       "Lula",
+       false
       ],
-      "nota": "O número citado não foi encontrado na série oficial (meta Selic vigente na semana da nota). Pode se referir a outro recorte; recomendamos ler a fonte."
-     }
+      [
+       " ",
+       ""
+      ],
+      [
+       "conquista",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "virada",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "inédita",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "terá",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "quarto",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mandato",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "como",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "presidente",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Brasil:",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "'Vamos",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ter",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "regular",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "as",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "plataformas",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "digitais'",
+       true
+      ]
+     ],
+     "trecho": "Campanha renasceu após a derrota no primeiro turno, com manifestações nas ruas e ação nas redes sob comando de André Janones (Rede-MG). Petista está diante da conjuntura mais difícil desde 2003, com Congresso mais à…",
+     "link": "https://www.bbc.com/portuguese/articles/cx8dzrgq569go?at_medium=RSS&at_campaign=rss",
+     "publicadoEm": "2026-10-26T11:29:12.000Z",
+     "tipo": "noticia",
+     "numero": null
     }
    ]
   }
