@@ -1,7 +1,7 @@
 {
- "inicio": "2026-10-26T22:20:46.647Z",
- "fim": "2026-10-26T22:27:03.232Z",
- "segundos": 377,
+ "inicio": "2026-10-27T09:35:29.738Z",
+ "fim": "2026-10-27T09:40:38.191Z",
+ "segundos": 308,
  "partes": [
   "series",
   "orcamento",
@@ -11,9 +11,9 @@
   "tributos",
   "seguranca"
  ],
- "chamadas": 238,
+ "chamadas": 237,
  "falhas": 1,
- "repeticoes": 2,
+ "repeticoes": 1,
  "status": {
   "confere": 6,
   "fonte-unica": 6
@@ -54,59 +54,70 @@
    "chamadas": 8,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 5757
+   "ms": 3988
   },
   {
    "host": "api.bcb.gov.br",
-   "chamadas": 35,
+   "chamadas": 33,
    "falhas": 0,
-   "repeticoes": 2,
-   "ms": 97902
+   "repeticoes": 0,
+   "ms": 26724
   },
   {
    "host": "olinda.bcb.gov.br",
    "chamadas": 11,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 6355
+   "ms": 4355
   },
   {
    "host": "apidatalake.tesouro.gov.br",
    "chamadas": 32,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 996
+   "ms": 32481
   },
   {
    "host": "dadosabertos.camara.leg.br",
-   "chamadas": 146,
+   "chamadas": 147,
    "falhas": 0,
-   "repeticoes": 0,
-   "ms": 111323
+   "repeticoes": 1,
+   "ms": 101604
   },
   {
    "host": "servicodados.ibge.gov.br",
    "chamadas": 2,
    "falhas": 2,
    "repeticoes": 0,
-   "ms": 20982
+   "ms": 20983
   },
   {
    "host": "www.bcb.gov.br",
    "chamadas": 1,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 1066
+   "ms": 915
   },
   {
    "host": "www.gov.br",
    "chamadas": 3,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 67527
+   "ms": 50365
   }
  ],
  "historico": [
+  {
+   "inicio": "2026-10-27T09:35:29.738Z",
+   "segundos": 308,
+   "chamadas": 237,
+   "falhas": 1,
+   "status": {
+    "confere": 6,
+    "fonte-unica": 6
+   },
+   "avisos": 7
+  },
   {
    "inicio": "2026-10-26T22:20:46.647Z",
    "segundos": 377,
