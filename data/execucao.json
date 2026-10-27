@@ -1,7 +1,7 @@
 {
- "inicio": "2026-10-27T13:43:59.851Z",
- "fim": "2026-10-27T14:00:03.174Z",
- "segundos": 963,
+ "inicio": "2026-10-27T20:38:30.576Z",
+ "fim": "2026-10-27T20:43:37.204Z",
+ "segundos": 307,
  "partes": [
   "series",
   "orcamento",
@@ -11,9 +11,9 @@
   "tributos",
   "seguranca"
  ],
- "chamadas": 254,
- "falhas": 2,
- "repeticoes": 14,
+ "chamadas": 238,
+ "falhas": 1,
+ "repeticoes": 2,
  "status": {
   "confere": 6,
   "fonte-unica": 6
@@ -22,30 +22,6 @@
   {
    "parte": "noticias",
    "mensagem": "IBGE: fetch failed. Mantidas as notícias anteriores dessa fonte."
-  },
-  {
-   "parte": "cambio",
-   "mensagem": "PTAX USD: o fechamento de 2026-10-26 ficou 9.2% longe do dia útil anterior. Variação atípica; conferir no Banco Central."
-  },
-  {
-   "parte": "cambio",
-   "mensagem": "PTAX EUR: o fechamento de 2026-10-26 ficou 9.0% longe do dia útil anterior. Variação atípica; conferir no Banco Central."
-  },
-  {
-   "parte": "cambio",
-   "mensagem": "PTAX GBP: o fechamento de 2026-10-26 ficou 9.0% longe do dia útil anterior. Variação atípica; conferir no Banco Central."
-  },
-  {
-   "parte": "cambio",
-   "mensagem": "PTAX JPY: o fechamento de 2026-10-26 ficou 8.7% longe do dia útil anterior. Variação atípica; conferir no Banco Central."
-  },
-  {
-   "parte": "cambio",
-   "mensagem": "PTAX CHF: o fechamento de 2026-10-26 ficou 8.8% longe do dia útil anterior. Variação atípica; conferir no Banco Central."
-  },
-  {
-   "parte": "cambio",
-   "mensagem": "PTAX CAD: o fechamento de 2026-10-26 ficou 8.9% longe do dia útil anterior. Variação atípica; conferir no Banco Central."
   }
  ],
  "fontes": [
@@ -54,59 +30,70 @@
    "chamadas": 8,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 5962
+   "ms": 4776
   },
   {
    "host": "api.bcb.gov.br",
-   "chamadas": 51,
-   "falhas": 3,
-   "repeticoes": 14,
-   "ms": 588919
+   "chamadas": 35,
+   "falhas": 0,
+   "repeticoes": 2,
+   "ms": 61746
   },
   {
    "host": "olinda.bcb.gov.br",
    "chamadas": 11,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 6895
+   "ms": 6053
   },
   {
    "host": "apidatalake.tesouro.gov.br",
    "chamadas": 32,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 50087
+   "ms": 1979
   },
   {
    "host": "dadosabertos.camara.leg.br",
    "chamadas": 146,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 77190
+   "ms": 66166
   },
   {
    "host": "servicodados.ibge.gov.br",
    "chamadas": 2,
    "falhas": 2,
    "repeticoes": 0,
-   "ms": 20981
+   "ms": 20983
   },
   {
    "host": "www.bcb.gov.br",
    "chamadas": 1,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 1121
+   "ms": 1283
   },
   {
    "host": "www.gov.br",
    "chamadas": 3,
    "falhas": 0,
    "repeticoes": 0,
-   "ms": 77462
+   "ms": 73947
   }
  ],
  "historico": [
+  {
+   "inicio": "2026-10-27T20:38:30.576Z",
+   "segundos": 307,
+   "chamadas": 238,
+   "falhas": 1,
+   "status": {
+    "confere": 6,
+    "fonte-unica": 6
+   },
+   "avisos": 1
+  },
   {
    "inicio": "2026-10-27T13:43:59.851Z",
    "segundos": 963,
