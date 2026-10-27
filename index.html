@@ -8,12 +8,13 @@
   <meta property="og:title" content="Quadro Real — o Brasil medido todos os dias">
   <meta property="og:description" content="Indicadores oficiais coletados diariamente, conferidos em mais de uma fonte e publicados com o link para o dado original.">
   <meta property="og:type" content="website">
-  <meta name="theme-color" content="#eef1ef" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#10171d" media="(prefers-color-scheme: dark)">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%235b3fa8'/%3E%3Crect x='6' y='7' width='20' height='18' rx='1.5' fill='none' stroke='%23fff' stroke-width='2.4'/%3E%3Cpath d='M10 20.5l4-4.5 3 2.5 5-6' fill='none' stroke='%23fff' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#eeecf8" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e0b24" media="(prefers-color-scheme: dark)">
+  <link rel="icon" type="image/png" href="assets/img/favicon-64.png">
+  <link rel="apple-touch-icon" href="assets/img/selo-240.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400..700&display=swap">
   <link rel="stylesheet" href="assets/css/quadro-real.css">
 </head>
 <body>
@@ -22,16 +23,16 @@
   <header class="topo">
     <div class="miolo topo__barra">
       <a class="marca" href="#hoje" aria-label="Quadro Real, início">
-        <svg viewBox="0 0 28 24" aria-hidden="true"><rect x="1.2" y="1.2" width="25.6" height="21.6" rx="1.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M6.5 16.5l4.5-5 3.5 3 6-7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <img class="marca__selo" src="assets/img/selo-112.png" alt="" width="34" height="36">
         <span>Quadro Real</span>
       </a>
-      <nav class="navegacao" aria-label="Seções">
-        <a href="#indicadores">Indicadores</a>
+      <nav class="navegacao" aria-label="Capítulos">
+        <a href="#indicadores">Seu bolso</a>
         <a href="#cambio">Câmbio</a>
         <a href="#contas">Contas públicas</a>
-        <a href="#gastos">Gastos por área</a>
-        <a href="#seguranca">Segurança</a>
+        <a href="#gastos">Gastos</a>
         <a href="#programas">Programas</a>
+        <a href="#seguranca">Segurança</a>
         <a href="#mandatos">Mandatos</a>
         <a href="#noticias">Notícias</a>
         <a href="#metodo">Como verificamos</a>
@@ -68,31 +69,70 @@
 
     <section class="secao" id="indicadores" aria-labelledby="titulo-indicadores">
       <div class="miolo">
-        <div class="secao__cabeca">
-          <h2 id="titulo-indicadores">Indicadores do dia</h2>
-          <p>O último valor publicado de cada indicador, com a fonte e o resultado da conferência. Abra um indicador para ver a série desde 2015 e refazer a consulta na fonte oficial.</p>
-        </div>
+        <header class="secao__cabeca">
+          <div class="secao__titulo">
+            <p class="capitulo"><span class="capitulo__numero">1</span>O seu bolso</p>
+            <h2 id="titulo-indicadores">Indicadores do dia</h2>
+          </div>
+          <div class="secao__texto">
+            <p class="secao__intro">Os números que mais pesam no dia a dia: preços, juros, emprego e renda. Cada cartão traz o valor mais recente, a linha dos últimos dois anos e se melhorou ou piorou desde a medição anterior. Toque em um cartão para ver a série completa.</p>
+            <details class="ver-mais">
+              <summary>Ver mais sobre este capítulo</summary>
+              <p>O último valor publicado de cada indicador, com a fonte e o resultado da conferência. Abra um indicador para ver a série desde 2015 e refazer a consulta na fonte oficial.</p>
+            </details>
+          </div>
+        </header>
         <div class="registro" id="registro"></div>
         <div class="painel" id="focus" hidden></div>
+        <a class="proximo" href="#cambio">
+          <span class="proximo__rotulo">Próximo capítulo</span>
+          <span class="proximo__titulo">O real lá fora</span>
+          <span class="proximo__texto">O dólar mexe com preços, viagens e importados.</span>
+          <svg class="proximo__seta" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v13M6 12l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
       </div>
     </section>
 
     <section class="secao" id="cambio" aria-labelledby="titulo-cambio">
       <div class="miolo">
-        <div class="secao__cabeca">
-          <h2 id="titulo-cambio">Câmbio agora</h2>
-          <p>Quanto vale o real frente ao dólar e às principais moedas, atualizado enquanto a página está aberta. A cotação oficial é a do Banco Central; a de mercado, em tempo real, é conferida com ela.</p>
-        </div>
+        <header class="secao__cabeca">
+          <div class="secao__titulo">
+            <p class="capitulo"><span class="capitulo__numero">2</span>O real lá fora</p>
+            <h2 id="titulo-cambio">Câmbio agora</h2>
+          </div>
+          <div class="secao__texto">
+            <p class="secao__intro">Quanto custam o dólar e as principais moedas agora, e quanto o real ganhou ou perdeu em um ano. O número grande é a cotação de mercado; ao lado fica a oficial do Banco Central, que serve de conferência.</p>
+            <details class="ver-mais">
+              <summary>Ver mais sobre este capítulo</summary>
+              <p>Quanto vale o real frente ao dólar e às principais moedas, atualizado enquanto a página está aberta. A cotação oficial é a do Banco Central; a de mercado, em tempo real, é conferida com ela.</p>
+            </details>
+          </div>
+        </header>
         <div class="painel" id="painel-cambio"></div>
+        <a class="proximo" href="#contas">
+          <span class="proximo__rotulo">Próximo capítulo</span>
+          <span class="proximo__titulo">Quem paga a conta</span>
+          <span class="proximo__texto">De onde vem o dinheiro do governo e quanto ele deve.</span>
+          <svg class="proximo__seta" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v13M6 12l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
       </div>
     </section>
 
     <section class="secao" id="contas" aria-labelledby="titulo-contas">
       <div class="miolo">
-        <div class="secao__cabeca">
-          <h2 id="titulo-contas">Contas públicas</h2>
-          <p>Quanto a União arrecada e com quais tributos, quanto o setor público deve, se as receitas cobrem as despesas antes do pagamento de juros e quais tributos ainda podem ser criados.</p>
-        </div>
+        <header class="secao__cabeca">
+          <div class="secao__titulo">
+            <p class="capitulo"><span class="capitulo__numero">3</span>Quem paga a conta</p>
+            <h2 id="titulo-contas">Contas públicas</h2>
+          </div>
+          <div class="secao__texto">
+            <p class="secao__intro">De onde vem o dinheiro do governo e quanto ele deve. O contador estima o que a União já arrecadou no ano; logo abaixo estão a dívida, o resultado das contas e o peso de cada imposto.</p>
+            <details class="ver-mais">
+              <summary>Ver mais sobre este capítulo</summary>
+              <p>Quanto a União arrecada e com quais tributos, quanto o setor público deve, se as receitas cobrem as despesas antes do pagamento de juros e quais tributos ainda podem ser criados.</p>
+            </details>
+          </div>
+        </header>
         <div class="painel" id="arrecadacao"></div>
         <div class="painel-grade" style="margin-top:20px">
           <div class="painel" id="painel-divida"></div>
@@ -101,90 +141,180 @@
         <div class="painel" id="painel-tributos-arrecadacao" style="margin-top:20px"></div>
         <div class="painel" id="painel-tributos-catalogo"></div>
         <div class="painel" id="painel-tributos-novos"></div>
+        <a class="proximo" href="#gastos">
+          <span class="proximo__rotulo">Próximo capítulo</span>
+          <span class="proximo__titulo">Para onde vai o dinheiro</span>
+          <span class="proximo__texto">O que cada área recebe do orçamento federal.</span>
+          <svg class="proximo__seta" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v13M6 12l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
       </div>
     </section>
 
     <section class="secao" id="gastos" aria-labelledby="titulo-gastos">
       <div class="miolo">
-        <div class="secao__cabeca">
-          <h2 id="titulo-gastos">Gastos da União por área</h2>
-          <p>Despesa empenhada pelo governo federal em cada área de atuação, segundo o Relatório Resumido da Execução Orçamentária. Valores corrigidos pela inflação, para que anos diferentes possam ser comparados.</p>
-        </div>
+        <header class="secao__cabeca">
+          <div class="secao__titulo">
+            <p class="capitulo"><span class="capitulo__numero">4</span>Para onde vai o dinheiro</p>
+            <h2 id="titulo-gastos">Gastos da União por área</h2>
+          </div>
+          <div class="secao__texto">
+            <p class="secao__intro">Quanto o governo federal gasta em cada área, como saúde, educação e previdência. As barras já descontam a inflação, então dá para comparar um ano com outro de forma justa.</p>
+            <details class="ver-mais">
+              <summary>Ver mais sobre este capítulo</summary>
+              <p>Despesa empenhada pelo governo federal em cada área de atuação, segundo o Relatório Resumido da Execução Orçamentária. Valores corrigidos pela inflação, para que anos diferentes possam ser comparados.</p>
+            </details>
+          </div>
+        </header>
         <div class="controles" id="controles-gastos"></div>
         <div class="painel" id="painel-funcoes"></div>
         <div class="painel" id="painel-investimentos"></div>
         <div class="painel" id="painel-areas"></div>
-      </div>
-    </section>
-
-    <section class="secao" id="seguranca" aria-labelledby="titulo-seguranca">
-      <div class="miolo">
-        <div class="secao__cabeca">
-          <h2 id="titulo-seguranca">Segurança e violência</h2>
-          <p>Assassinatos, feminicídios, estupros, roubos e furtos registrados pelas polícias de todos os estados, e denúncias de LGBTfobia e intolerância religiosa feitas ao Disque 100. Cada número pode ser comparado com o mesmo mês dos anos anteriores e com o mesmo período de outros mandatos.</p>
-        </div>
-        <div class="placar placar--seguranca" id="placar-seguranca"></div>
-        <div class="painel" id="painel-sinesp"></div>
-        <div class="painel" id="painel-disque"></div>
+        <a class="proximo" href="#programas">
+          <span class="proximo__rotulo">Próximo capítulo</span>
+          <span class="proximo__titulo">O que o governo cria</span>
+          <span class="proximo__texto">Os programas propostos e o que aconteceu com eles.</span>
+          <svg class="proximo__seta" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v13M6 12l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
       </div>
     </section>
 
     <section class="secao" id="programas" aria-labelledby="titulo-programas">
       <div class="miolo">
-        <div class="secao__cabeca">
-          <h2 id="titulo-programas">Programas criados pelo Executivo</h2>
-          <p>Medidas provisórias e projetos de lei enviados pela Presidência da República que criam um programa, detectados automaticamente na base da Câmara dos Deputados. Cada item traz a ementa completa e o que aconteceu com ele.</p>
-        </div>
+        <header class="secao__cabeca">
+          <div class="secao__titulo">
+            <p class="capitulo"><span class="capitulo__numero">5</span>O que o governo cria</p>
+            <h2 id="titulo-programas">Programas criados pelo Executivo</h2>
+          </div>
+          <div class="secao__texto">
+            <p class="secao__intro">Os programas que a Presidência propôs criar por medida provisória ou projeto de lei, e o que aconteceu com cada um no Congresso. A lista se atualiza sozinha, direto da base da Câmara.</p>
+            <details class="ver-mais">
+              <summary>Ver mais sobre este capítulo</summary>
+              <p>Medidas provisórias e projetos de lei enviados pela Presidência da República que criam um programa, detectados automaticamente na base da Câmara dos Deputados. Cada item traz a ementa completa e o que aconteceu com ele.</p>
+            </details>
+          </div>
+        </header>
         <div class="placar" id="placar-programas"></div>
         <div class="controles" id="controles-programas"></div>
         <ul class="lista-programas" id="lista-programas"></ul>
         <div class="mais" id="mais-programas"></div>
         <div class="painel" id="painel-social" style="margin-top:32px"></div>
+        <a class="proximo" href="#seguranca">
+          <span class="proximo__rotulo">Próximo capítulo</span>
+          <span class="proximo__titulo">Viver em segurança</span>
+          <span class="proximo__texto">O que os registros policiais mostram mês a mês.</span>
+          <svg class="proximo__seta" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v13M6 12l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <section class="secao" id="seguranca" aria-labelledby="titulo-seguranca">
+      <div class="miolo">
+        <header class="secao__cabeca">
+          <div class="secao__titulo">
+            <p class="capitulo"><span class="capitulo__numero">6</span>Viver em segurança</p>
+            <h2 id="titulo-seguranca">Segurança e violência</h2>
+          </div>
+          <div class="secao__texto">
+            <p class="secao__intro">Assassinatos, feminicídios, roubos e outras violências registradas pelas polícias, e denúncias de preconceito feitas ao Disque 100. Os gráficos comparam cada mês com o mesmo mês dos anos anteriores.</p>
+            <details class="ver-mais">
+              <summary>Ver mais sobre este capítulo</summary>
+              <p>Assassinatos, feminicídios, estupros, roubos e furtos registrados pelas polícias de todos os estados, e denúncias de LGBTfobia e intolerância religiosa feitas ao Disque 100. Cada número pode ser comparado com o mesmo mês dos anos anteriores e com o mesmo período de outros mandatos.</p>
+            </details>
+          </div>
+        </header>
+        <div class="placar placar--seguranca" id="placar-seguranca"></div>
+        <div class="painel" id="painel-sinesp"></div>
+        <div class="painel" id="painel-disque"></div>
+        <a class="proximo" href="#mandatos">
+          <span class="proximo__rotulo">Próximo capítulo</span>
+          <span class="proximo__titulo">Lado a lado</span>
+          <span class="proximo__texto">Os mesmos números, mandato contra mandato.</span>
+          <svg class="proximo__seta" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v13M6 12l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
       </div>
     </section>
 
     <section class="secao" id="mandatos" aria-labelledby="titulo-mandatos">
       <div class="miolo">
-        <div class="secao__cabeca">
-          <h2 id="titulo-mandatos">Comparativo entre mandatos</h2>
-          <p>O mandato 2023–2026 comparado ao mandato 2027–2030 sempre no mesmo ponto do calendário de governo: o mês 10 de um contra o mês 10 do outro. O ponto de partida de cada um é o último dado publicado antes da posse.</p>
-        </div>
+        <header class="secao__cabeca">
+          <div class="secao__titulo">
+            <p class="capitulo"><span class="capitulo__numero">7</span>Lado a lado</p>
+            <h2 id="titulo-mandatos">Comparativo entre mandatos</h2>
+          </div>
+          <div class="secao__texto">
+            <p class="secao__intro">Um governo comparado ao outro no mesmo ponto do mandato: o mês 10 de um contra o mês 10 do outro. Assim a comparação não favorece quem está há mais tempo no cargo.</p>
+            <details class="ver-mais">
+              <summary>Ver mais sobre este capítulo</summary>
+              <p>O mandato 2023–2026 comparado ao mandato 2027–2030 sempre no mesmo ponto do calendário de governo: o mês 10 de um contra o mês 10 do outro. O ponto de partida de cada um é o último dado publicado antes da posse.</p>
+            </details>
+          </div>
+        </header>
         <div id="aviso-mandato"></div>
         <div class="painel" id="painel-tabela-mandatos"></div>
         <div class="painel" id="painel-multiplos"></div>
         <div class="painel" id="painel-seguranca-mandatos"></div>
         <div class="painel" id="painel-orcamento-mandatos"></div>
+        <a class="proximo" href="#noticias">
+          <span class="proximo__rotulo">Próximo capítulo</span>
+          <span class="proximo__titulo">O que foi anunciado</span>
+          <span class="proximo__texto">Os comunicados oficiais mais recentes.</span>
+          <svg class="proximo__seta" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v13M6 12l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
       </div>
     </section>
 
     <section class="secao" id="noticias" aria-labelledby="titulo-noticias">
       <div class="miolo">
-        <div class="secao__cabeca">
-          <h2 id="titulo-noticias">Notícias de fontes oficiais</h2>
-          <p>Somente comunicados publicados diretamente pelo IBGE e pelo Banco Central. Itens com termos político-partidários são retirados e listados abaixo, e números citados nos títulos são comparados com as séries oficiais.</p>
-        </div>
+        <header class="secao__cabeca">
+          <div class="secao__titulo">
+            <p class="capitulo"><span class="capitulo__numero">8</span>O que foi anunciado</p>
+            <h2 id="titulo-noticias">Notícias de fontes oficiais</h2>
+          </div>
+          <div class="secao__texto">
+            <p class="secao__intro">Comunicados oficiais do IBGE e do Banco Central, sem conteúdo político-partidário. Quando um título cita um número, ele é conferido com a série oficial.</p>
+            <details class="ver-mais">
+              <summary>Ver mais sobre este capítulo</summary>
+              <p>Somente comunicados publicados diretamente pelo IBGE e pelo Banco Central. Itens com termos político-partidários são retirados e listados abaixo, e números citados nos títulos são comparados com as séries oficiais.</p>
+            </details>
+          </div>
+        </header>
         <div class="noticias-grade">
           <div>
             <div class="controles" id="controles-noticias"></div>
             <p class="aviso-noticias" id="aviso-noticias" aria-live="polite" hidden></p>
-            <ul class="lista-noticias" id="lista-noticias"></ul>
+            <ul class="lista-noticias" id="lista-noticias" data-limite="6" data-rotulo="Ver todas as {n} notícias"></ul>
             <details class="excluidos" id="excluidos"></details>
           </div>
           <aside aria-labelledby="titulo-diario">
             <h3 class="subtitulo" id="titulo-diario">Diário de atualizações</h3>
             <p class="legenda-painel" style="margin-bottom:12px">O que mudou na base a cada coleta: dados novos, revisões feitas pelos órgãos e programas detectados.</p>
-            <ul class="diario" id="diario"></ul>
+            <ul class="diario" id="diario" data-limite="6" data-rotulo="Ver todo o diário ({n} registros)"></ul>
           </aside>
         </div>
+        <a class="proximo" href="#metodo">
+          <span class="proximo__rotulo">Próximo capítulo</span>
+          <span class="proximo__titulo">Por que confiar</span>
+          <span class="proximo__texto">Como cada número deste site é conferido.</span>
+          <svg class="proximo__seta" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v13M6 12l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
       </div>
     </section>
 
     <section class="secao" id="metodo" aria-labelledby="titulo-metodo">
       <div class="miolo">
-        <div class="secao__cabeca">
-          <h2 id="titulo-metodo">Como verificamos</h2>
-          <p>Regras públicas, aplicadas da mesma forma a qualquer governo. Todo número leva a quem o publicou, e a coleta inteira pode ser refeita por qualquer pessoa com o código aberto deste site.</p>
-        </div>
+        <header class="secao__cabeca">
+          <div class="secao__titulo">
+            <p class="capitulo"><span class="capitulo__numero">9</span>Por que confiar</p>
+            <h2 id="titulo-metodo">Como verificamos</h2>
+          </div>
+          <div class="secao__texto">
+            <p class="secao__intro">As regras que valem para qualquer governo: fontes primárias, conferência entre fontes e histórico aberto. Abra cada tema para ler os detalhes.</p>
+            <details class="ver-mais">
+              <summary>Ver mais sobre este capítulo</summary>
+              <p>Regras públicas, aplicadas da mesma forma a qualquer governo. Todo número leva a quem o publicou, e a coleta inteira pode ser refeita por qualquer pessoa com o código aberto deste site.</p>
+            </details>
+          </div>
+        </header>
         <div class="metodo" id="conteudo-metodo"></div>
       </div>
     </section>

@@ -3,13 +3,14 @@
 
 import * as N from './nucleo.js';
 import { graficoLinhas, graficoBarras, graficoColunas, faisca, tabela, botaoTabela } from './graficos.js';
-import { conferirNoNavegador, carimbo } from './conferir.js';
+import { conferirNoNavegador, carimbo, lacre } from './conferir.js';
 import { $, h, icone, selo, alternador, chipTendencia } from './dom.js';
 import { renderSeguranca, painelSegurancaMandatos } from './seguranca.js';
 import { coletaDoIbgeFalhou, buscarIbgeNoNavegador } from './noticias-ao-vivo.js';
 import { montarResumo } from './resumo.js';
 import { renderCambio } from './cambio.js';
 import { renderTributos } from './tributos.js';
+import { prepararLeitura, acordeao, montarLegendaFixa } from './leitura.js';
 
 const NS = 'http://www.w3.org/2000/svg';
 
@@ -168,9 +169,7 @@ function renderBoletim() {
   for (const s of Object.values(S)) contagem[s.status] = (contagem[s.status] || 0) + 1;
   const ordem = ['confere', 'fonte-unica', 'sem-conferencia', 'diverge', 'falha'];
   const temProblema = (contagem.diverge || 0) + (contagem.falha || 0) > 0;
-  const [a, m, d] = dia.split('-');
-  const dataCarimbo = `${d} ${N.MESES_CURTOS[Number(m) - 1].toUpperCase()} ${a}`;
-  $('carimbo-dia').replaceChildren(carimbo({ data: dataCarimbo, diverge: Boolean(contagem.diverge) }));
+  $('carimbo-dia').replaceChildren(lacre({ data: extenso.texto, diverge: Boolean(contagem.diverge) }));
   $('contagem-status').replaceChildren(
     ...ordem
       .filter((st) => contagem[st] || st === 'confere' || st === 'diverge' || st === 'falha')
@@ -199,7 +198,7 @@ function renderBoletim() {
       diverge.length ? ` ${diverge.length} ${diverge.length === 1 ? 'diferiu' : 'diferiram'}: ${diverge.map((x) => x.serie.curto).join(', ')} (o órgão pode ter publicado um dado novo ou revisado depois da coleta).` : '',
       semResposta ? ` ${semResposta} não ${semResposta === 1 ? 'respondeu' : 'responderam'}.` : '',
     );
-    $('carimbo-dia').replaceChildren(carimbo({ data: dataCarimbo, diverge: diverge.length > 0, batido: true }));
+    $('carimbo-dia').replaceChildren(lacre({ data: extenso.texto, diverge: diverge.length > 0, batido: true }));
   });
 }
 
@@ -222,7 +221,7 @@ function renderIndicadores() {
           const [num, unidade] = valorPartido(s, atual.valor);
           const svg = document.createElementNS(NS, 'svg');
           svg.setAttribute('class', 'linha__faisca');
-          faisca(svg, s.pontos.slice(-24));
+          faisca(svg, s.pontos.slice(-24), { largura: 220, altura: 44 });
           return h(
             'li',
             {},
@@ -1200,28 +1199,39 @@ function renderMetodo() {
           h('li', {}, icone(st), h('div', {}, h('b', { texto: N.STATUS[st].rotulo }), h('span', { texto: N.STATUS[st].explicacao }))),
         ),
       ),
-      h('h3', { class: 'subtitulo', style: 'margin:32px 0 8px', texto: 'Cores das variações' }),
-      h('p', { class: 'legenda-painel', style: 'margin-bottom:8px', texto: `${D.indicadores.notaSentido || ''} Em segurança e violência, queda é verde e alta é vermelha. A comparação é sempre com o período anterior: mês, trimestre ou, para Selic e dólar, 30 dias.` }),
-      tabela(
-        ['Indicador', 'Verde quando'],
-        [
-          ...Object.values(S).map((s) => [s.nome, { 'maior-melhor': 'sobe', 'menor-melhor': 'cai', neutro: 'sem cor' }[s.sentido] ?? 'sem cor']),
-          ['Crimes, mortes violentas e denúncias de violência', 'cai'],
-        ],
-        'Regra de cor das variações',
+      h('details', { class: 'topico' },
+        h('summary', {}, h('span', { class: 'topico__titulo', texto: 'Cores das variações' })),
+        h('div', { class: 'topico__corpo' },
+          h('p', { class: 'legenda-painel', style: 'margin-bottom:8px', texto: `${D.indicadores.notaSentido || ''} Em segurança e violência, queda é verde e alta é vermelha. A comparação é sempre com o período anterior: mês, trimestre ou, para Selic e dólar, 30 dias.` }),
+          tabela(
+            ['Indicador', 'Verde quando'],
+            [
+              ...Object.values(S).map((s) => [s.nome, { 'maior-melhor': 'sobe', 'menor-melhor': 'cai', neutro: 'sem cor' }[s.sentido] ?? 'sem cor']),
+              ['Crimes, mortes violentas e denúncias de violência', 'cai'],
+            ],
+            'Regra de cor das variações',
+          ),
+        ),
       ),
-      h('h3', { class: 'subtitulo', style: 'margin:32px 0 8px', texto: 'Fontes' }),
-      h('ul', { class: 'fontes-lista' }, fontes.map(([orgao, o, sistema]) => h('li', {}, h('span', {}, h('b', { texto: orgao }), h('br'), o), h('small', { texto: sistema })))),
+      h('details', { class: 'topico' },
+        h('summary', {}, h('span', { class: 'topico__titulo', texto: 'Fontes' })),
+        h('div', { class: 'topico__corpo' },
+          h('ul', { class: 'fontes-lista' }, fontes.map(([orgao, o, sistema]) => h('li', {}, h('span', {}, h('b', { texto: orgao }), h('br'), o), h('small', { texto: sistema })))),
+        ),
+      ),
       E
-        ? h('div', { style: 'margin-top:32px' },
-            h('h3', { class: 'subtitulo', style: 'margin-bottom:8px', texto: 'Última coleta' }),
-            h('p', { class: 'legenda-painel', texto: `Começou em ${dataCurta(E.inicio)} às ${horaBrasilia(E.inicio)} e levou ${E.segundos} segundos: ${E.chamadas} consultas, ${E.falhas} sem resposta, ${E.repeticoes ?? 0} que só responderam na segunda tentativa, ${E.avisos.length} ${E.avisos.length === 1 ? 'aviso' : 'avisos'}.` }),
-            E.avisos.length ? h('ul', { class: 'legenda-painel' }, E.avisos.map((a) => h('li', { texto: a.mensagem }))) : null,
-            tabela(['Serviço', 'Consultas', 'Repetidas', 'Sem resposta'], (E.fontes || []).map((f) => [f.host, String(f.chamadas), String(f.repeticoes ?? 0), String(f.falhas)]), 'Serviços consultados na última coleta'),
+        ? h('details', { class: 'topico' },
+            h('summary', {}, h('span', { class: 'topico__titulo', texto: 'Última coleta' })),
+            h('div', { class: 'topico__corpo' },
+              h('p', { class: 'legenda-painel', texto: `Começou em ${dataCurta(E.inicio)} às ${horaBrasilia(E.inicio)} e levou ${E.segundos} segundos: ${E.chamadas} consultas, ${E.falhas} sem resposta, ${E.repeticoes ?? 0} que só responderam na segunda tentativa, ${E.avisos.length} ${E.avisos.length === 1 ? 'aviso' : 'avisos'}.` }),
+              E.avisos.length ? h('ul', { class: 'legenda-painel' }, E.avisos.map((a) => h('li', { texto: a.mensagem }))) : null,
+              tabela(['Serviço', 'Consultas', 'Repetidas', 'Sem resposta'], (E.fontes || []).map((f) => [f.host, String(f.chamadas), String(f.repeticoes ?? 0), String(f.falhas)]), 'Serviços consultados na última coleta'),
+            ),
           )
         : null,
     ),
   );
+  acordeao($('conteudo-metodo').querySelector('.prosa'));
 
   const site = D.site || {};
   $('rodape').replaceChildren(
@@ -1273,6 +1283,7 @@ async function iniciar() {
   prepararTema();
   prepararDialogo();
   prepararNavegacao();
+  prepararLeitura();
   const ok = await carregar();
   if (!ok) return falhaDeCarga();
   const etapas = [
@@ -1306,6 +1317,7 @@ async function iniciar() {
       console.error(`Falha ao montar ${etapa.name}:`, e);
     }
   }
+  montarLegendaFixa();
   const alvo = location.hash.match(/^#indicador=(\w+)/);
   if (alvo) abrirDetalhe(alvo[1]);
 

@@ -23,6 +23,22 @@ export async function conferirNoNavegador(consultas) {
   );
 }
 
+// Lacre da abertura: o selo de cera do site, com o resultado da conferência do dia escrito embaixo.
+export function lacre({ data, diverge = false, batido = false }) {
+  const figura = document.createElement('figure');
+  figura.className = `lacre${diverge ? ' lacre--diverge' : ''}${batido ? ' lacre--batido' : ''}`;
+  const img = document.createElement('img');
+  Object.assign(img, { src: 'assets/img/selo-240.png', alt: '', width: 120, height: 128, decoding: 'async' });
+  const legenda = document.createElement('figcaption');
+  const titulo = document.createElement('b');
+  titulo.textContent = diverge ? 'Não confere com o original' : 'Confere com o original';
+  const quando = document.createElement('span');
+  quando.textContent = data;
+  legenda.append(titulo, quando);
+  figura.append(img, legenda);
+  return figura;
+}
+
 // Carimbo "confere com o original", o gesto de cartório que dá nome à verificação.
 export function carimbo({ data, diverge = false, batido = false }) {
   const id = `tinta-${++contador}`;

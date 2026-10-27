@@ -165,7 +165,7 @@ function painelCatalogo(D) {
         painelCatalogo(D);
       }),
     ),
-    h('ul', { class: 'lista-tributos' },
+    h('ul', { class: 'lista-tributos', 'data-limite': '6', 'data-rotulo': 'Ver todos os {n} tributos' },
       filtrados.map((t) => {
         const valor = t.receita ? arrecadado12(t.receita) : null;
         return h('li', { class: 'tributo' },
@@ -233,7 +233,7 @@ function painelNovos(D) {
       ? h('div', { style: 'margin-top:28px' },
           h('h4', { class: 'subtitulo', style: 'font-size:var(--texto-m)', texto: `Propostas na Câmara desde ${P.desde}` }),
           h('p', { class: 'legenda-painel', texto: `${P.nota} ${contar('tramitacao')} em tramitação, ${contar('lei')} ${contar('lei') === 1 ? 'virou lei' : 'viraram lei'} e ${contar('encerrada')} ${contar('encerrada') === 1 ? 'foi encerrada' : 'foram encerradas'}.` }),
-          h('ul', { class: 'lista-programas' },
+          h('ul', { class: 'lista-programas', 'data-limite': '4', 'data-rotulo': 'Ver as {n} propostas' },
             itens.map((i) =>
               h('li', { class: 'programa' },
                 h('div', {},

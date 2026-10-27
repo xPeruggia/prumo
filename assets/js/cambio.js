@@ -265,8 +265,8 @@ function montarEstrutura() {
     controles: h('div', { class: 'controles', style: 'margin:28px 0 8px' }),
     titulo: h('h4', { class: 'subtitulo', style: 'font-size:var(--texto-m)' }),
     grafico: h('div'),
-    falhas: h('div', { class: 'notas-painel' }),
-    notaMoeda: h('div', { class: 'notas-painel' }),
+    falhas: h('div', { class: 'avisos-painel' }),
+    notaMoeda: h('div'),
     rodape: h('div', { class: 'painel__rodape' }),
   });
   alvo.replaceChildren(
@@ -284,8 +284,8 @@ function montarEstrutura() {
       h('p', { texto: 'Oficial: taxa PTAX de venda do Banco Central, que publica boletins às 10h, 11h, 12h e 13h e o fechamento do dia. Fora do horário e nos fins de semana vale o último fechamento.' }),
       h('p', { texto: 'Mercado: cotação em tempo real de um serviço privado gratuito (AwesomeAPI), que agrega preços do mercado de câmbio. Não é fonte oficial; por isso aparece sempre ao lado da oficial e é comparada com ela.' }),
       h('p', { texto: 'Conferência cruzada: o dólar também é calculado dividindo o euro em reais pela cotação do euro em dólares. Se esse cálculo, o mercado e o Banco Central não baterem, ou se a variação do dia passar de 5%, o painel avisa que o número ainda não está confirmado.' }),
+      partes.notaMoeda,
     ),
-    partes.notaMoeda,
     partes.rodape,
   );
   return true;

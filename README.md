@@ -18,6 +18,34 @@ O que o site acompanha:
 - **Comparativo entre mandatos**: o mandato 2023–2026 contra o mandato 2027–2030 (posse em 5/1/2027), sempre no mesmo mês de governo; para crimes e denúncias, a soma dos mesmos meses de cada mandato desde 2015.
 - **Notícias de fontes oficiais**: comunicados do IBGE e do Banco Central, com filtro de conteúdo político-partidário e conferência dos números citados.
 
+## Como a página é organizada
+
+O site conta uma história em capítulos, um levando ao outro: do bolso de quem lê ao julgamento entre governos.
+
+| Capítulo | Seção | Por que nesse ponto |
+|---|---|---|
+| Abertura | Boletim, conferência do dia e "Em poucas palavras" | O resumo do dia em linguagem simples |
+| 1. O seu bolso | Indicadores do dia | Preços, juros, emprego e renda: o que as pessoas sentem primeiro |
+| 2. O real lá fora | Câmbio agora | O dólar mexe com preços, viagens e importados |
+| 3. Quem paga a conta | Contas públicas | De onde vem o dinheiro do governo e quanto ele deve |
+| 4. Para onde vai o dinheiro | Gastos da União por área | O que cada área recebe |
+| 5. O que o governo cria | Programas criados pelo Executivo | O que vira política pública |
+| 6. Viver em segurança | Segurança e violência | Um dos resultados mais sentidos no dia a dia |
+| 7. Lado a lado | Comparativo entre mandatos | Com as evidências na mesa, a comparação entre governos |
+| 8. O que foi anunciado | Notícias de fontes oficiais | O que os órgãos divulgaram |
+| 9. Por que confiar | Como verificamos | As regras por trás de tudo |
+
+Leitura em camadas (`assets/js/leitura.js`): nada é retirado da página.
+- Cada capítulo abre com um texto curto que diz do que se trata e como ler o gráfico. O texto técnico fica em "Ver mais sobre este capítulo".
+- Textos longos aparecem nas três primeiras linhas, com "Ver mais".
+- Notas de rodapé ficam em "Notas e fontes".
+- Listas longas (tributos, propostas, notícias e diário) mostram os primeiros itens, com "Ver todos".
+- O método é dividido em tópicos que abrem e fecham.
+- A legenda dos símbolos fica fixa na parte de baixo da tela depois da abertura. No celular ela vira um botão que abre a lista.
+- Cada capítulo termina com um atalho para o próximo.
+
+Visual: painéis de vidro sobre um fundo com luzes violeta, menta e magenta, nos temas claro e escuro. O logo é o lacre de cera (`assets/img/selo.png`). A fonte escolhida é a Gotham. Enquanto os arquivos web licenciados não estão no projeto, o site usa a Montserrat, a alternativa livre mais próxima. Para trocar, coloque os `.woff2` da Gotham em `assets/fonts/` e ative o bloco `@font-face` indicado no início de `assets/css/quadro-real.css`. A cópia da Gotham instalada no computador tem licença de uso no computador, que não cobre a publicação num site.
+
 ## Como a verificação funciona
 
 | Selo | Significado |
@@ -135,6 +163,8 @@ assets/js/seguranca.js     seção de segurança e violência
 assets/js/resumo.js        resumo "Em poucas palavras" (regras fixas, testadas)
 assets/js/cambio.js        câmbio ao vivo e conferência entre as fontes
 assets/js/tributos.js      arrecadação por tributo, lista de tributos e propostas
+assets/js/leitura.js       leitura em camadas: "Ver mais", notas recolhidas, listas e legenda fixa
+assets/img/                lacre (logo) e ícones
 assets/js/app.js           monta as demais seções a partir de data/
 scripts/atualizar.mjs      coleta diária
 scripts/seguranca.mjs      Sinesp e Disque 100 (lidos em fluxo, só os totais são guardados)

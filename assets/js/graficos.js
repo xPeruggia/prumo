@@ -407,9 +407,9 @@ export function graficoColunas(container, op) {
 
 // ---------- Faísca (sparkline) ----------
 
-export function faisca(svg, pontos) {
-  const w = 92;
-  const h = 30;
+export function faisca(svg, pontos, { largura = 92, altura = 30 } = {}) {
+  const w = largura;
+  const h = altura;
   svg.setAttribute('viewBox', `0 0 ${w} ${h}`);
   svg.setAttribute('aria-hidden', 'true');
   svg.replaceChildren();
