@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-10-28T13:49:38.356Z",
+ "geradoEm": "2026-10-28T22:26:30.765Z",
  "receita": {
   "url": "https://www.gov.br/receitafederal/dados/arrecadacao-estado.csv",
   "pagina": "https://www.gov.br/receitafederal/dados",
@@ -918,7 +918,7 @@
     "ementa": "Institui a Contribuição de Intervenção no Domínio Econômico incidente sobre a exploração comercial da modalidade lotérica de apostas de quota fixa – CIDE-Bet, e dá outras providências.",
     "especie": "contribuição",
     "dataApresentacao": "2026-08-24",
-    "situacao": "Aguardando Autorização do Despacho",
+    "situacao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Chancela)",
     "link": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644401"
    },
    {
@@ -1109,6 +1109,6 @@
     "link": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2352061"
    }
   ],
-  "atualizadoEm": "2026-10-28T13:49:38.356Z"
+  "atualizadoEm": "2026-10-28T22:26:30.765Z"
  }
 }

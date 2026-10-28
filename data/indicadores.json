@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-10-28T13:49:38.356Z",
+ "geradoEm": "2026-10-28T22:26:30.765Z",
  "temas": [
   {
    "id": "precos",
@@ -50,7 +50,7 @@
     "nomeOficial": "IPCA - Variação acumulada em 12 meses",
     "unidadeOficial": null,
     "url": "https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/2265/p/last%2012",
-    "consultadoEm": "2026-10-28T13:49:38.356Z"
+    "consultadoEm": "2026-10-28T22:26:30.765Z"
    },
    "conferencia": {
     "tipo": "sgs",
@@ -265,7 +265,7 @@
     "nomeOficial": "IPCA - Variação mensal",
     "unidadeOficial": null,
     "url": "https://apisidra.ibge.gov.br/values/t/1737/n1/all/v/63/p/last%2012",
-    "consultadoEm": "2026-10-28T13:49:38.356Z"
+    "consultadoEm": "2026-10-28T22:26:30.765Z"
    },
    "conferencia": {
     "tipo": "sgs",
@@ -478,7 +478,7 @@
     "codigo": 432,
     "referencia": "Série 432 do SGS",
     "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/12?formato=json",
-    "consultadoEm": "2026-10-28T13:49:38.356Z"
+    "consultadoEm": "2026-10-28T22:26:30.765Z"
    },
    "conferencia": null,
    "status": "fonte-unica",
@@ -760,7 +760,7 @@
     "codigo": 1,
     "referencia": "Série 1 do SGS",
     "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados/ultimos/12?formato=json",
-    "consultadoEm": "2026-10-28T13:49:38.356Z"
+    "consultadoEm": "2026-10-28T22:26:30.765Z"
    },
    "conferencia": {
     "tipo": "ptax",
@@ -768,12 +768,12 @@
     "sistema": "PTAX",
     "referencia": "Serviço PTAX (Olinda)",
     "descricao": "Consultamos a cotação do mesmo dia no serviço PTAX do Banco Central, um sistema separado do SGS.",
-    "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia(dataCotacao=@dataCotacao)?@dataCotacao='10-27-2026'&$format=json",
+    "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia(dataCotacao=@dataCotacao)?@dataCotacao='10-28-2026'&$format=json",
     "tolerancia": 0.00005,
     "status": "confere",
-    "periodo": "2026-10-27",
-    "valorPrimaria": 5.3346,
-    "valorConferencia": 5.3346,
+    "periodo": "2026-10-28",
+    "valorPrimaria": 5.342,
+    "valorConferencia": 5.342,
     "diferenca": 0,
     "comparados": 1,
     "conferidos": 1,
@@ -782,18 +782,17 @@
    "status": "confere",
    "ultimo": {
     "periodo": "2026-10",
-    "valor": 5.0878
+    "valor": 5.1011
    },
    "anterior": {
     "periodo": "2026-09",
     "valor": 5.1447
    },
    "ultimoDiario": {
-    "data": "2026-10-27",
-    "valor": 5.3346
+    "data": "2026-10-28",
+    "valor": 5.342
    },
    "ultimosDiarios": [
-    ["2026-06-22",5.1395],
     ["2026-06-23",5.1743],
     ["2026-06-24",5.2098],
     ["2026-06-25",5.1892],
@@ -882,16 +881,17 @@
     ["2026-10-22",5.0383],
     ["2026-10-23",5.0377],
     ["2026-10-26",5.5007],
-    ["2026-10-27",5.3346]
+    ["2026-10-27",5.3346],
+    ["2026-10-28",5.342]
    ],
    "noNavegador": [
     {
      "tipo": "sgs",
      "orgao": "Banco Central do Brasil",
      "rotulo": "SGS 1",
-     "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json&dataInicial=27/10/2026&dataFinal=27/10/2026",
-     "periodo": "2026-10-27",
-     "valorEsperado": 5.3346,
+     "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json&dataInicial=28/10/2026&dataFinal=28/10/2026",
+     "periodo": "2026-10-28",
+     "valorEsperado": 5.342,
      "inverterSinal": false
     }
    ],
@@ -1037,7 +1037,7 @@
     ["2026-07",5.1139],
     ["2026-08",5.1532],
     ["2026-09",5.1447],
-    ["2026-10",5.0878]
+    ["2026-10",5.1011]
    ]
   },
   "pibTri": {
@@ -1060,7 +1060,7 @@
     "nomeOficial": "Taxa trimestre contra trimestre imediatamente anterior",
     "unidadeOficial": null,
     "url": "https://apisidra.ibge.gov.br/values/t/5932/n1/all/v/6564/p/last%2012/c11255/90707",
-    "consultadoEm": "2026-10-28T13:49:38.356Z"
+    "consultadoEm": "2026-10-28T22:26:30.765Z"
    },
    "conferencia": null,
    "status": "fonte-unica",
@@ -1154,7 +1154,7 @@
     "nomeOficial": "Taxa acumulada ao longo do ano (em relação ao mesmo período do ano anterior)",
     "unidadeOficial": "%",
     "url": "https://apisidra.ibge.gov.br/values/t/5932/n1/all/v/6563/p/last%2012/c11255/90707",
-    "consultadoEm": "2026-10-28T13:49:38.356Z"
+    "consultadoEm": "2026-10-28T22:26:30.765Z"
    },
    "conferencia": null,
    "status": "fonte-unica",
@@ -1248,7 +1248,7 @@
     "nomeOficial": "Taxa de desocupação, na semana de referência, das pessoas de 14 anos ou mais de idade",
     "unidadeOficial": "%",
     "url": "https://apisidra.ibge.gov.br/values/t/6381/n1/all/v/4099/p/last%2012",
-    "consultadoEm": "2026-10-28T13:49:38.356Z"
+    "consultadoEm": "2026-10-28T22:26:30.765Z"
    },
    "conferencia": {
     "tipo": "sgs",
@@ -1462,7 +1462,7 @@
     "nomeOficial": "Rendimento médio mensal real das pessoas de 14 anos ou mais de idade ocupadas na semana de referência com rendimento de trabalho, habitualmente recebido em todos os trabalhos",
     "unidadeOficial": "Reais",
     "url": "https://apisidra.ibge.gov.br/values/t/6390/n1/all/v/5933/p/last%2012",
-    "consultadoEm": "2026-10-28T13:49:38.356Z"
+    "consultadoEm": "2026-10-28T22:26:30.765Z"
    },
    "conferencia": null,
    "status": "fonte-unica",
@@ -1647,7 +1647,7 @@
     "codigo": 13762,
     "referencia": "Série 13762 do SGS",
     "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados/ultimos/12?formato=json",
-    "consultadoEm": "2026-10-28T13:49:38.356Z"
+    "consultadoEm": "2026-10-28T22:26:30.765Z"
    },
    "conferencia": {
     "tipo": "razao",
@@ -1850,7 +1850,7 @@
     "codigo": 13761,
     "referencia": "Série 13761 do SGS",
     "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13761/dados/ultimos/12?formato=json",
-    "consultadoEm": "2026-10-28T13:49:38.356Z"
+    "consultadoEm": "2026-10-28T22:26:30.765Z"
    },
    "conferencia": null,
    "status": "fonte-unica",
@@ -2035,7 +2035,7 @@
     "codigo": 4513,
     "referencia": "Série 4513 do SGS",
     "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4513/dados/ultimos/12?formato=json",
-    "consultadoEm": "2026-10-28T13:49:38.356Z"
+    "consultadoEm": "2026-10-28T22:26:30.765Z"
    },
    "conferencia": {
     "tipo": "razao",
@@ -2240,7 +2240,7 @@
     "codigo": 5793,
     "referencia": "Série 5793 do SGS",
     "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados/ultimos/12?formato=json",
-    "consultadoEm": "2026-10-28T13:49:38.356Z"
+    "consultadoEm": "2026-10-28T22:26:30.765Z"
    },
    "conferencia": null,
    "status": "fonte-unica",
