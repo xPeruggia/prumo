@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-10-30T13:51:21.498Z",
+ "geradoEm": "2026-10-30T22:23:58.641Z",
  "fonte": {
   "orgao": "Banco Central do Brasil",
   "sistema": "PTAX (Olinda)",
@@ -285,7 +285,8 @@
     ["2026-10-26",5.5007],
     ["2026-10-27",5.3346],
     ["2026-10-28",5.342],
-    ["2026-10-29",5.3744]
+    ["2026-10-29",5.3744],
+    ["2026-10-30",5.4212]
    ],
    "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoMoedaPeriodo(moeda=@moeda,dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@moeda='USD'&@dataInicial='09-25-2025'&@dataFinalCotacao='10-30-2026'&$filter=tipoBoletim%20eq%20'Fechamento'&$format=json&$select=cotacaoVenda,dataHoraCotacao"
   },
@@ -567,7 +568,8 @@
     ["2026-10-26",6.1487],
     ["2026-10-27",5.9449],
     ["2026-10-28",5.9515],
-    ["2026-10-29",6]
+    ["2026-10-29",6],
+    ["2026-10-30",6.0522]
    ],
    "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoMoedaPeriodo(moeda=@moeda,dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@moeda='EUR'&@dataInicial='09-25-2025'&@dataFinalCotacao='10-30-2026'&$filter=tipoBoletim%20eq%20'Fechamento'&$format=json&$select=cotacaoVenda,dataHoraCotacao"
   },
@@ -849,7 +851,8 @@
     ["2026-10-26",7.3423],
     ["2026-10-27",7.1025],
     ["2026-10-28",7.1059],
-    ["2026-10-29",7.1899]
+    ["2026-10-29",7.1899],
+    ["2026-10-30",7.2633]
    ],
    "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoMoedaPeriodo(moeda=@moeda,dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@moeda='GBP'&@dataInicial='09-25-2025'&@dataFinalCotacao='10-30-2026'&$filter=tipoBoletim%20eq%20'Fechamento'&$format=json&$select=cotacaoVenda,dataHoraCotacao"
   },
@@ -1131,7 +1134,8 @@
     ["2026-10-26",0.03491],
     ["2026-10-27",0.0338],
     ["2026-10-28",0.03377],
-    ["2026-10-29",0.03406]
+    ["2026-10-29",0.03406],
+    ["2026-10-30",0.03443]
    ],
    "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoMoedaPeriodo(moeda=@moeda,dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@moeda='JPY'&@dataInicial='09-25-2025'&@dataFinalCotacao='10-30-2026'&$filter=tipoBoletim%20eq%20'Fechamento'&$format=json&$select=cotacaoVenda,dataHoraCotacao"
   },
@@ -1413,7 +1417,8 @@
     ["2026-10-26",6.6482],
     ["2026-10-27",6.4396],
     ["2026-10-28",6.4377],
-    ["2026-10-29",6.501]
+    ["2026-10-29",6.501],
+    ["2026-10-30",6.5895]
    ],
    "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoMoedaPeriodo(moeda=@moeda,dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@moeda='CHF'&@dataInicial='09-25-2025'&@dataFinalCotacao='10-30-2026'&$filter=tipoBoletim%20eq%20'Fechamento'&$format=json&$select=cotacaoVenda,dataHoraCotacao"
   },
@@ -1695,7 +1700,8 @@
     ["2026-10-26",3.9215],
     ["2026-10-27",3.8004],
     ["2026-10-28",3.8059],
-    ["2026-10-29",3.8452]
+    ["2026-10-29",3.8452],
+    ["2026-10-30",3.8842]
    ],
    "url": "https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoMoedaPeriodo(moeda=@moeda,dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@moeda='CAD'&@dataInicial='09-25-2025'&@dataFinalCotacao='10-30-2026'&$filter=tipoBoletim%20eq%20'Fechamento'&$format=json&$select=cotacaoVenda,dataHoraCotacao"
   }
