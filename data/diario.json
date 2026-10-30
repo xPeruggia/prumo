@@ -1,6 +1,28 @@
 {
- "atualizadoEm": "2026-10-30T09:47:17.650Z",
+ "atualizadoEm": "2026-10-30T13:51:21.498Z",
  "entradas": [
+  {
+   "em": "2026-10-30",
+   "tipo": "novo",
+   "serie": "desemprego",
+   "periodo": "2026-09",
+   "valor": 5.2,
+   "anterior": {
+    "periodo": "2026-08",
+    "valor": 5.3
+   }
+  },
+  {
+   "em": "2026-10-30",
+   "tipo": "novo",
+   "serie": "rendimento",
+   "periodo": "2026-09",
+   "valor": 3790,
+   "anterior": {
+    "periodo": "2026-08",
+    "valor": 3777
+   }
+  },
   {
    "em": "2026-10-29",
    "tipo": "revisao",
