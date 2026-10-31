@@ -1,5 +1,5 @@
 {
- "geradoEm": "2026-10-31T09:35:35.497Z",
+ "geradoEm": "2026-10-31T13:39:27.051Z",
  "janelaHoras": 48,
  "nota": "Matérias publicadas pelos próprios veículos em seus feeds públicos (RSS). O site agrupa as que tratam do mesmo fato, mostra o título e um trecho curto de cada uma, com o link para o texto completo, e não classifica nenhum veículo. Palavras destacadas são as que só aquele veículo usou no título. \"Coluna ou opinião\" e \"Análise\" seguem a seção em que o próprio veículo publicou o texto.",
  "veiculos": [
@@ -8,7 +8,7 @@
    "nome": "g1",
    "idioma": "pt",
    "ok": true,
-   "materias": 164
+   "materias": 165
   },
   {
    "id": "folha",
@@ -36,7 +36,7 @@
    "nome": "BBC News Brasil",
    "idioma": "pt",
    "ok": true,
-   "materias": 17
+   "materias": 16
   },
   {
    "id": "elpais",
@@ -71,7 +71,7 @@
    "nome": "Gazeta do Povo",
    "idioma": "pt",
    "ok": true,
-   "materias": 203
+   "materias": 193
   },
   {
    "id": "cartacapital",
@@ -95,139 +95,23 @@
    "materias": 20
   }
  ],
- "totalMaterias": 703,
+ "totalMaterias": 691,
  "comparacoes": [
   {
-   "id": "https://www1.folha.uol.com.br/mundo/2026/10/direita-acusa-governo-da-polonia-de-golpe-apos-suspensao-do-presidente-do-tribunal-constitucional.shtml",
+   "id": "https://www.cartacapital.com.br/mundo/escalada-da-crise-na-polonia-policia-e-mobilizada-ao-redor-do-tribunal-constitucional/",
    "veiculos": 5,
-   "primeiro": "2026-10-30T22:43:00.000Z",
-   "ultimo": "2026-10-31T07:39:56.000Z",
+   "primeiro": "2026-10-30T23:34:09.000Z",
+   "ultimo": "2026-10-31T13:39:03.000Z",
    "comuns": [
     "Polônia",
+    "crise",
     "Tribunal",
-    "Constitucional"
+    "Constitucional",
+    "acusa",
+    "golpe"
    ],
-   "politica": null,
+   "politica": "golpe",
    "materias": [
-    {
-     "veiculo": "folha",
-     "titulo": "Direita acusa governo da Polônia de golpe após suspensão do presidente do Tribunal Constitucional",
-     "tituloMarcado": [
-      [
-       "Direita",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "acusa",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "governo",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "da",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Polônia",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "golpe",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "após",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "suspensão",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "do",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "presidente",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "do",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Tribunal",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Constitucional",
-       false
-      ]
-     ],
-     "trecho": "A polícia da Polônia foi mobilizada na noite desta sexta-feira (30) nos arredores do Tribunal Constitucional, em Varsóvia, após o anúncio da suspensão do presidente da corte, Bogdan Swieczkowski, no site oficial do…",
-     "link": "https://www1.folha.uol.com.br/mundo/2026/10/direita-acusa-governo-da-polonia-de-golpe-apos-suspensao-do-presidente-do-tribunal-constitucional.shtml",
-     "publicadoEm": "2026-10-30T22:43:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
     {
      "veiculo": "cartacapital",
      "titulo": "Escalada da crise na Polônia: polícia é mobilizada ao redor do Tribunal Constitucional",
@@ -385,7 +269,7 @@
       ],
       [
        "gera",
-       false
+       true
       ],
       [
        " ",
@@ -448,7 +332,7 @@
       ],
       [
        "governo",
-       false
+       true
       ],
       [
        " ",
@@ -514,11 +398,11 @@
      "numero": null
     },
     {
-     "veiculo": "metropoles",
-     "titulo": "Suspensão de chefe do Tribunal Constitucional gera manifestação na Polônia",
+     "veiculo": "folha",
+     "titulo": "Presidente da Polônia convoca reuniões após crise no Tribunal Constitucional e acusação de golpe",
      "tituloMarcado": [
       [
-       "Suspensão",
+       "Presidente",
        false
       ],
       [
@@ -526,7 +410,7 @@
        ""
       ],
       [
-       "de",
+       "da",
        false
       ],
       [
@@ -534,15 +418,47 @@
        ""
       ],
       [
-       "chefe",
-       true
+       "Polônia",
+       false
       ],
       [
        " ",
        ""
       ],
       [
-       "do",
+       "convoca",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reuniões",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "após",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "crise",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "no",
        false
       ],
       [
@@ -566,7 +482,7 @@
        ""
       ],
       [
-       "gera",
+       "e",
        false
       ],
       [
@@ -574,7 +490,70 @@
        ""
       ],
       [
-       "manifestação",
+       "acusação",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "golpe",
+       false
+      ]
+     ],
+     "trecho": "O presidente da Polônia, Karol Nawrocki, convocou neste sábado (31) reuniões de crise com representantes dos partidos políticos após um confronto em torno do Tribunal Constitucional, que opõe o governo centrista à…",
+     "link": "https://www1.folha.uol.com.br/mundo/2026/10/presidente-da-polonia-convoca-reunioes-apos-crise-no-tribunal-constitucional-e-acusacao-de-golpe.shtml",
+     "publicadoEm": "2026-10-31T11:07:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "metropoles",
+     "titulo": "Polônia convoca reunião de emergência em meio a crise e acusações de golpe",
+     "tituloMarcado": [
+      [
+       "Polônia",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "convoca",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reunião",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "emergência",
        true
       ],
       [
@@ -582,7 +561,7 @@
        ""
       ],
       [
-       "na",
+       "em",
        false
       ],
       [
@@ -590,13 +569,61 @@
        ""
       ],
       [
-       "Polônia",
+       "meio",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "crise",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "acusações",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "golpe",
        false
       ]
      ],
-     "trecho": "Presidente polonês desistiu de viagem e retornou ao país após escalada da situação. Crise sobre corte começou em 2015",
-     "link": "https://www.metropoles.com/mundo/suspensao-de-chefe-do-tribunal-constitucional-gera-manifestacao-na-polonia",
-     "publicadoEm": "2026-10-31T07:39:56.000Z",
+     "trecho": "Presidente da Polônia, Karol Nawrocki, acusou o governo de violar ordem constitucional após suspensão do chefe da Corte Constitucional",
+     "link": "https://www.metropoles.com/mundo/polonia-convoca-reuniao-de-emergencia-em-meio-a-crise-e-acusacoes-de-golpe",
+     "publicadoEm": "2026-10-31T13:39:03.000Z",
      "tipo": "noticia",
      "numero": null
     }
@@ -606,7 +633,7 @@
    "id": "https://g1.globo.com/economia/noticia/2026/10/30/conta-de-luz-aneel-mantem-bandeira-tarifaria-para-verde-em-novembro.ghtml",
    "veiculos": 5,
    "primeiro": "2026-10-30T20:41:24.000Z",
-   "ultimo": "2026-10-30T23:16:58.000Z",
+   "ultimo": "2026-10-31T13:34:28.000Z",
    "comuns": [
     "bandeira",
     "verde",
@@ -871,93 +898,6 @@
      "numero": null
     },
     {
-     "veiculo": "folha",
-     "titulo": "Aneel mantém bandeira verde na conta de luz em novembro",
-     "tituloMarcado": [
-      [
-       "Aneel",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "mantém",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "bandeira",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "verde",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "na",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "conta",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "luz",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "em",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "novembro",
-       false
-      ]
-     ],
-     "trecho": "A Aneel (Agência Nacional de Energia Elétrica) informou nesta sexta-feira (30), que a bandeira tarifária será verde em novembro. Isso significa que, pelo segundo mês consecutivo, a conta de luz não terá custo extra.",
-     "link": "https://www1.folha.uol.com.br/mercado/2026/10/aneel-mantem-bandeira-verde-na-conta-de-luz-em-novembro.shtml",
-     "publicadoEm": "2026-10-30T21:25:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
      "veiculo": "gazetadopovo",
      "titulo": "Aneel mantém bandeira verde na conta de luz em novembro",
      "tituloMarcado": [
@@ -1043,27 +983,186 @@
      "publicadoEm": "2026-10-30T23:16:58.000Z",
      "tipo": "noticia",
      "numero": null
+    },
+    {
+     "veiculo": "metropoles",
+     "titulo": "Aneel mantém bandeira verde e conta de luz não terá taxa extra em novembro",
+     "tituloMarcado": [
+      [
+       "Aneel",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mantém",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "bandeira",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "verde",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "conta",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "luz",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "não",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "terá",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "taxa",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "extra",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "novembro",
+       false
+      ]
+     ],
+     "trecho": "Este é o segundo mês consecutivo que as contas de luz não sofrerão mudanças, após cinco meses de bandeira amarela",
+     "link": "https://www.metropoles.com/brasil/aneel-mantem-bandeira-verde-e-conta-de-luz-nao-tera-taxa-extra-em-novembro",
+     "publicadoEm": "2026-10-31T13:34:28.000Z",
+     "tipo": "noticia",
+     "numero": null
     }
    ]
   },
   {
-   "id": "https://www1.folha.uol.com.br/mercado/2026/10/bolsa-cai-175-na-semana-da-vitoria-de-lula-e-tem-pior-resultado-desde-2020.shtml",
+   "id": "https://veja.abril.com.br/mundo/lider-supremo-do-ira-se-reune-com-altos-comandantes-militares-e-faz-alerta-aos-estados-unidos/",
    "veiculos": 4,
-   "primeiro": "2026-10-30T20:45:00.000Z",
-   "ultimo": "2026-10-31T07:00:00.000Z",
+   "primeiro": "2026-10-31T12:38:49.000Z",
+   "ultimo": "2026-10-31T12:58:51.000Z",
    "comuns": [
-    "semana",
-    "desde",
-    "dólar"
+    "Líder",
+    "Irã",
+    "ataque"
    ],
-   "politica": "Lula",
+   "politica": null,
    "materias": [
     {
-     "veiculo": "folha",
-     "titulo": "Bolsa cai 18% na semana da vitória de Lula e tem pior resultado desde 2020; dólar tem maior alta desde 2008",
+     "veiculo": "veja",
+     "titulo": "Líder supremo do Irã se reúne com altos comandantes militares e faz alerta aos Estados Unidos",
      "tituloMarcado": [
       [
-       "Bolsa",
+       "Líder",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "supremo",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Irã",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "se",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reúne",
        true
       ],
       [
@@ -1071,7 +1170,15 @@
        ""
       ],
       [
-       "cai",
+       "com",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "altos",
        true
       ],
       [
@@ -1079,7 +1186,619 @@
        ""
       ],
       [
-       "18%",
+       "comandantes",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "militares",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "faz",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "alerta",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "aos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Estados",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Unidos",
+       false
+      ]
+     ],
+     "trecho": "Exército iraniano advertiu que qualquer novo ataque dos EUA apenas contribuiria para ampliar ainda mais a guerra no Oriente Médio",
+     "link": "https://veja.abril.com.br/mundo/lider-supremo-do-ira-se-reune-com-altos-comandantes-militares-e-faz-alerta-aos-estados-unidos/",
+     "publicadoEm": "2026-10-31T12:38:49.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "metropoles",
+     "titulo": "Líder do Irã ordena resposta \"sem restrições\" em caso de ataque dos EUA",
+     "tituloMarcado": [
+      [
+       "Líder",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Irã",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ordena",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "resposta",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "\"sem",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "restrições\"",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "caso",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ataque",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "EUA",
+       false
+      ]
+     ],
+     "trecho": "Líder supremo do Irã, aiatolá Mojtaba Khamenei, ordenou que Forças Armadas estejam prontas para responder a ataques dos EUA",
+     "link": "https://www.metropoles.com/mundo/lider-do-ira-ordena-que-pais-esteja-pronto-para-responder-a-ataques-dos-eua",
+     "publicadoEm": "2026-10-31T12:50:50.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "g1",
+     "titulo": "Líder supremo iraniano adverte Estados Unidos contra novos ataques",
+     "tituloMarcado": [
+      [
+       "Líder",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "supremo",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "iraniano",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "adverte",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Estados",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Unidos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "contra",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "novos",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ataques",
+       false
+      ]
+     ],
+     "trecho": "Donald Trump e Mojtaba Khamenei Chip Somodevilla/via Reuters; Hamed Jafarnejad/ISNA/WANA/Reuters O líder supremo do Irã, Mojtaba Khamenei, alertou os Estados Unidos neste sábado (31) que o país reagirá a novos ataques…",
+     "link": "https://g1.globo.com/mundo/noticia/2026/10/31/lider-supremo-iraniano-adverte-estados-unidos-contra-novos-ataques.ghtml",
+     "publicadoEm": "2026-10-31T12:53:10.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "uol",
+     "titulo": "Líder do Irã ordena resposta 'máxima' em caso de ataque dos EUA, diz site",
+     "tituloMarcado": [
+      [
+       "Líder",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Irã",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ordena",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "resposta",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "'máxima'",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "caso",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ataque",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "EUA,",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "diz",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "site",
+       true
+      ]
+     ],
+     "trecho": "O líder supremo do Irã, Mojtaba Khamenei, ordenou uma resposta imediata e sem limites geográficos a eventuais novos ataques dos EUA e de Israel, informou o site americano Axios.",
+     "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/10/31/lider-do-ira-ordena-resposta-maxima-a-ataque-dos-eua.ghtm",
+     "publicadoEm": "2026-10-31T12:58:51.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://www.cnnbrasil.com.br/internacional/ataque-a-tiros-em-loja-de-halloween-nos-eua-deixa-morto-e-feridos/",
+   "veiculos": 3,
+   "primeiro": "2026-10-31T10:50:56.000Z",
+   "ultimo": "2026-10-31T13:45:25.000Z",
+   "comuns": [
+    "Ataque",
+    "deixa",
+    "morto",
+    "feridos",
+    "tiros",
+    "loja"
+   ],
+   "politica": null,
+   "materias": [
+    {
+     "veiculo": "cnn",
+     "titulo": "Ataque a tiros em loja de Halloween nos EUA deixa um morto e seis feridos",
+     "tituloMarcado": [
+      [
+       "Ataque",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "tiros",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "loja",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Halloween",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "nos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "EUA",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "deixa",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "um",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "morto",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "seis",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "feridos",
+       false
+      ]
+     ],
+     "trecho": "Polícia da cidade de Fairfield, na Califórnia, informou que pelo menos três pessoas estão em estado crítico; investigações estão em andamento",
+     "link": "https://www.cnnbrasil.com.br/internacional/ataque-a-tiros-em-loja-de-halloween-nos-eua-deixa-morto-e-feridos/",
+     "publicadoEm": "2026-10-31T10:50:56.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "g1",
+     "titulo": "Ataque armado em loja de Halloween deixa um morto e seis feridos na Califórnia",
+     "tituloMarcado": [
+      [
+       "Ataque",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "armado",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "loja",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Halloween",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "deixa",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "um",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "morto",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "seis",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "feridos",
        false
       ],
       [
@@ -1095,317 +1814,22 @@
        ""
       ],
       [
-       "semana",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "da",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "vitória",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Lula",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "tem",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "pior",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "resultado",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "desde",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "2020;",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "dólar",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "tem",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "maior",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "alta",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "desde",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "2008",
+       "Califórnia",
        false
       ]
      ],
-     "trecho": "Os ativos domésticos encerraram a semana após a reeleição de Lula (PT) para um quarto mandato com as maiores desvalorizações do ano. A Bolsa, que chegou a atingir o patamar histórico de 200 mil pontos neste mês, recuou…",
-     "link": "https://www1.folha.uol.com.br/mercado/2026/10/bolsa-cai-175-na-semana-da-vitoria-de-lula-e-tem-pior-resultado-desde-2020.shtml",
-     "publicadoEm": "2026-10-30T20:45:00.000Z",
+     "trecho": "Um ataque a tiros em uma loja de artigos de Halloween no norte da Califórnia, nos Estados Unidos, deixou um morto e seis feridos na sexta-feira (30), informou a polícia, que ainda não identificou os responsáveis. O…",
+     "link": "https://g1.globo.com/mundo/noticia/2026/10/31/ataque-armado-california.ghtml",
+     "publicadoEm": "2026-10-31T12:11:39.000Z",
      "tipo": "noticia",
      "numero": null
     },
     {
-     "veiculo": "agenciabrasil",
-     "titulo": "Dólar fecha a R$ 5,44 e registra maior alta semanal desde 2008",
+     "veiculo": "poder360",
+     "titulo": "Ataque a tiros deixa 1 morto e 6 feridos na Califórnia",
      "tituloMarcado": [
       [
-       "Dólar",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fecha",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "R$",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "5,44",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "registra",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "maior",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "alta",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "semanal",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "desde",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "2008",
-       false
-      ]
-     ],
-     "trecho": "O mercado financeiro brasileiro encerrou outubro sob forte pressão, com disparada do dólar e queda acentuada da bolsa de valores. Nesta sexta-feira (30), a moeda estadunidense avançou cerca de 1% e fechou perto de R$…",
-     "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-r-544-e-registra-maior-alta-semanal-desde-2008",
-     "publicadoEm": "2026-10-30T22:40:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "gazetadopovo",
-     "titulo": "Após reeleição de Lula, Ibovespa tem pior semana desde a pandemia e dólar dispara",
-     "tituloMarcado": [
-      [
-       "Após",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "reeleição",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Lula,",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Ibovespa",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "tem",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "pior",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "semana",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "desde",
+       "Ataque",
        false
       ],
       [
@@ -1421,7 +1845,31 @@
        ""
       ],
       [
-       "pandemia",
+       "tiros",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "deixa",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "1",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "morto",
        false
       ],
       [
@@ -1437,7 +1885,7 @@
        ""
       ],
       [
-       "dólar",
+       "6",
        false
       ],
       [
@@ -1445,201 +1893,85 @@
        ""
       ],
       [
-       "dispara",
-       true
+       "feridos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "na",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Califórnia",
+       false
       ]
      ],
-     "trecho": "Bolsa registra maior queda semanal desde a pandemia, e dólar acumula alta de 9% após a reeleição de Lula e atinge maior cotação de 2026.",
-     "link": "https://www.gazetadopovo.com.br/economia/apos-reeleicao-de-lula-ibovespa-tem-pior-semana-desde-a-pandemia-e-dolar-dispara/",
-     "publicadoEm": "2026-10-30T23:04:14.000Z",
+     "trecho": "Disparos foram registrados em loja de artigos de Halloween; 3 vítimas estão em estado crítico",
+     "link": "https://www.poder360.com.br/poder-internacional/ataque-a-tiros-deixa-1-morto-e-6-feridos-na-california/",
+     "publicadoEm": "2026-10-31T13:45:25.000Z",
      "tipo": "noticia",
      "numero": null
-    },
-    {
-     "veiculo": "g1",
-     "titulo": "Ibovespa: tombo de 18% iguala semana de 11 de Setembro e chega perto da pandemia; o que esperar?",
-     "tituloMarcado": [
-      [
-       "Ibovespa:",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "tombo",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "18%",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "iguala",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "semana",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "11",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Setembro",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "chega",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "perto",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "da",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "pandemia;",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "o",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "que",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "esperar?",
-       true
-      ]
-     ],
-     "trecho": "Ibovespa acumulou 18% de queda em uma semana O resultado do segundo turno das eleições, com a reeleição do presidente Lula (PT), sacudiu o mercado financeiro. O dólar disparou, enquanto o Ibovespa, principal índice da…",
-     "link": "https://g1.globo.com/economia/noticia/2026/10/31/ibovespa-o-que-esperar-apos-o-tombo.ghtml",
-     "publicadoEm": "2026-10-31T07:00:00.000Z",
-     "tipo": "noticia",
-     "numero": {
-      "ok": false,
-      "descricao": "meta Selic vigente na semana da nota",
-      "valorNoticia": 18,
-      "candidatos": [
-       {
-        "serie": "selic",
-        "periodo": "2026-10-31",
-        "valor": 13.75
-       }
-      ],
-      "nota": "O número citado não foi encontrado na série oficial (meta Selic vigente na semana da nota). Pode se referir a outro recorte; recomendamos ler a fonte."
-     }
     }
    ]
   },
   {
-   "id": "https://www1.folha.uol.com.br/colunas/painel/2026/10/alcolumbre-pauta-pec-da-seguranca-para-terca-e-governo-costura-acordo-sobre-maioridade.shtml",
-   "veiculos": 4,
-   "primeiro": "2026-10-30T20:32:00.000Z",
-   "ultimo": "2026-10-30T22:07:47.000Z",
+   "id": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/10/29/governo-trump-aponta-plano-de-espionagem-chines-contra-ceo-da-nvidia-diz-jornal.ghtml",
+   "veiculos": 3,
+   "primeiro": "2026-10-29T15:49:08.000Z",
+   "ultimo": "2026-10-31T13:17:15.000Z",
    "comuns": [
-    "Alcolumbre",
-    "PEC",
-    "Segurança",
-    "terça",
-    "pauta"
+    "espionagem",
+    "chinês",
+    "são",
+    "condenados"
    ],
-   "politica": "votação",
+   "politica": null,
    "materias": [
     {
-     "veiculo": "folha",
-     "titulo": "Alcolumbre pauta PEC da Segurança para terça e governo costura acordo sobre maioridade",
+     "veiculo": "g1",
+     "titulo": "Governo Trump aponta plano de espionagem chinês contra CEO da Nvidia, diz jornal",
      "tituloMarcado": [
       [
-       "Alcolumbre",
+       "Governo",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Trump",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "aponta",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "plano",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
        false
       ],
       [
@@ -1647,7 +1979,7 @@
        ""
       ],
       [
-       "pauta",
+       "espionagem",
        false
       ],
       [
@@ -1655,8 +1987,24 @@
        ""
       ],
       [
-       "PEC",
+       "chinês",
        false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "contra",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "CEO",
+       true
       ],
       [
        " ",
@@ -1671,39 +2019,7 @@
        ""
       ],
       [
-       "Segurança",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "para",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "terça",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "governo",
+       "Nvidia,",
        true
       ],
       [
@@ -1711,23 +2027,7 @@
        ""
       ],
       [
-       "costura",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "acordo",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "sobre",
+       "diz",
        false
       ],
       [
@@ -1735,16 +2035,191 @@
        ""
       ],
       [
-       "maioridade",
+       "jornal",
        true
       ]
      ],
-     "trecho": "O presidente do Senado, Davi Alcolumbre (União-AP), pautou para a próxima terça-feira (3) a votação da PEC da Segurança Pública. Até lá, o governo discute costurar um acordo sobre a redução da maioridade penal.",
-     "link": "https://www1.folha.uol.com.br/colunas/painel/2026/10/alcolumbre-pauta-pec-da-seguranca-para-terca-e-governo-costura-acordo-sobre-maioridade.shtml",
-     "publicadoEm": "2026-10-30T20:32:00.000Z",
-     "tipo": "coluna",
+     "trecho": "Jensen Huang, CEO da Nvidia, durante conferência da empresa em 17 de março de 2026 Reuters/Carlos Barria O governo dos Estados Unidos suspeita que uma executiva chinesa do setor de tecnologia tenha atuado como agente de…",
+     "link": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/10/29/governo-trump-aponta-plano-de-espionagem-chines-contra-ceo-da-nvidia-diz-jornal.ghtml",
+     "publicadoEm": "2026-10-29T15:49:08.000Z",
+     "tipo": "noticia",
      "numero": null
     },
+    {
+     "veiculo": "folha",
+     "titulo": "Chineses acusados de espionagem são condenados à prisão nos Estados Unidos",
+     "tituloMarcado": [
+      [
+       "Chineses",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "acusados",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "espionagem",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "são",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "condenados",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "à",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "prisão",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "nos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Estados",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Unidos",
+       true
+      ]
+     ],
+     "trecho": "Dois cidadãos chineses foram condenados a 30 meses de prisão em regime fechado, seguidos de três anos de liberdade supervisionada, acusados de terem sido recrutados pela China para espionar os Estados Unidos.",
+     "link": "https://www1.folha.uol.com.br/mundo/2026/10/chineses-acusados-de-espionagem-sao-condenados-a-prisao-nos-estados-unidos.shtml",
+     "publicadoEm": "2026-10-31T08:45:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "poder360",
+     "titulo": "Chineses são condenados por espionagem nos EUA",
+     "tituloMarcado": [
+      [
+       "Chineses",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "são",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "condenados",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "por",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "espionagem",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "nos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "EUA",
+       true
+      ]
+     ],
+     "trecho": "Dois homens foram sentenciados a 30 meses de prisão por atuarem como agentes do governo chinês no pais norte-americano",
+     "link": "https://www.poder360.com.br/poder-internacional/chineses-sao-condenados-por-espionagem-nos-eua/",
+     "publicadoEm": "2026-10-31T13:17:15.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://www.gazetadopovo.com.br/republica/alcolumbre-marca-votacao-da-pec-da-seguranca-publica-para-terca-3/",
+   "veiculos": 3,
+   "primeiro": "2026-10-30T21:45:14.000Z",
+   "ultimo": "2026-10-31T13:00:00.000Z",
+   "comuns": [
+    "Segurança",
+    "Alcolumbre",
+    "votação",
+    "PEC",
+    "Pública",
+    "terça"
+   ],
+   "politica": "votação",
+   "materias": [
     {
      "veiculo": "gazetadopovo",
      "titulo": "Alcolumbre marca votação da PEC da Segurança Pública para terça (3)",
@@ -1807,7 +2282,7 @@
       ],
       [
        "Pública",
-       true
+       false
       ],
       [
        " ",
@@ -1944,12 +2419,28 @@
      "numero": null
     },
     {
-     "veiculo": "veja",
-     "titulo": "Alcolumbre pauta PEC da Segurança para a próxima terça-feira",
+     "veiculo": "poder360",
+     "titulo": "Segurança pública será pauta central no 4º mandato de Lula",
      "tituloMarcado": [
       [
-       "Alcolumbre",
+       "Segurança",
        false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "pública",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "será",
+       true
       ],
       [
        " ",
@@ -1964,1537 +2455,8 @@
        ""
       ],
       [
-       "PEC",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "da",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Segurança",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "para",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "próxima",
+       "central",
        true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "terça-feira",
-       false
-      ]
-     ],
-     "trecho": "Proposta foi retirada da pauta do Senado em meados de outubro após impasse sobre maioridade penal",
-     "link": "https://veja.abril.com.br/politica/alcolumbre-pauta-pec-da-seguranca-para-a-proxima-terca-feira/",
-     "publicadoEm": "2026-10-30T22:07:47.000Z",
-     "tipo": "noticia",
-     "numero": null
-    }
-   ]
-  },
-  {
-   "id": "https://www.gazetadopovo.com.br/republica/justica-obriga-meta-a-excluir-posts-que-estimulam-demissao-por-divergencia-politica/",
-   "veiculos": 4,
-   "primeiro": "2026-10-30T01:06:04.000Z",
-   "ultimo": "2026-10-30T21:53:39.000Z",
-   "comuns": [
-    "Justiça",
-    "Meta",
-    "excluir",
-    "demissão"
-   ],
-   "politica": null,
-   "materias": [
-    {
-     "veiculo": "gazetadopovo",
-     "titulo": "Justiça obriga Meta a excluir posts que estimulam demissão por divergência política",
-     "tituloMarcado": [
-      [
-       "Justiça",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "obriga",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Meta",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "excluir",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "posts",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "que",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "estimulam",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "demissão",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "por",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "divergência",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "política",
-       false
-      ]
-     ],
-     "trecho": "Justiça do Trabalho também obrigou a Meta a divulgar um comunicado sobre a ilegalidade do assédio eleitoral nas relações de emprego.",
-     "link": "https://www.gazetadopovo.com.br/republica/justica-obriga-meta-a-excluir-posts-que-estimulam-demissao-por-divergencia-politica/",
-     "publicadoEm": "2026-10-30T01:06:04.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "g1",
-     "titulo": "Justiça do Trabalho manda Meta remover publicações que incentivam demissão por causa do voto",
-     "tituloMarcado": [
-      [
-       "Justiça",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "do",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Trabalho",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "manda",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Meta",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "remover",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "publicações",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "que",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "incentivam",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "demissão",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "por",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "causa",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "do",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "voto",
-       false
-      ]
-     ],
-     "trecho": "Justiça do Trabalho manda Meta remover publicações que incentivam demissão por causa do voto A Justiça do Trabalho determinou nesta quinta-feira (29) que a Meta retire do ar, em até 24 horas, publicações no Instagram…",
-     "link": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/29/justica-do-trabalho-meta-publicacoes-demissao-por-causa-do-voto.ghtml",
-     "publicadoEm": "2026-10-30T01:42:20.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "agenciabrasil",
-     "titulo": "Justiça manda Meta excluir posts sobre demissão por voto político",
-     "tituloMarcado": [
-      [
-       "Justiça",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "manda",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Meta",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "excluir",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "posts",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "sobre",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "demissão",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "por",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "voto",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "político",
-       false
-      ]
-     ],
-     "trecho": "Responsável pelo Instagram, Facebook e Threads, a Meta terá de retirar do ar publicações que incentivem empresários a perseguir, expor ou demitir funcionários por suas preferências políticas, decidiu a Justiça do…",
-     "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/justica-manda-meta-excluir-posts-sobre-demissao-por-voto-politico",
-     "publicadoEm": "2026-10-30T20:09:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "cartacapital",
-     "titulo": "‘Demita um petista’: Justiça do Trabalho determina que Meta exclua conteúdos de assédio eleitoral",
-     "tituloMarcado": [
-      [
-       "‘Demita",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "um",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "petista’:",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Justiça",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "do",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Trabalho",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "determina",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "que",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Meta",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "exclua",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "conteúdos",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "assédio",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "eleitoral",
-       true
-      ]
-     ],
-     "trecho": "O Ministério Público do Trabalho contabilizou mais de 3 mil denúncias após a reeleição do presidente Lula (PT)",
-     "link": "https://www.cartacapital.com.br/justica/demita-um-petista-justica-do-trabalho-determina-que-meta-exclua-conteudos-de-assedio-eleitoral/",
-     "publicadoEm": "2026-10-30T21:53:39.000Z",
-     "tipo": "noticia",
-     "numero": null
-    }
-   ]
-  },
-  {
-   "id": "https://www.metropoles.com/mundo/estados-unidos-condenam-dois-cidadaos-chineses-por-espionagem",
-   "veiculos": 3,
-   "primeiro": "2026-10-31T08:30:07.000Z",
-   "ultimo": "2026-10-31T09:30:17.000Z",
-   "comuns": [
-    "condenam",
-    "chineses",
-    "espionagem",
-    "Estados",
-    "Unidos",
-    "dois"
-   ],
-   "politica": null,
-   "materias": [
-    {
-     "veiculo": "metropoles",
-     "titulo": "Estados Unidos condenam dois cidadãos chineses por espionagem",
-     "tituloMarcado": [
-      [
-       "Estados",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Unidos",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "condenam",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "dois",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "cidadãos",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "chineses",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "por",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "espionagem",
-       false
-      ]
-     ],
-     "trecho": "Eles foram condenados a a 30 meses de prisão e três anos de liberdade condicional supervisionada",
-     "link": "https://www.metropoles.com/mundo/estados-unidos-condenam-dois-cidadaos-chineses-por-espionagem",
-     "publicadoEm": "2026-10-31T08:30:07.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "folha",
-     "titulo": "Chineses acusados de espionagem são condenados à prisão nos Estados Unidos",
-     "tituloMarcado": [
-      [
-       "Chineses",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "acusados",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "espionagem",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "são",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "condenados",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "à",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "prisão",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "nos",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Estados",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Unidos",
-       false
-      ]
-     ],
-     "trecho": "Dois cidadãos chineses foram condenados a 30 meses de prisão em regime fechado, seguidos de três anos de liberdade supervisionada, acusados de terem sido recrutados pela China para espionar os Estados Unidos.",
-     "link": "https://www1.folha.uol.com.br/mundo/2026/10/chineses-acusados-de-espionagem-sao-condenados-a-prisao-nos-estados-unidos.shtml",
-     "publicadoEm": "2026-10-31T08:45:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "uol",
-     "titulo": "EUA condenam dois chineses a 30 meses de prisão por espionagem",
-     "tituloMarcado": [
-      [
-       "EUA",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "condenam",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "dois",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "chineses",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "30",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "meses",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "prisão",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "por",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "espionagem",
-       false
-      ]
-     ],
-     "trecho": "Dois cidadãos chineses foram condenados a 30 meses de prisão nos Estados Unidos acusados de espionar para o governo da China.",
-     "link": "https://noticias.uol.com.br/internacional/ultimas-noticias/2026/10/31/eua-condenam-chineses-por-espionagem.ghtm",
-     "publicadoEm": "2026-10-31T09:30:17.000Z",
-     "tipo": "noticia",
-     "numero": null
-    }
-   ]
-  },
-  {
-   "id": "https://www.gazetadopovo.com.br/republica/esquerda-critica-boicotes-a-petistas-mas-ja-promoveu-campanhas-contra-empresas-e-jornais/",
-   "veiculos": 3,
-   "primeiro": "2026-10-29T18:19:57.000Z",
-   "ultimo": "2026-10-31T08:30:00.000Z",
-   "comuns": [
-    "boicotes",
-    "petistas",
-    "promoveu",
-    "empresas",
-    "crime"
-   ],
-   "politica": "esquerda",
-   "materias": [
-    {
-     "veiculo": "gazetadopovo",
-     "titulo": "Esquerda critica boicotes a petistas, mas já promoveu campanhas contra empresas e jornais",
-     "tituloMarcado": [
-      [
-       "Esquerda",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "critica",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "boicotes",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "petistas,",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "mas",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "já",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "promoveu",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "campanhas",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "contra",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "empresas",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "jornais",
-       true
-      ]
-     ],
-     "trecho": "Antes de criticar boicotes contra eleitores de Lula, setores da esquerda promoveram campanhas contra empresas assossiadas a Jair Bolsonaro",
-     "link": "https://www.gazetadopovo.com.br/republica/esquerda-critica-boicotes-a-petistas-mas-ja-promoveu-campanhas-contra-empresas-e-jornais/",
-     "publicadoEm": "2026-10-29T18:19:57.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "bbc",
-     "titulo": "É crime fazer listas de negócios 'petistas' para promover boicote?",
-     "tituloMarcado": [
-      [
-       "É",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "crime",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fazer",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "listas",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "negócios",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "'petistas'",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "para",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "promover",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "boicote?",
-       false
-      ]
-     ],
-     "trecho": "Advogados esclarecem se listas que circulam nas redes sociais e no WhatsApp são liberdade de expressão ou podem ser enquadrados como crimes.",
-     "link": "https://www.bbc.com/portuguese/articles/cw78pr842gk5o?at_medium=RSS&at_campaign=rss",
-     "publicadoEm": "2026-10-30T17:25:18.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "uol",
-     "titulo": "Apoiar boicote a empresários como fez Nikolas é crime? Juristas opinam",
-     "tituloMarcado": [
-      [
-       "Apoiar",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "boicote",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "empresários",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "como",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fez",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Nikolas",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "é",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "crime?",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Juristas",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "opinam",
-       true
-      ]
-     ],
-     "trecho": "Apoiar boicote a empresários por causa do voto não é crime, mas pode haver responsabilização dos envolvidos. Campanhas com exposição de pessoas podem gerar pedidos de indenização por danos morais. E quando as campanhas…",
-     "link": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/10/31/apoiar-boicote-a-empresarios-como-fez-nikolas-e-crime-juristas-opinam.ghtm",
-     "publicadoEm": "2026-10-31T08:30:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    }
-   ]
-  },
-  {
-   "id": "https://www1.folha.uol.com.br/cotidiano/2026/10/confira-a-partir-das-21h-desta-sexta-30-o-resultado-do-concurso-3079-da-mega-sena.shtml",
-   "veiculos": 3,
-   "primeiro": "2026-10-30T20:58:00.000Z",
-   "ultimo": "2026-10-31T08:00:33.000Z",
-   "comuns": [
-    "Mega-Sena",
-    "42",
-    "milhões",
-    "3079",
-    "acumula",
-    "premiação"
-   ],
-   "politica": null,
-   "materias": [
-    {
-     "veiculo": "folha",
-     "titulo": "Mega-Sena 3079 acumula e premiação pode chegar a R$ 42 milhões neste domingo (1)",
-     "tituloMarcado": [
-      [
-       "Mega-Sena",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "3079",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "acumula",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "premiação",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "pode",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "chegar",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "R$",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "42",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "milhões",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "neste",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "domingo",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "(1)",
-       false
-      ]
-     ],
-     "trecho": "A Caixa Econômica Federal sorteou na noite desta sexta (30) o concurso 3079 da Mega-Sena, o quinto dia da Mega Semana, cujo prêmio principal era de R$ 6 milhões. Nenhum apostador, porém, acertou os seis números e o…",
-     "link": "https://www1.folha.uol.com.br/cotidiano/2026/10/confira-a-partir-das-21h-desta-sexta-30-o-resultado-do-concurso-3079-da-mega-sena.shtml",
-     "publicadoEm": "2026-10-30T20:58:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "g1",
-     "titulo": "Mega-Sena 3079 acumula e prêmio vai a R$ 42 milhões; confira os números sorteados",
-     "tituloMarcado": [
-      [
-       "Mega-Sena",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "3079",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "acumula",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "prêmio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "vai",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "R$",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "42",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "milhões;",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "confira",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "os",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "números",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "sorteados",
-       false
-      ]
-     ],
-     "trecho": "Como funciona a Mega-Sena? O sorteio do concurso 3.079 da Mega-Sena foi realizado na noite desta sexta-feira (30), em São Paulo. O prêmio para as apostas que acertassem as seis dezenas era de R$ 5 milhões. No entanto…",
-     "link": "https://g1.globo.com/loterias/mega-sena/noticia/2026/10/30/mega-sena-concurso-3079-confira-os-numeros-sorteados.ghtml",
-     "publicadoEm": "2026-10-31T00:05:24.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "cnn",
-     "titulo": "Mega-Sena 3080: sorteio deste domingo (1°) pode pagar R$ 42 milhões",
-     "tituloMarcado": [
-      [
-       "Mega-Sena",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "3080:",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "sorteio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "deste",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "domingo",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "(1°)",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "pode",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "pagar",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "R$",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "42",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "milhões",
-       false
-      ]
-     ],
-     "trecho": "Para concorrer, apostadores devem registrar seus jogos até as 20h deste sábado (31)",
-     "link": "https://www.cnnbrasil.com.br/economia/seu-bolso/loterias/mega-sena-3080/",
-     "publicadoEm": "2026-10-31T08:00:33.000Z",
-     "tipo": "noticia",
-     "numero": null
-    }
-   ]
-  },
-  {
-   "id": "https://www.gazetadopovo.com.br/republica/derrite-contraria-pp-e-rejeita-apoio-a-reeleicao-de-alcolumbre-no-senado/",
-   "veiculos": 3,
-   "primeiro": "2026-10-29T22:18:33.000Z",
-   "ultimo": "2026-10-31T08:00:19.000Z",
-   "comuns": [
-    "reeleição",
-    "Senado",
-    "Alcolumbre"
-   ],
-   "politica": "PP",
-   "materias": [
-    {
-     "veiculo": "gazetadopovo",
-     "titulo": "Derrite contraria PP e rejeita apoio à reeleição de Alcolumbre no Senado",
-     "tituloMarcado": [
-      [
-       "Derrite",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "contraria",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "PP",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "rejeita",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "apoio",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "à",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "reeleição",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Alcolumbre",
-       false
       ],
       [
        " ",
@@ -3509,22 +2471,63 @@
        ""
       ],
       [
-       "Senado",
+       "4º",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mandato",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
        false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Lula",
+       true
       ]
      ],
-     "trecho": "Guilherme Derrite (PP-SP) defendeu que os senadores de oposição se articulem em torno de um único candidato para disputar o comando do Senado",
-     "link": "https://www.gazetadopovo.com.br/republica/derrite-contraria-pp-e-rejeita-apoio-a-reeleicao-de-alcolumbre-no-senado/",
-     "publicadoEm": "2026-10-29T22:18:33.000Z",
+     "trecho": "Planalto quer pasta própria se PEC for aprovada no Congresso, e mais cooperação com países vizinhos para combater o crime organizado nas fronteiras",
+     "link": "https://www.poder360.com.br/poder-governo/seguranca-publica-sera-pauta-central-no-4o-mandato-de-lula/",
+     "publicadoEm": "2026-10-31T13:00:00.000Z",
      "tipo": "noticia",
      "numero": null
-    },
+    }
+   ]
+  },
+  {
+   "id": "https://www1.folha.uol.com.br/mundo/2026/10/eua-aprovam-venda-de-500-misseis-patriot-a-ucrania-por-us-21-bilhoes.shtml",
+   "veiculos": 3,
+   "primeiro": "2026-10-30T23:11:00.000Z",
+   "ultimo": "2026-10-31T12:45:30.000Z",
+   "comuns": [
+    "Ucrânia",
+    "aprovam",
+    "venda",
+    "500",
+    "mísseis",
+    "Governo"
+   ],
+   "politica": null,
+   "materias": [
     {
-     "veiculo": "cnn",
-     "titulo": "PL deve apoiar reeleição de Hugo na Câmara e insistirá em aliado no Senado",
+     "veiculo": "folha",
+     "titulo": "EUA aprovam venda de 500 mísseis Patriot à Ucrânia por US$ 2,1 bilhões",
      "tituloMarcado": [
       [
-       "PL",
+       "EUA",
        true
       ],
       [
@@ -3532,23 +2535,15 @@
        ""
       ],
       [
-       "deve",
-       true
+       "aprovam",
+       false
       ],
       [
        " ",
        ""
       ],
       [
-       "apoiar",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "reeleição",
+       "venda",
        false
       ],
       [
@@ -3564,7 +2559,197 @@
        ""
       ],
       [
-       "Hugo",
+       "500",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mísseis",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Patriot",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "à",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Ucrânia",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "por",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "US$",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "2,1",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "bilhões",
+       true
+      ]
+     ],
+     "trecho": "Os Estados Unidos aprovaram nesta sexta-feira (30) a venda de 500 mísseis interceptadores Patriot PAC-3 à Ucrânia, por um valor estimado em US$ 2,1 bilhões (R$ 11,42 bilhões). É uma das medidas mais significativas de…",
+     "link": "https://www1.folha.uol.com.br/mundo/2026/10/eua-aprovam-venda-de-500-misseis-patriot-a-ucrania-por-us-21-bilhoes.shtml",
+     "publicadoEm": "2026-10-30T23:11:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "cartacapital",
+     "titulo": "Governo Trump aprova venda de 500 mísseis à Ucrânia",
+     "tituloMarcado": [
+      [
+       "Governo",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Trump",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "aprova",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "venda",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "500",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mísseis",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "à",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Ucrânia",
+       false
+      ]
+     ],
+     "trecho": "A venda de armamentos ainda precisa ser aprovada pelo Congresso americano",
+     "link": "https://www.cartacapital.com.br/mundo/governo-trump-aprova-venda-de-500-misseis-a-ucrania/",
+     "publicadoEm": "2026-10-31T01:09:29.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "cnn",
+     "titulo": "Ataque ucraniano mata duas pessoas na Rússia, diz governador",
+     "tituloMarcado": [
+      [
+       "Ataque",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ucraniano",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mata",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "duas",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "pessoas",
        true
       ],
       [
@@ -3580,8 +2765,101 @@
        ""
       ],
       [
-       "Câmara",
+       "Rússia,",
        true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "diz",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "governador",
+       false
+      ]
+     ],
+     "trecho": "Forças Armadas ucranianas atingiram produtor de combustível para mísseis russos, provocando um incêndio",
+     "link": "https://www.cnnbrasil.com.br/internacional/ataque-ucraniano-mata-pessoas-na-russia-diz-governador/",
+     "publicadoEm": "2026-10-31T12:45:30.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://www.gazetadopovo.com.br/mundo/esquerda-radical-convoca-novos-protestos-na-franca-e-governo-anuncia-mobilizacao-de-70-mil-policiais/",
+   "veiculos": 3,
+   "primeiro": "2026-10-29T23:41:25.000Z",
+   "ultimo": "2026-10-31T10:40:11.000Z",
+   "comuns": [
+    "protestos",
+    "França",
+    "novos"
+   ],
+   "politica": null,
+   "materias": [
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "Esquerda radical convoca novos protestos na França e governo anuncia mobilização de 70 mil policiais",
+     "tituloMarcado": [
+      [
+       "Esquerda",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "radical",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "convoca",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "novos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "protestos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "na",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "França",
+       false
       ],
       [
        " ",
@@ -3596,7 +2874,7 @@
        ""
       ],
       [
-       "insistirá",
+       "governo",
        true
       ],
       [
@@ -3604,15 +2882,7 @@
        ""
       ],
       [
-       "em",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "aliado",
+       "anuncia",
        true
       ],
       [
@@ -3620,7 +2890,15 @@
        ""
       ],
       [
-       "no",
+       "mobilização",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
        false
       ],
       [
@@ -3628,130 +2906,38 @@
        ""
       ],
       [
-       "Senado",
-       false
+       "70",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mil",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "policiais",
+       true
       ]
      ],
-     "trecho": "Senador Flávio Bolsonaro anunciou Rogério Marinho como candidato do partido ao comando da Casa; atual presidente do Congresso, Davi Alcolumbre, busca apoio para permanecer no cargo",
-     "link": "https://www.cnnbrasil.com.br/politica/pl-deve-apoiar-reeleicao-de-hugo-na-camara-e-insistira-em-aliado-no-senado/",
-     "publicadoEm": "2026-10-31T06:15:02.000Z",
+     "trecho": "França anuncia mobilização de 70 mil policiais após chamados da esquerda radical para novos protestos e alertas sobre saques.",
+     "link": "https://www.gazetadopovo.com.br/mundo/esquerda-radical-convoca-novos-protestos-na-franca-e-governo-anuncia-mobilizacao-de-70-mil-policiais/",
+     "publicadoEm": "2026-10-29T23:41:25.000Z",
      "tipo": "noticia",
      "numero": null
     },
     {
-     "veiculo": "metropoles",
-     "titulo": "Para Centrão, Motta pode ajudar Alcolumbre a se reeleger no Senado",
+     "veiculo": "folha",
+     "titulo": "França reforça segurança para novos protestos no Halloween e teme ação de mascarados",
      "tituloMarcado": [
       [
-       "Para",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Centrão,",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Motta",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "pode",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "ajudar",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Alcolumbre",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "a",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "se",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "reeleger",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "no",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Senado",
-       false
-      ]
-     ],
-     "trecho": "Caciques do Centrão avaliam que Hugo Motta pode convencer partidos de seu \"blocão\" a também apoiarem Davi Alcolumbre no Senado",
-     "link": "https://www.metropoles.com/colunas/igor-gadelha/para-centrao-motta-pode-ajudar-alcolumbre-a-se-reeleger-no-senado",
-     "publicadoEm": "2026-10-31T08:00:19.000Z",
-     "tipo": "coluna",
-     "numero": null
-    }
-   ]
-  },
-  {
-   "id": "https://www.gazetadopovo.com.br/eleicoes/2026/ganha-espaco-para-liderar-direita-e-oposicao-a-lula/",
-   "veiculos": 3,
-   "primeiro": "2026-10-29T12:35:31.000Z",
-   "ultimo": "2026-10-31T07:30:45.000Z",
-   "comuns": [
-    "Tarcísio",
-    "aliado"
-   ],
-   "politica": "oposição",
-   "materias": [
-    {
-     "veiculo": "gazetadopovo",
-     "titulo": "Tarcísio reforça peso para liderar direita e oposição a Lula no Brasil",
-     "tituloMarcado": [
-      [
-       "Tarcísio",
+       "França",
        false
       ],
       [
@@ -3767,7 +2953,7 @@
        ""
       ],
       [
-       "peso",
+       "segurança",
        true
       ],
       [
@@ -3783,15 +2969,31 @@
        ""
       ],
       [
-       "liderar",
-       true
+       "novos",
+       false
       ],
       [
        " ",
        ""
       ],
       [
-       "direita",
+       "protestos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "no",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Halloween",
        true
       ],
       [
@@ -3807,7 +3009,102 @@
        ""
       ],
       [
-       "oposição",
+       "teme",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "ação",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "mascarados",
+       true
+      ]
+     ],
+     "trecho": "O governo da França mobilizou 70 mil militares para este sábado (31), quando estão previstos novos protestos em massa contra o aumento do custo de vida. As autoridades consideram as manifestações de alto risco diante da…",
+     "link": "https://www1.folha.uol.com.br/mundo/2026/10/franca-reforca-seguranca-para-novos-protestos-no-halloween-e-teme-acao-de-mascarados.shtml",
+     "publicadoEm": "2026-10-31T02:00:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "g1",
+     "titulo": "França vive novo dia de protestos em meio a temor de confrontos violentos e saques",
+     "tituloMarcado": [
+      [
+       "França",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "vive",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "novo",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dia",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "protestos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "em",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "meio",
        true
       ],
       [
@@ -3823,7 +3120,7 @@
        ""
       ],
       [
-       "Lula",
+       "temor",
        true
       ],
       [
@@ -3831,7 +3128,7 @@
        ""
       ],
       [
-       "no",
+       "de",
        false
       ],
       [
@@ -3839,22 +3136,165 @@
        ""
       ],
       [
-       "Brasil",
+       "confrontos",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "violentos",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "saques",
        true
       ]
      ],
-     "trecho": "Tarcísio de Freitas ganha projeção nacional após a derrota de Flávio Bolsonaro e desponta como possível líder da direita para 2030.",
-     "link": "https://www.gazetadopovo.com.br/eleicoes/2026/ganha-espaco-para-liderar-direita-e-oposicao-a-lula/",
-     "publicadoEm": "2026-10-29T12:35:31.000Z",
+     "trecho": "Polícia usa gás lacrimogêneo para dispersar protestos na França A França enfrenta neste sábado (31) uma nova jornada de manifestações contra o custo de vida e em defesa de melhores condições de estudo para estudantes do…",
+     "link": "https://g1.globo.com/mundo/noticia/2026/10/31/franca-novo-dia-de-protestos.ghtml",
+     "publicadoEm": "2026-10-31T10:40:11.000Z",
+     "tipo": "noticia",
+     "numero": null
+    }
+   ]
+  },
+  {
+   "id": "https://www.gazetadopovo.com.br/mundo/maria-corina-machado-denuncia-persistencia-da-repressao-chavista-na-venezuela/",
+   "veiculos": 3,
+   "primeiro": "2026-10-30T05:50:00.000Z",
+   "ultimo": "2026-10-31T10:00:59.000Z",
+   "comuns": [
+    "María",
+    "Corina",
+    "Venezuela",
+    "Machado",
+    "EUA"
+   ],
+   "politica": null,
+   "materias": [
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "María Corina Machado denuncia persistência da repressão chavista na Venezuela",
+     "tituloMarcado": [
+      [
+       "María",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Corina",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Machado",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "denuncia",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "persistência",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "da",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "repressão",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "chavista",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "na",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Venezuela",
+       false
+      ]
+     ],
+     "trecho": "María Corina Machado afirma que sistema de repressão segue no poder na Venezuela e defende transição com novas eleições presidenciais apenas em 2027.",
+     "link": "https://www.gazetadopovo.com.br/mundo/maria-corina-machado-denuncia-persistencia-da-repressao-chavista-na-venezuela/",
+     "publicadoEm": "2026-10-30T05:50:00.000Z",
      "tipo": "noticia",
      "numero": null
     },
     {
      "veiculo": "folha",
-     "titulo": "Declaração de Tarcísio de que pode disputar Presidência é considerada precipitada por aliado",
+     "titulo": "María Corina abala estratégia dos EUA para a Venezuela",
      "tituloMarcado": [
       [
-       "Declaração",
+       "María",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Corina",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "abala",
        true
       ],
       [
@@ -3862,39 +3302,7 @@
        ""
       ],
       [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Tarcísio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "que",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "pode",
+       "estratégia",
        true
       ],
       [
@@ -3902,23 +3310,7 @@
        ""
       ],
       [
-       "disputar",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Presidência",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "é",
+       "dos",
        false
       ],
       [
@@ -3926,79 +3318,8 @@
        ""
       ],
       [
-       "considerada",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "precipitada",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "por",
+       "EUA",
        false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "aliado",
-       false
-      ]
-     ],
-     "trecho": "A declaração do governador de São Paulo, Tarcísio de Freitas (Republicanos), de que poderá disputar a Presidência em 2030, foi considerada precipitada dentro de seu próprio partido.",
-     "link": "https://www1.folha.uol.com.br/colunas/painel/2026/10/declaracao-de-tarcisio-de-que-pode-disputar-presidencia-e-considerada-precipitada-por-aliado.shtml",
-     "publicadoEm": "2026-10-31T01:00:00.000Z",
-     "tipo": "coluna",
-     "numero": null
-    },
-    {
-     "veiculo": "metropoles",
-     "titulo": "Aliados de Tarcísio se unem para rebater onda de ataques de bolsonaristas",
-     "tituloMarcado": [
-      [
-       "Aliados",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Tarcísio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "se",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "unem",
-       true
       ],
       [
        " ",
@@ -4013,23 +3334,7 @@
        ""
       ],
       [
-       "rebater",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "onda",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
+       "a",
        false
       ],
       [
@@ -4037,30 +3342,117 @@
        ""
       ],
       [
-       "ataques",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
+       "Venezuela",
        false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "bolsonaristas",
-       true
       ]
      ],
-     "trecho": "Tarcísio virou alvo de ataques de bolsonaristas após criticar a carta aberta em que Flávio contesta o resultado das eleições",
-     "link": "https://www.metropoles.com/colunas/vinicius-passarelli/aliados-de-tarcisio-se-unem-para-rebater-onda-de-ataques-de-bolsonaristas",
-     "publicadoEm": "2026-10-31T07:30:45.000Z",
+     "trecho": "O regresso à Venezuela de María Corina Machado -líder da oposição à ditadura de Nicolás Maduro e exilada desde o fim de 2025, ano em que recebeu o Nobel da Paz- abala a estratégia de Donald Trump para a democratização…",
+     "link": "https://www1.folha.uol.com.br/opiniao/2026/10/maria-corina-abala-estrategia-dos-eua-para-a-venezuela.shtml",
+     "publicadoEm": "2026-10-31T01:00:00.000Z",
      "tipo": "coluna",
+     "numero": null
+    },
+    {
+     "veiculo": "cnn",
+     "titulo": "Análise: Maria Corina Machado retorna à Venezuela e desafia plano dos EUA",
+     "tituloMarcado": [
+      [
+       "Análise:",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Maria",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Corina",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Machado",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "retorna",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "à",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Venezuela",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "desafia",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "plano",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dos",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "EUA",
+       false
+      ]
+     ],
+     "trecho": "Presença da líder opositora aumenta pressão sobre governo interino de Delcy Rodríguez e altera cenário de transição política",
+     "link": "https://www.cnnbrasil.com.br/internacional/analise-maria-corina-machado-retorna-a-venezuela-e-desafia-plano-dos-eua/",
+     "publicadoEm": "2026-10-31T10:00:59.000Z",
+     "tipo": "analise",
      "numero": null
     }
    ]
@@ -4400,751 +3792,6 @@
      "trecho": "O feriado nacional de Finados, nesta segunda-feira (2), será dia de folga para muitos trabalhadores, mas parte dos profissionais terá de cumprir expediente. Pela legislação, quem trabalha em feriados tem direito, em…",
      "link": "https://www1.folha.uol.com.br/mercado/2026/10/veja-regras-para-trabalho-no-feriado-de-finados-nesta-segunda-2.shtml",
      "publicadoEm": "2026-10-31T07:00:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    }
-   ]
-  },
-  {
-   "id": "https://www1.folha.uol.com.br/esporte/2026/10/corinthians-apos-82-dias-e-dez-rodadas-sem-vitoria-vence-o-mirassol.shtml",
-   "veiculos": 3,
-   "primeiro": "2026-10-31T01:03:00.000Z",
-   "ultimo": "2026-10-31T03:39:00.000Z",
-   "comuns": [
-    "Corinthians",
-    "Mirassol",
-    "Brasileiro",
-    "vence"
-   ],
-   "politica": null,
-   "materias": [
-    {
-     "veiculo": "folha",
-     "titulo": "Corinthians, após 82 dias e dez rodadas sem vitória no Brasileiro, vence o Mirassol",
-     "tituloMarcado": [
-      [
-       "Corinthians,",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "após",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "82",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "dias",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "dez",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "rodadas",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "sem",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "vitória",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "no",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Brasileiro,",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "vence",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "o",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Mirassol",
-       false
-      ]
-     ],
-     "trecho": "O Corinthians venceu. Há 82 dias, a torcida alvinegra não sabia o que era essa sensação no Campeonato Brasileiro. Nesta sexta-feira (30), o time do Parque São Jorge superou o Mirassol por 2 a 0, em Itaquera, e deu seu…",
-     "link": "https://www1.folha.uol.com.br/esporte/2026/10/corinthians-apos-82-dias-e-dez-rodadas-sem-vitoria-vence-o-mirassol.shtml",
-     "publicadoEm": "2026-10-31T01:03:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "cnn",
-     "titulo": "Corinthians 2 x 0 Mirassol: veja os melhores momentos pelo Brasileirão",
-     "tituloMarcado": [
-      [
-       "Corinthians",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "2",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "x",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "0",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Mirassol:",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "veja",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "os",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "melhores",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "momentos",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "pelo",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Brasileirão",
-       false
-      ]
-     ],
-     "trecho": "Time de Clarence Seedorf venceu confronto direto nesta sexta-feira (30), na Neo Química Arena, pela 33ª rodada do Campeonato Brasileiro",
-     "link": "https://www.cnnbrasil.com.br/esportes/brasileirao/corinthians-2-x-0-mirassol-veja-os-melhores-momentos-pelo-brasileirao/",
-     "publicadoEm": "2026-10-31T01:30:14.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "cartacapital",
-     "titulo": "Corinthians vence o Mirassol na Neo Química Arena, mas continua no Z-4",
-     "tituloMarcado": [
-      [
-       "Corinthians",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "vence",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "o",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Mirassol",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "na",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Neo",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Química",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Arena,",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "mas",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "continua",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "no",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Z-4",
-       true
-      ]
-     ],
-     "trecho": "Corinthians atropela Mirassol e finalmente consegue uma vitória dentro do Campeonato Brasileiro",
-     "link": "https://www.cartacapital.com.br/esporte/corinthians-vence-o-mirassol-na-neo-quimica-arena-mas-continua-no-z-4/",
-     "publicadoEm": "2026-10-31T03:39:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    }
-   ]
-  },
-  {
-   "id": "https://www.estadao.com.br/politica/apos-fuga-flavio-lanca-marinho-ao-comando-do-senado-e-quer-concorrer-ao-planalto-antes-de-2030/",
-   "veiculos": 3,
-   "primeiro": "2026-10-31T00:33:21.000Z",
-   "ultimo": "2026-10-31T01:38:07.000Z",
-   "comuns": [
-    "Flávio",
-    "2030",
-    "fuga",
-    "fala",
-    "eleição"
-   ],
-   "politica": "eleição",
-   "materias": [
-    {
-     "veiculo": "estadao",
-     "titulo": "Após fuga, Flávio lança Marinho ao comando do Senado e quer concorrer ao Planalto ‘antes de 2030′",
-     "tituloMarcado": [
-      [
-       "Após",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fuga,",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "lança",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Marinho",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "ao",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "comando",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "do",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Senado",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "quer",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "concorrer",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "ao",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Planalto",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "‘antes",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "2030′",
-       false
-      ]
-     ],
-     "trecho": "O senador Flávio Bolsonaro (PL), derrotado nas eleições presidenciais do último domingo, 25, defendeu nesta sexta-feira, 30, a indicação de Rogério Marinho (PL-RN) ao comando do Senado e afirmou que espera concorrer à…",
-     "link": "https://www.estadao.com.br/politica/apos-fuga-flavio-lanca-marinho-ao-comando-do-senado-e-quer-concorrer-ao-planalto-antes-de-2030/",
-     "publicadoEm": "2026-10-31T00:33:21.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "gazetadopovo",
-     "titulo": "Dos EUA, Flávio prevê crise econômica de Lula e fala em possível eleição antes de 2030",
-     "tituloMarcado": [
-      [
-       "Dos",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "EUA,",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "prevê",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "crise",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "econômica",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Lula",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fala",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "em",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "possível",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "eleição",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "antes",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "2030",
-       false
-      ]
-     ],
-     "trecho": "Flávio Bolsonaro relacionou o desgaste econômico do governo Lula à possibilidade de uma nova eleição presidencial antes de 2030.",
-     "link": "https://www.gazetadopovo.com.br/republica/dos-eua-flavio-preve-crise-economica-de-lula-e-fala-em-possivel-eleicao-antes-de-2030/",
-     "publicadoEm": "2026-10-31T00:59:22.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "veja",
-     "titulo": "Flávio Bolsonaro detalha fuga do Brasil e fala em disputar eleição antes de 2030",
-     "tituloMarcado": [
-      [
-       "Flávio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Bolsonaro",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "detalha",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fuga",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "do",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Brasil",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fala",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "em",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "disputar",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "eleição",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "antes",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "2030",
-       false
-      ]
-     ],
-     "trecho": "Senador diz que pretende continuar atuando politicamente no exterior",
-     "link": "https://veja.abril.com.br/politica/flavio-bolsonaro-detalha-fuga-do-brasil-e-fala-em-disputar-eleicao-antes-de-2030/",
-     "publicadoEm": "2026-10-31T01:38:07.000Z",
      "tipo": "noticia",
      "numero": null
     }
@@ -5527,364 +4174,6 @@
      "trecho": "A primeira edição do concurso foi realizada em 2024. A segunda, em 2025",
      "link": "https://www.cartacapital.com.br/radar-carta/terceira-edicao-do-cnu-pode-oferecer-ate-3-mil-vagas-em-2027/",
      "publicadoEm": "2026-10-31T01:31:28.000Z",
-     "tipo": "noticia",
-     "numero": null
-    }
-   ]
-  },
-  {
-   "id": "https://www1.folha.uol.com.br/mundo/2026/10/mauro-vieira-e-marco-rubio-evitam-tratar-de-fuga-de-flavio-bolsonaro-em-reuniao-pre-g20.shtml",
-   "veiculos": 3,
-   "primeiro": "2026-10-30T23:50:00.000Z",
-   "ultimo": "2026-10-31T00:45:12.000Z",
-   "comuns": [
-    "Mauro",
-    "Vieira",
-    "Marco",
-    "Rubio",
-    "reunião",
-    "conversa"
-   ],
-   "politica": null,
-   "materias": [
-    {
-     "veiculo": "folha",
-     "titulo": "Mauro Vieira e Marco Rubio evitam tratar de fuga de Flávio Bolsonaro em reunião pré-G20",
-     "tituloMarcado": [
-      [
-       "Mauro",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Vieira",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Marco",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Rubio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "evitam",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "tratar",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fuga",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Bolsonaro",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "em",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "reunião",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "pré-G20",
-       true
-      ]
-     ],
-     "trecho": "O ministro das Relações Exteriores, Mauro Vieira, e o secretário de Estado americano, Marco Rubio, conversaram brevemente nesta sexta-feira (30), em Atlanta, nos Estados Unidos, mas não trataram de eleições ou da saída…",
-     "link": "https://www1.folha.uol.com.br/mundo/2026/10/mauro-vieira-e-marco-rubio-evitam-tratar-de-fuga-de-flavio-bolsonaro-em-reuniao-pre-g20.shtml",
-     "publicadoEm": "2026-10-30T23:50:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "veja",
-     "titulo": "A conversa e o acerto entre Mauro Vieira e Marco Rubio nos EUA",
-     "tituloMarcado": [
-      [
-       "A",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "conversa",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "o",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "acerto",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "entre",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Mauro",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Vieira",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Marco",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Rubio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "nos",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "EUA",
-       true
-      ]
-     ],
-     "trecho": "Breve troca ocorre em meio à tensão diplomática entre Brasil e o país americano",
-     "link": "https://veja.abril.com.br/politica/a-conversa-e-o-acerto-entre-mauro-vieira-e-marco-rubio-nos-eua/",
-     "publicadoEm": "2026-10-31T00:05:46.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "gazetadopovo",
-     "titulo": "Mauro Vieira e Marco Rubio conversam em evento e marcam reunião bilateral",
-     "tituloMarcado": [
-      [
-       "Mauro",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Vieira",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Marco",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Rubio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "conversam",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "em",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "evento",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "marcam",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "reunião",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "bilateral",
-       true
-      ]
-     ],
-     "trecho": "O chanceler Mauro Vieira e o secretário de Estado americano, Marco Rubio, participaram de uma mesma reunião e marcaram um encontro bilateral.",
-     "link": "https://www.gazetadopovo.com.br/mundo/mauro-vieira-e-marco-rubio-se-veem-pela-1a-vez-desde-ida-de-flavio-bolsonaro-para-os-eua/",
-     "publicadoEm": "2026-10-31T00:45:12.000Z",
      "tipo": "noticia",
      "numero": null
     }
@@ -6313,397 +4602,197 @@
    ]
   },
   {
-   "id": "https://www.estadao.com.br/politica/diplomata-da-argentina-e-chamada-pelo-itamaraty-para-esclarecer-fuga-de-flavio-bolsonaro/",
+   "id": "https://g1.globo.com/economia/noticia/2026/10/30/dolar-ibovespa.ghtml",
    "veiculos": 3,
-   "primeiro": "2026-10-30T19:22:36.000Z",
-   "ultimo": "2026-10-30T23:37:12.000Z",
+   "primeiro": "2026-10-30T12:00:21.000Z",
+   "ultimo": "2026-10-30T23:04:14.000Z",
    "comuns": [
-    "Argentina",
-    "Flávio",
-    "Diplomata",
-    "Itamaraty",
-    "Bolsonaro",
-    "cobra"
-   ],
-   "politica": "Bolsonaro",
-   "materias": [
-    {
-     "veiculo": "estadao",
-     "titulo": "Diplomata da Argentina é chamada pelo Itamaraty para esclarecer fuga de Flávio Bolsonaro",
-     "tituloMarcado": [
-      [
-       "Diplomata",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "da",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Argentina",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "é",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "chamada",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "pelo",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Itamaraty",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "para",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "esclarecer",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "fuga",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Bolsonaro",
-       false
-      ]
-     ],
-     "trecho": "BRASÍLIA - A encarregada de Negócios da Embaixada da Argentina no Brasil, María Emilia Cortés, esteve ontem, 29, no Ministério das Relações Exteriores (MRE) para prestar esclarecimentos sobre a recente passagem do…",
-     "link": "https://www.estadao.com.br/politica/diplomata-da-argentina-e-chamada-pelo-itamaraty-para-esclarecer-fuga-de-flavio-bolsonaro/",
-     "publicadoEm": "2026-10-30T19:22:36.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "gazetadopovo",
-     "titulo": "Itamaraty cobra explicações da Argentina sobre passagem de Flávio pelo país vizinho rumo aos EUA",
-     "tituloMarcado": [
-      [
-       "Itamaraty",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "cobra",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "explicações",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "da",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Argentina",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "sobre",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "passagem",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "pelo",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "país",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "vizinho",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "rumo",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "aos",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "EUA",
-       true
-      ]
-     ],
-     "trecho": "Itamaraty pediu esclarecimentos à diplomacia argentina sobre a passagem de Flávio Bolsonaro pelo país antes de seguir para os Estados Unidos.",
-     "link": "https://www.gazetadopovo.com.br/republica/itamaraty-cobra-explicacoes-da-argentina-sobre-passagem-de-flavio-pelo-pais-vizinho-rumo-aos-eua/",
-     "publicadoEm": "2026-10-30T19:43:17.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "bbc",
-     "titulo": "Brasil diz ter convocado diplomata argentina para cobrar explicações sobre viagem de Flávio Bolsonaro",
-     "tituloMarcado": [
-      [
-       "Brasil",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "diz",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "ter",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "convocado",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "diplomata",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "argentina",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "para",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "cobrar",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "explicações",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "sobre",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "viagem",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Flávio",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Bolsonaro",
-       false
-      ]
-     ],
-     "trecho": "Na linguagem diplomática, a convocação de um diplomata para prestar esclarecimentos é uma demonstração de reprovação a alguma conduta adotada pelo país do diplomata convocado.",
-     "link": "https://www.bbc.com/portuguese/articles/ck3r52z8zwlqo?at_medium=RSS&at_campaign=rss",
-     "publicadoEm": "2026-10-30T23:37:12.000Z",
-     "tipo": "noticia",
-     "numero": null
-    }
-   ]
-  },
-  {
-   "id": "https://www.gazetadopovo.com.br/economia/raizen-fecha-acordo-tributario-com-a-uniao-e-corta-8-5-bi-em-multas-e-juros/",
-   "veiculos": 3,
-   "primeiro": "2026-10-29T13:21:16.000Z",
-   "ultimo": "2026-10-30T20:49:18.000Z",
-   "comuns": [
-    "Raízen",
-    "aprovam",
-    "plano"
+    "semana",
+    "desde",
+    "dólar",
+    "Ibovespa",
+    "maior",
+    "5,44"
    ],
    "politica": null,
    "materias": [
     {
-     "veiculo": "gazetadopovo",
-     "titulo": "Raízen fecha acordo tributário com a União e corta R$ 8,5 bi em multas e juros",
+     "veiculo": "g1",
+     "titulo": "Ibovespa recua 18,12% na semana e tem 5ª maior queda desde o Plano Real; dólar sobe a R$ 5,44",
      "tituloMarcado": [
       [
-       "Raízen",
+       "Ibovespa",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "recua",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "18,12%",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "na",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "semana",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "tem",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "5ª",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "maior",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "queda",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "desde",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "o",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Plano",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Real;",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "dólar",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "sobe",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "R$",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "5,44",
+       false
+      ]
+     ],
+     "trecho": "Entenda o que faz o preço do dólar subir ou cair O Ibovespa, principal índice da bolsa brasileira, fechou em queda de 0,75% nesta sexta-feira (30), aos 167.922 pontos. Com o resultado, o índice chegou à quinta baixa…",
+     "link": "https://g1.globo.com/economia/noticia/2026/10/30/dolar-ibovespa.ghtml",
+     "publicadoEm": "2026-10-30T12:00:21.000Z",
+     "tipo": "noticia",
+     "numero": {
+      "ok": false,
+      "descricao": "taxa de desocupação de mai–jul/2026",
+      "valorNoticia": 18.12,
+      "candidatos": [
+       {
+        "serie": "desemprego",
+        "periodo": "2026-07",
+        "valor": 5.3
+       }
+      ],
+      "nota": "O número citado não foi encontrado na série oficial (taxa de desocupação de mai–jul/2026). Pode se referir a outro recorte; recomendamos ler a fonte."
+     }
+    },
+    {
+     "veiculo": "agenciabrasil",
+     "titulo": "Dólar fecha a R$ 5,44 e registra maior alta semanal desde 2008",
+     "tituloMarcado": [
+      [
+       "Dólar",
        false
       ],
       [
@@ -6719,7 +4808,39 @@
        ""
       ],
       [
-       "acordo",
+       "a",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "R$",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "5,44",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "e",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "registra",
        true
       ],
       [
@@ -6727,7 +4848,15 @@
        ""
       ],
       [
-       "tributário",
+       "maior",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "alta",
        true
       ],
       [
@@ -6735,7 +4864,102 @@
        ""
       ],
       [
-       "com",
+       "semanal",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "desde",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "2008",
+       true
+      ]
+     ],
+     "trecho": "O mercado financeiro brasileiro encerrou outubro sob forte pressão, com disparada do dólar e queda acentuada da bolsa de valores. Nesta sexta-feira (30), a moeda estadunidense avançou cerca de 1% e fechou perto de R$…",
+     "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/dolar-fecha-r-544-e-registra-maior-alta-semanal-desde-2008",
+     "publicadoEm": "2026-10-30T22:40:00.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "gazetadopovo",
+     "titulo": "Após reeleição de Lula, Ibovespa tem pior semana desde a pandemia e dólar dispara",
+     "tituloMarcado": [
+      [
+       "Após",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "reeleição",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "de",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Lula,",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Ibovespa",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "tem",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "pior",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "semana",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "desde",
        false
       ],
       [
@@ -6751,7 +4975,7 @@
        ""
       ],
       [
-       "União",
+       "pandemia",
        true
       ],
       [
@@ -6767,15 +4991,7 @@
        ""
       ],
       [
-       "corta",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "R$",
+       "dólar",
        false
       ],
       [
@@ -6783,62 +4999,47 @@
        ""
       ],
       [
-       "8,5",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "bi",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "em",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "multas",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "juros",
+       "dispara",
        true
       ]
      ],
-     "trecho": "Companhia passa por recuperação extrajudicial para lidar com dívida de R$ 61,4 bilhões.",
-     "link": "https://www.gazetadopovo.com.br/economia/raizen-fecha-acordo-tributario-com-a-uniao-e-corta-8-5-bi-em-multas-e-juros/",
-     "publicadoEm": "2026-10-29T13:21:16.000Z",
+     "trecho": "Bolsa registra maior queda semanal desde a pandemia, e dólar acumula alta de 9% após a reeleição de Lula e atinge maior cotação de 2026.",
+     "link": "https://www.gazetadopovo.com.br/economia/apos-reeleicao-de-lula-ibovespa-tem-pior-semana-desde-a-pandemia-e-dolar-dispara/",
+     "publicadoEm": "2026-10-30T23:04:14.000Z",
      "tipo": "noticia",
      "numero": null
-    },
+    }
+   ]
+  },
+  {
+   "id": "https://www.gazetadopovo.com.br/republica/justica-obriga-meta-a-excluir-posts-que-estimulam-demissao-por-divergencia-politica/",
+   "veiculos": 3,
+   "primeiro": "2026-10-30T01:06:04.000Z",
+   "ultimo": "2026-10-30T20:09:00.000Z",
+   "comuns": [
+    "Justiça",
+    "Meta",
+    "demissão",
+    "excluir",
+    "posts",
+    "política"
+   ],
+   "politica": null,
+   "materias": [
     {
-     "veiculo": "folha",
-     "titulo": "Acionistas da Raízen aprovam plano de recuperação extrajudicial",
+     "veiculo": "gazetadopovo",
+     "titulo": "Justiça obriga Meta a excluir posts que estimulam demissão por divergência política",
      "tituloMarcado": [
       [
-       "Acionistas",
+       "Justiça",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "obriga",
        true
       ],
       [
@@ -6846,7 +5047,7 @@
        ""
       ],
       [
-       "da",
+       "Meta",
        false
       ],
       [
@@ -6854,7 +5055,7 @@
        ""
       ],
       [
-       "Raízen",
+       "a",
        false
       ],
       [
@@ -6862,7 +5063,7 @@
        ""
       ],
       [
-       "aprovam",
+       "excluir",
        false
       ],
       [
@@ -6870,7 +5071,7 @@
        ""
       ],
       [
-       "plano",
+       "posts",
        false
       ],
       [
@@ -6878,7 +5079,7 @@
        ""
       ],
       [
-       "de",
+       "que",
        false
       ],
       [
@@ -6886,7 +5087,7 @@
        ""
       ],
       [
-       "recuperação",
+       "estimulam",
        true
       ],
       [
@@ -6894,22 +5095,46 @@
        ""
       ],
       [
-       "extrajudicial",
+       "demissão",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "por",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "divergência",
        true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "política",
+       false
       ]
      ],
-     "trecho": "A Raízen, produtora de açúcar e etanol de cana que também atua na distribuição de combustíveis, teve seu plano de recuperação extrajudicial aprovado nesta sexta-feira (30).",
-     "link": "https://c-level.folha.uol.com.br/negocios/2026/10/acionistas-da-raizen-aprovam-plano-de-recuperacao-extrajudicial-diz-agencia.shtml",
-     "publicadoEm": "2026-10-30T20:49:00.000Z",
+     "trecho": "Justiça do Trabalho também obrigou a Meta a divulgar um comunicado sobre a ilegalidade do assédio eleitoral nas relações de emprego.",
+     "link": "https://www.gazetadopovo.com.br/republica/justica-obriga-meta-a-excluir-posts-que-estimulam-demissao-por-divergencia-politica/",
+     "publicadoEm": "2026-10-30T01:06:04.000Z",
      "tipo": "noticia",
      "numero": null
     },
     {
      "veiculo": "g1",
-     "titulo": "Raízen aprova plano para sair de crise de R$ 65 bilhões e será dividida em duas empresas",
+     "titulo": "Justiça do Trabalho manda Meta remover publicações que incentivam demissão por causa do voto",
      "tituloMarcado": [
       [
-       "Raízen",
+       "Justiça",
        false
       ],
       [
@@ -6917,7 +5142,7 @@
        ""
       ],
       [
-       "aprova",
+       "do",
        false
       ],
       [
@@ -6925,23 +5150,7 @@
        ""
       ],
       [
-       "plano",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "para",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "sair",
+       "Trabalho",
        true
       ],
       [
@@ -6949,7 +5158,7 @@
        ""
       ],
       [
-       "de",
+       "manda",
        false
       ],
       [
@@ -6957,15 +5166,7 @@
        ""
       ],
       [
-       "crise",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
+       "Meta",
        false
       ],
       [
@@ -6973,7 +5174,23 @@
        ""
       ],
       [
-       "R$",
+       "remover",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "publicações",
+       true
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "que",
        false
       ],
       [
@@ -6981,7 +5198,7 @@
        ""
       ],
       [
-       "65",
+       "incentivam",
        true
       ],
       [
@@ -6989,15 +5206,7 @@
        ""
       ],
       [
-       "bilhões",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "e",
+       "demissão",
        false
       ],
       [
@@ -7005,23 +5214,7 @@
        ""
       ],
       [
-       "será",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "dividida",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "em",
+       "por",
        false
       ],
       [
@@ -7029,7 +5222,7 @@
        ""
       ],
       [
-       "duas",
+       "causa",
        true
       ],
       [
@@ -7037,13 +5230,108 @@
        ""
       ],
       [
-       "empresas",
-       true
+       "do",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "voto",
+       false
       ]
      ],
-     "trecho": "Pedido de recuperação extrajudicial da Raízen preocupa produtores de cana Os acionistas da Raízen aprovaram nesta sexta-feira (30) medidas necessárias para colocar em prática o plano de recuperação extrajudicial (RE) da…",
-     "link": "https://g1.globo.com/economia/noticia/2026/10/30/raizen-aprova-plano-para-evitar-falencia-e-preve-injecao-de-ate-r-398-bilhoes.ghtml",
-     "publicadoEm": "2026-10-30T20:49:18.000Z",
+     "trecho": "Justiça do Trabalho manda Meta remover publicações que incentivam demissão por causa do voto A Justiça do Trabalho determinou nesta quinta-feira (29) que a Meta retire do ar, em até 24 horas, publicações no Instagram…",
+     "link": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/29/justica-do-trabalho-meta-publicacoes-demissao-por-causa-do-voto.ghtml",
+     "publicadoEm": "2026-10-30T01:42:20.000Z",
+     "tipo": "noticia",
+     "numero": null
+    },
+    {
+     "veiculo": "agenciabrasil",
+     "titulo": "Justiça manda Meta excluir posts sobre demissão por voto político",
+     "tituloMarcado": [
+      [
+       "Justiça",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "manda",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "Meta",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "excluir",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "posts",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "sobre",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "demissão",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "por",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "voto",
+       false
+      ],
+      [
+       " ",
+       ""
+      ],
+      [
+       "político",
+       false
+      ]
+     ],
+     "trecho": "Responsável pelo Instagram, Facebook e Threads, a Meta terá de retirar do ar publicações que incentivem empresários a perseguir, expor ou demitir funcionários por suas preferências políticas, decidiu a Justiça do…",
+     "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/justica-manda-meta-excluir-posts-sobre-demissao-por-voto-politico",
+     "publicadoEm": "2026-10-30T20:09:00.000Z",
      "tipo": "noticia",
      "numero": null
     }
@@ -7910,324 +6198,6 @@
      "trecho": "Hackers roubam US$ 6 bilhões em criptomoedas A gigante das criptomoedas Binance afirmou na quinta-feira (29/10) que US$ 6,3 bilhões (R$ 33 bilhões) em ativos digitais foram afetados pelo que se acredita ser o maior…",
      "link": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/10/30/binance-sofre-ataque-de-us-63-bilhoes-o-que-se-sabe-sobre-o-possivel-maior-roubo-da-historia-das-criptomoedas.ghtml",
      "publicadoEm": "2026-10-30T15:36:56.000Z",
-     "tipo": "noticia",
-     "numero": null
-    }
-   ]
-  },
-  {
-   "id": "https://g1.globo.com/economia/noticia/2026/10/29/petrobras-conclui-perfuracao-com-mais-uma-descoberta-de-petroleo-em-aguas-ultra-profundas-do-amapa.ghtml",
-   "veiculos": 3,
-   "primeiro": "2026-10-29T21:27:42.000Z",
-   "ultimo": "2026-10-30T12:56:21.000Z",
-   "comuns": [
-    "Petrobras",
-    "encontra",
-    "3ª",
-    "vez",
-    "poço",
-    "Foz"
-   ],
-   "politica": null,
-   "materias": [
-    {
-     "veiculo": "g1",
-     "titulo": "Petrobras encontra petróleo pela 3ª vez no mesmo poço na costa do Amapá",
-     "tituloMarcado": [
-      [
-       "Petrobras",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "encontra",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "petróleo",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "pela",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "3ª",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "vez",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "no",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "mesmo",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "poço",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "na",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "costa",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "do",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Amapá",
-       true
-      ]
-     ],
-     "trecho": "Petrobras anuncia descoberta de petróleo em águas ultra profundas na Costa do Amapá A Petrobras encontrou petróleo em uma terceira área do poço Morpho, localizado na bacia da Foz do Amazonas, no litoral do Amapá, em uma…",
-     "link": "https://g1.globo.com/economia/noticia/2026/10/29/petrobras-conclui-perfuracao-com-mais-uma-descoberta-de-petroleo-em-aguas-ultra-profundas-do-amapa.ghtml",
-     "publicadoEm": "2026-10-29T21:27:42.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "agenciabrasil",
-     "titulo": "Petrobras anuncia 3ª descoberta de petróleo em poço na Foz do Amazonas",
-     "tituloMarcado": [
-      [
-       "Petrobras",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "anuncia",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "3ª",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "descoberta",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "de",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "petróleo",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "em",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "poço",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "na",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Foz",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "do",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Amazonas",
-       false
-      ]
-     ],
-     "trecho": "A Petrobras anunciou nesta quinta-feira (29) a terceira descoberta de petróleo no poço Morpho, no bloco FZA-M-59, localizado em águas ultraprofundas na costa do estado do Amapá, na Foz do Amazonas, em lâmina d’água de…",
-     "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/petrobras-anuncia-3a-descoberta-de-petroleo-em-poco-na-foz-do-amazonas",
-     "publicadoEm": "2026-10-29T23:08:00.000Z",
-     "tipo": "noticia",
-     "numero": null
-    },
-    {
-     "veiculo": "gazetadopovo",
-     "titulo": "Petrobras encontra petróleo pela terceira vez na Foz do Amazonas",
-     "tituloMarcado": [
-      [
-       "Petrobras",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "encontra",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "petróleo",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "pela",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "terceira",
-       true
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "vez",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "na",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Foz",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "do",
-       false
-      ],
-      [
-       " ",
-       ""
-      ],
-      [
-       "Amazonas",
-       false
-      ]
-     ],
-     "trecho": "Região pode concentrar até 10 bilhões de barris de óleo equivalente e é estratégica para ampliar as reservas nacionais.",
-     "link": "https://www.gazetadopovo.com.br/economia/petrobras-encontra-petroleo-terceira-vez-foz-do-amazonas/",
-     "publicadoEm": "2026-10-30T12:56:21.000Z",
      "tipo": "noticia",
      "numero": null
     }
